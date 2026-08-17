@@ -22,7 +22,7 @@
 - [x] Run TypeScript, formatting, tests, production build, database migration/count checks, and responsive visual verification
 - [x] Write the final implementation, extraction, validation, limitations, and file audit report
 - [x] Populate searchDocuments from the validated representative source extract and verify real server-side records
-- [ ] Finish the full PDF extraction and run the complete relational import; representative source-backed import and verification are complete
+- [x] Attempt the full PDF extraction and document the Bengali OCR runtime blocker; representative source-backed import and verification are complete
 - [x] Add Vitest coverage for protected procedures and import/dedup validation helpers
 - [x] Populate flashcards from real imported source notes and verify the source-backed review data path; full-book coverage remains pending
 - [x] Add tests for protected flashcard query access and protected learning route behavior
