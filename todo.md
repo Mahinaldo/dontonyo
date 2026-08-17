@@ -1,0 +1,29 @@
+# Project TODO
+
+- [x] Inspect repository scaffold and source PDF inventory
+- [x] Build staged Bangla GK PDF extraction pipeline with text-layer extraction and OCR fallback
+- [x] Normalize Bangla Unicode and record extraction failures, skipped pages, and uncertain content
+- [ ] Classify source blocks into chapters, topics, notes, facts, MCQs, definitions, timelines, biographies, and related types
+- [x] Implement duplicate detection and idempotent import identifiers
+- [ ] Validate MCQ questions, all options, correct answers, explanations, source pages, question numbers, exam metadata, and confidence flags
+- [x] Produce per-run audit and count reports for the import process
+- [x] Implement relational database schema for subjects, books, chapters, topics, facts, notes, MCQs, options, exam sources, flashcards, quizzes, profiles, and progress
+- [x] Add indexes, referential integrity, server-side search fields, and migration SQL
+- [x] Add authenticated-user isolation for progress, quiz history, and flashcard state through protected server procedures
+- [x] Implement server-side paginated GK search across Bangla content and English metadata
+- [x] Implement exact navigation tabs: Home, Learn, Practice, Progress, Profile
+- [x] Implement public GK library: chapter list, chapter view, topic view, notes, facts, and related MCQs
+- [x] Implement protected flashcards with reveal, known/unknown state, progress, and later-review queue
+- [x] Implement protected MCQ practice with immediate feedback and persisted quiz history/scores
+- [x] Implement protected progress metrics for chapters, topics, MCQs, accuracy, and streaks
+- [x] Implement Manus OAuth loading, login, logout, protected routes, and error states
+- [x] Apply premium minimal mobile-first design with correct Bangla typography, focus states, and reduced-motion support
+- [x] Add Vitest coverage for Bangla normalization, deterministic idempotency, confidence validation, and logout behavior
+- [ ] Run type checking, linting, tests, production build, database validation, and responsive visual verification
+- [ ] Write the final implementation, extraction, validation, limitations, and file audit report
+- [ ] Populate searchDocuments from imported chapters, topics, facts, notes, and MCQs and verify real server-side results
+- [ ] Finish the full PDF extraction, run the relational import, and verify source-backed library content
+- [ ] Add Vitest coverage for database helpers, protected procedures, and import/dedup validation paths
+- [ ] Populate flashcards from real imported GK facts, notes, and MCQs and verify the protected review screen with source-backed cards
+- [ ] Add tests for protected flashcard queries and known/unknown later-review ordering
+- [ ] Complete GK extraction/import before treating flashcards as source-backed

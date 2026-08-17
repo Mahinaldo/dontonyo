@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "processed": 11,
+    "skipped": 0,
+    "failures": 0,
+    "ocr": 11
+  },
+  "records": {
+    "content": 11,
+    "facts": 0,
+    "notes": 11,
+    "mcqs": 0,
+    "lowConfidence": 0,
+    "duplicateContentKeys": 0,
+    "duplicateMcqKeys": 0
+  },
+  "integrity": {
+    "emptyContent": 0,
+    "emptyQuestions": 0,
+    "missingOptions": 0,
+    "missingAnswers": 0,
+    "pagesWithErrors": []
+  },
+  "ok": true
+}

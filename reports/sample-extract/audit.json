@@ -1,0 +1,31 @@
+{
+  "source_pdf": "/home/ubuntu/upload/Jubayer'sgk.pdf",
+  "total_pages": 925,
+  "requested_range": [
+    20,
+    30
+  ],
+  "pages_processed": 11,
+  "pages_skipped": 0,
+  "pages_requiring_ocr": 11,
+  "pages_with_extraction_failures": 0,
+  "chapters_found": 2,
+  "topics_found": 0,
+  "facts_extracted": 0,
+  "notes_extracted": 11,
+  "mcqs_extracted": 0,
+  "exam_source_records": 0,
+  "duplicates_merged": 0,
+  "low_confidence_records": 0,
+  "rejected_records": 0,
+  "skipped_pages": [],
+  "failures": [],
+  "decisions": [
+    "The PDF has no reliable educational text layer; OCR is the default extraction path.",
+    "Watermark-only and blank pages are skipped; the original PDF page is retained on every accepted record.",
+    "MCQs without a confidently parsed answer are retained with low confidence and rejected from answer-dependent quiz imports.",
+    "The importer uses deterministic hashes for idempotency and duplicate detection."
+  ],
+  "content_rows_written": 11,
+  "mcq_rows_written": 0
+}
