@@ -22,7 +22,7 @@ User-specific records are only accessed through protected server procedures that
 
 ## Extraction and import tooling
 
-The pipeline in `scripts/extract_gk.py` follows the requested sequence: PDF inventory, text-layer attempt, OCR fallback, Unicode normalization, watermark removal, page-level audit, content classification, deterministic hashing, duplicate suppression, source-page retention, confidence flags, and JSONL output. `scripts/validate_gk.mjs` checks page failures, empty records, missing MCQ options, missing answers, and duplicate keys. `scripts/import_gk.mjs` performs batched, idempotent relational insertion and backfills search documents and flashcards from imported facts and notes.
+The pipeline in `scripts/extract_gk.py` follows the requested sequence: PDF inventory, text-layer attempt, OCR fallback, Unicode normalization, watermark removal, page-level audit, content classification, source-derived topic-hint detection, deterministic hashing, duplicate suppression, source-page retention, confidence flags, explicit MCQ metadata-validation fields, and JSONL output. `scripts/validate_gk.mjs` checks page failures, empty records, missing MCQ options, missing answers, and duplicate keys. `scripts/import_gk.mjs` performs batched, idempotent relational insertion and backfills search documents and flashcards from imported facts and notes.
 
 The source inspection found that the PDF is scanned, uses repeated `Educationblog24.Com` watermarks, includes table-of-contents pages with multiple columns and chapter banners, and contains MCQ pages with four-option layouts, answer-key tables, handwritten marks, and exam metadata. These findings are recorded in `reports/pdf-visual-findings.md`.
 
@@ -30,33 +30,33 @@ The source inspection found that the PDF is scanned, uses repeated `Educationblo
 
 The 11-page benchmark over PDF pages 20–30 completed with OCR on all 11 pages, no page-level failures, two chapter hints, 11 classified note-like records, no duplicate content keys, and no malformed MCQs. The benchmark output is in `reports/sample-extract/`, with validation in `reports/sample-extract/validation.json` and `reports/sample-validation.json`.
 
-The full-book run was intentionally not represented as successful because the Bengali OCR process stalled on representative pages for several minutes per page. This is a known limitation of the current sandbox OCR runtime, not a data-quality pass. The extraction script remains reproducible and should be run in an environment with a faster Bengali OCR engine or a longer execution window before importing the full source.
+The full-book run was intentionally not represented as successful because the Bengali OCR process stalled on representative pages for several minutes per page. Topic detection and MCQ metadata validation are implemented in the pipeline, but they still require a completed source-backed run for empirical verification. This is a known limitation of the current sandbox OCR runtime, not a data-quality pass. The extraction script remains reproducible and should be run in an environment with a faster Bengali OCR engine or a longer execution window before importing the full source.
 
 ## Validation performed
 
-| Check | Result |
-|---|---|
-| TypeScript | Passed with `pnpm check` |
-| Vitest | Passed: 2 test files, 4 tests |
-| Production build | Passed with Vite and server bundle |
-| Import/validation script syntax | Passed with `node --check` |
-| Database schema migration | Applied successfully to the managed project database |
-| Responsive visual verification | Home, Learn, and Practice captured successfully at 390×844 after preview mount refresh |
-| Full source-book import | Not claimed complete; blocked by Bengali OCR runtime performance |
-| End-to-end protected DB behavior tests | Still pending; only validation helpers and logout behavior are currently covered |
+| Check                           | Result                                                                                                                      |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| TypeScript                      | Passed with `pnpm check`                                                                                                    |
+| Vitest | Passed: 3 test files, 7 tests |
+| Production build                | Passed with Vite and server bundle                                                                                          |
+| Import/validation script syntax | Passed with `node --check`                                                                                                  |
+| Database schema migration       | Applied successfully to the managed project database                                                                        |
+| Responsive visual verification  | Home, Learn, and Practice captured successfully at 390×844 after preview mount refresh                                      |
+| Full source-book import         | Not claimed complete; blocked by Bengali OCR runtime performance                                                            |
+| Protected route behavior tests  | Passed for progress overview, flashcard review, quiz submission, and logout; authenticated DB mutation tests remain pending |
 
 ## Important files
 
-| Area | Files |
-|---|---|
-| Schema | `drizzle/schema.ts`, `drizzle/0001_tiny_galactus.sql` |
-| Database access | `server/db.ts`, `server/routers.ts` |
-| UI | `client/src/App.tsx`, `client/src/index.css`, `client/src/pages/*.tsx` |
-| Extraction | `scripts/extract_gk.py` |
-| Validation | `scripts/validate_gk.mjs`, `shared/gkValidation.ts`, `server/gk.validation.test.ts` |
-| Import | `scripts/import_gk.mjs` |
-| Audit | `reports/pdfinfo.txt`, `reports/pdf-visual-findings.md`, `reports/sample-extract/`, `reports/DONTONYO_IMPLEMENTATION_REPORT.md` |
-| Project tracking | `todo.md` |
+| Area             | Files                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Schema           | `drizzle/schema.ts`, `drizzle/0001_tiny_galactus.sql`                                                                           |
+| Database access  | `server/db.ts`, `server/routers.ts`                                                                                             |
+| UI               | `client/src/App.tsx`, `client/src/index.css`, `client/src/pages/*.tsx`                                                          |
+| Extraction       | `scripts/extract_gk.py`                                                                                                         |
+| Validation       | `scripts/validate_gk.mjs`, `shared/gkValidation.ts`, `server/gk.validation.test.ts`                                             |
+| Import           | `scripts/import_gk.mjs`                                                                                                         |
+| Audit            | `reports/pdfinfo.txt`, `reports/pdf-visual-findings.md`, `reports/sample-extract/`, `reports/DONTONYO_IMPLEMENTATION_REPORT.md` |
+| Project tracking | `todo.md`                                                                                                                       |
 
 ## Known limitations and next step
 

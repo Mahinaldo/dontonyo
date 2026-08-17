@@ -56,6 +56,20 @@ def meaningful_lines(text: str) -> list[str]:
     return [line for line in (normalize(text).splitlines()) if line and not PAGE_NUMBER.match(line)]
 
 
+def topic_hints(text: str) -> list[str]:
+    """Find likely source headings without treating ordinary prose as topics."""
+    hints: list[str] = []
+    for line in meaningful_lines(text):
+        compact = line.strip()
+        if len(compact) < 4 or len(compact) > 100 or QUESTION.match(compact):
+            continue
+        if re.search(r"(?:\.{3,}|…{2,}|-{3,})\s*[০-৯0-9]{1,4}$", compact):
+            title = re.sub(r"(?:\.{3,}|…{2,}|-{3,})\s*[০-৯0-9]{1,4}$", "", compact).strip(" .:-")
+            if title and not CHAPTER.search(title) and title not in hints:
+                hints.append(title)
+    return hints[:20]
+
+
 def classify(text: str) -> list[str]:
     lines = meaningful_lines(text)
     joined = " ".join(lines)
@@ -155,6 +169,12 @@ def parse_mcqs(page: PageRecord) -> list[dict]:
                 "correct_option": answer_hint.group(1) if answer_hint else None,
                 "source_text": exam_match.group(1).strip() if exam_match else None,
                 "confidence": "medium" if len(options) >= 4 else "low",
+                "metadata_validation": {
+                    "has_source_question_number": bool(question_number),
+                    "has_exam_metadata": bool(exam_match),
+                    "has_explanation": bool(re.search(r"ব্যাখ্যা|কারণ|explanation", joined, re.I)),
+                    "has_answer": bool(answer_hint),
+                },
             })
         i = max(j, i + 1)
     return records
@@ -207,6 +227,7 @@ def main() -> None:
     seen_content: set[str] = set()
     seen_mcq: set[str] = set()
     chapter_set: set[str] = set()
+    topic_set: set[str] = set()
     for page in page_rows:
         audit["pages_processed"] += 1
         if page.extraction_method == "ocr":
@@ -222,6 +243,7 @@ def main() -> None:
         if page.chapter_hint:
             current_chapter = page.chapter_hint
             chapter_set.add(current_chapter)
+        topic_set.update(topic_hints(page.text))
         for mcq in parse_mcqs(page):
             key = stable_hash(mcq["question"], json.dumps(mcq["options"], ensure_ascii=False, sort_keys=True))
             mcq["idempotency_key"] = key
@@ -247,12 +269,13 @@ def main() -> None:
                     "idempotency_key": key, "content_type": kind, "chapter_hint": current_chapter,
                     "source_page": page.page, "source_text": body, "confidence": page.confidence,
                     "content_types": page.content_types,
+                    "topic_hints": topic_hints(page.text),
                 })
                 audit["notes_extracted" if kind == "note" else "facts_extracted"] += 1
                 if page.confidence == "low":
                     audit["low_confidence_records"] += 1
     audit["chapters_found"] = len(chapter_set)
-    audit["topics_found"] = 0
+    audit["topics_found"] = len(topic_set)
     audit["rejected_records"] = sum(1 for row in mcq_rows if not row.get("correct_option"))
     audit["decisions"].extend([
         "The PDF has no reliable educational text layer; OCR is the default extraction path.",
