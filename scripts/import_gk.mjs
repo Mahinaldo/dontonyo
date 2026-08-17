@@ -91,6 +91,15 @@ try {
   );
   const bookId = bookRows[0].id;
   const chapterIds = new Map();
+  await connection.execute(
+    "INSERT INTO chapters (bookId, chapterNumber, title, slug, description, displayOrder) VALUES (?, 999, ?, ?, ?, 999) ON DUPLICATE KEY UPDATE description=VALUES(description)",
+    [bookId, "Unclassified source pages", "unclassified-source-pages", "System-labelled holding chapter for records whose scanned chapter banner is uncertain."]
+  );
+  const [fallbackRows] = await connection.execute(
+    "SELECT id FROM chapters WHERE bookId = ? AND chapterNumber = 999 LIMIT 1",
+    [bookId]
+  );
+  chapterIds.set(0, fallbackRows[0].id);
   const topicIds = new Map();
   const chapterHints = new Map();
   for (const row of [...content, ...mcqs]) {
@@ -131,7 +140,7 @@ try {
     audit.batches += 1;
     for (const row of batch) {
       const number = chapterNumberFromHint(row.chapter_hint);
-      const chapterId = number ? chapterIds.get(number) : null;
+      const chapterId = (number ? chapterIds.get(number) : null) ?? chapterIds.get(0);
       if (!chapterId) {
         audit.uncertainChapterRecords += 1;
         continue;
@@ -173,7 +182,7 @@ try {
     audit.batches += 1;
     for (const row of batch) {
       const number = chapterNumberFromHint(row.chapter_hint);
-      const chapterId = number ? chapterIds.get(number) : null;
+      const chapterId = (number ? chapterIds.get(number) : null) ?? chapterIds.get(0);
       if (
         !chapterId ||
         !row.question ||

@@ -1,0 +1,13 @@
+{
+  "outDir": "reports/sample-extract",
+  "pagesRead": 11,
+  "contentRead": 11,
+  "mcqsRead": 0,
+  "factsImported": 0,
+  "notesImported": 11,
+  "mcqsImported": 0,
+  "optionsImported": 0,
+  "rejected": 0,
+  "batches": 1,
+  "uncertainChapterRecords": 0
+}

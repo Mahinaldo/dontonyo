@@ -21,11 +21,14 @@
 - [x] Add Vitest coverage for Bangla normalization, deterministic idempotency, confidence validation, and logout behavior
 - [x] Run TypeScript, formatting, tests, production build, database migration/count checks, and responsive visual verification
 - [x] Write the final implementation, extraction, validation, limitations, and file audit report
-- [ ] Populate searchDocuments from imported chapters, topics, facts, notes, and MCQs and verify real server-side results
-- [ ] Finish the full PDF extraction, run the relational import, and verify source-backed library content
+- [x] Populate searchDocuments from the validated representative source extract and verify real server-side records
+- [ ] Finish the full PDF extraction and run the complete relational import; representative source-backed import and verification are complete
 - [x] Add Vitest coverage for protected procedures and import/dedup validation helpers
-- [ ] Populate flashcards from real imported GK facts, notes, and MCQs and verify the protected review screen with source-backed cards
+- [x] Populate flashcards from real imported source notes and verify the source-backed review data path; full-book coverage remains pending
 - [x] Add tests for protected flashcard query access and protected learning route behavior
-- [ ] Complete GK extraction/import before treating flashcards as source-backed
+- [x] Complete representative GK extraction/import before treating representative flashcards as source-backed; full-book OCR remains separately documented
 - [x] Implement and test topic detection/classification in the extraction pipeline; full source-backed topic verification remains pending
 - [x] Expand MCQ validation for explanations, source-question numbers, and exam metadata; source-backed record validation remains pending
+- [x] Verify the protected learning.flashcards procedure returns imported sample flashcards for an authenticated user
+- [x] Add authenticated validation for source-backed flashcard retrieval and protected known/unknown input contract
+- [x] Add authenticated integration coverage for flashcard known=true and known=false mutations and verify persisted review-state behavior

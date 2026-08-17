@@ -28,7 +28,7 @@ The source inspection found that the PDF is scanned, uses repeated `Educationblo
 
 ## Representative extraction validation
 
-The 11-page benchmark over PDF pages 20–30 completed with OCR on all 11 pages, no page-level failures, two chapter hints, 11 classified note-like records, no duplicate content keys, and no malformed MCQs. The benchmark output is in `reports/sample-extract/`, with validation in `reports/sample-extract/validation.json` and `reports/sample-validation.json`.
+The 11-page benchmark over PDF pages 20–30 completed with OCR on all 11 pages, no page-level failures, two chapter hints, 11 classified note-like records, no duplicate content keys, and no malformed MCQs. That validated representative extract was imported idempotently, producing one explicit unclassified holding chapter, 11 notes, 11 flashcards, and 12 server-side search documents. The benchmark output is in `reports/sample-extract/`, with validation in `reports/sample-extract/validation.json` and `reports/sample-validation.json`.
 
 The full-book run was intentionally not represented as successful because the Bengali OCR process stalled on representative pages for several minutes per page. Topic detection and MCQ metadata validation are implemented in the pipeline, but they still require a completed source-backed run for empirical verification. This is a known limitation of the current sandbox OCR runtime, not a data-quality pass. The extraction script remains reproducible and should be run in an environment with a faster Bengali OCR engine or a longer execution window before importing the full source.
 
@@ -37,13 +37,13 @@ The full-book run was intentionally not represented as successful because the Be
 | Check                           | Result                                                                                                                      |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | TypeScript                      | Passed with `pnpm check`                                                                                                    |
-| Vitest | Passed: 3 test files, 7 tests |
+| Vitest | Passed: 5 test files, 9 tests, including authenticated source-backed flashcard retrieval and known/unknown state persistence |
 | Production build                | Passed with Vite and server bundle                                                                                          |
 | Import/validation script syntax | Passed with `node --check`                                                                                                  |
 | Database schema migration       | Applied successfully to the managed project database                                                                        |
 | Responsive visual verification  | Home, Learn, and Practice captured successfully at 390×844 after preview mount refresh                                      |
-| Full source-book import         | Not claimed complete; blocked by Bengali OCR runtime performance                                                            |
-| Protected route behavior tests  | Passed for progress overview, flashcard review, quiz submission, and logout; authenticated DB mutation tests remain pending |
+| Full source-book import | Not claimed complete; the representative import is complete, while the 925-page run is blocked by Bengali OCR runtime performance |
+| Protected route behavior tests | Passed for progress overview, flashcard retrieval/state, quiz submission, and logout |
 
 ## Important files
 
