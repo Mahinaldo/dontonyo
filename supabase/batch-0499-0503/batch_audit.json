@@ -1,0 +1,59 @@
+{
+  "batch_pages": [
+    499,
+    500,
+    501,
+    502,
+    503
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0499-0503-v1",
+  "source_pages": [
+    {
+      "page": 499,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "6612667efd594df9146d5b20dcb5c85c22ad0b3f4ad5ed4cb49ac09ad261ce0d"
+    },
+    {
+      "page": 500,
+      "review_status": "accepted",
+      "image_sha256": "66c24ed21545f72c8c14fe5e62ba48d5d0aa5fd50a461b8e763bdcd0773affa0"
+    },
+    {
+      "page": 501,
+      "review_status": "accepted",
+      "image_sha256": "9688363fa3f9d26ab1f93a215144bc928e4e4675f58ac628c21b626a5fa26e6f"
+    },
+    {
+      "page": 502,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "7a95a30d2a9f3817323a314cfd73a134fd2925fd82e5e07ef62509744f1f6bf1"
+    },
+    {
+      "page": 503,
+      "review_status": "accepted",
+      "image_sha256": "14c9068919270c5e1edde772c3415362d029a036013072c30018a58de853fd50"
+    }
+  ],
+  "generated_facts": 3,
+  "generated_notes": 15,
+  "generated_flashcards": 18,
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 2,
+    "source_attributed": 13
+  },
+  "source_anomalies": [
+    "Page 499 printed footer 442; physical PDF page 499.",
+    "Page 500 printed footer 443; physical PDF page 500.",
+    "Page 501 printed footer 888; physical PDF page 501.",
+    "Page 502 footer corrected from initial OCR 885 to visually reviewed 445.",
+    "Page 503 printed footer 446; physical PDF page 503.",
+    "The page-500 Israel–Tel Aviv table row is retained with externally conflicting status; not silently replaced."
+  ],
+  "quality_gates": [
+    "Five physical PDF pages only; do not extend without explicit user instruction.",
+    "All 25 tiles were visually reviewed in manifest order.",
+    "Capital-and-currency rows stay in structured source tables; no mass invented fact decomposition.",
+    "Idempotency is enforced by source page, canonical hash, and source key."
+  ]
+}
