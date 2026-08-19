@@ -1,0 +1,662 @@
+{
+  "batch_pages": [
+    454,
+    455,
+    456,
+    457,
+    458
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0454-0458-v1",
+  "source_pages": [
+    {
+      "page": 454,
+      "sha256": "f6e3ea8199adccd8505e7467d3fe62143811e01030a5eeb8d42625c86561a040",
+      "review": "accepted"
+    },
+    {
+      "page": 455,
+      "sha256": "3f3a17c514050d42806fa19d4412ac3181269a1224f562d701a58c061552fc07",
+      "review": "accepted"
+    },
+    {
+      "page": 456,
+      "sha256": "8121f742f2de66ac8194ec598ebd6e189ffb7a08d84d46472d3f758967ecac73",
+      "review": "accepted"
+    },
+    {
+      "page": 457,
+      "sha256": "caf89f1f49e754bae59883780dae90aad4cf18c8492d356d262452455dc4bb7a",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 458,
+      "sha256": "1990188afc52231a3154a793f01027891245adc9a1d32174a28e5c0c55f39a8d",
+      "review": "accepted_with_flags"
+    }
+  ],
+  "generated_fact_candidates": 48,
+  "generated_notes": 1,
+  "generated_mcqs": 11,
+  "generated_options": 44,
+  "verification_statuses": {
+    "source_attributed": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "914e25e3fb120cd892babc246547d1cff2cc6ea78b8d66eec1f0e285dd9ef263",
+        "source_page": 454,
+        "claim_text": "জন্মিলে মরিতে হবে অমর কে কোথা কবে?",
+        "normalized_claim": "জন্মিলে মরিতে হবে অমর কে কোথা কবে?",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "50ac3fcb9a3714c6bd553cf1b39d4cb31d83bc3ac4d624082a64b5388f547b7b",
+        "source_page": 454,
+        "claim_text": "হে বঙ্গ, ভাণ্ডারে তব বিবিধ রতন, .......... পর ধন লোভে মত্ত",
+        "normalized_claim": "হে বঙ্গ, ভাণ্ডারে তব বিবিধ রতন, .......... পর ধন লোভে মত্ত",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "bd74b195d732a6ff9b468c790bf82c0b24989163eb550a567f21ee10e2d85cb7",
+        "source_page": 454,
+        "claim_text": "সতত হে নদ, তুমি পড় মোর মনে সতত তোমার কথা ভাবি এ বিরলে।",
+        "normalized_claim": "সতত হে নদ, তুমি পড় মোর মনে সতত তোমার কথা ভাবি এ বিরলে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5f0c0faec829c36338525af0071294fca5f4ff5794664d52be97ad15ca0b134e",
+        "source_page": 454,
+        "claim_text": "শুনহ মানুষ ভাই সবার উপর মানুষ সত্য তাহার উপর নাই।",
+        "normalized_claim": "শুনহ মানুষ ভাই সবার উপর মানুষ সত্য তাহার উপর নাই।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5ee9473e7831896217bba78494ae92ed79db4dfee5e6eef9f8c0e8d183f6d628",
+        "source_page": 454,
+        "claim_text": "যে জন দিবসে মনের হরষে জ্বালায় মোমের বাতি।",
+        "normalized_claim": "যে জন দিবসে মনের হরষে জ্বালায় মোমের বাতি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "8baaf5d1765e659d842482d7e477a36d5afcf4410b2d12e5c813b42ab6fc74de",
+        "source_page": 454,
+        "claim_text": "কাঁটা হেরি ক্ষান্ত কেন কমল তুলিতে দুঃখ বিনা সুখ লাভ হয় কি মহীতে?",
+        "normalized_claim": "কাঁটা হেরি ক্ষান্ত কেন কমল তুলিতে দুঃখ বিনা সুখ লাভ হয় কি মহীতে?",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "8d0123110215e3ec4b401ca4d749defa8afca950f01a0130e56f4af079d5a0f7",
+        "source_page": 454,
+        "claim_text": "ধনধান্য পুষ্পভরা আমাদের এই বসুন্ধরা তাহার মাঝে আছে দেশ এক সকল দেশের সেরা।",
+        "normalized_claim": "ধনধান্য পুষ্পভরা আমাদের এই বসুন্ধরা তাহার মাঝে আছে দেশ এক সকল দেশের সেরা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "868ebf448c0978c77562ef137200bc0ddd10151f3d258f8f4323f4a0030c29ec",
+        "source_page": 454,
+        "claim_text": "অভাগা যদ্যপি চায় সাগর শুকায়ে যায়।",
+        "normalized_claim": "অভাগা যদ্যপি চায় সাগর শুকায়ে যায়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "dae43e50e87e1c9c9ee160b61348e1d402235e313828b4b6579e238ddeb2dc74",
+        "source_page": 454,
+        "claim_text": "কালো আর ধলো বাহিরে কেবল ভিতরে সবার সমান রাঙা।",
+        "normalized_claim": "কালো আর ধলো বাহিরে কেবল ভিতরে সবার সমান রাঙা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3c122b2710da3474362090d4abc9179c73fbeaf1f4df2dd686eaa587e8796641",
+        "source_page": 454,
+        "claim_text": "মধুর চেয়ে আছে মধু সে আমার দেশের মাটি আমার দেশের পায়ের ধুলো খাঁটি সোনার চাইতে খাঁটি।",
+        "normalized_claim": "মধুর চেয়ে আছে মধু সে আমার দেশের মাটি আমার দেশের পায়ের ধুলো খাঁটি সোনার চাইতে খাঁটি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f7a703af431660956ba941760e1a8554b3d115ea0f8564a653b333a448f6400d",
+        "source_page": 454,
+        "claim_text": "পাখি সব করে রব রাতি পোহাইল কাননে কুসুম কলি সকলি ফুটিল।",
+        "normalized_claim": "পাখি সব করে রব রাতি পোহাইল কাননে কুসুম কলি সকলি ফুটিল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "34ef92738a673ebef55bee39e6e800a14b70b03b85908c7e7efdfab4ccd3c001",
+        "source_page": 454,
+        "claim_text": "সকালে উঠিয়া আমি মনে মনে বলি সারাদিন আমি যেন ভাল হয়ে চলি।",
+        "normalized_claim": "সকালে উঠিয়া আমি মনে মনে বলি সারাদিন আমি যেন ভাল হয়ে চলি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5319f732ca46b29c840e546223ce5c41ed662445222d0097969d53a8dc8c023b",
+        "source_page": 454,
+        "claim_text": "সকলের তরে সকলে আমরা প্রত্যেকে মোরা পরের তরে",
+        "normalized_claim": "সকলের তরে সকলে আমরা প্রত্যেকে মোরা পরের তরে",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1271f99a8815c5b8f39668a609bcf78e02beabf9e5951b2cc99778c4332786a4",
+        "source_page": 454,
+        "claim_text": "পরের কারণে স্বার্থ দিয়া বলি এ জীবন মন সকলি দাও।",
+        "normalized_claim": "পরের কারণে স্বার্থ দিয়া বলি এ জীবন মন সকলি দাও।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d28e485b221f1f6fb9b4d64f021a4b6b662b01569d587c3c44190270c7453cba",
+        "source_page": 454,
+        "claim_text": "সংশয়ে সংকল্প সদা টলে পাছে লোকে কিছু বলে।",
+        "normalized_claim": "সংশয়ে সংকল্প সদা টলে পাছে লোকে কিছু বলে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a35e695c34427f352e249d51fb70ebc205dff3a2359d059c6857f2d74a6413b5",
+        "source_page": 454,
+        "claim_text": "বিবাহ হইলে বালিকা ভাবে, যাহা হোক, পড়া হইতে রক্ষা পাওয়া গেল।",
+        "normalized_claim": "বিবাহ হইলে বালিকা ভাবে, যাহা হোক, পড়া হইতে রক্ষা পাওয়া গেল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e6154565eb0d4f1c4f3204192770b42265f9f36c52695235c9243f23f7c2ac87",
+        "source_page": 454,
+        "claim_text": "স্বামী যখন পৃথিবী হইতে সূর্য ও নক্ষত্রের দূরত্ব মাপেন, স্ত্রী তখন বালিশের ওয়াড়ের দৈর্ঘ্য-প্রস্থ মাপেন।",
+        "normalized_claim": "স্বামী যখন পৃথিবী হইতে সূর্য ও নক্ষত্রের দূরত্ব মাপেন, স্ত্রী তখন বালিশের ওয়াড়ের দৈর্ঘ্য-প্রস্থ মাপেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "56aaf44fb909ebf0fef9a88765711d8bbe0760988b6e3c86c92b9d2051edb350",
+        "source_page": 454,
+        "claim_text": "হে কবি, নীরব কেন ফাগুন যে এসেছে ধরায়",
+        "normalized_claim": "হে কবি, নীরব কেন ফাগুন যে এসেছে ধরায়",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6bc981344785a94292fd581aca31b6575bd26efced0b3be7045e47589921a1a2",
+        "source_page": 454,
+        "claim_text": "জন্মেছি মাগো তোমার কোলেতে মরি যেন এই দেশে।",
+        "normalized_claim": "জন্মেছি মাগো তোমার কোলেতে মরি যেন এই দেশে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "284026d3b8ee1fa53091bfd4e36f61d41854913b766e711f8ca3283224ccb424",
+        "source_page": 454,
+        "claim_text": "জন্মই আমার আজন্ম পাপ।",
+        "normalized_claim": "জন্মই আমার আজন্ম পাপ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c76e4c12dca87c59e1b9886413cc6bab855c2346e77d6bc1ca1f02df0e044935",
+        "source_page": 454,
+        "claim_text": "এ বিশ্বকে এ শিশুর বাসযোগ্য করে যাব আমি।",
+        "normalized_claim": "এ বিশ্বকে এ শিশুর বাসযোগ্য করে যাব আমি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "fb3274eff5ecee2244927338db5230540fdf3f4a1efda15d4590b2e36a05c6a6",
+        "source_page": 454,
+        "claim_text": "ক্ষুধার রাজ্যে পৃথিবী গদ্যময় পূর্ণিমা চাঁদ যেন ঝলসানো রুটি।",
+        "normalized_claim": "ক্ষুধার রাজ্যে পৃথিবী গদ্যময় পূর্ণিমা চাঁদ যেন ঝলসানো রুটি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f0a656db2452835a8eb947bda7dc0fcd13b384047c6d073d357308a1c108bf7f",
+        "source_page": 454,
+        "claim_text": "সাবাস বাংলাদেশ! এ পৃথিবী অবাক তাকিয়ে রয়: জ্বলে-পুড়ে মরে ছারখার তবু মাথা নোয়াবার নয়।",
+        "normalized_claim": "সাবাস বাংলাদেশ! এ পৃথিবী অবাক তাকিয়ে রয়: জ্বলে-পুড়ে মরে ছারখার তবু মাথা নোয়াবার নয়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1f5697cae5f710c243299368068daf8d48fc563b1317cedd262d645e7c6dd5a4",
+        "source_page": 454,
+        "claim_text": "মোদের গরব, মোদের আশা আ-মরি বাংলা ভাষা।",
+        "normalized_claim": "মোদের গরব, মোদের আশা আ-মরি বাংলা ভাষা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7f54e123a246b2f6676f9dfb4efff7308ebc89d41752149900157e5b92d006ca",
+        "source_page": 454,
+        "claim_text": "যুদ্ধ মানে শত্রু শত্রু খেলা।",
+        "normalized_claim": "যুদ্ধ মানে শত্রু শত্রু খেলা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0c17fa1fcc9cf2cb5724b050a63479b422796591953dff3dc1b410ef10249cfd",
+        "source_page": 455,
+        "claim_text": "কোথায় স্বর্গ কোথায় নরক\nকে বলে তা বহুদূর\nমানুষের মাঝে স্বর্গ-নরক\nমানুষেতে সুরাসুর।",
+        "normalized_claim": "কোথায় স্বর্গ কোথায় নরক\nকে বলে তা বহুদূর\nমানুষের মাঝে স্বর্গ-নরক\nমানুষেতে সুরাসুর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "74eb476eec857547f4521eaa0ca3798e096a10679fb9de213a224cad54859cc0",
+        "source_page": 455,
+        "claim_text": "তুমি অধম তাই বলিয়া আমি উত্তম হইব\nনা কেন?\n♦ পথিক! তুমি পথ হারাইয়াছ?",
+        "normalized_claim": "তুমি অধম তাই বলিয়া আমি উত্তম হইব\nনা কেন?\n♦ পথিক! তুমি পথ হারাইয়াছ?",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "70da1d6751c93d5b17f9c8dd1e378c029f64b8ba2851f219257ded1a904020b9",
+        "source_page": 455,
+        "claim_text": "বন্যেরা বনে সুন্দর শিশুরা মাতৃক্রোড়ে।",
+        "normalized_claim": "বন্যেরা বনে সুন্দর শিশুরা মাতৃক্রোড়ে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c732166d76b28b51c64e62a10c1c03f19f21b4b100365e350f0825ebff03b437",
+        "source_page": 455,
+        "claim_text": "ফুল ফুটুক আর না ফুটুক, আজ বসন্ত।",
+        "normalized_claim": "ফুল ফুটুক আর না ফুটুক, আজ বসন্ত।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0b1371fe4d6fe4431874076b111fe476baa38d291d7bd3d4fbfe21b1c3e894f3",
+        "source_page": 455,
+        "claim_text": "স্বাধীনতাহীনতায় কে বাঁচিতে চায় হে।",
+        "normalized_claim": "স্বাধীনতাহীনতায় কে বাঁচিতে চায় হে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "21458d46c733acaba0b4ea8ac16b1f6c8a5e07b722d65124e5fd452b5ac79812",
+        "source_page": 455,
+        "claim_text": "মহাজ্ঞানী মহাজন যে পথে করে গমন\nহয়েছেন প্রাতঃস্মরণীয়।",
+        "normalized_claim": "মহাজ্ঞানী মহাজন যে পথে করে গমন\nহয়েছেন প্রাতঃস্মরণীয়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5cb70cca5f466c0c83ee5bc014cb521e265e265b6d67f624567960ec56fd3a52",
+        "source_page": 455,
+        "claim_text": "বাঁশ বাগানের মাথার উপর চাঁদ উঠেছে ঐ\nমাগো আমার শ্লোক বলা কাজলা দিদি কই",
+        "normalized_claim": "বাঁশ বাগানের মাথার উপর চাঁদ উঠেছে ঐ\nমাগো আমার শ্লোক বলা কাজলা দিদি কই",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5cdf6e925c566787dcd5ec26d3d9bc744449cfeddafb86d8bb73febe3c693c69",
+        "source_page": 455,
+        "claim_text": "এখন যৌবন যার যুদ্ধে যাবার তার শ্রেষ্ঠ সময়।",
+        "normalized_claim": "এখন যৌবন যার যুদ্ধে যাবার তার শ্রেষ্ঠ সময়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7acfb220a4e33c1e26ed79b0a33f8c9321fb0c32a0f587cb8f4862eb0750086f",
+        "source_page": 455,
+        "claim_text": "সুশিক্ষিত মানুষ মাত্রই স্বশিক্ষিত।\n♦ যে জাতি মনে বড় নয় সে জাতি জ্ঞানেও\nবড় নয়।",
+        "normalized_claim": "সুশিক্ষিত মানুষ মাত্রই স্বশিক্ষিত।\n♦ যে জাতি মনে বড় নয় সে জাতি জ্ঞানেও\nবড় নয়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e8f75ae9c611bf60f90f18115d8a75f9dd2692e66a23777e0a5fa9649e86d6bb",
+        "source_page": 455,
+        "claim_text": "আসাদের শার্ট আজ আমাদের প্রাণের পতাকা।\n♦ স্বাধীনতা তুমি\nরবি ঠাকুরের অজেয় কবিতা, অবিনাশী গান।",
+        "normalized_claim": "আসাদের শার্ট আজ আমাদের প্রাণের পতাকা।\n♦ স্বাধীনতা তুমি\nরবি ঠাকুরের অজেয় কবিতা, অবিনাশী গান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f9883af0f836cd2e2a0a425b5dbd312e924cee60ef419cb2a425670d476278ed",
+        "source_page": 455,
+        "claim_text": "আজো আমি বাতাসে লাশের গন্ধ পাই\nস্বাধীনতার পতাকা আজ খামচে ধরেছে\nসেই পুরনো শকুন।\n♦ ভালো আছি ভালো থেকো\nআকাশের ঠিকানায় চিঠি লিখো।",
+        "normalized_claim": "আজো আমি বাতাসে লাশের গন্ধ পাই\nস্বাধীনতার পতাকা আজ খামচে ধরেছে\nসেই পুরনো শকুন।\n♦ ভালো আছি ভালো থেকো\nআকাশের ঠিকানায় চিঠি লিখো।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b06c1b9dddf61f7b5346cf9fc3f2bee732d66538a2a8c8689ac084a03d873693",
+        "source_page": 455,
+        "claim_text": "ভাত দে হারামজাদা, নইলে মানচিত্র খাবো।",
+        "normalized_claim": "ভাত দে হারামজাদা, নইলে মানচিত্র খাবো।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ff6cb286a41f4508dcdb8f3e33d33ce7afef46865c78cff2b1a6ba0344a07162",
+        "source_page": 455,
+        "claim_text": "রুটি মদ ফুরিয়ে যাবে, প্রিয়ার কালো চোখ\nঘোলাটে হয়ে আসবে কিন্তু বইখানা\nঅনন্ত যৌবনা।",
+        "normalized_claim": "রুটি মদ ফুরিয়ে যাবে, প্রিয়ার কালো চোখ\nঘোলাটে হয়ে আসবে কিন্তু বইখানা\nঅনন্ত যৌবনা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5f182646630795b697d6a1c47a98ccf7cfb46863db902d22f7591c1f6540b18a",
+        "source_page": 455,
+        "claim_text": "আমার সন্তান যেন থাকে দুধে ভাতে।",
+        "normalized_claim": "আমার সন্তান যেন থাকে দুধে ভাতে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2e4e9f6bc76f6c3907debc3ba13584b91ee6d39e8dfe3386df82a0c1f18b439f",
+        "source_page": 456,
+        "claim_text": "ক্ষুদিরামের ফাঁসির আদেশ হয়ে যাওয়ার পর রংপুরের উকিল সতীশচন্দ্র চক্রবর্তী ক্ষুদিরামকে জিজ্ঞেস করেছিলেন, “তোমার শেষ ইচ্ছা কি?” ক্ষুদিরাম বলেছিল, “আমিতো মেদিনীপুরের ছেলে আমি মেদিনীপুর যেতে চাই, মেদিনীপুর বাসীদের একটু দেখতে চাই”। ক্ষুদিরামের শেষ ইচ্ছা পূরণ করা হয়নি। ১৯০৮ সালে মঙ্গলবার ভোরে ক্ষুদিরামের ফাঁসি হয়ে যাওয়ার পর পিতাম্বর সেন লিখেছিলেন- একবার বিদায় দে মা ঘুরে আসি আমি হাসি হাসি পরবো ফাঁসি দেখবে ভারতবাসী",
+        "normalized_claim": "ক্ষুদিরামের ফাঁসির আদেশ হয়ে যাওয়ার পর রংপুরের উকিল সতীশচন্দ্র চক্রবর্তী ক্ষুদিরামকে জিজ্ঞেস করেছিলেন, “তোমার শেষ ইচ্ছা কি?” ক্ষুদিরাম বলেছিল, “আমিতো মেদিনীপুরের ছেলে আমি মেদিনীপুর যেতে চাই, মেদিনীপুর বাসীদের একটু দেখতে চাই”। ক্ষুদিরামের শেষ ইচ্ছা পূরণ করা হয়নি। ১৯০৮ সালে মঙ্গলবার ভোরে ক্ষুদিরামের ফাঁসি হয়ে যাওয়ার পর পিতাম্বর সেন লিখেছিলেন- একবার বিদায় দে মা ঘুরে আসি আমি হাসি হাসি পরবো ফাঁসি দেখবে ভারতবাসী",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "bb08f36aed2d5fafe0fb62d854fef7fb2c63131ec32c1e933842c3ae5a01dea6",
+        "source_page": 456,
+        "claim_text": "বঙ্গভঙ্গের সমর্থন করতো মুসলমানরা আর বিরোধিতা করেছিল হিন্দুরা। বঙ্গভঙ্গের প্রেক্ষিতে ১৯০৫ সালে অত্যন্ত ব্যথিত হৃদয়ে রবীন্দ্রনাথ ঠাকুর লিখেছিলেন- আমার সোনার বাংলা আমি তোমায় ভালোবাসি",
+        "normalized_claim": "বঙ্গভঙ্গের সমর্থন করতো মুসলমানরা আর বিরোধিতা করেছিল হিন্দুরা। বঙ্গভঙ্গের প্রেক্ষিতে ১৯০৫ সালে অত্যন্ত ব্যথিত হৃদয়ে রবীন্দ্রনাথ ঠাকুর লিখেছিলেন- আমার সোনার বাংলা আমি তোমায় ভালোবাসি",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c3c6781da9e910e54cf3533fd3753a514f94a24edfa4b5e615048d6e0fa6ee93",
+        "source_page": 456,
+        "claim_text": "রবীন্দ্রনাথ যখন ১৯১৩ সালে নোবেল পুরস্কার পেলেন, বাংলা সাহিত্যভাণ্ডারের আন্তর্জাতিক সম্মাননা মিললো, শরীয়তপুরের অতুল প্রসাদ সেন তখন গাইলেন- মোদের গরব মোদের আশা আ-মরি বাংলা ভাষা",
+        "normalized_claim": "রবীন্দ্রনাথ যখন ১৯১৩ সালে নোবেল পুরস্কার পেলেন, বাংলা সাহিত্যভাণ্ডারের আন্তর্জাতিক সম্মাননা মিললো, শরীয়তপুরের অতুল প্রসাদ সেন তখন গাইলেন- মোদের গরব মোদের আশা আ-মরি বাংলা ভাষা",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "219cebd4a9bf06e9c2d3d378bec9c4ecb2a8431d9771fc756334d676f07a8b75",
+        "source_page": 456,
+        "claim_text": "১৯৪৩ এর দুর্ভিক্ষে প্রায় ৫০ লক্ষ লোক মারা গেল। জয়নুল আবেদীন বিখ্যাত হলেন একটা চিত্রকর্ম এঁকে- ম্যাডোনা-৪৩ এই ৪৩; ১৯৪৩ এর ৪৩ এই মন্বন্তরের প্রেক্ষিতেই নুরুল মোমেন লিখেছিলেন বিখ্যাত নাটক “নেমেসিস” সত্যজিৎ রায় নির্মাণ করেছিলেন বিখ্যাত চলচ্চিত্র “অশনি সংকেত”",
+        "normalized_claim": "১৯৪৩ এর দুর্ভিক্ষে প্রায় ৫০ লক্ষ লোক মারা গেল। জয়নুল আবেদীন বিখ্যাত হলেন একটা চিত্রকর্ম এঁকে- ম্যাডোনা-৪৩ এই ৪৩; ১৯৪৩ এর ৪৩ এই মন্বন্তরের প্রেক্ষিতেই নুরুল মোমেন লিখেছিলেন বিখ্যাত নাটক “নেমেসিস” সত্যজিৎ রায় নির্মাণ করেছিলেন বিখ্যাত চলচ্চিত্র “অশনি সংকেত”",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3a8f118cf9003d04ea3d3213de88f03bfe0c09c3f1c8c27a69199618e54df301",
+        "source_page": 456,
+        "claim_text": "পাকিস্তান থেকে যখন আমরা মুক্ত হলাম, পাকিস্তান নামক রাষ্ট্র হতে বিদায় নিলাম শেখ আজিজুর রহমান ছদ্মনামে লেখা ছোট সাইজের মানুষ শওকত ওসমান লিখলেন বিখ্যাত উপন্যাস- জাহান্নাম হইতে বিদায়",
+        "normalized_claim": "পাকিস্তান থেকে যখন আমরা মুক্ত হলাম, পাকিস্তান নামক রাষ্ট্র হতে বিদায় নিলাম শেখ আজিজুর রহমান ছদ্মনামে লেখা ছোট সাইজের মানুষ শওকত ওসমান লিখলেন বিখ্যাত উপন্যাস- জাহান্নাম হইতে বিদায়",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a5d6f0f12534315d976bfc1a9423c9509df5677f7faf35bdd2758dc32fdf8408",
+        "source_page": 456,
+        "claim_text": "আইয়ুব খান আমাদের শাসন করেছেন ১৯৫৮-১৯৬৯ সাল পর্যন্ত। এই সময়টাতে আমাদের জোর করে ক্রীতদাস বানিয়ে পিটিয়ে হাসাতে চেয়েছেন। বহির্বিশ্বে প্রমাণ করার চেষ্টা করেছেন এরা হাসছে, এরা ভালো আছে। শওকত ওসমান আইয়ুব খানের চরিত্রটাই নিয়ে আসলেন রূপক অর্থে বিখ্যাত এক উপন্যাসে। আইয়ুব খানের শাসন নিয়ে শওকত ওসমান লিখলেন বিখ্যাত উপন্যাস- ক্রীতদাসের হাসি",
+        "normalized_claim": "আইয়ুব খান আমাদের শাসন করেছেন ১৯৫৮-১৯৬৯ সাল পর্যন্ত। এই সময়টাতে আমাদের জোর করে ক্রীতদাস বানিয়ে পিটিয়ে হাসাতে চেয়েছেন। বহির্বিশ্বে প্রমাণ করার চেষ্টা করেছেন এরা হাসছে, এরা ভালো আছে। শওকত ওসমান আইয়ুব খানের চরিত্রটাই নিয়ে আসলেন রূপক অর্থে বিখ্যাত এক উপন্যাসে। আইয়ুব খানের শাসন নিয়ে শওকত ওসমান লিখলেন বিখ্যাত উপন্যাস- ক্রীতদাসের হাসি",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "e9ff75278d0fad919784a314164b662ba6f67e1e72353f410f0c75e9d63d4da9",
+        "source_page": 458,
+        "claim_text": "বরিশালের রূপে মুগ্ধ হয়ে কোন কবি এই নগরকে ‘বাংলার ভেনিস’ আখ্যা দিয়েছিলেন? — source answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "23dd71af403b5b0ac9f45cca0e3397824bb0f5d97207a670d6c23e0fb897d999",
+        "source_page": 458,
+        "claim_text": "কোনটি জাতীয় কবি কাজী নজরুল ইসলাম রচিত গ্রন্থ নয়? — source answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "bc5cdf1e7caa40154a5800555f9f157fd0982112a21ac862c1cdd03cec007930",
+        "source_page": 458,
+        "claim_text": "নিম্নের কোন পত্রিকাটির প্রকাশনা উপলক্ষে রবীন্দ্রনাথ ঠাকুর আশীর্বাদ বাণী পাঠিয়েছিলেন? — source answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "acd383b681261aecef43b82d835f55a8166aca8e7d2630577e02dda00dab966e",
+        "source_page": 458,
+        "claim_text": "বাংলা গীতি কবিতায় ভোরের পাখি কে? — source answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "d72dd8e0f4f8893a624e5dfd63cea3559231969ab23de089e6f5db9fa73aca4c",
+        "source_page": 458,
+        "claim_text": "কোন খ্যাতিমান লেখক ‘বীরবল’ ছদ্মনামে লিখতেন? — source answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "b82b5a5290611dece8ad150f739f5daac5fb69fe3b1d2064bb79571b88e91899",
+        "source_page": 458,
+        "claim_text": "সনেট কবিতার প্রবর্তক কে? — source answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "77e2712790cebac9454d40e00a841432ccb726c8fc87607d5b6dc738ce28f111",
+        "source_page": 458,
+        "claim_text": "বাংলা সাহিত্যে প্রথম মুসলিম নাট্যকার রচিত নাট্যগ্রন্থ কোনটি? — source answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "f805a21cebdf2d9e195a2e88d50d82ce86e4bbca829a20371677ab06a30f86c1",
+        "source_page": 458,
+        "claim_text": "প্রথম বাঙালি মুসলমান কবি কে? — source answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      }
+    ],
+    "verified": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "95d12a5abd51d7b0ee413b13f2e06166b0946ef0ce6ad0750dc2edc9375e7a41",
+        "source_page": 457,
+        "claim_text": "৬৯ এর গণঅভ্যুত্থানে ২০ জানুয়ারি গুলি করে হত্যা করা হলো নরসিংদীর ছেলে আসাদকে। আসাদের লাশ নিয়ে মিছিল হলো, আসাদের রক্তমাখা শার্ট নিয়ে মিছিল হলো। নরসিংদীরই আরেক কবি শামসুর রাহমান লিখলেন সেই বিখ্যাত কবিতা- আসাদের শার্ট",
+        "normalized_claim": "আমানউল্লাহ মোহাম্মদ আসাদুজ্জামান ২০ জানুয়ারি ১৯৬৯ সালে ঢাকা শহরে ছাত্র মিছিলে নেতৃত্ব দেওয়ার সময় পুলিশের গুলিতে নিহত হন; তাঁর রক্তমাখা শার্ট প্রতীকে পরিণত হয় এবং শামসুর রাহমান ‘আসাদের শার্ট’ কবিতা লেখেন।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://bangla.thedailystar.net/news/bangladesh/news-552606",
+          "https://www.prothomalo.com/special-supplement/%E0%A6%B6%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A6%BE",
+          "https://www.ittefaq.com.bd/311086/%E0%A6%B6%E0%A6%B9%E0%A7%80%E0%A6%A6-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%A6-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8-%E0%A6%86%E0%A6%9C"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "4d879a4b329cc2629d34e030a66f6caaae8250a41fd0e715f6cd4ca28778a5d2",
+        "source_page": 457,
+        "claim_text": "১৯৩৭ সালে হিটলার স্পেনে আক্রমণ করে স্পেনের গোয়ের্নিকা শহরটি ধ্বংস করে। এই ধ্বংস যজ্ঞের চিত্রকর্ম আঁকেন স্পেনের মানবতাবাদী বিখ্যাত চিত্রকর পাবলো পিকাসো। যা বিখ্যাত চিত্রকর্ম ‘গোয়ের্নিকা’।",
+        "normalized_claim": "১৯৩৭ সালের ২৬ এপ্রিল স্পেনের বাস্ক শহর গের্নিকায় জার্মান ও ইতালীয় বাহিনীর বোমাবর্ষণের প্রেক্ষিতে পাবলো পিকাসো ‘গের্নিকা’ চিত্রকর্মটি আঁকেন।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.museoreinasofia.es/en/collections/artwork/guernica-0",
+          "https://guernica.museoreinasofia.es/en"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "64dd7911daa5950838b7462c1ed46407f2916850bdfb20e19f6df1e28d850180",
+        "source_page": 457,
+        "claim_text": "আমেরিকার স্বাধীনতার একশত বছর পূর্তিতে ফ্রান্স আমেরিকার জন্য উপহার পাঠায় যেটি ‘স্ট্যাচু অব লিবার্টি’। ... ফ্রান্স ১৮৮৬ সালে আমেরিকাকে উপহার পাঠায় ‘স্ট্যাচু অব লিবার্টি’।",
+        "normalized_claim": "ফরাসি জনগণের উপহার ‘স্ট্যাচু অব লিবার্টি’ যুক্তরাষ্ট্রের স্বাধীনতার শতবার্ষিকী ও দুই দেশের বন্ধুত্ব স্মরণে প্রস্তাবিত হয়; এটি ২৮ অক্টোবর ১৮৮৬ সালে উন্মোচিত হয়।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.nps.gov/stli/learn/historyculture/places_creating_statue.htm",
+          "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "9f55628388498c8c05fe2428b3ef10fbed2b326a1d99b2e511ad32e9ec370636",
+        "source_page": 458,
+        "claim_text": "কে রবীন্দ্রনাথ ঠাকুরের ‘গীতাঞ্জলি’র ইংরেজি অনুবাদ করেন? — source answer: ক",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://publish.illinois.edu/tagoreintranslation-uiuc/about-the-project/",
+          "https://www.poetryfoundation.org/poems/45668/gitanjali-35"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "acd2e54629be2e9121d56e3c124b3bdaeb056d6ab82f1b684c99344a7dc2bc21",
+        "source_page": 458,
+        "claim_text": "কাজী নজরুল ইসলাম কোন ছবিতে অভিনয় করেছিলেন? — source answer: খ",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.prothomalo.com/entertainment/tollywood/dof8q715au",
+          "https://www.thedailystar.net/entertainment/tv-film/news/negative-kazi-nazrul-islams-film-dhruva-destroyed-says-kolkatas-nt1"
+        ]
+      }
+    ],
+    "conflicting": [
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "be7280eba27cba5f0cffc87338a90953dd434ec210b6f47f7237cd4cc85195ac",
+        "source_page": 458,
+        "claim_text": "কিশোর পত্রিকা ‘বালক’ প্রতিষ্ঠা কার অমর কীর্তি? — source answer: ক",
+        "normalized_claim": null,
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": []
+      }
+    ]
+  },
+  "quality_gates": [
+    "OCR text is preserved in source_pages.raw_transcription.",
+    "Each page includes image-grounded review metadata and original correction records.",
+    "Content is tagged by domain, content type, exam source, and verification state.",
+    "Conflicting or unverified claims remain source-attributed with confidence flags rather than being silently normalized.",
+    "All inserts are idempotent through source-page existence checks or canonical/source keys."
+  ]
+}

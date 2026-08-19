@@ -32,3 +32,26 @@
 - [x] Verify the protected learning.flashcards procedure returns imported sample flashcards for an authenticated user
 - [x] Add authenticated validation for source-backed flashcard retrieval and protected known/unknown input contract
 - [x] Add authenticated integration coverage for flashcard known=true and known=false mutations and verify persisted review-state behavior
+- [ ] Restore durable extraction/import tooling after the sandbox reset without losing the persisted Supabase dataset
+- [ ] Complete source-page extraction and validation for every remaining page of Jubayer’s GK book using a memory-safe high-quality Bangla OCR workflow
+- [ ] Upsert all remaining chapters, topics, notes, facts, validated MCQs/options, source metadata, audit rows, search records, and flashcards into the actual Supabase project
+- [ ] Run final Supabase referential-integrity, content-integrity, and page-coverage checks before declaring the full source import complete
+- [ ] Rewire the application’s data layer and authentication from the temporary managed database to the actual Supabase project specified in the master prompt
+- [x] Add a resumable Windows Surya OCR runner that writes source-page-compatible artifacts for pages 454–925 and preserves chunk-level audit logs
+- [x] Verify a real local Surya OCR pilot page before committing the remaining high-quality extraction batches
+- [ ] Add Supabase environment configuration, server-side catalog queries, and tests while retaining Manus OAuth and managed-database user learning state
+- [ ] Restore the OCR artifacts for pages 202–453 and complete their structured, validated, idempotent Supabase import before running further OCR batches
+- [ ] Treat source-page extraction as complete only after the corresponding Supabase page, content, audit, and integrity checks are recorded
+- [ ] Restore pages 202–453 from their prior OCR artifacts before any further source-page OCR is run
+- [ ] Validate OCR spelling against the source scan; preserve original OCR, record every correction, and flag ambiguous text rather than silently guessing
+- [ ] Classify imported source material with content-type and subject/topic tags without mixing notes, facts, tables, biographies, timelines, definitions, MCQs, options, answers, and exam metadata
+- [ ] Fact-check accepted claims against credible online sources and retain source URLs, verification status, and uncertainty flags in the audit trail before Supabase import
+- [ ] Search available Manus workspace storage and prior task artifacts for missing OCR outputs before re-OCRing pages 202–453
+- [ ] If recovered, migrate OCR artifacts into a separate dated local recovery folder with a manifest and checksums; do not overwrite the user’s PDF or active OCR workspace
+- [ ] Evaluate a persistent Linux virtual-machine option that can run the OCR workload unattended despite the user’s unstable local network and laptop availability
+- [ ] Prepare a reproducible secure-cloud setup with source PDF transfer, persistent OCR artifacts, resumable quality gates, and Supabase import access
+- [ ] Complete full external fact verification for every accepted claim from pages 454–458 before treating the batch’s verification requirement as complete
+- [x] Stop after the verified pages 454–458 import and wait for explicit user instruction before starting any further source pages
+- [x] Run the user-authorized pages 454–458 batch on the sandbox computer rather than the unavailable local computer
+- [x] Extract, review, tag, confidence-flag, and import pages 454–458 into Supabase with source-linked verification ledger entries; 53 records remain explicitly source-attributed pending deeper verification
+- [ ] Re-run the pages 454–458 integrity report after every accepted claim has a final evidence-backed verification status
