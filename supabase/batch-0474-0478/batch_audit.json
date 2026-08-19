@@ -1,0 +1,1063 @@
+{
+  "batch_pages": [
+    474,
+    475,
+    476,
+    477,
+    478
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0474-0478-v1",
+  "source_pages": [
+    {
+      "page": 474,
+      "sha256": "72fd3e2385f8556a03b082178cc082ee078761c0d460f53d1d3845c70f086b6d",
+      "review": "accepted"
+    },
+    {
+      "page": 475,
+      "sha256": "606e60dee49b6ad4ade9f59d63def5faaf48688ad71f26db91887f5905592ab9",
+      "review": "accepted"
+    },
+    {
+      "page": 476,
+      "sha256": "0f716981e1702351e69c22918634d33b24a4394fa985349b7876f6a4ca5cad83",
+      "review": "accepted"
+    },
+    {
+      "page": 477,
+      "sha256": "06412cb99f740497fa5822660e9b29904c8a993950a006a8b963c1914021bb1f",
+      "review": "accepted"
+    },
+    {
+      "page": 478,
+      "sha256": "c22c7e90ea1638a9daa9b91673d8b1dd3631d02be97496e17b2601d2a2c873c9",
+      "review": "accepted_with_flags"
+    }
+  ],
+  "generated_fact_candidates": 68,
+  "generated_notes": 5,
+  "generated_mcqs": 26,
+  "generated_options": 104,
+  "low_confidence_mcqs": [
+    {
+      "source_page": 478,
+      "number": "13",
+      "reason": "The source answer-key cell is an asterisk rather than a readable option label."
+    }
+  ],
+  "verification_statuses": {
+    "source_attributed": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "75f26b276548245973fcf35e1eca6afa50cce539f2501def96e17ab9edbef551",
+        "source_page": 475,
+        "claim_text": "যোগাযোগ মন্ত্রণালয়ের নাম পরিবর্তন করে রাখা হয়- সড়ক পরিবহন ও সেতু মন্ত্রণালয়।",
+        "normalized_claim": "যোগাযোগ মন্ত্রণালয়ের নাম পরিবর্তন করে রাখা হয়- সড়ক পরিবহন ও সেতু মন্ত্রণালয়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b2bcab0205e2b88ef392e1a9bc15d846b3012a88db3273ff3bbb489bd84fa492",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশ সড়ক পরিবহনে নিয়োজিত সরকারি সংস্থা- বি.আর.টি.সি।",
+        "normalized_claim": "বাংলাদেশ সড়ক পরিবহনে নিয়োজিত সরকারি সংস্থা- বি.আর.টি.সি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f20cf851631feb497a1706c7273ece6b4493586c259eb982a58e5cd46e205042",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের দ্বিতীয় দীর্ঘতম সড়ক ও রেলসেতু 'যমুনা সেতু'র দৈর্ঘ্য- ৪.৮ কি. মি.।",
+        "normalized_claim": "বাংলাদেশের দ্বিতীয় দীর্ঘতম সড়ক ও রেলসেতু 'যমুনা সেতু'র দৈর্ঘ্য- ৪.৮ কি. মি.।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "945849e9ca3e6e06b71767582d64a4b196b8ab4e52fbe01e82d7ccfee6cc1777",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের প্রথম ফ্লাইওভারের নাম- মহাখালী ফ্লাইওভার।",
+        "normalized_claim": "বাংলাদেশের প্রথম ফ্লাইওভারের নাম- মহাখালী ফ্লাইওভার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b43925a919438ad0a58165dfce8aa6a60460d5efe045ca9d0820e5f3edccb014",
+        "source_page": 475,
+        "claim_text": "এশিয়ার দেশগুলোর মধ্যে সড়ক পথে যোগাযোগের জন্য প্রতিষ্ঠা করা হয়- এশিয়ান হাইওয়ে (১৯৫৯)।",
+        "normalized_claim": "এশিয়ার দেশগুলোর মধ্যে সড়ক পথে যোগাযোগের জন্য প্রতিষ্ঠা করা হয়- এশিয়ান হাইওয়ে (১৯৫৯)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "209cea9758c12c4dd15d96cbce4f75a155bc18d21f10f103bc061c16465c95d4",
+        "source_page": 475,
+        "claim_text": "এশিয়ান হাইওয়ে যুক্ত করে- ৩২টি দেশকে।",
+        "normalized_claim": "এশিয়ান হাইওয়ে যুক্ত করে- ৩২টি দেশকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e3b34c5d33d5bc65421b8a675df58eb86150aeb8ed517b40ae0131551bd90903",
+        "source_page": 475,
+        "claim_text": "বিশ্বে প্রথম রেলপথ চালু হয়- ১৮২৫ সালে; যুক্তরাজ্যে।",
+        "normalized_claim": "বিশ্বে প্রথম রেলপথ চালু হয়- ১৮২৫ সালে; যুক্তরাজ্যে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a61d69476bc2daa8caf38adc671e43820738f3338df33ec440065d67897cf365",
+        "source_page": 475,
+        "claim_text": "উপমহাদেশে সর্বপ্রথম রেলগাড়ি চালু করেন- লর্ড ডালহৌসী; ১৮৫৩ সালে।",
+        "normalized_claim": "উপমহাদেশে সর্বপ্রথম রেলগাড়ি চালু করেন- লর্ড ডালহৌসী; ১৮৫৩ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d862c14c5b61451a818682bdc362168187054b9781c78f01c7be3458c8bf4d4d",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশে প্রথম রেললাইন স্থাপিত হয়- ১৮৬২ সালে।",
+        "normalized_claim": "বাংলাদেশে প্রথম রেললাইন স্থাপিত হয়- ১৮৬২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "591d5e358d335d818dfa5562b464686f7a0572debe0dd7266f09f0b3200287b9",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের প্রথম আন্তঃনগর ট্রেন সার্ভিস চালু হয়- ১৯৮৫ সালে।",
+        "normalized_claim": "বাংলাদেশের প্রথম আন্তঃনগর ট্রেন সার্ভিস চালু হয়- ১৯৮৫ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a8f9430f21c7c94acc70f10a582bbdc62920a87bb5056a3686edae1244d91eef",
+        "source_page": 475,
+        "claim_text": "দেশে DEMU (Diesel Electric Multiple Unit) ট্রেন যুক্ত হয়- ২০১৩ সালে।",
+        "normalized_claim": "দেশে DEMU (Diesel Electric Multiple Unit) ট্রেন যুক্ত হয়- ২০১৩ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "cc2fd4be2890112ca263baf806e125aa0c7fd7d33f828cbd28574f2ff9dab4f2",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশে রেলওয়ের কারখানা আছে- ৬টি।",
+        "normalized_claim": "বাংলাদেশে রেলওয়ের কারখানা আছে- ৬টি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c157c994352d9df6db58209eff3037669b1591a3675bb5d12aa2b6d87121920f",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশে প্রথম রেললাইন স্থাপিত হয়- দর্শনা হতে কুষ্টিয়ার জগতি পর্যন্ত।",
+        "normalized_claim": "বাংলাদেশে প্রথম রেললাইন স্থাপিত হয়- দর্শনা হতে কুষ্টিয়ার জগতি পর্যন্ত।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "48814790b7cbf9f489758a7b1fbb9b71f269a30a7d87d2f3181ca3a1676bb2d4",
+        "source_page": 475,
+        "claim_text": "রেলওয়ের সার্বিক সদর দপ্তর অবস্থিত- ঢাকা।",
+        "normalized_claim": "রেলওয়ের সার্বিক সদর দপ্তর অবস্থিত- ঢাকা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "874185872470668cbdb2c7c6d0b839b0ae4bccebc24eadf51ad6bf8d70541e2f",
+        "source_page": 475,
+        "claim_text": "রেলওয়ের পূর্বাঞ্চলের সদর দপ্তর- চট্টগ্রামে।",
+        "normalized_claim": "রেলওয়ের পূর্বাঞ্চলের সদর দপ্তর- চট্টগ্রামে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "52ed4285c8d7b27884f9b4933c745c0f1b469f83dc718c88cfff7f75bbe40f4d",
+        "source_page": 475,
+        "claim_text": "রেলওয়ের পশ্চিমাঞ্চলের সদর দপ্তর- রাজশাহীতে।",
+        "normalized_claim": "রেলওয়ের পশ্চিমাঞ্চলের সদর দপ্তর- রাজশাহীতে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5300daee745c676a5aac57986bce1bcc21b75acfbdb751380679fc60420f2a85",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের বৃহত্তম রেলওয়ে স্টেশন- কমলাপুর রেলওয়ে স্টেশন।",
+        "normalized_claim": "বাংলাদেশের বৃহত্তম রেলওয়ে স্টেশন- কমলাপুর রেলওয়ে স্টেশন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "12e3e598bf646e18cad44177be524b057c716965b0eee9862f9439104aa47eca",
+        "source_page": 475,
+        "claim_text": "রেলওয়ের সর্ববৃহৎ কারখানা অবস্থিত- সৈয়দপুরে।",
+        "normalized_claim": "রেলওয়ের সর্ববৃহৎ কারখানা অবস্থিত- সৈয়দপুরে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0fa55c1df22d2cfec77cb771a09ee1e7bd125cc284a5e68a47299c38d03c1674",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের যে বিভাগে রেলপথ নেই- বরিশাল।",
+        "normalized_claim": "বাংলাদেশের যে বিভাগে রেলপথ নেই- বরিশাল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c17ff5d011266b2d20e7f0444255f7ae640f1a7073c77e818985d14189f340d9",
+        "source_page": 475,
+        "claim_text": "যমুনা রেলসেতু যুক্ত করেছে- সিরাজগঞ্জ ও টাঙ্গাইল জেলাকে।",
+        "normalized_claim": "যমুনা রেলসেতু যুক্ত করেছে- সিরাজগঞ্জ ও টাঙ্গাইল জেলাকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "9026a393c4b41602a9338ed48dbca35f7816a68ccb696e6cee413b465a0fbb48",
+        "source_page": 475,
+        "claim_text": "ভারতের প্রথম রেল লাইন নির্মিত হয়- হাওড়া থেকে হুগলী (চুঁচুড়া) পর্যন্ত (দৈর্ঘ্য- ৩৮ কি.মি)।",
+        "normalized_claim": "ভারতের প্রথম রেল লাইন নির্মিত হয়- হাওড়া থেকে হুগলী (চুঁচুড়া) পর্যন্ত (দৈর্ঘ্য- ৩৮ কি.মি)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0761c612b4d52392a3e16d2b432bba3424313fb4171839199f1cb6686e45d25e",
+        "source_page": 475,
+        "claim_text": "রেল লাইন নির্মাণ করে- ইস্ট ইন্ডিয়া রেলওয়ে কোম্পানি (১৮৫৪ সালে)।",
+        "normalized_claim": "রেল লাইন নির্মাণ করে- ইস্ট ইন্ডিয়া রেলওয়ে কোম্পানি (১৮৫৪ সালে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e6dc5d6e8129dd5a09ef3e553e0a073016f7f3d8f842d45af9add6a5497ea9d4",
+        "source_page": 475,
+        "claim_text": "ব্রিটিশ সরকার তিন ধরনের গেজের (প্রস্থের) রেলপথ প্রবর্তন করেন- মিটার গেজ, ব্রড গেজ, ন্যারো গেজ।",
+        "normalized_claim": "ব্রিটিশ সরকার তিন ধরনের গেজের (প্রস্থের) রেলপথ প্রবর্তন করেন- মিটার গেজ, ব্রড গেজ, ন্যারো গেজ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5734bf5a20777befbd6683bb6251dadeacb86ae27193e76ec95c6000f37d588a",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের ব্রডগেজ রেলওয়ে লাইন সবচেয়ে বেশি রয়েছে- রাজশাহী বিভাগে।",
+        "normalized_claim": "বাংলাদেশের ব্রডগেজ রেলওয়ে লাইন সবচেয়ে বেশি রয়েছে- রাজশাহী বিভাগে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "67afe82e2f36086d07c203b467c43c6e3fb478145f57df7dcab9d99e79cbaf8e",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ নৌ পরিবহন সংস্থার নাম- BIWTC (প্রতিষ্ঠা- ১৯৫৮)।",
+        "normalized_claim": "বাংলাদেশ নৌ পরিবহন সংস্থার নাম- BIWTC (প্রতিষ্ঠা- ১৯৫৮)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "472369111b3b2df4a3713b26b9ad7988b059c538251c41110547a5493fe9e922",
+        "source_page": 476,
+        "claim_text": "BIWTC এর সদর দপ্তর- ঢাকা।",
+        "normalized_claim": "BIWTC এর সদর দপ্তর- ঢাকা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1f5d1fc2668fc3f4d0fed13b701fd791098284fddc8158d025e646a613427d72",
+        "source_page": 476,
+        "claim_text": "BIWTC যে মন্ত্রণালয়ের অধীনে- নৌ-পরিবহন মন্ত্রণালয়।",
+        "normalized_claim": "BIWTC যে মন্ত্রণালয়ের অধীনে- নৌ-পরিবহন মন্ত্রণালয়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "bb0cffe17acfd687841b7da5ab0213f181aa5b88dc2bb822a8c3205abc6b2eab",
+        "source_page": 476,
+        "claim_text": "নদীপথে ঢাকার সাথে সরাসরি সংযুক্ত নয়- রাঙামাটি জেলা।",
+        "normalized_claim": "নদীপথে ঢাকার সাথে সরাসরি সংযুক্ত নয়- রাঙামাটি জেলা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d4adc0957c42cc933eced58a6396c961e3d4797b1b86c610e1a6a8eb8bbad8d5",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশের শিপিং কর্পোরেশন চালু হয়- ১৯৭২ সালে।",
+        "normalized_claim": "বাংলাদেশের শিপিং কর্পোরেশন চালু হয়- ১৯৭২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3f9831d9a85c7ba4c5c8e0b4ef1b0766619e94516f89cdf227e53f8bdfaa24d0",
+        "source_page": 476,
+        "claim_text": "মোংলা বন্দর অবস্থিত- বাগেরহাটে।",
+        "normalized_claim": "মোংলা বন্দর অবস্থিত- বাগেরহাটে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2ce8cecc8839d6f992d82f18c06bbe9e5725a37c651201e32ccb117f19aeb651",
+        "source_page": 476,
+        "claim_text": "বর্তমানে বাংলাদেশের সমুদ্র বন্দর- ৪টি।",
+        "normalized_claim": "বর্তমানে বাংলাদেশের সমুদ্র বন্দর- ৪টি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1e1e774160aea626e090af4f3081eaddf870d0f402dc440e82ca9920f5bac053",
+        "source_page": 476,
+        "claim_text": "মিয়ানমারের সাথে বাণিজ্য কার্যক্রম চলে- টেকনাফ বন্দরে।",
+        "normalized_claim": "মিয়ানমারের সাথে বাণিজ্য কার্যক্রম চলে- টেকনাফ বন্দরে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c69767dc4d340c07b2b60746dd7fcba99016d64128d9dfe0e99962520523f198",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমান সংস্থার বর্তমান নাম- বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড।",
+        "normalized_claim": "বাংলাদেশ বিমান সংস্থার বর্তমান নাম- বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেড।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c4bf2ff624dc9f3fb00703505fdce1f8537a60b6b5ec02d0c43d5fe255206798",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমান সংস্থার পূর্বনাম- বিমান বাংলাদেশ এয়ারলাইন্স।",
+        "normalized_claim": "বাংলাদেশ বিমান সংস্থার পূর্বনাম- বিমান বাংলাদেশ এয়ারলাইন্স।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2bd09b8adb24078db33cff783056eb246265a2a54d30021e5c984fefd880c008",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমানের স্লোগান- Your home in the sky.",
+        "normalized_claim": "বাংলাদেশ বিমানের স্লোগান- Your home in the sky.",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2c8ad1fe39152b42786726050cfa4ce75693db10999787189022912fde106317",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমানের প্রতীক- বলাকা।",
+        "normalized_claim": "বাংলাদেশ বিমানের প্রতীক- বলাকা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "69266cb62640d79643380a8b857299690a1b3e1e00323a93d991b6a7163e11ff",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশে আন্তর্জাতিক বিমানবন্দর- ৩টি।",
+        "normalized_claim": "বাংলাদেশে আন্তর্জাতিক বিমানবন্দর- ৩টি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0f18f75018aec95f5e024d656773d725f02248ac60d2f93674aa84002a9d94dc",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমানের প্রথম আন্তর্জাতিক ফ্লাইট চালু হয়- ৪ মার্চ, ১৯৭২ সালে।",
+        "normalized_claim": "বাংলাদেশ বিমানের প্রথম আন্তর্জাতিক ফ্লাইট চালু হয়- ৪ মার্চ, ১৯৭২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ead4f6f3d46aa09b4ad3aab76d8e0f294c71550db857e7f4c212dbd5806174de",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমানের প্রথম ফ্লাইট ছিল- ঢাকা-লন্ডন-ঢাকা।",
+        "normalized_claim": "বাংলাদেশ বিমানের প্রথম ফ্লাইট ছিল- ঢাকা-লন্ডন-ঢাকা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7d4baadbf8f6e95bbb8c1ac3ab7b6535986a2882c9b07a3b2020fb87f31da557",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশ বিমানের প্রথম মহিলা পাইলট- কানিজ ফাতেমা রোকসানা।",
+        "normalized_claim": "বাংলাদেশ বিমানের প্রথম মহিলা পাইলট- কানিজ ফাতেমা রোকসানা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "adea0066740845708ace0a7f02cb5917164e8c752baa81551a2747e0e57dde89",
+        "source_page": 476,
+        "claim_text": "প্রথম বেসরকারি বিমান সংস্থা- এ্যারো বেঙ্গল এয়ারলাইন্স।",
+        "normalized_claim": "প্রথম বেসরকারি বিমান সংস্থা- এ্যারো বেঙ্গল এয়ারলাইন্স।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "03f6d69d0776f20c4ae49db6dc0beb83a307e542c43d3d5374a006af87e9d0c0",
+        "source_page": 476,
+        "claim_text": "বাংলাদেশের অভ্যন্তরীণ বিমানবন্দর- ১১টি।",
+        "normalized_claim": "বাংলাদেশের অভ্যন্তরীণ বিমানবন্দর- ১১টি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ea681e35410cf09bdf6a4ae48c443f11cf1b47e1e66b58fffad993ed92b931d3",
+        "source_page": 477,
+        "claim_text": "বাংলাদেশের বৃহত্তম সেতু- পদ্মা সেতু।",
+        "normalized_claim": "বাংলাদেশের বৃহত্তম সেতু- পদ্মা সেতু।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "324e37f5f17d74ce57b1316fb71376886c5e922e881f464c1900a588989ae34d",
+        "source_page": 477,
+        "claim_text": "দৈর্ঘ্য- ৬.১৫ কিলোমিটার; প্রস্থ- ১৮.১০ মিটার।",
+        "normalized_claim": "দৈর্ঘ্য- ৬.১৫ কিলোমিটার; প্রস্থ- ১৮.১০ মিটার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "781f25fa8b90b8932dc0c0409b2bfa4abd3379cd5eb7942d59d762fdeaca49f4",
+        "source_page": 477,
+        "claim_text": "অবস্থান- ৩টি জেলার উপর। যথা: মুন্সিগঞ্জ, শরীয়তপুর, মাদারীপুর।",
+        "normalized_claim": "অবস্থান- ৩টি জেলার উপর। যথা: মুন্সিগঞ্জ, শরীয়তপুর, মাদারীপুর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "4be5ebfcb88db53acb427306998db82508075c49e24fa51fdbd75e8d0121766e",
+        "source_page": 477,
+        "claim_text": "সংযুক্ত করেছে- দক্ষিণ অঞ্চলের ২১টি জেলাকে।",
+        "normalized_claim": "সংযুক্ত করেছে- দক্ষিণ অঞ্চলের ২১টি জেলাকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "40e5d32a7ef61536a372b895414d91ac79b01fa2e5e2b31bda09e71dddb36b69",
+        "source_page": 477,
+        "claim_text": "বাংলাদেশের সর্ববৃহৎ রেল সেতু- যমুনা রেল সেতু।",
+        "normalized_claim": "বাংলাদেশের সর্ববৃহৎ রেল সেতু- যমুনা রেল সেতু।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "81de558f6e4ef4cbedf3b59e31c2be448f546e72e9b9f0311a571e80a522143f",
+        "source_page": 477,
+        "claim_text": "দৈর্ঘ্য- ৪.৮ কিলোমিটার।",
+        "normalized_claim": "দৈর্ঘ্য- ৪.৮ কিলোমিটার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "11d55274f492ab124aac9b05e7a708653e3436d554ee305a5dbbc3f660645ae0",
+        "source_page": 477,
+        "claim_text": "সংযুক্ত করেছে- সিরাজগঞ্জ ও টাঙ্গাইল জেলাকে।",
+        "normalized_claim": "সংযুক্ত করেছে- সিরাজগঞ্জ ও টাঙ্গাইল জেলাকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "42665eb5e0327313b7f4a32187fa20f402a364623951c1016fa452fc8441c4d6",
+        "source_page": 477,
+        "claim_text": "বাংলাদেশের একক বৃহত্তম রেল সেতু- হার্ডিঞ্জ ব্রিজ।",
+        "normalized_claim": "বাংলাদেশের একক বৃহত্তম রেল সেতু- হার্ডিঞ্জ ব্রিজ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ab115db8e5a9c14ed42e4a7bd12e007e471d1b266f75a28ba93e52ccfc4bab5f",
+        "source_page": 477,
+        "claim_text": "নির্মাণ করেন- লর্ড হার্ডিঞ্জ।",
+        "normalized_claim": "নির্মাণ করেন- লর্ড হার্ডিঞ্জ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "279384924a20afa4784678171d223ca31f2491e9f815aa820a7d965ca11fac63",
+        "source_page": 477,
+        "claim_text": "অবস্থিত- কুষ্টিয়া ও পাবনা জেলার সংযোগস্থলে পদ্মা নদীর উপর।",
+        "normalized_claim": "অবস্থিত- কুষ্টিয়া ও পাবনা জেলার সংযোগস্থলে পদ্মা নদীর উপর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f5cfa20078e448d629908cf5eca78e418104c52b4695e714df9f69afb04c2a3e",
+        "source_page": 477,
+        "claim_text": "বাংলাদেশের তৃতীয় বৃহত্তম সেতু- লালন শাহ সেতু।",
+        "normalized_claim": "বাংলাদেশের তৃতীয় বৃহত্তম সেতু- লালন শাহ সেতু।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1bd9ea1c8437e1f6d6d82fffadcadeedcd5d64e340bc05e7985f3d21d2c1cc94",
+        "source_page": 477,
+        "claim_text": "দৈর্ঘ্য- ১.৮ কিলোমিটার।",
+        "normalized_claim": "দৈর্ঘ্য- ১.৮ কিলোমিটার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e6dc3279513cb4647fd84c56ce2c96569c57096efe140bc3f0e03472df8ba270",
+        "source_page": 477,
+        "claim_text": "সংযুক্ত করেছে- পাবনা ও কুষ্টিয়াকে।",
+        "normalized_claim": "সংযুক্ত করেছে- পাবনা ও কুষ্টিয়াকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "029b242e2bf95aef287a63427a8917bf78814148bca4eeb714d6b33d57e81671",
+        "source_page": 477,
+        "claim_text": "এটি রূপসা ব্রিজ নামেও পরিচিত।",
+        "normalized_claim": "এটি রূপসা ব্রিজ নামেও পরিচিত।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a4efc51dca8ab95ff1d54626e06785ef160eb39f079997ddd87bc982b069a32a",
+        "source_page": 477,
+        "claim_text": "নির্মিত হয়েছে- রূপসা নদীর উপরে।",
+        "normalized_claim": "নির্মিত হয়েছে- রূপসা নদীর উপরে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3fec5f5143c39b22de33cd53cc1dd7900ef737382891f4efe5d00fe3493de3d4",
+        "source_page": 477,
+        "claim_text": "সংযুক্ত করেছে- খুলনা ও বাগেরহাটকে।",
+        "normalized_claim": "সংযুক্ত করেছে- খুলনা ও বাগেরহাটকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d3eb8914e1f365b11e704a4316ec08d75e521b8071e58782ecf10d1508292039",
+        "source_page": 477,
+        "claim_text": "বাংলাদেশের প্রথম ফ্লাইওভার- মহাখালী ফ্লাইওভার।",
+        "normalized_claim": "বাংলাদেশের প্রথম ফ্লাইওভার- মহাখালী ফ্লাইওভার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1dfd9ccfc838f3ff737680f4de7e37d18a300421a99b74adf6f1bd1979cf167f",
+        "source_page": 477,
+        "claim_text": "দৈর্ঘ্য- ১.১২ কিলোমিটার।",
+        "normalized_claim": "দৈর্ঘ্য- ১.১২ কিলোমিটার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "8ca3d49d12d802e4e28393dc190b18ecbaa24694710a22c09e71f033ceda1b61",
+        "source_page": 477,
+        "claim_text": "উদ্বোধন করেন- বেগম খালেদা জিয়া (২০০৪) সালে।",
+        "normalized_claim": "উদ্বোধন করেন- বেগম খালেদা জিয়া (২০০৪) সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "dff7b3668c86e9bc92f89303be62fa8292d696861e631ddd05691e3d16faa993",
+        "source_page": 477,
+        "claim_text": "বাংলাদেশের দীর্ঘতম ফ্লাইওভার- মেয়র মোহাম্মদ হানিফ ফ্লাইওভার।",
+        "normalized_claim": "বাংলাদেশের দীর্ঘতম ফ্লাইওভার- মেয়র মোহাম্মদ হানিফ ফ্লাইওভার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6b8608617dbc9f9c6e33443adb2a84a3541d7922693f0d44d971befc00b3e80e",
+        "source_page": 477,
+        "claim_text": "দৈর্ঘ্য- ১১.৮ কিলোমিটার।",
+        "normalized_claim": "দৈর্ঘ্য- ১১.৮ কিলোমিটার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "eaee46622f20f3dcd7ffdf23c36ad1d5cdf204640fd78fddbe95ef1efbda8e27",
+        "source_page": 477,
+        "claim_text": "অবস্থান- গুলিস্তান থেকে যাত্রাবাড়ী।",
+        "normalized_claim": "অবস্থান- গুলিস্তান থেকে যাত্রাবাড়ী।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "4bd9be423533e752dd303d77aa9aaa91bb27400d9c7cb24ccc98e1eeb7291c10",
+        "source_page": 475,
+        "claim_text": "রেলপথ নেই এমন জেলা: বরিশাল, ভোলা, পটুয়াখালী, বরগুনা, পিরোজপুর, ঝালকাঠি, লক্ষ্মীপুর, মানিকগঞ্জ, মেহেরপুর, মাগুরা, শেরপুর, বান্দরবান, খাগড়াছড়ি ও রাঙ্গামাটি।",
+        "normalized_claim": "রেলপথ নেই এমন জেলা: বরিশাল, ভোলা, পটুয়াখালী, বরগুনা, পিরোজপুর, ঝালকাঠি, লক্ষ্মীপুর, মানিকগঞ্জ, মেহেরপুর, মাগুরা, শেরপুর, বান্দরবান, খাগড়াছড়ি ও রাঙ্গামাটি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "4da77fdee71e9eb6375d273b2c5a9d6e76f6004118198a7f7a42852f19d90d64",
+        "source_page": 476,
+        "claim_text": "১ ঢাকায় হযরত শাহজালাল (র.) আন্তর্জাতিক বিমানবন্দর\n২ চট্টগ্রামে শাহ আমানত আন্তর্জাতিক বিমানবন্দর\n৩ সিলেটে ওসমানী আন্তর্জাতিক বিমানবন্দর",
+        "normalized_claim": "১ ঢাকায় হযরত শাহজালাল (র.) আন্তর্জাতিক বিমানবন্দর\n২ চট্টগ্রামে শাহ আমানত আন্তর্জাতিক বিমানবন্দর\n৩ সিলেটে ওসমানী আন্তর্জাতিক বিমানবন্দর",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "62a9d7b25c0b5ca436cd7c148aaf4114c20f35dd06f80221a848e3b13ab2d8b4",
+        "source_page": 476,
+        "claim_text": "খানজাহান আলী বিমানবন্দর (বাগেরহাট) | সৈয়দপুর বিমানবন্দর (নীলফামারী) | ঈশ্বরদী বিমানবন্দর (পাবনা) | শাহ মখদুম বিমানবন্দর (রাজশাহী)",
+        "normalized_claim": "খানজাহান আলী বিমানবন্দর (বাগেরহাট) | সৈয়দপুর বিমানবন্দর (নীলফামারী) | ঈশ্বরদী বিমানবন্দর (পাবনা) | শাহ মখদুম বিমানবন্দর (রাজশাহী)",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "1a14906bb476a7e228974ab8892c256f853c92c3524c7dcabd6aa79626c62119",
+        "source_page": 476,
+        "claim_text": "রাস্তায় যে ট্রাফিক লাইট জ্বালানো হয়: লাল - হলুদ - সবুজ - হলুদ - লাল",
+        "normalized_claim": "রাস্তায় যে ট্রাফিক লাইট জ্বালানো হয়: লাল - হলুদ - সবুজ - হলুদ - লাল",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "f716c52bb9803c99a0ff065258f9cbd7b89ea8c3c8ad692d8c0ffbede7e3a538",
+        "source_page": 474,
+        "claim_text": "বাংলাদেশ সেনাবাহিনীর সর্বোচ্চ পদ- — printed answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "5d59734a27bcbd4976cc55b3b829998462be9d59d5c7bb18f03ade614c2f8eb9",
+        "source_page": 474,
+        "claim_text": "বাংলাদেশ সোর্ড অব অনার পুরস্কার প্রাপ্ত প্রথম নারী- — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "8385379619431033a38750430d91884b29fe691626db7f4513f9fce7e4338870",
+        "source_page": 474,
+        "claim_text": "বাংলাদেশে পুলিশ একাডেমি কোথায় অবস্থিত? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "fb123b335a5f7267d391543c637dc9718180bacd0ff296c0b5a6dfa0254ca8f7",
+        "source_page": 474,
+        "claim_text": "বিডিআর হত্যাকাণ্ড সংঘটিত হয়- — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "e7ab16912f275e95014cc66f7fa36643661709e540c5926f5817dfabdbf18f85",
+        "source_page": 474,
+        "claim_text": "বাংলাদেশ রাইফেলস্-এর পরিবর্তিত নাম- — printed answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "006ec52012067f451c93823f49ae0164177319fbc2fdd3477c8369541ff4ec30",
+        "source_page": 474,
+        "claim_text": "বাংলাদেশের বিমান বাহিনীর প্রশিক্ষণ কেন্দ্র কোথায় অবস্থিত? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "ff82a72c2615c7beed9f84c1bc3a3b2881c52b9c51882a22f39265eaffb0ece9",
+        "source_page": 474,
+        "claim_text": "১৯৭৫ সালের ১৫ আগস্ট ভোর রাত পর্যন্ত বাংলাদেশের সেনাবাহিনী প্রধান কে ছিলেন? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "423391ce26981ea064090f3179766435a916f32396f1d8c069c1ddeb52aeb197",
+        "source_page": 474,
+        "claim_text": "প্রথম মহিলা পুলিশ নিয়োগ করা হয় কোন সালে? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "d067988c9348983d69cc6dcc4083c08adbeb84596b6209d164eac54118d05535",
+        "source_page": 474,
+        "claim_text": "বঙ্গ-ভারত উপমহাদেশের প্রথম পুলিশ ব্যবস্থা কে চালু করেন? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "0963eea67e09aaf6cb97c27a1b2c362764b5dfa46df89124308f94727ecca8c9",
+        "source_page": 474,
+        "claim_text": "জাহানাবাদ সেনানিবাস কোন জেলায়? — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "764274e68edda70230c175f3faf4f1e6738a782b92b58661b4e2679222cb5592",
+        "source_page": 474,
+        "claim_text": "বাংলাদেশের প্রথম নৌবহরের নাম- — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "0378dfdbdc0a8c8423839494a28859a4b021e6f2689e4d7cb8517dff50d081c9",
+        "source_page": 478,
+        "claim_text": "বঙ্গবন্ধু সেতুর দৈর্ঘ্য কত? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "acf4758ae47cee1163dbfc6ae7ce35fa1091f4288218b88cea8ddc2dcbe1f1b9",
+        "source_page": 478,
+        "claim_text": "কর্ণফুলী নদীর উপর সেতুর নাম- — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "fcb4da07cfa73162fdbc2cc86091384492e8718f7284c3e05c8c7fac88c0a46d",
+        "source_page": 478,
+        "claim_text": "ঢাকা শহরের প্রথম ফ্লাইওভার উদ্বোধন করা হয়- — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "469d03194f37e5e15e4fed98d39c1a1946991eed465b5d8a8c07634e95822ca0",
+        "source_page": 478,
+        "claim_text": "বাংলাদেশের প্রস্তাবিত গভীর সমুদ্র বন্দরটি কোথায় গড়ে তোলা হবে? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "ccbe8dcc1bb2529af3c0ae45c478872fd7b35899b5b1d3c8ced44debf6af1340",
+        "source_page": 478,
+        "claim_text": "'মাওয়া ফেরিঘাট' কোন জেলায় অবস্থিত? — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "475e62fc732664dcbc4b7e8f50bd9626a78483352cfb84a2ef9d6b48523a4a29",
+        "source_page": 478,
+        "claim_text": "মংলা বন্দর কোন জেলায় অবস্থিত? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "7618ca678bbab373dddaf18f1cadf8181a792094c2fe4c74f4c8a4170b8ae8c0",
+        "source_page": 478,
+        "claim_text": "বাংলাদেশ রেলওয়ে পূর্বাঞ্চলীয় সদর দপ্তর কোথায় অবস্থিত? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "9babca0841172a30696db055e3ac3cee52bc78cd544cea1d537a7dbb48fff334",
+        "source_page": 478,
+        "claim_text": "বাংলাদেশের আন্তর্জাতিক বিমানবন্দরের সংখ্যা? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "59ea65c9055b4c04784a4dfc6bb0b894b19e12c65469ca391adcbeccf801fc2d",
+        "source_page": 478,
+        "claim_text": "নিম্নলিখিত কোন জেলায় বিমানবন্দর নেই? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "ddc94fafe5c58941042ca7dc7153a1c942f6204950cc7fca14fde21cf3959d1a",
+        "source_page": 478,
+        "claim_text": "'......' জেলায় রেল যোগাযোগ নেই? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "dcb5973d395afc60baaf2db01d27589550f49e7ebb305d6579b8aaed5f9315e3",
+        "source_page": 478,
+        "claim_text": "বাংলাদেশের বৃহত্তম স্থল বন্দর- — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "aa8dc0f65bed5512ac399adb4038d6ffea1e6aa7c73f6252d7d24b3c85568079",
+        "source_page": 478,
+        "claim_text": "বাংলাদেশের দীর্ঘতম রেল সেতু- — printed answer: *",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "low",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "80cfb69d1bdb40923c2a9ba4a87e884a4e6eaa6b0d40ce1e1ada0df13867deaf",
+        "source_page": 478,
+        "claim_text": "মেয়র মোহাম্মদ হানিফ ফ্লাইওভারের দৈর্ঘ্য কত? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "5d96a9741a2aff2e6117177e6278402e77f9d1f69959075c556dc67bbd8a9ecd",
+        "source_page": 478,
+        "claim_text": "বাংলাদেশে রেলওয়ের সর্ববৃহৎ কারখানা কোথায়? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      }
+    ],
+    "verified": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "54a2e6c6830d21173656e6b2b21f9f468ced116fce5ffdb3b6ed568c95dac04a",
+        "source_page": 475,
+        "claim_text": "BRTC- Bangladesh Road Transport Corporation (প্রতিষ্ঠা- ১৯৬১)।",
+        "normalized_claim": "BRTC- Bangladesh Road Transport Corporation (প্রতিষ্ঠা- ১৯৬১)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://bdlaws.minlaw.gov.bd/act-details-314.html"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ca4d1a87c7d2067f9885a415a278486a52323c6f4c6a8371044d1481af9b8fb9",
+        "source_page": 475,
+        "claim_text": "বাংলাদেশের দীর্ঘতম সেতু- পদ্মা সেতু (দৈর্ঘ্য- ৬.১৫ কি.মি)।",
+        "normalized_claim": "বাংলাদেশের দীর্ঘতম সেতু- পদ্মা সেতু (দৈর্ঘ্য- ৬.১৫ কি.মি)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://www.padmabridge.gov.bd/"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a13d4272925c0ecf5908a12f2171d53cfd140f0da60543a1df12aac4844d08c9",
+        "source_page": 475,
+        "claim_text": "এককভাবে বাংলাদেশের দীর্ঘতম রেলসেতু- যমুনা রেলসেতু (দৈর্ঘ্য- ৪.৮ কি.মি.)।",
+        "normalized_claim": "এককভাবে বাংলাদেশের দীর্ঘতম রেলসেতু- যমুনা রেলসেতু (দৈর্ঘ্য- ৪.৮ কি.মি.)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thedailystar.net/news/bangladesh/news/jamuna-rail-bridge-inaugurated-trains-run-120-kmh-3851231"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7f99c5c1939295b27e09ee677277b1ef95b98e04b233996712f65e7d7cadce75",
+        "source_page": 476,
+        "claim_text": "গঠিত হয়- ৪ জানুয়ারি, ১৯৭২ সালে।",
+        "normalized_claim": "গঠিত হয়- ৪ জানুয়ারি, ১৯৭২ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://biman.gov.bd/pages/static-pages/6922dc57933eb65569e0fd29"
+        ]
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "be0ed15c4439daff0ad50f378ef198a84f16d86116278ccf91e4d214669b0395",
+        "source_page": 478,
+        "claim_text": "নোট: বর্তমানে বাংলাদেশের দীর্ঘতম রেলসেতু- যমুনা রেলসেতু (দৈর্ঘ্য- ৪.৮ কি.মি.)।",
+        "normalized_claim": "নোট: বর্তমানে বাংলাদেশের দীর্ঘতম রেলসেতু- যমুনা রেলসেতু (দৈর্ঘ্য- ৪.৮ কি.মি.)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thedailystar.net/news/bangladesh/news/jamuna-rail-bridge-inaugurated-trains-run-120-kmh-3851231"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "7cc3b6ff2f69b7b9de4465611f61ad72aea5e8a841b41bdf4f634bc1a86d10c4",
+        "source_page": 478,
+        "claim_text": "প্রস্তাবিত পদ্মা সেতুর দৈর্ঘ্য কত কিলোমিটার? — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://www.padmabridge.gov.bd/"
+        ]
+      }
+    ]
+  },
+  "quality_gates": [
+    "Raw OCR and reviewed transcripts are preserved in per-page artifacts and source_pages.raw_transcription.",
+    "Physical PDF pages remain distinct from printed book page numbers in review metadata.",
+    "Facts, tables, definitions, notes, MCQs, options, answer keys, and exam labels are imported as distinct typed records.",
+    "The page-478 answer-key asterisk is retained as an explicit low-confidence unresolved source answer, not inferred.",
+    "All database writes are idempotent through source-page checks, canonical hashes, or source keys."
+  ]
+}

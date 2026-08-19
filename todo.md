@@ -61,3 +61,5 @@
 - [x] Stop after the verified pages 464–468 import and wait for explicit user instruction before starting any further source pages
 - [x] Process only pages 469–473 as the current sandbox batch, including source-linked OCR, spelling review, semantic tagging, explicit verified/conflicting/source-attributed statuses, and Supabase import
 - [x] Stop after the verified pages 469–473 import and wait for explicit user instruction before starting any further source pages
+- [x] Process only pages 474–478 as the current sandbox batch, including source-linked OCR, spelling review, semantic tagging, explicit verified/conflicting/source-attributed statuses, and Supabase import
+- [x] Stop after the verified pages 474–478 import and wait for explicit user instruction before starting any further source pages
