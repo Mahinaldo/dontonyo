@@ -1,0 +1,754 @@
+{
+  "batch_pages": [
+    479,
+    480,
+    481,
+    482,
+    483
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0479-0483-v1",
+  "source_pages": [
+    {
+      "page": 479,
+      "sha256": "a145251ac559675efb1cb170bb55fa2fafc7e5fec4ced8acdd2ec6bf3ff650c2",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 480,
+      "sha256": "aec61aab6c67fd163cd7a550fdbaf5ac8aa8e7bb4967ebf6e6e8677a917f1445",
+      "review": "accepted"
+    },
+    {
+      "page": 481,
+      "sha256": "220deb6da4d4c0952301bce56ca9b0c809e4797b7a18c282bab2f83178ac876c",
+      "review": "accepted"
+    },
+    {
+      "page": 482,
+      "sha256": "7903f0c5668f2fd02289271f0b1da0f421ede63e14108eaf025ab7b642ee4c07",
+      "review": "accepted"
+    },
+    {
+      "page": 483,
+      "sha256": "faf23be15515a0dee10a0d87d66c911802c9163a93677b78af8f8034598aa14f",
+      "review": "accepted"
+    }
+  ],
+  "generated_fact_candidates": 30,
+  "generated_notes": 5,
+  "generated_mcqs": 32,
+  "generated_options": 128,
+  "verification_statuses": {
+    "source_attributed": [
+      {
+        "type": "fact",
+        "hash": "fe26828b13a5ec70c65c25cd9b5d7a72d89612952cbe92ad61f6a9eaa563e19d",
+        "source_page": 479,
+        "claim": "সদস্য পদ লাভ করে- ১৮ এপ্রিল, ১৯৭২। সদস্য- ৩৪তম সদস্য। বাংলাদেশ কমনওয়েলথে যোগদানের প্রতিবাদে সদস্যপদ ত্যাগ করে পাকিস্তান।",
+        "normalized": "সদস্য পদ লাভ করে- ১৮ এপ্রিল, ১৯৭২। সদস্য- ৩৪তম সদস্য। বাংলাদেশ কমনওয়েলথে যোগদানের প্রতিবাদে সদস্যপদ ত্যাগ করে পাকিস্তান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "2b80c24f232b7242bc698e6cf9785b6f0e8ad0e99add3b763a049f1c8520617c",
+        "source_page": 479,
+        "claim": "স্থায়ী প্রতিনিধি- মোহাম্মদ আব্দুল মোহিত।",
+        "normalized": "স্থায়ী প্রতিনিধি- মোহাম্মদ আব্দুল মোহিত।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "d25a47e1bc92ebe7921fdf057d96e3edb7f39043f44f765e238869d95bd16404",
+        "source_page": 479,
+        "claim": "স্থায়ী পর্যবেক্ষকের আসন লাভ করে- ১৭ অক্টোবর, ১৯৭২। বঙ্গবন্ধু সাধারণ পরিষদে বাংলায় ভাষণ দেন- ২৫ সেপ্টেম্বর, ১৯৭৪ সালে (২৯ তম অধিবেশনে)।",
+        "normalized": "স্থায়ী পর্যবেক্ষকের আসন লাভ করে- ১৭ অক্টোবর, ১৯৭২। বঙ্গবন্ধু সাধারণ পরিষদে বাংলায় ভাষণ দেন- ২৫ সেপ্টেম্বর, ১৯৭৪ সালে (২৯ তম অধিবেশনে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "f5908f4d2c3c0aaac8323cc92e3c602fa3fc2bf7644092bf5817fdd87bb537ad",
+        "source_page": 479,
+        "claim": "বাংলাদেশ সাধারণ পরিষদে সভাপতিত্ব করে- ২ বার (১৯৮৬ ও ২০২৪ সালে)। ২০২৪ সালে সভাপতিত্ব করে- ড. খলিলুর রহমান (৭৯ তম অধিবেশনে)।",
+        "normalized": "বাংলাদেশ সাধারণ পরিষদে সভাপতিত্ব করে- ২ বার (১৯৮৬ ও ২০২৪ সালে)। ২০২৪ সালে সভাপতিত্ব করে- ড. খলিলুর রহমান (৭৯ তম অধিবেশনে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "7995e182890cf542b1f2d9de3ae9476bc7f4dd472de379d123a1e5c75a5f464d",
+        "source_page": 479,
+        "claim": "সদস্যপদ লাভ করে- ১৯৭৮ সালে।",
+        "normalized": "সদস্যপদ লাভ করে- ১৯৭৮ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "3647710eacf7dc8705f00711f3770b864a1ec84b9c9cc028bd96a4b2b66771ad",
+        "source_page": 479,
+        "claim": "সভাপতিত্ব করে- ২ বার (মার্চ, ২০০০ এবং জুন, ২০০১ সালে)।",
+        "normalized": "সভাপতিত্ব করে- ২ বার (মার্চ, ২০০০ এবং জুন, ২০০১ সালে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "fc7c28355388ba8df702929d515e6a8db7d49a8358d9d6a096332be4e65e8207",
+        "source_page": 479,
+        "claim": "সভাপতিত্ব করেন- আনোয়ারুল করিম চৌধুরী (জাতিসংঘের স্থায়ী প্রতিনিধি ছিলেন)।",
+        "normalized": "সভাপতিত্ব করেন- আনোয়ারুল করিম চৌধুরী (জাতিসংঘের স্থায়ী প্রতিনিধি ছিলেন)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "5b9ef9c99bf0450f7eb4051f47963579ac28c68150fbc4c854216baf7ea316dc",
+        "source_page": 479,
+        "claim": "বাংলাদেশ জাতিসংঘের শান্তিরক্ষা বাহিনীতে কাজ করে আসছে- ১৯৮৮ সাল থেকে।",
+        "normalized": "বাংলাদেশ জাতিসংঘের শান্তিরক্ষা বাহিনীতে কাজ করে আসছে- ১৯৮৮ সাল থেকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "5390a18e7f29db660bc769027efe0a7a524c1136e465523b6c914a5d3d4209e3",
+        "source_page": 479,
+        "claim": "বাংলাদেশ যে শান্তি মিশনে প্রথম অংশগ্রহণ করে- UNIIMOG.",
+        "normalized": "বাংলাদেশ যে শান্তি মিশনে প্রথম অংশগ্রহণ করে- UNIIMOG.",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "294ea9a1072e6dd537a9d6f035453e8408cf8944ca79285bd23a7edc48ebc232",
+        "source_page": 479,
+        "claim": "আন্তর্জাতিক মাতৃভাষা ইনস্টিটিউট প্রতিষ্ঠিত হয় ২০০১ সালে।",
+        "normalized": "আন্তর্জাতিক মাতৃভাষা ইনস্টিটিউট প্রতিষ্ঠিত হয় ২০০১ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "da09a2e3e86ba1574ec6d21c9d5c2f9074bec6c8c311025c0e38b83882befa77",
+        "source_page": 482,
+        "claim": "স্বাক্ষরিত হয়- ১৯ মার্চ, ১৯৭২ সালে।",
+        "normalized": "স্বাক্ষরিত হয়- ১৯ মার্চ, ১৯৭২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "46c48bccb803690ab7ced6485d565adde5ee51b3ddc9207575d928c586defa52",
+        "source_page": 482,
+        "claim": "চুক্তির মেয়াদ- ২৫ বছর। চুক্তির মেয়াদ শেষ হয়- ১৯৯৭ সালে।",
+        "normalized": "চুক্তির মেয়াদ- ২৫ বছর। চুক্তির মেয়াদ শেষ হয়- ১৯৯৭ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "b768b99a66b783bffdf86c359936f0e2acd0a290e421a617c861f85f9aa9dc6a",
+        "source_page": 482,
+        "claim": "পানি চুক্তি সম্পাদিত হয়- ৩টি ভাষায় (বাংলা, ইংরেজি, হিন্দি)।",
+        "normalized": "পানি চুক্তি সম্পাদিত হয়- ৩টি ভাষায় (বাংলা, ইংরেজি, হিন্দি)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "c5420222a1875f69ba353cce3dfb1d52f55a14bf78ff5d8a5497c82ff77c6ada",
+        "source_page": 482,
+        "claim": "পানি চুক্তি অনুযায়ী বাংলাদেশ পাবে- ৩৫ হাজার কিউসেক পানি।",
+        "normalized": "পানি চুক্তি অনুযায়ী বাংলাদেশ পাবে- ৩৫ হাজার কিউসেক পানি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "d3fe396a9b621c548e9a5f1f2a29eab8d3d98e9e608aeaafa589b36f9215f77c",
+        "source_page": 482,
+        "claim": "পানি চুক্তি কার্যকর হয়- ১ জানুয়ারি, ১৯৯৭ সালে।",
+        "normalized": "পানি চুক্তি কার্যকর হয়- ১ জানুয়ারি, ১৯৯৭ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "33b8771bc7480ab7c2aedbb925bdd8cc0f1c8e43dd902eddcd87c2af71b51c34",
+        "source_page": 482,
+        "claim": "ইংরেজি নাম- Chittagong Hill Tracts Peace Accord. স্বাক্ষরিত হয়- ২ ডিসেম্বর, ১৯৯৭।",
+        "normalized": "ইংরেজি নাম- Chittagong Hill Tracts Peace Accord. স্বাক্ষরিত হয়- ২ ডিসেম্বর, ১৯৯৭।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "963d69542ef7cf71bfcb198763e8d0b9b105696b99978074a3f2c003ad2dc008",
+        "source_page": 482,
+        "claim": "স্বাক্ষর করেন- বাংলাদেশ সরকার ও পার্বত্য চট্টগ্রাম জনসংহতি সমিতি (PCJSS)। পাহাড়ি জনগণের পক্ষে স্বাক্ষর করেন- সন্তু লারমা।",
+        "normalized": "স্বাক্ষর করেন- বাংলাদেশ সরকার ও পার্বত্য চট্টগ্রাম জনসংহতি সমিতি (PCJSS)। পাহাড়ি জনগণের পক্ষে স্বাক্ষর করেন- সন্তু লারমা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "fec0277f0d707375107964968de8b036f9084cff7a71ebdbe2515755d97c0d8d",
+        "source_page": 482,
+        "claim": "পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রণালয় গঠন করা হয়- ২ ডিসেম্বর, ১৯৯৭।",
+        "normalized": "পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রণালয় গঠন করা হয়- ২ ডিসেম্বর, ১৯৯৭।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "70f3d4895c874870c1b6c29bcceef1ef1dfe71332f0e53ae033824b23198ef29",
+        "source_page": 482,
+        "claim": "বাংলাদেশ ও থাইল্যান্ডের মধ্যে আসামি প্রত্যর্পণ স্বাক্ষরিত হয়- ১৯৯৮ সালে।",
+        "normalized": "বাংলাদেশ ও থাইল্যান্ডের মধ্যে আসামি প্রত্যর্পণ স্বাক্ষরিত হয়- ১৯৯৮ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "84cdcd1cc37706a82c6cea69c5f603bf165db9fb18d58ea7c9e0d274c78d8407",
+        "source_page": 482,
+        "claim": "রোহিঙ্গা শরণার্থীদের প্রত্যাবর্তনের বিষয়ে বাংলাদেশ ও মায়ানমারের মধ্যে প্রথম চুক্তি সম্পাদিত হয়- ২৮ এপ্রিল, ১৯৯২ সালে।",
+        "normalized": "রোহিঙ্গা শরণার্থীদের প্রত্যাবর্তনের বিষয়ে বাংলাদেশ ও মায়ানমারের মধ্যে প্রথম চুক্তি সম্পাদিত হয়- ২৮ এপ্রিল, ১৯৯২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "dfb867203c0887cdd4f7f03df738066ffffc0d0d8a25f230348ed9d3490489d2",
+        "source_page": 482,
+        "claim": "বাংলাদেশ-ভারত বাণিজ্য চুক্তি স্বাক্ষরিত হয়- ৪ অক্টোবর, ১৯৭২।",
+        "normalized": "বাংলাদেশ-ভারত বাণিজ্য চুক্তি স্বাক্ষরিত হয়- ৪ অক্টোবর, ১৯৭২।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "b2f084a9a35bdc2df25b606fb641e4d31c1fb97d52c7e2553d6c2ee5405c975b",
+        "source_page": 482,
+        "claim": "বাংলাদেশ-যুক্তরাষ্ট্রের সাথে HANA চুক্তি স্বাক্ষর করে- ১৯৯৮ সালে।",
+        "normalized": "বাংলাদেশ-যুক্তরাষ্ট্রের সাথে HANA চুক্তি স্বাক্ষর করে- ১৯৯৮ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "f426bf7be90f621d9bf393b9afe3f5b37217fa7f08895035eb673add9e89dc94",
+        "source_page": 482,
+        "claim": "HANA- Humanitarain Assistance Needs Assessment.",
+        "normalized": "HANA- Humanitarain Assistance Needs Assessment.",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "a78e37903a92c82eab7ea9878520312eca24cecbe6bae97c2fd3ea15398ae217",
+        "source_page": 482,
+        "claim": "বাংলাদেশ-মিয়ানমার স্থল সীমান্ত চুক্তি স্বাক্ষরিত হয়- ১৯৯৮ সালে।",
+        "normalized": "বাংলাদেশ-মিয়ানমার স্থল সীমান্ত চুক্তি স্বাক্ষরিত হয়- ১৯৯৮ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "b9a4bc8f37f59db82f5f70ae59c5a1facf415fdf327b669623f8480c3a71fac6",
+        "source_page": 482,
+        "claim": "Extradition Treaty হল- অপরাধী প্রত্যর্পণ চুক্তি।",
+        "normalized": "Extradition Treaty হল- অপরাধী প্রত্যর্পণ চুক্তি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "a158a37d5d8b7edae834316d4152c1fe8513d88d8ab6f8d4e5b6492237243880",
+        "source_page": 479,
+        "claim": "সংস্থা | প্রতিষ্ঠা\nICDDRB | ১৯৬০\nSAIC | ১৯৮৯\nCIRDAP | ১৯৭৯\nIJSG | ২০০২\nSMRC | ১৯৯৫",
+        "normalized": "সংস্থা | প্রতিষ্ঠা\nICDDRB | ১৯৬০\nSAIC | ১৯৮৯\nCIRDAP | ১৯৭৯\nIJSG | ২০০২\nSMRC | ১৯৯৫",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "c17b57be136e8a893178fc1cedc8f140e71e02ebda6abc2bf4f20c91eae4a0a7",
+        "source_page": 479,
+        "claim": "নোট: বাংলাদেশ প্রথম আন্তর্জাতিক সংস্থা হিসেবে সদস্যপদ লাভ করে কমনওয়েলথের। কিন্তু জাতিসংঘভুক্ত প্রথম সংস্থা হিসেবে সদস্যপদ লাভ করে IMF-এর।",
+        "normalized": "নোট: বাংলাদেশ প্রথম আন্তর্জাতিক সংস্থা হিসেবে সদস্যপদ লাভ করে কমনওয়েলথের। কিন্তু জাতিসংঘভুক্ত প্রথম সংস্থা হিসেবে সদস্যপদ লাভ করে IMF-এর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "64f98f52817d5226a34ab56533532b2566e85f553215ee7ea71977974b2d71ce",
+        "source_page": 480,
+        "claim": "সংস্থা | সদস্যপদ লাভ\nIMF | ১০ মে, ১৯৭২\nILO | ১৯৭২\nUNESCO | ১৯৭২\nFAO | ১৯৭৩\nNAM | ১৯৭৩\nOIC | ১৯৭৪\nIBRD | ১৯৭২\nICC | ২০১০\nWTO | ১ জানুয়ারি, ১৯৯৫",
+        "normalized": "সংস্থা | সদস্যপদ লাভ\nIMF | ১০ মে, ১৯৭২\nILO | ১৯৭২\nUNESCO | ১৯৭২\nFAO | ১৯৭৩\nNAM | ১৯৭৩\nOIC | ১৯৭৪\nIBRD | ১৯৭২\nICC | ২০১০\nWTO | ১ জানুয়ারি, ১৯৯৫",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "67747a3c8dc57cd143f34163d22e575e6e841cd85762c547c6f82f6ec2eeef47",
+        "source_page": 480,
+        "claim": "বাংলাদেশ বিশ্ববাণিজ্য সংস্থার (WTO) সদস্যপদ লাভ করে ১ জানুয়ারি, ১৯৯৫।",
+        "normalized": "বাংলাদেশ বিশ্ববাণিজ্য সংস্থার (WTO) সদস্যপদ লাভ করে ১ জানুয়ারি, ১৯৯৫।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "b17f8661572be5ceb2f0d127bb8bf5801d1a36a4e316d0d4688a0839b9137ade",
+        "source_page": 482,
+        "claim": "১৯৯৬ সালে গঙ্গার পানি চুক্তি অনুযায়ী বাংলাদেশ পাবে ৩৫ হাজার কিউসেক পানি।",
+        "normalized": "১৯৯৬ সালে গঙ্গার পানি চুক্তি অনুযায়ী বাংলাদেশ পাবে ৩৫ হাজার কিউসেক পানি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "ac328ca51a04d28f55a5bf586a199211b0e86109bd471d3ac83e5960e2d24121",
+        "source_page": 480,
+        "claim": "জাতিসংঘে নিযুক্ত বাংলাদেশের স্থায়ী প্রতিনিধি কে? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "a14cd0950528776640553cd279791a0a2956f5f05a99d9fdc340181ff5f1b104",
+        "source_page": 480,
+        "claim": "বাংলাদেশ বিশ্ববাণিজ্য সংস্থার (WTO) সদস্যপদ লাভ করে? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "20a3a74fa2a2223e6fc44c7bc5beaa9fb6321ed8cbd61d7ecef985b97cebbc77",
+        "source_page": 480,
+        "claim": "বাংলাদেশ প্রথম কোন আন্তর্জাতিক সংস্থার সদস্যপদ লাভ করে? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "f8325e21ef13b35b895b6c5f8fd87bfbd6dbe83870cb505155a30f53081bd1d2",
+        "source_page": 480,
+        "claim": "বাংলাদেশ কোন সালে কমনওয়েলথ এর সদস্যপদ লাভ করে? — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "f231c0547a4dab2752a30db31ea4d594cea24e626309e45e720231286e822df3",
+        "source_page": 481,
+        "claim": "জাতিসংঘের মহাসচিব কফি আনান বাংলাদেশ সফর করেন- — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "df3cab6b3c38c0be332929b4db2a28817e30a22b6d9e0b7491342218b29761fb",
+        "source_page": 481,
+        "claim": "বাংলাদেশ কোনটির সদস্য নয়? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "a20e782185da6284c55b1061bc547780edf0bb609fcbd31d5314a32a15feed38",
+        "source_page": 481,
+        "claim": "জাতিসংঘের কোন সংস্থায় বাংলাদেশ সর্বোচ্চ পদ পেয়েছে? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "2e02ad2edb632d0cdf195508c1ee774cb1c070c46fd20953f14437acc9dbd620",
+        "source_page": 481,
+        "claim": "বাংলাদেশ জাতিসংঘ শান্তিরক্ষা মিশনে কোন সাল থেকে কাজ শুরু করে? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "eb3d6cee0e7fd40fef3a6954506048bde83b546dc0edd0a262c7111112a46372",
+        "source_page": 481,
+        "claim": "বাংলাদেশ OIC-র সদস্য হয় কোন সনে? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "d703e42098001d4bd762b20ab37e40149b13257a1ba06203308c1560bb7eaef0",
+        "source_page": 481,
+        "claim": "জাতির জনক বঙ্গবন্ধু জাতিসংঘের কোথায় বাংলা ভাষায় ভাষণ প্রদান করেন? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "e03accafd7b744477704fb7fe3e61bb5c516edf008ec2f1ebc4fdc6a00beff9a",
+        "source_page": 481,
+        "claim": "নিম্নলিখিত কোন আঞ্চলিক/আন্তর্জাতিক সদর দফতর ঢাকায় অবস্থিত? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "d1756ee4a5d82c02810e512b8acd9e883e3741eeb8172bb9368dc7d70e17b9ec",
+        "source_page": 481,
+        "claim": "জাতিসংঘের নিম্নের কোন মহাসচিব বাংলাদেশ সফর করেন নাই? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "8f8c70ab15b8aba36ac3426ff9e4be102b37a7b2066e24f7de357a76d46e825e",
+        "source_page": 481,
+        "claim": "বাংলাদেশ কমনওয়েলথের কততম সদস্য? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "6abbeb9f4d17d4ad625bb6b2f01bb3f49faf5fd60dc503d6c4cb73ede3eafb55",
+        "source_page": 483,
+        "claim": "পার্বত্য চট্টগ্রামে শান্তি চুক্তি কবে সম্পাদিত হয়? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "a3125aa9e925bd4a33a9c45fae42e94a67a018fe4f99753ef2eba1f99d6de6d1",
+        "source_page": 483,
+        "claim": "এখন পর্যন্ত ফারাক্কার উপর কয়টি চুক্তি স্বাক্ষরিত হয়েছে? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "5266aae1485efa1f079549508ac193b5cbedb29c4570a35cbcabfb3e2451124e",
+        "source_page": 483,
+        "claim": "১৯৭৬ সনে কোন রাজনৈতিক নেতা ফারাক্কা মিছিলে নেতৃত্ব দেন- — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "f4c6f5262cbe40c9a65ee5e65124902befec837d136c27c2f64a6a264e77aed6",
+        "source_page": 483,
+        "claim": "ভারত-বাংলাদেশ মৈত্রী চুক্তি স্বাক্ষরিত হয় কত তারিখে? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "a5548da7c9cf748c71158ba36eda5733d28078da325b035affbf5b5e6bf82269",
+        "source_page": 483,
+        "claim": "ফারাক্কা বাঁধ বাংলাদেশের সীমান্ত থেকে কত দূরে অবস্থিত? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "c717b81848cf334ee2a9df2e8762b07e060573b30363e71c73533ddb1297d4f0",
+        "source_page": 483,
+        "claim": "Extradition Treaty হল - — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "fc3dc66aefca192c1aa41f515a69ee855b163a22f2c7869bb06c24579a3e2b6d",
+        "source_page": 483,
+        "claim": "বাংলাদেশ সরকার এবং পিসিজেএসএস (PCJSS) এর মধ্যে পার্বত্য চট্টগ্রাম শান্তিচুক্তি কবে স্বাক্ষরিত হয়েছিল? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "2f82cda9532506ba51a304dec57242ef199f5fd0a688d075561e96b656d29a74",
+        "source_page": 483,
+        "claim": "বাংলাদেশ কোন সনে CTBT অনুমোদন করে? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "f8d2b9460a9101d2963de1ab032b7e5cee17c172b6aee1e0bf7950ef53e94f35",
+        "source_page": 483,
+        "claim": "ভারতের সঙ্গে বাংলাদেশের পানি চুক্তি কোথায় স্বাক্ষরিত হয়? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      }
+    ],
+    "verified": [
+      {
+        "type": "fact",
+        "hash": "7b1641b1b395ebb11abac7e90de64971c6564d5605fc8d852b8d0f600858d0d8",
+        "source_page": 479,
+        "claim": "সদস্য পদ লাভ করে- ১৭ সেপ্টেম্বর, ১৯৭৪। জাতিসংঘের সদস্য- ১৩৬তম। সদস্যপদ লাভ করে- ২৯তম অধিবেশনে।",
+        "normalized": "সদস্য পদ লাভ করে- ১৭ সেপ্টেম্বর, ১৯৭৪। জাতিসংঘের সদস্য- ১৩৬তম। সদস্যপদ লাভ করে- ২৯তম অধিবেশনে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "d0da7997be3fddc740d3ff2f70cfd9419d0bd231dde898d9d5c22a2c15097fd7",
+        "source_page": 479,
+        "claim": "১৯৮৬ সালে সভাপতিত্ব করে- হুমায়ুন রশীদ চৌধুরী (৪১ তম অধিবেশনে)।",
+        "normalized": "১৯৮৬ সালে সভাপতিত্ব করে- হুমায়ুন রশীদ চৌধুরী (৪১ তম অধিবেশনে)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "f2ee0df0bca35c628be495bdd6b8d5f21d4bbea3ef8c825b2b483f0706b5fc84",
+        "source_page": 479,
+        "claim": "অস্থায়ী সদস্য হিসেবে দায়িত্ব পালন করে- ১৯৭৯-৮০ এবং ২০০০-০১ সালে।",
+        "normalized": "অস্থায়ী সদস্য হিসেবে দায়িত্ব পালন করে- ১৯৭৯-৮০ এবং ২০০০-০১ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "f989a5d91427a403756791856d06a31dc763f945419b92b6be6950a70fa2cb6e",
+        "source_page": 482,
+        "claim": "স্বাক্ষরিত হয়- ১২ ডিসেম্বর, ১৯৯৬ সালে। চুক্তির মেয়াদ- ৩০ বছর (শেষ হবে ২০২৬ সালে)।",
+        "normalized": "স্বাক্ষরিত হয়- ১২ ডিসেম্বর, ১৯৯৬ সালে। চুক্তির মেয়াদ- ৩০ বছর (শেষ হবে ২০২৬ সালে)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://lpr.adb.org/sites/default/files/resource/1610/ganges-water-sharing-treaty-1996.pdf"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "646a18f53de24e3336a80e291d154af701ebe2e3f9b13ac1098d502cf5cde1df",
+        "source_page": 482,
+        "claim": "বাংলাদেশ ও যুক্তরাষ্ট্রের মধ্যে টিকফা চুক্তি স্বাক্ষরিত হয়- ২৫ নভেম্বর, ২০১৩; এটি বাণিজ্য ও বিনিয়োগ সংক্রান্ত চুক্তি।",
+        "normalized": "বাংলাদেশ ও যুক্তরাষ্ট্রের মধ্যে টিকফা চুক্তি স্বাক্ষরিত হয়- ২৫ নভেম্বর, ২০১৩; এটি বাণিজ্য ও বিনিয়োগ সংক্রান্ত চুক্তি।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2013/November/US-Bangladesh-TICFA-Signing"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "637c82d8ec10a5450eea6aca1c17afd3fb43523597603af92b0d38ae44c43498",
+        "source_page": 480,
+        "claim": "কোন সালে বাংলাদেশ জাতিসংঘের সদস্যপদ লাভ করে? — printed answer: গ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "a3cd091a1b061eee0d69b1d922d204f20f7d2391abdd825b2e0b12e45a35b260",
+        "source_page": 480,
+        "claim": "জাতিসংঘ সাধারণ পরিষদের প্রথম বাংলাদেশি সভাপতি কে? — printed answer: গ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "d660882483a3727e58cea058b1b09c21bf7f68b845a42cdbfa32fcc1f389bcfc",
+        "source_page": 480,
+        "claim": "বাংলাদেশ নিম্নে উল্লেখিত কোন সময়ের জন্য জাতিসংঘ নিরাপত্তা পরিষদে অস্থায়ী সদস্য নির্বাচিত হয়েছিল? — printed answer: খ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "0b980746082a0697320389c1269963d55aa54a8c8583306fb009337a0196402b",
+        "source_page": 481,
+        "claim": "বাংলাদেশ কতবার জাতিসংঘের নিরাপত্তা পরিষদের অস্থায়ী সদস্য নির্বাচিত হয়েছিল? — printed answer: ঘ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "166257d8d7b67ca96ebd7963d7339fe3af818cfa4cc2e393b1f1779356d0eebe",
+        "source_page": 481,
+        "claim": "বাংলাদেশ জাতিসংঘের কততম সদস্য? — printed answer: ক",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "120e4aa0163a18dd49075bd954543c2eceade0732e02d8df89c390a0492b9e4c",
+        "source_page": 481,
+        "claim": "বাংলাদেশ কতবার নিরাপত্তা পরিষদের সদস্য পদ লাভ করে? — printed answer: ক",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "d9081c2833ac7b25ee8a81de449ee708c8cc07a96e6bc6438fada9f8d91f4e35",
+        "source_page": 481,
+        "claim": "কোন তারিখে বাংলাদেশ জাতিসংঘ সদস্যপদ লাভ করে? — printed answer: খ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://nypm.mofa.gov.bd/pages/static-pages/695266a935ce18e1c05aaa47"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "b33d3d149f496ad11ec5f4ebbdf46de5893c858d8e30fbc4a16c8e18b3b2ad65",
+        "source_page": 483,
+        "claim": "গঙ্গার পানি বন্টন চুক্তি স্বাক্ষরিত হয়েছে কবে? — printed answer: গ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://lpr.adb.org/sites/default/files/resource/1610/ganges-water-sharing-treaty-1996.pdf"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "e0180a9b14980ffbb8ac0fcea744b1e3b055e954273d1ae16a79f8182fc46159",
+        "source_page": 483,
+        "claim": "'টিকফা' চুক্তির দুইপক্ষ- — printed answer: গ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2013/November/US-Bangladesh-TICFA-Signing"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "05f7927e0120046174ba66bf9ddf36a57c9ba976bd15c3e88cfcff920458f344",
+        "source_page": 483,
+        "claim": "বাংলাদেশ ও ভারতের মধ্যে সম্পাদিত গঙ্গার পানি বন্টন চুক্তি কখন শেষ হবে? — printed answer: খ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://lpr.adb.org/sites/default/files/resource/1610/ganges-water-sharing-treaty-1996.pdf"
+        ]
+      }
+    ]
+  },
+  "quality_gates": [
+    "Five physical PDF pages only.",
+    "Reviewed OCR artifacts and dense-page visual review are retained.",
+    "Facts, notes/tables, definitions, MCQs, options, answer keys, and exam metadata remain distinct.",
+    "Visible source typo Humanitarain is retained and tagged rather than silently normalised.",
+    "All generated inserts are idempotent by source page, canonical hash, or source key."
+  ]
+}

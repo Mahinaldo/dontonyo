@@ -63,3 +63,7 @@
 - [x] Stop after the verified pages 469–473 import and wait for explicit user instruction before starting any further source pages
 - [x] Process only pages 474–478 as the current sandbox batch, including source-linked OCR, spelling review, semantic tagging, explicit verified/conflicting/source-attributed statuses, and Supabase import
 - [x] Stop after the verified pages 474–478 import and wait for explicit user instruction before starting any further source pages
+- [x] Process pages 479–483 as the first consecutive quality-gated batch, including source-linked OCR, spelling review, semantic tagging, verification statuses, Supabase import, integrity checks, and checkpoint
+- [ ] Process pages 484–488 immediately after the pages 479–483 checkpoint using the same quality-gated workflow, then import and audit the batch
+- [ ] Stop after the verified pages 484–488 import and wait for explicit user instruction before starting page 489
+- [ ] Save a dedicated checkpoint for the completed pages 479–483 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
