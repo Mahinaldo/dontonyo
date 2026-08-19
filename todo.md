@@ -57,3 +57,5 @@
 - [ ] Re-run the pages 454–458 integrity report after every accepted claim has a final evidence-backed verification status
 - [x] Process only pages 459–463 as the current sandbox batch, including source-linked OCR, spelling review, semantic tagging, explicit verified/conflicting/source-attributed statuses, and Supabase import
 - [x] Stop after the verified pages 459–463 import and wait for explicit user instruction before starting any further source pages
+- [x] Process only pages 464–468 as the current sandbox batch, including source-linked OCR, spelling review, semantic tagging, explicit verified/conflicting/source-attributed statuses, and Supabase import
+- [x] Stop after the verified pages 464–468 import and wait for explicit user instruction before starting any further source pages

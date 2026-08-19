@@ -1,0 +1,969 @@
+{
+  "batch_pages": [
+    464,
+    465,
+    466,
+    467,
+    468
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0464-0468-v1",
+  "source_pages": [
+    {
+      "page": 464,
+      "sha256": "f530b7abbd1b42725d97e1c21a0f5bebb57794aeb802f57ae79107fdda7d4251",
+      "review": "accepted"
+    },
+    {
+      "page": 465,
+      "sha256": "99f08c720755f40dd2e40ea55b19eabc3e831480731aaa7cc94ef989a2297493",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 466,
+      "sha256": "e8e0b276cf1dd1a60d495ea771dd1578f64a417c33abef3d73f9240895a336f8",
+      "review": "accepted"
+    },
+    {
+      "page": 467,
+      "sha256": "bd995e2050143953fe92ac1f6065cc82feff89c9fa2968e897853d998f563ac6",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 468,
+      "sha256": "c38b940844fda9eb25046116181f279ec2b763ab1364cdf85c43a2349595062b",
+      "review": "accepted_with_flags"
+    }
+  ],
+  "generated_fact_candidates": 63,
+  "generated_notes": 10,
+  "generated_mcqs": 13,
+  "generated_options": 52,
+  "verification_statuses": {
+    "verified": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "bcefd562d21d5c2bbc4680891c73f52af9158748bab3204249500f18103e8117",
+        "source_page": 464,
+        "claim_text": "ঢাকা থেকে প্রকাশিত প্রথম বাংলা সংবাদপত্র ঢাকা প্রকাশ (১৮৬১)",
+        "normalized_claim": "ঢাকা থেকে প্রকাশিত প্রথম বাংলা সংবাদপত্র ঢাকা প্রকাশ (১৮৬১)",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a98dc4471e5cb5cec866402db1266086fbf3aa40a185ed147d94d7d0b902e027",
+        "source_page": 464,
+        "claim_text": "উপমহাদেশে প্রথম সংবাদপত্র চালু হয়- কলকাতায়; ১৭৮০ সালে।",
+        "normalized_claim": "উপমহাদেশে প্রথম সংবাদপত্র চালু হয়- কলকাতায়; ১৭৮০ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "43d00a3ab59b62306802d4dae963aedfa458836066390919b3a5359eae1d5a72",
+        "source_page": 464,
+        "claim_text": "উপমহাদেশের প্রথম সংবাদপত্র- বেঙ্গল গেজেট (ইংরেজি সাপ্তাহিক)।",
+        "normalized_claim": "উপমহাদেশের প্রথম সংবাদপত্র- বেঙ্গল গেজেট (ইংরেজি সাপ্তাহিক)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ee97439294a472ee94a9271ed53b281cd5b54eb72c7ef011a52315a24759c345",
+        "source_page": 464,
+        "claim_text": "বেঙ্গল গেজেট এর সম্পাদক ছিলেন- জেমস অগাস্টাস হিকি।",
+        "normalized_claim": "বেঙ্গল গেজেট এর সম্পাদক ছিলেন- জেমস অগাস্টাস হিকি।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6d75bdc27cff466cb8cbf74a1d8187dc46b1913d7da161b421704c6d84e6b78e",
+        "source_page": 464,
+        "claim_text": "উপমহাদেশে বাংলা ভাষায় প্রথম প্রকাশিত সংবাদপত্র- সমাচার দর্পণ।",
+        "normalized_claim": "উপমহাদেশে বাংলা ভাষায় প্রথম প্রকাশিত সংবাদপত্র- সমাচার দর্পণ।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "feb0995b593d9ee8a688b93450d6a3d42c85efa34edd6f4b8938688cae5aecc6",
+        "source_page": 464,
+        "claim_text": "দিকদর্শন পত্রিকা প্রকাশ করে- শ্রীরামপুর ব্যাপ্টিস্ট মিশন।",
+        "normalized_claim": "দিকদর্শন পত্রিকা প্রকাশ করে- শ্রীরামপুর ব্যাপ্টিস্ট মিশন।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c2cf0fd9b71d1246374ca922338db6050cf34ab2f4e2ed727165f48b14d44078",
+        "source_page": 464,
+        "claim_text": "দিকদর্শন পত্রিকাটি প্রকাশিত হয়- ১৮১৮ সালে।",
+        "normalized_claim": "দিকদর্শন পত্রিকাটি প্রকাশিত হয়- ১৮১৮ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "552fb39eaf74b39eb9121f63edad6382d2dc63d7f34c657e6f8133b45e3ed817",
+        "source_page": 464,
+        "claim_text": "মাসিক প্রথম বাংলা সংবাদপত্র- দিকদর্শন।",
+        "normalized_claim": "মাসিক প্রথম বাংলা সংবাদপত্র- দিকদর্শন।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2978debe234846120484acccedf1918c016fed332df22e741867b1fee7e83c02",
+        "source_page": 464,
+        "claim_text": "বাঙালি মালিকানা প্রথম সংবাদপত্র- বাঙাল গেজেট।",
+        "normalized_claim": "বাঙালি মালিকানা প্রথম সংবাদপত্র- বাঙাল গেজেট।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b90b6e519fe66f04a0b271d3946270a78d86addc27ddc164e9db9a1a3e94b3d3",
+        "source_page": 464,
+        "claim_text": "বর্তমান বাংলাদেশ অঞ্চলের প্রথম পত্রিকা- রংপুর বার্তাবহ (১৮৪৭)।",
+        "normalized_claim": "বর্তমান বাংলাদেশ অঞ্চলের প্রথম পত্রিকা- রংপুর বার্তাবহ (১৮৪৭)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1658e8f1c0af4ad56062b3c28656af0b930c66df85ae3a4123a59ac0e9737ab6",
+        "source_page": 464,
+        "claim_text": "ঢাকা থেকে প্রকাশিত প্রথম ইংরেজি সাপ্তাহিক- ঢাকা নিউজ।",
+        "normalized_claim": "ঢাকা থেকে প্রকাশিত প্রথম ইংরেজি সাপ্তাহিক- ঢাকা নিউজ।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7ce8a72d834cf177d6bd698191f0ef061d3077f34e175513507b2908498a6441",
+        "source_page": 464,
+        "claim_text": "ঢাকা থেকে প্রকাশিত প্রথম বাংলা সংবাদপত্র- ঢাকা প্রকাশ (১৮৬১)।",
+        "normalized_claim": "ঢাকা থেকে প্রকাশিত প্রথম বাংলা সংবাদপত্র- ঢাকা প্রকাশ (১৮৬১)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Newspapers_and_Periodicals"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ccb121e2306bcfaff30b6bca4af055d0e09830f2bd6d0dc91e9f193c6c8cb8ef",
+        "source_page": 464,
+        "claim_text": "বেগম পত্রিকার প্রথম সম্পাদক ছিলেন কবি সুফিয়া কামাল",
+        "normalized_claim": "বেগম পত্রিকার প্রথম সম্পাদক ছিলেন কবি সুফিয়া কামাল",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Kamal%2C_Begum_Sufia"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "301074f2cca9a553f68957ef9753a8f4980274f5746476ad594f2a268334aa90",
+        "source_page": 465,
+        "claim_text": "পৃথিবীর যে দেশে সর্বপ্রথম ডাক টিকেট চালু হয়- ব্রিটেন (নাম ছিল- পেনিব্ল্যাক)।",
+        "normalized_claim": "পৃথিবীর যে দেশে সর্বপ্রথম ডাক টিকেট চালু হয়- ব্রিটেন (নাম ছিল- পেনিব্ল্যাক)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.postalmuseum.org/collections/highlights/the-first-ever-stamp-the-penny-black/"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2b4432c1d7a615436142223d631f8f275dc72360cca4aff8316e3c2f4b7b8fab",
+        "source_page": 465,
+        "claim_text": "ডাক টিকিট সংগ্রহ ও অধ্যয়ন সম্পর্কিত বিদ্যার নাম- ফিলাটেলি (Philately)।",
+        "normalized_claim": "ডাক টিকিট সংগ্রহ ও অধ্যয়ন সম্পর্কিত বিদ্যার নাম- ফিলাটেলি (Philately)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.postalmuseum.org/collections/highlights/the-first-ever-stamp-the-penny-black/"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3fe6279380d0841c62bf8cf2da8992ce21b2c0109ed9f8bad73b415edfba249e",
+        "source_page": 466,
+        "claim_text": "স্যাটেলাইটটি উৎক্ষেপণ করা হয়- যুক্তরাষ্ট্রের ফ্লোরিডা কেইপ ক্যানাভেরাল থেকে।",
+        "normalized_claim": "স্যাটেলাইটটি উৎক্ষেপণ করা হয়- যুক্তরাষ্ট্রের ফ্লোরিডা কেইপ ক্যানাভেরাল থেকে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thalesgroup.com/en/news-centre/press-releases/bangabandhu-satellite-1-successfully-launched",
+          "https://www.spacex.com/launches/bangabandhusatellite1"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5eade451a44b2067bf2e2bbe59bfcb31daa71c84033d193b04f88670ee92513f",
+        "source_page": 466,
+        "claim_text": "উৎক্ষেপণ করা হয়- ১২ মে, ২০১৮ (বাংলাদেশের সময়); ১১ মে, ২০১৮ (যুক্তরাষ্ট্রের সময়)।",
+        "normalized_claim": "উৎক্ষেপণ করা হয়- ১২ মে, ২০১৮ (বাংলাদেশের সময়); ১১ মে, ২০১৮ (যুক্তরাষ্ট্রের সময়)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thalesgroup.com/en/news-centre/press-releases/bangabandhu-satellite-1-successfully-launched",
+          "https://www.spacex.com/launches/bangabandhusatellite1"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "fa578ffa35cbcc78e98b0be5ac51cc2199c025e1a26fdd4cc2119cffa932b936",
+        "source_page": 466,
+        "claim_text": "উৎক্ষেপণকারী প্রতিষ্ঠান- স্পেসএক্স (বহনকারী রকেটের নাম- Falcon 9)।",
+        "normalized_claim": "উৎক্ষেপণকারী প্রতিষ্ঠান- স্পেসএক্স (বহনকারী রকেটের নাম- Falcon 9)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thalesgroup.com/en/news-centre/press-releases/bangabandhu-satellite-1-successfully-launched",
+          "https://www.spacex.com/launches/bangabandhusatellite1"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "41fb8fdd634a2d7d4065e4b489d44aaf4fb845da40bcc8ae449d966a3be47dfe",
+        "source_page": 467,
+        "claim_text": "কোন দেশের প্রতিষ্ঠান বঙ্গবন্ধু স্যাটেলাইট-১ তৈরি করেছে? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thalesgroup.com/en/news-centre/press-releases/bangabandhu-satellite-1-successfully-launched",
+          "https://www.spacex.com/launches/bangabandhusatellite1"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "95053fb8d353825cb71abedd937efb7d1b23f4d690e06a5a5220458ab0fb1ab2",
+        "source_page": 467,
+        "claim_text": "বঙ্গবন্ধু স্যাটেলাইট-১ উৎক্ষেপণ করা হয় যে স্থান থেকে- — printed answer: ক",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thalesgroup.com/en/news-centre/press-releases/bangabandhu-satellite-1-successfully-launched",
+          "https://www.spacex.com/launches/bangabandhusatellite1"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "fd3ee5196d9ca7c323350434f2282ca795704e40c4606511f0a74be3057b5076",
+        "source_page": 467,
+        "claim_text": "ঢাকায় রামপুরায় টেলিভিশন কেন্দ্র স্থাপিত হয়- — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://btv.gov.bd/pages/static-pages/6922db5a933eb65569e099bf"
+        ]
+      }
+    ],
+    "source_attributed": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "897541b0ea5c706755077aa377897485018b1f73140f88d147686ddb4226534b",
+        "source_page": 464,
+        "claim_text": "সংবাদপত্রের নিবন্ধন প্রকাশ করে- বাংলাদেশ চলচ্চিত্র ও প্রকাশনা অধিদপ্তর।",
+        "normalized_claim": "সংবাদপত্রের নিবন্ধন প্রকাশ করে- বাংলাদেশ চলচ্চিত্র ও প্রকাশনা অধিদপ্তর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e6e7d45511b6b42d722a056b5cfa4e42e77c1092575b6b36df82274cbbee56b4",
+        "source_page": 464,
+        "claim_text": "বাংলা ভাষায় প্রথম দৈনিক সংবাদপত্র- সংবাদ প্রভাকর।",
+        "normalized_claim": "বাংলা ভাষায় প্রথম দৈনিক সংবাদপত্র- সংবাদ প্রভাকর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "25029c0be5ad2309019f9cf8c273023716de4613209a77b7a625c3614d471de9",
+        "source_page": 464,
+        "claim_text": "বাঙাল গেজেট এর সম্পাদক ছিলেন- গঙ্গা কিশোর ভট্টাচার্য।",
+        "normalized_claim": "বাঙাল গেজেট এর সম্পাদক ছিলেন- গঙ্গা কিশোর ভট্টাচার্য।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "fc12e096868ba5529c1f306f0be2530d83956f76196aec0a561bfff6bebc1f22",
+        "source_page": 464,
+        "claim_text": "বাংলাদেশের প্রধান সংবাদ সংস্থা- বাসস।",
+        "normalized_claim": "বাংলাদেশের প্রধান সংবাদ সংস্থা- বাসস।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "20efe93dde4aa6674527d0b33cbbbec58e0d824db66b2d1d82835a15d48d9a39",
+        "source_page": 464,
+        "claim_text": "দেশের বাইরে প্রকাশিত প্রথম বাংলা সংবাদ- দেশ বার্তা।",
+        "normalized_claim": "দেশের বাইরে প্রকাশিত প্রথম বাংলা সংবাদ- দেশ বার্তা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e14f1f93ab54a19e6034b955445abc9989f93b89d9931e19b961eaffa43c399b",
+        "source_page": 464,
+        "claim_text": "দেশবার্তা নামক বাংলা পত্রিকা প্রকাশিত হয়- লন্ডনে (ব্রিটেন)।",
+        "normalized_claim": "দেশবার্তা নামক বাংলা পত্রিকা প্রকাশিত হয়- লন্ডনে (ব্রিটেন)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "dcd3a35414b9a80b2eb2b03e69dbda64a11382dfd41984a1d47ed2f39ec04f47",
+        "source_page": 465,
+        "claim_text": "স্বাধীন বাংলাদেশে সর্বপ্রথম ডাকঘর স্থাপন করা হয়- চুয়াডাঙ্গায়।",
+        "normalized_claim": "স্বাধীন বাংলাদেশে সর্বপ্রথম ডাকঘর স্থাপন করা হয়- চুয়াডাঙ্গায়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e9a29d4a3153975778e9d8d454b7680a392e4fda573802421a79af894617f06a",
+        "source_page": 465,
+        "claim_text": "বাংলাদেশ ডাক বিভাগের শ্লোগান- সেবাই আদর্শ।",
+        "normalized_claim": "বাংলাদেশ ডাক বিভাগের শ্লোগান- সেবাই আদর্শ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "4484396674036fad69ab9a76c63be70d6381f8740dfdc74101c77ee246374327",
+        "source_page": 465,
+        "claim_text": "বাংলাদেশের ডাক কোড (পোস্টাল কোড) ব্যবস্থা চালু হয়- ১৯৮৬ সালে।",
+        "normalized_claim": "বাংলাদেশের ডাক কোড (পোস্টাল কোড) ব্যবস্থা চালু হয়- ১৯৮৬ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5fb4b5ee9436b8a81aa455622755a2acf6960a944716c05a1d4b802751781920",
+        "source_page": 465,
+        "claim_text": "পোস্টাল কোড নির্দেশ করে- পোস্ট অফিসের নাম।",
+        "normalized_claim": "পোস্টাল কোড নির্দেশ করে- পোস্ট অফিসের নাম।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "16c7d26d3c307c68941b81921100e5383f95a36476d8a58f68913df02c5ec792",
+        "source_page": 465,
+        "claim_text": "স্বাধীন বাংলাদেশের প্রথম ডাক টিকেটে ছবি ছিল- শহিদ মিনারের।",
+        "normalized_claim": "স্বাধীন বাংলাদেশের প্রথম ডাক টিকেটে ছবি ছিল- শহিদ মিনারের।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5d3b2bd26a04e5ee377a16f90eaf87c304d8bb1487cec149bde525d4f481bf21",
+        "source_page": 465,
+        "claim_text": "বাংলাদেশের প্রথম ডাক টিকেটের ডিজাইনার- বিমান মল্লিক।",
+        "normalized_claim": "বাংলাদেশের প্রথম ডাক টিকেটের ডিজাইনার- বিমান মল্লিক।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c31dd3f2917840ffa7496050d917c19bfddfcf864e47c01654ded3fa4a73caec",
+        "source_page": 465,
+        "claim_text": "বাংলাদেশের প্রথম পোস্টমাস্টার জেনারেল- মওদুদ আহমেদ।",
+        "normalized_claim": "বাংলাদেশের প্রথম পোস্টমাস্টার জেনারেল- মওদুদ আহমেদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6a38db51e736cded4787d35fa8da0c5e8aa57e043812f50a6407f04de3bd2549",
+        "source_page": 465,
+        "claim_text": "ডাক জাদুঘর অবস্থিত- গুলিস্তান, ঢাকা।",
+        "normalized_claim": "ডাক জাদুঘর অবস্থিত- গুলিস্তান, ঢাকা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a934f3e9ddc341597b06fdd064ec61077c7d4250837b90fff4225cdf19fe5ffb",
+        "source_page": 465,
+        "claim_text": "ডাক বিভাগের নতুন সেবা 'নগদ' চালু হয়- ২০১৮ সালে।",
+        "normalized_claim": "ডাক বিভাগের নতুন সেবা 'নগদ' চালু হয়- ২০১৮ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7be36b4b3f24e2ef2c9f31054a1d3adc28f11836f6565110aaefca8ba2def41c",
+        "source_page": 466,
+        "claim_text": "বাংলাদেশ স্যাটেলাইট-১ এর পূর্বনাম- বঙ্গবন্ধু স্যাটেলাইট-১।",
+        "normalized_claim": "বাংলাদেশ স্যাটেলাইট-১ এর পূর্বনাম- বঙ্গবন্ধু স্যাটেলাইট-১।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "95dacddcfc209bc6f1ab662125c11f374f3e2c7cec1a570fda666e5a45ad0cbe",
+        "source_page": 466,
+        "claim_text": "বাংলাদেশ স্যাটেলাইট-১ চালু করে- বিটিআরসি ও স্পারসো (মেয়াদ- ১৫ বছর)।",
+        "normalized_claim": "বাংলাদেশ স্যাটেলাইট-১ চালু করে- বিটিআরসি ও স্পারসো (মেয়াদ- ১৫ বছর)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a3118876df0bf041552e0b3ee8f7e98ebfc2223fe22dc65f94d3e8233649d2c3",
+        "source_page": 466,
+        "claim_text": "বাংলাদেশ স্যাটেলাইট-১ এর নিয়ন্ত্রক- ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়।",
+        "normalized_claim": "বাংলাদেশ স্যাটেলাইট-১ এর নিয়ন্ত্রক- ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3130070bce778ec683c2b419ef2b3d5a5fd4ab344e6f3bbb4955926593ff1ca5",
+        "source_page": 466,
+        "claim_text": "স্যাটেলাইটের মালিক হিসেবে বাংলাদেশের অবস্থান- ৫৭তম।",
+        "normalized_claim": "স্যাটেলাইটের মালিক হিসেবে বাংলাদেশের অবস্থান- ৫৭তম।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "46ec03c90ab72f071cb66a35e3fe9e7af3f27d1b04b56bff1ed36460ae98fd7e",
+        "source_page": 466,
+        "claim_text": "স্যাটেলাইটটির অবস্থান- ১১৯.১° পূর্ব দ্রাঘিমাংশে।",
+        "normalized_claim": "স্যাটেলাইটটির অবস্থান- ১১৯.১° পূর্ব দ্রাঘিমাংশে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "8afff7a4394810be1272c2788b210affff3143d0b78065ceb9d0912521e2426d",
+        "source_page": 466,
+        "claim_text": "এটি একটি ভূ-স্থির উপগ্রহ (Geostationary Satellites : GEO)।",
+        "normalized_claim": "এটি একটি ভূ-স্থির উপগ্রহ (Geostationary Satellites : GEO)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0883faad588ff34dd18d8d376a489f94dfb78a555bc6ddf7122b5dc7ba9ff5b4",
+        "source_page": 466,
+        "claim_text": "বিশ্বের প্রথম স্যাটেলাইট স্পুটনিক-১ প্রেরণ করে- রাশিয়া।",
+        "normalized_claim": "বিশ্বের প্রথম স্যাটেলাইট স্পুটনিক-১ প্রেরণ করে- রাশিয়া।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "80b166f5cbd2299d4a6e547ce57eccdf9831ea33616f650525f2de431eb95ba4",
+        "source_page": 466,
+        "claim_text": "ইন্টারনেট ব্যান্ড উইথ এর মাধ্যমে সেবা চালু করে- ১৯ মে, ২০১৯ সালে।",
+        "normalized_claim": "ইন্টারনেট ব্যান্ড উইথ এর মাধ্যমে সেবা চালু করে- ১৯ মে, ২০১৯ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f01f130db5000d7fc7cab8ec5a6f1627621a0d5c557cdf0ec4b4f0ff0dc883a9",
+        "source_page": 468,
+        "claim_text": "বাংলাদেশের সশস্ত্রবাহিনী গঠিত হয়- সেনাবাহিনী, নৌবাহিনী ও বিমানবাহিনীর সমন্বয়ে।",
+        "normalized_claim": "বাংলাদেশের সশস্ত্রবাহিনী গঠিত হয়- সেনাবাহিনী, নৌবাহিনী ও বিমানবাহিনীর সমন্বয়ে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "4ce72a62c60c95c8b9382caa04abc2f1051f6325df6e3a7ddd0e24ddf5cbd04d",
+        "source_page": 468,
+        "claim_text": "বাংলাদেশের সশস্ত্রবাহিনীর সর্বাধিনায়ক- রাষ্ট্রপতি।",
+        "normalized_claim": "বাংলাদেশের সশস্ত্রবাহিনীর সর্বাধিনায়ক- রাষ্ট্রপতি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d4470443430ab0425fcbf3692ccd7972a7f87b6273b77483a52c7401569000ce",
+        "source_page": 468,
+        "claim_text": "প্রতিরক্ষা মন্ত্রণালয় গঠিত হয়- ১০ এপ্রিল, ১৯৭১।",
+        "normalized_claim": "প্রতিরক্ষা মন্ত্রণালয় গঠিত হয়- ১০ এপ্রিল, ১৯৭১।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "14ef4b83eac22986f8eb7dc768e5503d3da9d4600c4ea72e5d92328f267c590e",
+        "source_page": 468,
+        "claim_text": "প্রতিরক্ষা মন্ত্রণালয়ের দায়িত্ব থাকে- প্রধানমন্ত্রীর উপর।",
+        "normalized_claim": "প্রতিরক্ষা মন্ত্রণালয়ের দায়িত্ব থাকে- প্রধানমন্ত্রীর উপর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "173c3c9a52fc07d7dc65ee9e66a27ebb9788f2159abb5584456f23b782a6dae1",
+        "source_page": 468,
+        "claim_text": "সশস্ত্রবাহিনী বিভাগের নাম- Armed Forces Division.",
+        "normalized_claim": "সশস্ত্রবাহিনী বিভাগের নাম- Armed Forces Division.",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "56c9ea33c54fd2027447f8c658b700491694ff0a48ae8343331a542ed790276c",
+        "source_page": 468,
+        "claim_text": "সশস্ত্রবাহিনী বিভাগের প্রতিষ্ঠাকালীন নাম- কমান্ডার ইন চিফ'স সেক্রেটারিয়েট (১৯৭৮)।",
+        "normalized_claim": "সশস্ত্রবাহিনী বিভাগের প্রতিষ্ঠাকালীন নাম- কমান্ডার ইন চিফ'স সেক্রেটারিয়েট (১৯৭৮)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "18e6d8a46770db8d3eca48bf2d9bbda5960d03364ef406c05600bcd5cbec970d",
+        "source_page": 468,
+        "claim_text": "প্রতিরক্ষা গোয়েন্দা মহাপরিদপ্তর (Directorate General of Forces Intelligence) অবস্থিত- ঢাকা সেনানিবাস।",
+        "normalized_claim": "প্রতিরক্ষা গোয়েন্দা মহাপরিদপ্তর (Directorate General of Forces Intelligence) অবস্থিত- ঢাকা সেনানিবাস।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a7df0d962fa7846a72f0199abad6bdbccf41c86efa7ff654e2c0a5a4753cb0da",
+        "source_page": 468,
+        "claim_text": "বাংলাদেশ সশস্ত্র বাহিনী দিবস- ২১ নভেম্বর।",
+        "normalized_claim": "বাংলাদেশ সশস্ত্র বাহিনী দিবস- ২১ নভেম্বর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c772f5eb353a783d7f60aca24acac3a14f5e91373a35438612594e78ba6b46ed",
+        "source_page": 468,
+        "claim_text": "বিশ্বের সেনাবাহিনীর সর্বোচ্চ র‍্যাঙ্ক- ফিল্ড মার্শাল।",
+        "normalized_claim": "বিশ্বের সেনাবাহিনীর সর্বোচ্চ র‍্যাঙ্ক- ফিল্ড মার্শাল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b8e6a41d2dad4759ceb0d6559d6f5488076e4abe73d709ffaaeed48c8e44e7cf",
+        "source_page": 468,
+        "claim_text": "মারজিয়া ইসলাম — সোর্ড অব অনারপ্রাপ্ত একমাত্র নৌ-ক্যাডেট।",
+        "normalized_claim": "মারজিয়া ইসলাম — সোর্ড অব অনারপ্রাপ্ত একমাত্র নৌ-ক্যাডেট।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1d7dd15219845871218d67816a245c1a4c1e28110b74d96aaf2a5e73900cc675",
+        "source_page": 468,
+        "claim_text": "সরওয়ার জাহান নিজাম — বাংলাদেশের প্রথম ভাইস এডমিরাল।",
+        "normalized_claim": "সরওয়ার জাহান নিজাম — বাংলাদেশের প্রথম ভাইস এডমিরাল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "556df75003b9c1eeebab13e8481493ba6dcaa84737feb6fddc75d904635e864f",
+        "source_page": 468,
+        "claim_text": "অনুপ কুমার চাকমা — সেনাবাহিনীর প্রথম চাকমা মেজর জেনারেল।",
+        "normalized_claim": "অনুপ কুমার চাকমা — সেনাবাহিনীর প্রথম চাকমা মেজর জেনারেল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a55f1ff772a418f753e47e9ceea94828093c10585eace09a1a73ac76492c4498",
+        "source_page": 468,
+        "claim_text": "POLICE শব্দটি এসেছে- পর্তুগিজ ভাষা থেকে",
+        "normalized_claim": "POLICE শব্দটি এসেছে- পর্তুগিজ ভাষা থেকে",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e23fa0d12edbf1b9ea211ad663ace972f7b211477bf1918f895fc663d51e5745",
+        "source_page": 468,
+        "claim_text": "বাংলাদেশ পুলিশ গঠিত হয়- পুলিশ আইন ১৮৬১ দ্বারা।",
+        "normalized_claim": "বাংলাদেশ পুলিশ গঠিত হয়- পুলিশ আইন ১৮৬১ দ্বারা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "13829611a172345514e8e02f5d51bbdf5d5c6018c5f0c911f30f6900c17cff27",
+        "source_page": 468,
+        "claim_text": "পুলিশের মূলনীতি- শান্তি-শৃঙ্খলা, নিরাপত্তা ও প্রগতি।",
+        "normalized_claim": "পুলিশের মূলনীতি- শান্তি-শৃঙ্খলা, নিরাপত্তা ও প্রগতি।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "589774b37870e5f5c0e5c1fc634c9617028b0d176b245a3e04065ed769740ae4",
+        "source_page": 468,
+        "claim_text": "বাংলাদেশ পুলিশ যে মন্ত্রণালয়ের অধীনে- স্বরাষ্ট্র মন্ত্রণালয়ের।",
+        "normalized_claim": "বাংলাদেশ পুলিশ যে মন্ত্রণালয়ের অধীনে- স্বরাষ্ট্র মন্ত্রণালয়ের।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "801419d9483c2e7d668f815adf6d04d10f35cba8d322a50c350a249cfc4e187e",
+        "source_page": 468,
+        "claim_text": "পুলিশের প্রথম আইজিপি ছিলেন- এম. এ খালেক (১৯৭১-৭৩)",
+        "normalized_claim": "পুলিশের প্রথম আইজিপি ছিলেন- এম. এ খালেক (১৯৭১-৭৩)",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "14fdd534b0d67841f025d308c71c62d85ef82ef4d01070eb80cd468e8993dc57",
+        "source_page": 468,
+        "claim_text": "উপমহাদেশে পুলিশ প্রথা চালু করে- লর্ড ক্যানিং (১৮৬১)।",
+        "normalized_claim": "উপমহাদেশে পুলিশ প্রথা চালু করে- লর্ড ক্যানিং (১৮৬১)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "8e14a74548f7632745b61faf76636d4aef6148fea44a4aeb08dca5eefeb0d296",
+        "source_page": 468,
+        "claim_text": "মারজিয়া ইসলাম — সোর্ড অব অনারপ্রাপ্ত একমাত্র নৌ-ক্যাডেট।",
+        "normalized_claim": "মারজিয়া ইসলাম — সোর্ড অব অনারপ্রাপ্ত একমাত্র নৌ-ক্যাডেট।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "874b8886d169486e3c92513f90d76525fc4fb2e61404a95710bfaa55ccfee63c",
+        "source_page": 468,
+        "claim_text": "সরওয়ার জাহান নিজাম — বাংলাদেশের প্রথম ভাইস এডমিরাল।",
+        "normalized_claim": "সরওয়ার জাহান নিজাম — বাংলাদেশের প্রথম ভাইস এডমিরাল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5f450ad18d7c13c232a542d74c03fa27eb70b1c37bbf4de8311dcd7963cf2489",
+        "source_page": 468,
+        "claim_text": "অনুপ কুমার চাকমা — সেনাবাহিনীর প্রথম চাকমা মেজর জেনারেল।",
+        "normalized_claim": "অনুপ কুমার চাকমা — সেনাবাহিনীর প্রথম চাকমা মেজর জেনারেল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "f408eca5c7dde70f697b7f8c9aa8c79d1565644ee264473b1586abb15512673d",
+        "source_page": 464,
+        "claim_text": "বাংলা ভাষায় প্রকাশিত নারীদের প্রথম সাপ্তাহিক পত্রিকা হলো 'বেগম'। ১৯৪৭ সালে কলকাতা থেকে এটি সাপ্তাহিক পত্রিকা হিসেবে যাত্রা শুরু করে এবং ১৯৫০ সালে এর প্রকাশনা ঢাকায় স্থানান্তরিত হয়। পত্রিকাটির প্রতিষ্ঠাতা ছিলেন মোহাম্মদ নাসিরউদ্দিন।",
+        "normalized_claim": "বাংলা ভাষায় প্রকাশিত নারীদের প্রথম সাপ্তাহিক পত্রিকা হলো 'বেগম'। ১৯৪৭ সালে কলকাতা থেকে এটি সাপ্তাহিক পত্রিকা হিসেবে যাত্রা শুরু করে এবং ১৯৫০ সালে এর প্রকাশনা ঢাকায় স্থানান্তরিত হয়। পত্রিকাটির প্রতিষ্ঠাতা ছিলেন মোহাম্মদ নাসিরউদ্দিন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Kamal%2C_Begum_Sufia"
+        ]
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "b746213c92a452d2ed17d1903dc8984cac71891d7a8553cd522447033cbaafe9",
+        "source_page": 465,
+        "claim_text": "১ বাসস বাংলাদেশ সংবাদ সংস্থা\n২ আবাস আনন্দপত্র বাংলা সংবাদ\n৩ PNA Probe News Agency\n৪ BNA Bangladesh News Agency\n৫ PS Press Neteork\n৬ BNS Bangladesh News Service\n৭ UNB United News of Bangladesh\n৮ NNB News Network of Bangladesh",
+        "normalized_claim": "১ বাসস বাংলাদেশ সংবাদ সংস্থা\n২ আবাস আনন্দপত্র বাংলা সংবাদ\n৩ PNA Probe News Agency\n৪ BNA Bangladesh News Agency\n৫ PS Press Neteork\n৬ BNS Bangladesh News Service\n৭ UNB United News of Bangladesh\n৮ NNB News Network of Bangladesh",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "eaf0fb4eb6d4d1d46913eb1828f4dcb5af0664de6314cddd356a810c99540c0b",
+        "source_page": 465,
+        "claim_text": "রাজশাহী\nপোস্টাল একাডেমি, রাজশাহী\nবাংলাদেশের একমাত্র পোস্টাল একাডেমি",
+        "normalized_claim": "রাজশাহী\nপোস্টাল একাডেমি, রাজশাহী\nবাংলাদেশের একমাত্র পোস্টাল একাডেমি",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "6ac2032c3fa73383a09d9f08da5989623b054e7bdcfc2f31941a2f48a0d0f29a",
+        "source_page": 465,
+        "claim_text": "চুয়াডাঙ্গা\nচুয়াডাঙ্গা প্রধান ডাকঘর\nস্বাধীন বাংলাদেশের প্রথম ডাকঘর",
+        "normalized_claim": "চুয়াডাঙ্গা\nচুয়াডাঙ্গা প্রধান ডাকঘর\nস্বাধীন বাংলাদেশের প্রথম ডাকঘর",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "e26bcb1451a6ae5616da61e1b1f0c6ffee241d124cadbbc21d7c5d12109fcff4",
+        "source_page": 466,
+        "claim_text": "ব্যবহারকারীর ডিভাইস থেকে তথ্য সংকেত আকারে রেডিও তরঙ্গের মাধ্যমে মহাশূন্যে থাকা স্যাটেলাইটে পাঠানো হয়।\n১. গ্রাউন্ড স্টেশন\n২. স্যাটেলাইট\nDown Link\nস্যাটেলাইট সেই সংকেত প্রসেস করে পৃথিবীতে রিসিভার বা গ্রাউন্ড স্টেশনে ফেরত পাঠায়।\n৩. রিসিভার",
+        "normalized_claim": "ব্যবহারকারীর ডিভাইস থেকে তথ্য সংকেত আকারে রেডিও তরঙ্গের মাধ্যমে মহাশূন্যে থাকা স্যাটেলাইটে পাঠানো হয়।\n১. গ্রাউন্ড স্টেশন\n২. স্যাটেলাইট\nDown Link\nস্যাটেলাইট সেই সংকেত প্রসেস করে পৃথিবীতে রিসিভার বা গ্রাউন্ড স্টেশনে ফেরত পাঠায়।\n৩. রিসিভার",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "3ba552ac0fa5ff16ddc0a942c5eae4db9a4dbfe91c7676062a47afb3b7587869",
+        "source_page": 466,
+        "claim_text": "১ম জয়দেবপুর, গাজীপুর\n২য় বেতবুনিয়া, রাঙ্গামাটি",
+        "normalized_claim": "১ম জয়দেবপুর, গাজীপুর\n২য় বেতবুনিয়া, রাঙ্গামাটি",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "23083cd41009ab500bb50037e70d94aaf14b7d6e81ad545f31b0fd5e38d29f75",
+        "source_page": 466,
+        "claim_text": "SEA-ME-WE4\n> অবস্থান- ঝিলংঝা, কক্সবাজার।\n> দৈর্ঘ্য- ১৮,৮০০ কি.মি.।\n> সংযুক্ত হয়- ২১ মে, ২০০৬।\n> ব্যান্ডউইথ- ৩০০ জিবিপিএস।\nSEA-ME-WE5\n> অবস্থান- কুয়াকাটা, কলাপাড়া, পটুয়াখালী।\n> দৈর্ঘ্য- ২০,০০০ কি.মি.।\n> সংযুক্ত হয়- ১০ সেপ্টেম্বর, ২০১৭।\n> ব্যান্ডউইথ- ১৫০০ জিবিপিএস।",
+        "normalized_claim": "SEA-ME-WE4\n> অবস্থান- ঝিলংঝা, কক্সবাজার।\n> দৈর্ঘ্য- ১৮,৮০০ কি.মি.।\n> সংযুক্ত হয়- ২১ মে, ২০০৬।\n> ব্যান্ডউইথ- ৩০০ জিবিপিএস।\nSEA-ME-WE5\n> অবস্থান- কুয়াকাটা, কলাপাড়া, পটুয়াখালী।\n> দৈর্ঘ্য- ২০,০০০ কি.মি.।\n> সংযুক্ত হয়- ১০ সেপ্টেম্বর, ২০১৭।\n> ব্যান্ডউইথ- ১৫০০ জিবিপিএস।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "48c3e726434f004a6f6b2a2053d8055034e2e08e5c9590a3a6c9b26f51aff461",
+        "source_page": 466,
+        "claim_text": "বাংলাদেশ সাবমেরিন ক্যাবল প্রকল্পটি 'ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি' মন্ত্রণালয়ের অধীনে",
+        "normalized_claim": "বাংলাদেশ সাবমেরিন ক্যাবল প্রকল্পটি 'ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি' মন্ত্রণালয়ের অধীনে",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "614510a9e12bb738f4e7a9ae03b18b23236a29ce58eb3f39710fc55d8bd50dce",
+        "source_page": 468,
+        "claim_text": "সর্বোচ্চ কর্মকর্তা: আইজিপি (ইন্সপেক্টর জেনারেল অব পুলিশ) জেলা পুলিশ প্রধান: এসপি (সুপারিনটেনডেন্ট অব পুলিশ) থানায় দায়িত্বপ্রাপ্ত: অফিসার ইনচার্জ (ওসি) পুলিশ রেঞ্জের প্রধান: ডেপুটি ইন্সপেক্টর জেনারেল অব পুলিশ",
+        "normalized_claim": "সর্বোচ্চ কর্মকর্তা: আইজিপি (ইন্সপেক্টর জেনারেল অব পুলিশ) জেলা পুলিশ প্রধান: এসপি (সুপারিনটেনডেন্ট অব পুলিশ) থানায় দায়িত্বপ্রাপ্ত: অফিসার ইনচার্জ (ওসি) পুলিশ রেঞ্জের প্রধান: ডেপুটি ইন্সপেক্টর জেনারেল অব পুলিশ",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "9902ed50cff1189ebc315fe47b0ebdbc3757caeab8939a417a618bac3bfafa73",
+        "source_page": 468,
+        "claim_text": "POLICE এর পূর্ণরূপ P = Polite O = Obedient L = Loyal, I = Intelligent C = Courageous E = Efficient.",
+        "normalized_claim": "POLICE এর পূর্ণরূপ P = Polite O = Obedient L = Loyal, I = Intelligent C = Courageous E = Efficient.",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "1c92886ab3a930aa5d2992ba1d82cf47dbffdaa8b6779cf319f566dc9526c975",
+        "source_page": 467,
+        "claim_text": "স্বাধীনতার পর প্রকাশিত প্রথম স্মারক ডাকটিকেটে কিসের ছবি ছিল? — printed answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "f1caac7de629680099b880fc716a2cc6c69f4aacf0e6b0388de1605f2139a60f",
+        "source_page": 467,
+        "claim_text": "স্বাধীন বাংলা বেতার কেন্দ্র প্রথম কোথায় স্থাপিত হয়? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "fa820bee95c8a83276d9f3e5bb2e8d064d318192c850f845da50df8e65f98b81",
+        "source_page": 467,
+        "claim_text": "'সাবমেরিন ক্যাবল' প্রকল্পটি কোন মন্ত্রণালয়ের কার্যক্রম? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "d9c57a2a27b533ce3bc10c43ee71be9b6bc4d29e9f2c566219052dd046b10d47",
+        "source_page": 467,
+        "claim_text": "বাংলাদেশে সর্বপ্রথম ইন্টারনেট সিস্টেম চালুর সন- — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "b16b529db5e4ece7f4a14dcd59b661706e859e0f9816cb39a93194614bd33d89",
+        "source_page": 467,
+        "claim_text": "বঙ্গবন্ধু স্যাটেলাইট-২ কী ধরনের স্যাটেলাইট হবে? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "17e32acabd88a6887f9efe66b59ce0d94d4b8950d5f2f980fb8048ee9d3511ed",
+        "source_page": 467,
+        "claim_text": "বাংলাদেশের প্রথম রঙিন টেলিভিশন চালু হয়- — printed answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "0f25002a17703c3a62d524b77bd2e96f098a390cbc9dce19761b9cd18b785964",
+        "source_page": 467,
+        "claim_text": "বাংলাদেশে নিম্নের কোন তারিখে প্রথম সেল ফোন চালু হয়? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "562befac51bcba9a52a55264b8a3492c8d84ce1412dae09a5de099ec2ba741de",
+        "source_page": 467,
+        "claim_text": "বাংলাদেশে নিম্নের কোন স্থানটি সাবমেরিন ক্যাবলের ল্যান্ডিং স্টেশন? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "92aa6bcabacd8a3ce90305795804fa29fd49160c7add54bedf0018a582f50011",
+        "source_page": 467,
+        "claim_text": "ঢাকা টেলিভিশনের প্রথম নাটক কোনটি? — printed answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      }
+    ],
+    "conflicting": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2ce126806bb713a58d2029a9f9abb2e63193eadbb9e5af4e68d37aacd23788dd",
+        "source_page": 465,
+        "claim_text": "পেনিব্ল্যাক এর উদ্ভাবক- স্যার রোনাল্ড, ১৮৪০ সালে।",
+        "normalized_claim": "পেনিব্ল্যাক এর উদ্ভাবক- স্যার রোনাল্ড, ১৮৪০ সালে।",
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": [
+          "https://www.postalmuseum.org/collections/highlights/the-first-ever-stamp-the-penny-black/"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "16b00b3a0bdff5c002fe41ec098f8e335d8600ab94b7da54029c724d58604825",
+        "source_page": 467,
+        "claim_text": "বাংলাদেশের সর্বপ্রথম টেলিফোন ব্যবস্থা কবে চালু হয়? — printed answer: ক",
+        "normalized_claim": null,
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": [
+          "http://btrc.gov.bd/pages/static-pages/6922e040933eb65569e26312"
+        ]
+      }
+    ]
+  },
+  "quality_gates": [
+    "Raw OCR and reviewed transcripts are preserved in per-page artifacts and source_pages.raw_transcription.",
+    "Physical PDF pages remain distinct from printed page numbers in review metadata.",
+    "Biographies, tables, definitions, notes, facts, MCQs, options, answers, and exam labels are imported as distinct typed records.",
+    "Conflicting claims remain source-linked and low confidence rather than silently normalized.",
+    "All database writes are idempotent through source-page checks, canonical hashes, or source keys."
+  ]
+}

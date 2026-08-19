@@ -1,0 +1,4 @@
+{
+  "project_id": "rennotctgrxvbpghbimx",
+  "query": "SELECT (SELECT count(*) FROM public.source_pages) AS source_pages, (SELECT max(source_page) FROM public.source_pages) AS highest_source_page, (SELECT count(*) FROM public.chapters) AS chapters, (SELECT count(*) FROM public.topics) AS topics, (SELECT count(*) FROM public.gk_notes) AS notes, (SELECT count(*) FROM public.gk_facts) AS facts, (SELECT count(*) FROM public.gk_mcqs) AS mcqs, (SELECT count(*) FROM public.gk_mcq_options) AS options, (SELECT count(*) FROM public.flashcards) AS flashcards, (SELECT count(*) FROM public.search_documents) AS search_documents, (SELECT count(*) FROM public.content_tag_assignments) AS tag_assignments, (SELECT count(*) FROM public.fact_verifications) AS fact_verifications LIMIT 1;"
+}
