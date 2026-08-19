@@ -1,0 +1,4 @@
+{
+  "project_id": "rennotctgrxvbpghbimx",
+  "query": "SELECT c.chapter_number, c.slug, c.title, c.source_page, c.display_order FROM public.chapters c WHERE c.source_page BETWEEN 450 AND 500 OR c.slug IN ('bangladesh-international-relations', 'bangladesh-treaties', 'bangladesh-sports') ORDER BY c.display_order ASC LIMIT 50;"
+}

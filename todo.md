@@ -67,4 +67,10 @@
 - [x] Process pages 484–488 immediately after the pages 479–483 checkpoint using the same quality-gated workflow, then import and audit the batch
 - [x] Stop after the verified pages 484–488 import and wait for explicit user instruction before starting page 489
 - [x] Save a dedicated checkpoint for the completed pages 479–483 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
-- [ ] Save a dedicated checkpoint for the completed pages 484–488 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
+- [x] Save a dedicated checkpoint for the completed pages 484–488 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
+- [x] Process pages 489–493 as the first of four consecutive quality-gated batches, including source-linked OCR, visual review, tagging, verification, Supabase import, integrity checks, and checkpoint
+- [ ] Process pages 494–498 immediately after the pages 489–493 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
+- [ ] Process pages 499–503 immediately after the pages 494–498 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
+- [ ] Process pages 504–508 immediately after the pages 499–503 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
+- [ ] Stop after the verified pages 504–508 import and wait for explicit user instruction before starting page 509
+- [x] Save a dedicated checkpoint for the completed pages 489–493 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
