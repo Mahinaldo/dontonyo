@@ -177,9 +177,9 @@ REVIEW_SCHEMA = schema(
 
 
 def call_json(client: OpenAI, model: str, instruction: str, image_url: str, response_format: dict[str, Any]) -> tuple[dict[str, Any], str]:
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
+    request: dict[str, Any] = {
+        "model": model,
+        "messages": [
             {
                 "role": "system",
                 "content": "You are a meticulous Bangla document-transcription auditor. Never invent text or facts. Preserve uncertainty explicitly.",
@@ -192,9 +192,10 @@ def call_json(client: OpenAI, model: str, instruction: str, image_url: str, resp
                 ],
             },
         ],
-        response_format=response_format,
-        max_tokens=24000,
-    )
+        "response_format": response_format,
+    }
+    request["max_completion_tokens" if model.startswith("gpt-") else "max_tokens"] = 24000
+    response = client.chat.completions.create(**request)
     raw = response.choices[0].message.content or ""
     return json.loads(raw), raw
 

@@ -81,4 +81,7 @@
 - [x] Complete pages 509–513: audited vision OCR, all 25 visual-review tiles, source-preserved tables and 31 MCQs with all 124 options, verification ledger, idempotent Supabase import, integrity audit, and full validation
 - [x] Process pages 514–518 immediately after the completed pages 509–513 audit, using the same quality-gated Supabase import workflow
 - [x] Complete pages 514–518: audited vision OCR, all 25 visual-review tiles, source-preserved historical and institutional tables, 27 MCQs with all 108 options, verification ledger, idempotent Supabase import, integrity audit, and full validation
-- [ ] Process pages 519–523 immediately after the completed pages 514–518 audit, using the same quality-gated Supabase import workflow
+- [x] Process pages 519–523 immediately after the completed pages 514–518 audit, using the same quality-gated Supabase import workflow
+- [x] Recover the failed pages 519–523 vision-OCR batch after the live service returned empty completions, then complete its normal validation and Supabase import workflow
+- [x] Complete pages 519–523: recovered OCR with an available documented GPT vision fallback, all 25 visual-review tiles, source-preserved national-symbol and geographical-alias tables, 6 MCQs with 24 options, verification ledger, idempotent Supabase import, integrity audit, and full validation
+- [ ] Process pages 524–528 immediately after the completed pages 519–523 audit, using the same quality-gated Supabase import workflow

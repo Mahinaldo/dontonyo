@@ -1,0 +1,60 @@
+{
+  "batch_pages": [
+    519,
+    520,
+    521,
+    522,
+    523
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0519-0523-v1",
+  "source_pages": [
+    {
+      "page": 519,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "2fc4d2f5284e68f9caf7d7cad5b65186b5efa834aec28721095327525c84df1d"
+    },
+    {
+      "page": 520,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "b65e82137519019d86cb63788f9481de369949952ad33c2f35d669387d6dd370"
+    },
+    {
+      "page": 521,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "3dd345d845fc115c2413a261b2ee35680a2afd063da7fdcdecb1e8d80cd6237c"
+    },
+    {
+      "page": 522,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "0d163472ac86bdf20239451d60ffda2b161a6efdc642f8b9d3044ca3920b3b0e"
+    },
+    {
+      "page": 523,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "ff52ebcd5bf5756d09ba1ba2e034bf10ec0de7ceb0173ddecdab1e9663382194"
+    }
+  ],
+  "generated_facts": 2,
+  "generated_notes": 6,
+  "generated_mcqs": 6,
+  "generated_options": 24,
+  "generated_flashcards": 14,
+  "verification_counts": {
+    "verified": 1,
+    "conflicting": 1,
+    "source_attributed": 12
+  },
+  "source_anomalies": [
+    "Physical PDF pages 519–523 retain visible book footers 462–466.",
+    "Pages 519–520 used the recovered GPT vision fallback after the original vision service returned empty completions.",
+    "Page 521 retains source-visible শাদ* without replacing it with a presumed country name.",
+    "Page 522 retains জাপন and the unreadable Peace of the Morning Calm country cell.",
+    "Page 523 retains seven visually blank rightmost cells and corrects the Paris row placement without inference."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 519–523 only.",
+    "All 25 ordered overlapping tiles reviewed.",
+    "MCQs retain four options, printed answer keys, question numbers, and exam metadata.",
+    "Source tables remain notes; verified/conflicting claims are stored separately."
+  ]
+}
