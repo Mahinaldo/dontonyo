@@ -1,0 +1,59 @@
+{
+  "batch_pages": [
+    514,
+    515,
+    516,
+    517,
+    518
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0514-0518-v1",
+  "source_pages": [
+    {
+      "page": 514,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "f226d615962de01878d40fa04bb4aee3c1992021dec0c2b415cbf8e9ed8f14e7"
+    },
+    {
+      "page": 515,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "2ea74d67a35bda7ef8fa95ab4fc11e20835aa6fb62f229977b49919c03a518bf"
+    },
+    {
+      "page": 516,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "fbfceeb3b32df5a7837db378dab95bb7ee056426c304806d975126c5cd627bef"
+    },
+    {
+      "page": 517,
+      "review_status": "accepted",
+      "image_sha256": "7670c3d8695ce407c2057c5212830fba75cebdb66db3b30409465734abdd222c"
+    },
+    {
+      "page": 518,
+      "review_status": "accepted",
+      "image_sha256": "39bd7f7c30d11a225c643c11313834b038ff8cc3f518cce45bd620a8217ae0e5"
+    }
+  ],
+  "generated_facts": 2,
+  "generated_notes": 5,
+  "generated_mcqs": 27,
+  "generated_options": 108,
+  "generated_flashcards": 34,
+  "verification_counts": {
+    "verified": 1,
+    "conflicting": 1,
+    "source_attributed": 32
+  },
+  "source_anomalies": [
+    "Physical pages 514–518 retain separately recorded printed footers 457–461.",
+    "Page 515 retains source readings তুসাসিক, গিলব্রাট, and the unresolved source spelling মালাগাাসি.",
+    "Page 516 corrects source-reading metadata to MAT and জবি while preserving all printed answers.",
+    "Page 518 retains the Flushing Meadows UN claim with conflicting status rather than silently updating it."
+  ],
+  "quality_gates": [
+    "Exactly five physical pages 514–518 only.",
+    "All 25 ordered dense-image tiles reviewed.",
+    "MCQs retain four options, printed answer keys, and separate source metadata.",
+    "Structured tables remain notes, with status-marked facts kept separate."
+  ]
+}
