@@ -1,0 +1,1075 @@
+{
+  "batch_pages": [
+    459,
+    460,
+    461,
+    462,
+    463
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0459-0463-v1",
+  "source_pages": [
+    {
+      "page": 459,
+      "sha256": "05c7773c4c89b92cba95799c60d4aa296468b4b50088318a1cba28dd52f54770",
+      "review": "accepted"
+    },
+    {
+      "page": 460,
+      "sha256": "eb97310e2634d931e2becc14b21486b18833f674c8b670d2c4286c58622017ac",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 461,
+      "sha256": "8dcab7498ab2e14506e24577467d66af6cc010bc3e1027c3d1e559d43c244118",
+      "review": "accepted"
+    },
+    {
+      "page": 462,
+      "sha256": "c90c30f58e4515cb37c6b6e887bdfc9381f68ef37d779ee5b251ad1fe23e43dc",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 463,
+      "sha256": "2fb4ecf7bbf9689bc194d1d5995b764b5772774f77ebc0ca1a3d276f9da8afb2",
+      "review": "accepted"
+    }
+  ],
+  "generated_fact_candidates": 88,
+  "generated_notes": 1,
+  "generated_mcqs": 9,
+  "generated_options": 36,
+  "verification_statuses": {
+    "source_attributed": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c15fa9c4624dceff9b505af632eeeb66d8e1cf1be466e470a0043311b57f19dc",
+        "source_page": 459,
+        "claim_text": "উপমহাদেশের প্রথম সবাক চলচ্চিত্র- জামাই ষষ্ঠী (১৯৩১)।",
+        "normalized_claim": "উপমহাদেশের প্রথম সবাক চলচ্চিত্র- জামাই ষষ্ঠী (১৯৩১)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6011ecbf609d10269cd23c4030cdcb38280195e14ae40bcd3bdbc7373c446654",
+        "source_page": 459,
+        "claim_text": "জামাই ষষ্ঠী চলচ্চিত্রের পরিচালক- অমরেন্দ্রনাথ চৌধুরী।",
+        "normalized_claim": "জামাই ষষ্ঠী চলচ্চিত্রের পরিচালক- অমরেন্দ্রনাথ চৌধুরী।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "cb999edbe6a03866f7515720c1fe572ad352a7125786810cdfe53ece2bb55131",
+        "source_page": 459,
+        "claim_text": "উপমহাদেশের প্রথম নির্বাক চলচ্চিত্র- আলীবাবা ও চল্লিশ চোর।",
+        "normalized_claim": "উপমহাদেশের প্রথম নির্বাক চলচ্চিত্র- আলীবাবা ও চল্লিশ চোর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "205dd72ce624e7bde1e4b8009b0d843505f24ebd15a7fad2047c1cc9f1473e49",
+        "source_page": 459,
+        "claim_text": "আলীবাবা ও চল্লিশ চোর চলচ্চিত্রের পরিচালক- হীরালাল সেন।",
+        "normalized_claim": "আলীবাবা ও চল্লিশ চোর চলচ্চিত্রের পরিচালক- হীরালাল সেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "986d927d0a4e1eb686ee2fce27f3e485b5f1db8e3a1a3a98f4d3aeeb16444f19",
+        "source_page": 459,
+        "claim_text": "উপমহাদেশের প্রথম মুসলমান চলচ্চিত্রকার- কাজী নজরুল ইসলাম।",
+        "normalized_claim": "উপমহাদেশের প্রথম মুসলমান চলচ্চিত্রকার- কাজী নজরুল ইসলাম।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e9bc5f0f7f8f218aeef0830701c82900d1c2ee82501570f9fc8ac77944ad3e66",
+        "source_page": 459,
+        "claim_text": "কাজী নজরুল ইসলাম পরিচালিত চলচ্চিত্রটির নাম- ধূপছায়া (১৯৩১)",
+        "normalized_claim": "কাজী নজরুল ইসলাম পরিচালিত চলচ্চিত্রটির নাম- ধূপছায়া (১৯৩১)",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "aebb95a0fd9187ae1818cf3ebe0604b120b33f077027504445953b73104819d3",
+        "source_page": 459,
+        "claim_text": "কাজী নজরুল ইসলাম যে চলচ্চিত্রে অভিনয় করেন- ধ্রুব।",
+        "normalized_claim": "কাজী নজরুল ইসলাম যে চলচ্চিত্রে অভিনয় করেন- ধ্রুব।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "36851c63d21dd181a11003a1aaacedcc3dc6878b0011d9fd538bc3f941080be1",
+        "source_page": 459,
+        "claim_text": "সর্বপ্রথম চলচ্চিত্র নির্মাণ করেন- লুমিয়ার ব্রাদার্স (ফ্রান্স, ১৮৯৫ সালে)।",
+        "normalized_claim": "সর্বপ্রথম চলচ্চিত্র নির্মাণ করেন- লুমিয়ার ব্রাদার্স (ফ্রান্স, ১৮৯৫ সালে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d4eaf2bc26d129938d428c9a45781cc667c450fc36a10e3618dccf36ef2d6493",
+        "source_page": 459,
+        "claim_text": "ব্রিটিশ ভারতের বঙ্গপ্রদেশের প্রথম সিনেমা হল- পিকচার হাউস।",
+        "normalized_claim": "ব্রিটিশ ভারতের বঙ্গপ্রদেশের প্রথম সিনেমা হল- পিকচার হাউস।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e63656d7f8e0339a650d37e46613f3172f5f6609b3edca0435663f186302edf7",
+        "source_page": 459,
+        "claim_text": "বাংলাদেশের চলচ্চিত্রের জনক- আব্দুল জব্বার খান।",
+        "normalized_claim": "বাংলাদেশের চলচ্চিত্রের জনক- আব্দুল জব্বার খান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "132225b3387cf1b4019d4ed127ae7f1d81a1eba817af868a1e1c01f4c8296dba",
+        "source_page": 459,
+        "claim_text": "সর্বপ্রথম বাংলাদেশের জাতীয় সংগীত গাওয়া হয় যে চলচ্চিত্রে- জীবন থেকে নেয়া।",
+        "normalized_claim": "সর্বপ্রথম বাংলাদেশের জাতীয় সংগীত গাওয়া হয় যে চলচ্চিত্রে- জীবন থেকে নেয়া।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "22d771ba39fc15c4471439ebc175be2b95c07910cf5b4c863cc7a569d532064f",
+        "source_page": 459,
+        "claim_text": "'আবার তোরা মানুষ হ' বিখ্যাত এ চলচ্চিত্রটির নির্মাতা- খান আতাউর রহমান।",
+        "normalized_claim": "'আবার তোরা মানুষ হ' বিখ্যাত এ চলচ্চিত্রটির নির্মাতা- খান আতাউর রহমান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1edf1383840665cdb81f4aeb7d6118b20f0989805380344161b782b93e814864",
+        "source_page": 459,
+        "claim_text": "'পদ্মা নদীর মাঝি' ছবির পরিচালক- গৌতম ঘোষ।",
+        "normalized_claim": "'পদ্মা নদীর মাঝি' ছবির পরিচালক- গৌতম ঘোষ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "17365d68ad4edfb75e663561ff39ffbf8555db35ad81273e69023d1cb93277c4",
+        "source_page": 459,
+        "claim_text": "'পথের পাঁচালী' প্রথম প্রদর্শিত হয়- ১৯৫৫ সালে।",
+        "normalized_claim": "'পথের পাঁচালী' প্রথম প্রদর্শিত হয়- ১৯৫৫ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2654b156ed33c10311e900de444155ed1b45e9c4c7aa09dd0692df3998beee22",
+        "source_page": 459,
+        "claim_text": "বাংলাদেশের প্রথম মঞ্চায়িত নাটকের নাম- বাকী-ইতিহাস।",
+        "normalized_claim": "বাংলাদেশের প্রথম মঞ্চায়িত নাটকের নাম- বাকী-ইতিহাস।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "305081e852cf2f5d63553077d4ed7f00de7c72fbae43d1973d96412cdb874e0c",
+        "source_page": 459,
+        "claim_text": "'ধীরে বহে মেঘনা'- আলমগীর কবির পরিচালিত একটি চলচ্চিত্র।",
+        "normalized_claim": "'ধীরে বহে মেঘনা'- আলমগীর কবির পরিচালিত একটি চলচ্চিত্র।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "9d8cc3a063f6fb937e613a7d2ea450eb2a7de907cb53ee77ff826bfae3a9fe8c",
+        "source_page": 459,
+        "claim_text": "বাংলা সিনেমার প্রথম অভিনেত্রী- পূর্ণিমা সেনগুপ্তা।",
+        "normalized_claim": "বাংলা সিনেমার প্রথম অভিনেত্রী- পূর্ণিমা সেনগুপ্তা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "c4e98da345a8c20970ff38a3ef55731ed8467727341a2046c976f75b71507f1f",
+        "source_page": 459,
+        "claim_text": "বাংলা সিনেমার প্রথম মুসলমান অভিনেত্রী- বনানী চৌধুরী।",
+        "normalized_claim": "বাংলা সিনেমার প্রথম মুসলমান অভিনেত্রী- বনানী চৌধুরী।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "eb7e35ee00f10530f01550084baa393536d6c15fff1a3d405cf528acd2402439",
+        "source_page": 459,
+        "claim_text": "১৯৫৬ সালে মুক্তি পাওয়া প্রথম সবাক চলচ্চিত্র 'মুখ ও মুখোশ' এর কেন্দ্রীয় চরিত্রে অভিনয় করেন পূর্ণিমা সেনগুপ্তা। পরবর্তীতে মুসলিম হয়ে নিজের নাম রাখেন পারভীন বানু।",
+        "normalized_claim": "১৯৫৬ সালে মুক্তি পাওয়া প্রথম সবাক চলচ্চিত্র 'মুখ ও মুখোশ' এর কেন্দ্রীয় চরিত্রে অভিনয় করেন পূর্ণিমা সেনগুপ্তা। পরবর্তীতে মুসলিম হয়ে নিজের নাম রাখেন পারভীন বানু।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "353d653c8b9f633d1f56d859bb1aa493ca5ecee4601ea292b6fb87a219d6cb36",
+        "source_page": 459,
+        "claim_text": "'বিশ বছর পরে' সিনেমায় প্রথম মুসলিম নায়িকা হিসেবে অভিনয় করেন বনানী চৌধুরী।",
+        "normalized_claim": "'বিশ বছর পরে' সিনেমায় প্রথম মুসলিম নায়িকা হিসেবে অভিনয় করেন বনানী চৌধুরী।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a8c0653cfbb488397162d61efe8916e60a86082f714ba34ecdbf4a93a6f7bfd7",
+        "source_page": 460,
+        "claim_text": "BFDC বলতে বোঝায়- Bangladesh Film Development Corporation.",
+        "normalized_claim": "BFDC বলতে বোঝায়- Bangladesh Film Development Corporation.",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "be6600fde3dbc9d7f83eda90b550c94a843b1964a96d25df7f9b1cee8d549f7e",
+        "source_page": 460,
+        "claim_text": "প্রতিষ্ঠা- ১৯৫৮।",
+        "normalized_claim": "প্রতিষ্ঠা- ১৯৫৮।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "cd41a0915f9405744d2373559419c2cef88179086178b856dd14b8af69ea4a66",
+        "source_page": 460,
+        "claim_text": "BFDC থেকে মুক্তিপ্রাপ্ত প্রথম চলচ্চিত্র- জাগো হুয়া সাভেরা।",
+        "normalized_claim": "BFDC থেকে মুক্তিপ্রাপ্ত প্রথম চলচ্চিত্র- জাগো হুয়া সাভেরা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3a4ada9efa971eb1d1daaa4c95759fe3b3f502d9cf9427c1c592be18a0ea1d5f",
+        "source_page": 460,
+        "claim_text": "জাগো হুয়া সাভেরা চলচ্চিত্রের পরিচালক- আখতার জং কাদের।",
+        "normalized_claim": "জাগো হুয়া সাভেরা চলচ্চিত্রের পরিচালক- আখতার জং কাদের।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "8c4d82feb4ce01f91de5a74c894fa45f52c440cff516745b8ea6314955fa8ce2",
+        "source_page": 460,
+        "claim_text": "মুক্তিযুদ্ধের উপর বাংলাদেশের প্রথম চলচ্চিত্র- ওরা ১১ জন, চাষী নজরুল ইসলাম।",
+        "normalized_claim": "মুক্তিযুদ্ধের উপর বাংলাদেশের প্রথম চলচ্চিত্র- ওরা ১১ জন, চাষী নজরুল ইসলাম।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3b6f2074b0e6ab746f96aba590e6b6ba663d4590c71734499dd5f52761b4b450",
+        "source_page": 460,
+        "claim_text": "'মুক্তির গান' ও 'মুক্তির কথা' চলচ্চিত্র দুটির নির্মাতা- তারেক মাসুদ ও ক্যাথরিন মাসুদ।",
+        "normalized_claim": "'মুক্তির গান' ও 'মুক্তির কথা' চলচ্চিত্র দুটির নির্মাতা- তারেক মাসুদ ও ক্যাথরিন মাসুদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ef31f8f770046b6faffd99a5064274aefd8b0ec3a63d76b74777060dafc13586",
+        "source_page": 460,
+        "claim_text": "'আগুনের পরশমণি' ছবির পরিচালক- হুমায়ূন আহমেদ।",
+        "normalized_claim": "'আগুনের পরশমণি' ছবির পরিচালক- হুমায়ূন আহমেদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "93887638810825426e08cb1f6207ec4551afcad01ec01a123754cd63f44e57b7",
+        "source_page": 460,
+        "claim_text": "'মুক্তির গান' চলচ্চিত্রের চিত্রকর- লেয়ার লেভিন।",
+        "normalized_claim": "'মুক্তির গান' চলচ্চিত্রের চিত্রকর- লেয়ার লেভিন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "0442f11a736454ac9457a44e192422272e1b3843bccc282379ef30ecff1909ea",
+        "source_page": 460,
+        "claim_text": "আন্তর্জাতিকভাবে পুরস্কৃত বাংলাদেশের প্রথম স্বল্পদৈর্ঘ্য চলচ্চিত্র- আগামী।",
+        "normalized_claim": "আন্তর্জাতিকভাবে পুরস্কৃত বাংলাদেশের প্রথম স্বল্পদৈর্ঘ্য চলচ্চিত্র- আগামী।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "11620537682dc1fc4fb8655cc5a04036d76d1de74709f176a660b537170aa24f",
+        "source_page": 460,
+        "claim_text": "অস্কার পুরস্কারের জন্য মনোনীত প্রথম বাংলা ছবি- মাটির ময়না।",
+        "normalized_claim": "অস্কার পুরস্কারের জন্য মনোনীত প্রথম বাংলা ছবি- মাটির ময়না।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5577614c10e70385088c03f1131e3acc6ccdbe9884276dc2f2f785ce5f57f26e",
+        "source_page": 460,
+        "claim_text": "কান চলচ্চিত্র উৎসবে প্রদর্শিত হয়- মাটির ময়না (তারেক মাসুদ)।",
+        "normalized_claim": "কান চলচ্চিত্র উৎসবে প্রদর্শিত হয়- মাটির ময়না (তারেক মাসুদ)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "bca250a9f09e4b10277a87bef3107b5b6fe54c73f91645f52fcc251408cb8590",
+        "source_page": 460,
+        "claim_text": "বাংলাদেশের সর্বশ্রেষ্ঠ চলচ্চিত্রকার।",
+        "normalized_claim": "বাংলাদেশের সর্বশ্রেষ্ঠ চলচ্চিত্রকার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2846e9c198cedc83ef791f5a82371a0245bfbf70ce6a897a2e2a59658be4888d",
+        "source_page": 460,
+        "claim_text": "জন্ম- ফেনী জেলায়।",
+        "normalized_claim": "জন্ম- ফেনী জেলায়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a4c94006a880c94130a64589a07f1ac16921111d15f3f843ff8d2e28d041cef6",
+        "source_page": 460,
+        "claim_text": "সম্পর্কে তিনি শহীদুল্লাহ কায়সারের ছোট ভাই।",
+        "normalized_claim": "সম্পর্কে তিনি শহীদুল্লাহ কায়সারের ছোট ভাই।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d8f8313738bdbb82df8e3f4c9ff9a994878a22360937ec9d6af7915e4a281373",
+        "source_page": 460,
+        "claim_text": "ভাষা আন্দোলনে অংশগ্রহণ করেন।",
+        "normalized_claim": "ভাষা আন্দোলনে অংশগ্রহণ করেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ed9cf4c25101a54ae400e0b40a2c18123c09ffcfacfa7976f1ea6df3238511a2",
+        "source_page": 460,
+        "claim_text": "১৯৭২ সালের ৩০ জানুয়ারি নিখোঁজ হয়ে যান।",
+        "normalized_claim": "১৯৭২ সালের ৩০ জানুয়ারি নিখোঁজ হয়ে যান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2c3b2c8e2fc7335a7ec4677f73492592899863eede9a94217c963ad95bf988f9",
+        "source_page": 460,
+        "claim_text": "পরিচালিত প্রথম চলচ্চিত্র- কখনও আসেনি (১৯৬১)।",
+        "normalized_claim": "পরিচালিত প্রথম চলচ্চিত্র- কখনও আসেনি (১৯৬১)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2369f974af7e498f44202f82b6bc555e0ce525a7cb70b4b92b205386e5df26cb",
+        "source_page": 460,
+        "claim_text": "বায়ান্নর ভাষা আন্দোলনভিত্তিক চলচ্চিত্র 'জীবন থেকে নেয়া' নির্মাণ করেন।",
+        "normalized_claim": "বায়ান্নর ভাষা আন্দোলনভিত্তিক চলচ্চিত্র 'জীবন থেকে নেয়া' নির্মাণ করেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "fc1226fe7c3748b2234720b33bdd06e805101aee76091348e0e2ee92e0bf58a1",
+        "source_page": 460,
+        "claim_text": "'কাঁচের দেয়াল', 'বেহুলা' ও 'আনোয়ারা' তাঁর বিখ্যাত চলচ্চিত্র।",
+        "normalized_claim": "'কাঁচের দেয়াল', 'বেহুলা' ও 'আনোয়ারা' তাঁর বিখ্যাত চলচ্চিত্র।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b61dde7bd051a91dc15286172faec197a6179ba6a8844366cd7fa71599ea2066",
+        "source_page": 460,
+        "claim_text": "বাংলাদেশের বিখ্যাত চলচ্চিত্র পরিচালক।",
+        "normalized_claim": "বাংলাদেশের বিখ্যাত চলচ্চিত্র পরিচালক।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e2aab1d20278213d3368660831dc22e1f09bfb266a32e229851fe8c7545417cb",
+        "source_page": 460,
+        "claim_text": "নির্মিত উল্লেখযোগ্য চলচ্চিত্র-\n➢ হুলিয়া ➢ স্মৃতি একাত্তর\n➢ নদীর নাম মধুমতি ➢ অচিন পাখি\n➢ চিত্রা নদীর পাড়ে ➢ লালসাল\n➢ রূপসা নদীর বাঁকে ➢ জীবনঢুলী (মুক্তিযুদ্ধভিত্তিক)",
+        "normalized_claim": "নির্মিত উল্লেখযোগ্য চলচ্চিত্র-\n➢ হুলিয়া ➢ স্মৃতি একাত্তর\n➢ নদীর নাম মধুমতি ➢ অচিন পাখি\n➢ চিত্রা নদীর পাড়ে ➢ লালসাল\n➢ রূপসা নদীর বাঁকে ➢ জীবনঢুলী (মুক্তিযুদ্ধভিত্তিক)",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b1f54af62b2ab204a60bf30eb2b4023134e52adc9f74fa58eec41af4304d5c9a",
+        "source_page": 461,
+        "claim_text": "উপমহাদেশের চলচ্চিত্রের জনক।",
+        "normalized_claim": "উপমহাদেশের চলচ্চিত্রের জনক।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "9b5669301d0a8ef320057e5b0db6dd5a7a1dd9340f120ff95a80fcd3e33013c7",
+        "source_page": 461,
+        "claim_text": "মানিকগঞ্জ জেলায় জন্মগ্রহণ করেন।",
+        "normalized_claim": "মানিকগঞ্জ জেলায় জন্মগ্রহণ করেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e80520aaeaab6416cb7dd8a950e3b20c7265e9e869e90ce6743dde0e8a45813b",
+        "source_page": 461,
+        "claim_text": "১৯০৩ সালে উপমহাদেশের প্রথম চলচ্চিত্র “আলিবাবা ও চল্লিশ চোর” নির্মাণ করেন।",
+        "normalized_claim": "১৯০৩ সালে উপমহাদেশের প্রথম চলচ্চিত্র “আলিবাবা ও চল্লিশ চোর” নির্মাণ করেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a60ed26fb34cdf5a5be60ef9ad699549a866e286a7715c70eced5eb81561f40c",
+        "source_page": 461,
+        "claim_text": "উপমহাদেশের প্রথম নির্বাক চলচ্চিত্র- আলিবাবা ও চল্লিশ চোর।",
+        "normalized_claim": "উপমহাদেশের প্রথম নির্বাক চলচ্চিত্র- আলিবাবা ও চল্লিশ চোর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "421f60177d0e5bf174ad30f09fdc60be7ed5cded0038056b752f2262fff7a378",
+        "source_page": 461,
+        "claim_text": "একাধারে লেখক, চলচ্চিত্রকার, কার্টুনিস্ট ও ইলাস্ট্রেটর।",
+        "normalized_claim": "একাধারে লেখক, চলচ্চিত্রকার, কার্টুনিস্ট ও ইলাস্ট্রেটর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d4a70d87f62621e2debab058ef7500bb00de495f55c8353c77758f6030a2b5ca",
+        "source_page": 461,
+        "claim_text": "বিখ্যাত সাহিত্যিক সুকুমার রায়ের সন্তান।",
+        "normalized_claim": "বিখ্যাত সাহিত্যিক সুকুমার রায়ের সন্তান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "9049cf41a9ee6d2521fc6a71cbfcc2ae89d2fdc4a3db62905986120f02dd74cd",
+        "source_page": 461,
+        "claim_text": "পৈত্রিক নিবাস বাংলাদেশের কিশোরগঞ্জ জেলায়।",
+        "normalized_claim": "পৈত্রিক নিবাস বাংলাদেশের কিশোরগঞ্জ জেলায়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d7843ce007701fe01e2a49dcf45af47669419d2c666ed6aff556b71e895c7ba4",
+        "source_page": 461,
+        "claim_text": "‘ফেলুদা’ ও ‘প্রফেসর শঙ্কু’ চরিত্রের স্রষ্টা।",
+        "normalized_claim": "‘ফেলুদা’ ও ‘প্রফেসর শঙ্কু’ চরিত্রের স্রষ্টা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7c762477ba60d67b8a4748d5e3a4f02d8aa0de41639318c88a31d44fa6d5c0c3",
+        "source_page": 461,
+        "claim_text": "তাঁর বিখ্যাত চলচ্চিত্র- পথের পাঁচালী, অপরাজিতা, অপুর সংসার, অরণ্যের দিনরাত্রি, চারুলতা, জলসাঘর, সোনার কেল্লা, তিন কন্যা, চিড়িয়াখানা, অশনি সংকেত ও হীরক রাজার দেশে।",
+        "normalized_claim": "তাঁর বিখ্যাত চলচ্চিত্র- পথের পাঁচালী, অপরাজিতা, অপুর সংসার, অরণ্যের দিনরাত্রি, চারুলতা, জলসাঘর, সোনার কেল্লা, তিন কন্যা, চিড়িয়াখানা, অশনি সংকেত ও হীরক রাজার দেশে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2061223ca3cc30cde17bff37bc8e7d8dd9c13effc726a380fdd0d9e51831dbcb",
+        "source_page": 461,
+        "claim_text": "বিখ্যাত বাঙালি চলচ্চিত্র পরিচালক।",
+        "normalized_claim": "বিখ্যাত বাঙালি চলচ্চিত্র পরিচালক।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "05e90d37cc79adf62df574095d44a35a2045e0199c45e79eaf1a6eaac4e15bc1",
+        "source_page": 461,
+        "claim_text": "‘তিতাস একটি নদীর নাম’ চলচ্চিত্রের পরিচালক।",
+        "normalized_claim": "‘তিতাস একটি নদীর নাম’ চলচ্চিত্রের পরিচালক।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7a9ecaf023f3e9661a679325ecd0d9b2aa576d02457fcad0a4577e749f321623",
+        "source_page": 461,
+        "claim_text": "‘তিতাস একটি নদীর নাম’ উপন্যাসটি রচনা করেন- অদ্বৈত মল্লবর্মণ।",
+        "normalized_claim": "‘তিতাস একটি নদীর নাম’ উপন্যাসটি রচনা করেন- অদ্বৈত মল্লবর্মণ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "190b61a9de4cebd97af938b3d13ec559c60cfe5928f281f17d640b2315cd2965",
+        "source_page": 461,
+        "claim_text": "তাঁর উল্লেখযোগ্য চলচ্চিত্র- নাগরিক, যান্ত্রিক, যুক্তি তক্কো আর গপ্পো, মেঘে ঢাকা তারা, কোমল গান্ধার ও সুবর্ণরেখা।",
+        "normalized_claim": "তাঁর উল্লেখযোগ্য চলচ্চিত্র- নাগরিক, যান্ত্রিক, যুক্তি তক্কো আর গপ্পো, মেঘে ঢাকা তারা, কোমল গান্ধার ও সুবর্ণরেখা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a48fb09a3a47a866616203c060abb0fc03b51b2e929c5d0144d447abbf36ab7a",
+        "source_page": 461,
+        "claim_text": "বাংলাদেশি প্রখ্যাত চলচ্চিত্র পরিচালক।",
+        "normalized_claim": "বাংলাদেশি প্রখ্যাত চলচ্চিত্র পরিচালক।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b1dfc35df246213888e0e72cac48c5ddc95bc8c1e2f5b2fde89f43bd6d45b109",
+        "source_page": 461,
+        "claim_text": "নির্মিত উল্লেখযোগ্য চলচ্চিত্র- সোনার বেড়ি, আদম সুরত, মাটির ময়না, নরসুন্দর, অন্তর্যাত্রা (The Homeland), রানওয়ে ও কাগজের ফুল।",
+        "normalized_claim": "নির্মিত উল্লেখযোগ্য চলচ্চিত্র- সোনার বেড়ি, আদম সুরত, মাটির ময়না, নরসুন্দর, অন্তর্যাত্রা (The Homeland), রানওয়ে ও কাগজের ফুল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "839a07e4990805878c44194d05c800e2de17ffd90c352b62cdd70ea490262e9b",
+        "source_page": 461,
+        "claim_text": "এস এম সুলতানের জীবন কাহিনীর উপর ‘আদম সুরত’ নামক প্রামাণ্যচিত্র রচনা ও পরিচালনা করেন।",
+        "normalized_claim": "এস এম সুলতানের জীবন কাহিনীর উপর ‘আদম সুরত’ নামক প্রামাণ্যচিত্র রচনা ও পরিচালনা করেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3bfd21e5cd3905bd89b15b4806bb5afe38a6a0aad6e0e4552e4db70c3b70367e",
+        "source_page": 463,
+        "claim_text": "প্রথম স্থাপন করা হয়- ডিআইটি ভবনে।",
+        "normalized_claim": "প্রথম স্থাপন করা হয়- ডিআইটি ভবনে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "4c580a0f5864cb7350ebd1c82f36a70af34fc4c084831f54f0ba3da61c74cea7",
+        "source_page": 463,
+        "claim_text": "প্রথম নাটক- একতলা-দোতলা (১৯৬৫)।",
+        "normalized_claim": "প্রথম নাটক- একতলা-দোতলা (১৯৬৫)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6d1d9d720ab3e98a711ae254777a06827e5746fb22858215b430170f1f2c1bd4",
+        "source_page": 463,
+        "claim_text": "প্রথম সঙ্গীত শিল্পী- ফেরদৌসী রহমান।",
+        "normalized_claim": "প্রথম সঙ্গীত শিল্পী- ফেরদৌসী রহমান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "ce41ee12405740ec4c1dc445d1cc3c113d3c9d8f413b63826751d13285d69621",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশে ইন্টারনেট ব্যবস্থা চালু হয়- ১৯৯৬ সালে।",
+        "normalized_claim": "বাংলাদেশে ইন্টারনেট ব্যবস্থা চালু হয়- ১৯৯৬ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "2ca97124e5de469f364315463a48d39e8cfa803baa9d7c3335f90fd972e163a4",
+        "source_page": 463,
+        "claim_text": "ভি স্যাট- বহির্বিশ্বের সাথে ডাটা আদান-প্রদানের মাধ্যম।",
+        "normalized_claim": "ভি স্যাট- বহির্বিশ্বের সাথে ডাটা আদান-প্রদানের মাধ্যম।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1e7678475339e3fb5865eada84376151d5c00a1101e712442b26a5e8dd3a8036",
+        "source_page": 463,
+        "claim_text": "বিটিআরসি- বাংলাদেশ টেলিকম রেগুলেটরি কমিশন।",
+        "normalized_claim": "বিটিআরসি- বাংলাদেশ টেলিকম রেগুলেটরি কমিশন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "5c31b5f9dc690e520cad2e0f1ce25b8c8e64d6da0c3eb63464134e1a0b6f0f38",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশ টেলিগ্রাফ ও টেলিফোন (টিএন্ডটি) বোর্ডের সদর দপ্তর অবস্থিত- ঢাকা।",
+        "normalized_claim": "বাংলাদেশ টেলিগ্রাফ ও টেলিফোন (টিএন্ডটি) বোর্ডের সদর দপ্তর অবস্থিত- ঢাকা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "f5decb0099d53e2b5dfbb26443652980a90933ae9006201ea29442a1b1dfa7e2",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশের কম্পিউটারে প্রথম বাংলা ফন্ট ব্যবহৃত হয়- ১৯৮৭ সালে (নাম- বিজয়)।",
+        "normalized_claim": "বাংলাদেশের কম্পিউটারে প্রথম বাংলা ফন্ট ব্যবহৃত হয়- ১৯৮৭ সালে (নাম- বিজয়)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "842a20983acdfbfe08b9313b3c2c56623b82a2350e6c2aed43381dbe6dcb8d57",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশের প্রথম সেলুলার ফোন- সিটিসেল (চালু হয়-১৯৯৩ সালে)।",
+        "normalized_claim": "বাংলাদেশের প্রথম সেলুলার ফোন- সিটিসেল (চালু হয়-১৯৯৩ সালে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "dce82d04441aa6de77e43b75cdfc13a78d3687a422ce882e96fcef9d65735eb2",
+        "source_page": 463,
+        "claim_text": "পৃথিবীর যে দেশটির সাথে বাংলাদেশের টেলিযোগাযোগ নেই- ইসরাইল।",
+        "normalized_claim": "পৃথিবীর যে দেশটির সাথে বাংলাদেশের টেলিযোগাযোগ নেই- ইসরাইল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "06ce37982170197b48cf9a1872ffcb927bdf4bce31e08879b327a74690736943",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশের সরকারি টেলিভিশন- ৪টি (উপকেন্দ্র- ১৪টি, পুনঃপ্রচার কেন্দ্র- ১টি, রাঙ্গামাটি)।",
+        "normalized_claim": "বাংলাদেশের সরকারি টেলিভিশন- ৪টি (উপকেন্দ্র- ১৪টি, পুনঃপ্রচার কেন্দ্র- ১টি, রাঙ্গামাটি)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "53fc3e419d7e3eb4d29eb29f51a13d19c080235980e883da2913206611dd0ed4",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশের প্রথম বাংলা ডিজিটাল স্যাটেলাইট চ্যানেল- চ্যানেল আই (১৯৯৭)।",
+        "normalized_claim": "বাংলাদেশের প্রথম বাংলা ডিজিটাল স্যাটেলাইট চ্যানেল- চ্যানেল আই (১৯৯৭)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "209c23bdb30595f6277c488a90ddbd12a9fab24e6cea62f1dcfbf38ee684f7df",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশ বেতারের পূর্বনাম- রেডিও বাংলাদেশ।",
+        "normalized_claim": "বাংলাদেশ বেতারের পূর্বনাম- রেডিও বাংলাদেশ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a8533f4aedd5dfe7c8ea771710a8c22826044a2e2f30cc3e2758a3622dd025c3",
+        "source_page": 463,
+        "claim_text": "স্থাপিত হয়- ১৯৩৯ সালে।",
+        "normalized_claim": "স্থাপিত হয়- ১৯৩৯ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "7caaa22b321625fb7dd8f46a52e8b30dff51cf3862fe6311d24e19f383a6c814",
+        "source_page": 463,
+        "claim_text": "সর্বপ্রথম স্বাধীন বাংলা বেতার কেন্দ্র স্থাপিত হয়েছিল- চট্টগ্রামের কালুরঘাটে।",
+        "normalized_claim": "সর্বপ্রথম স্বাধীন বাংলা বেতার কেন্দ্র স্থাপিত হয়েছিল- চট্টগ্রামের কালুরঘাটে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "4d797c931b67963d9f920090d5fbf95454d113a056d07d647f7051b699285917",
+        "source_page": 463,
+        "claim_text": "বর্তমান বাংলাদেশ বেতারের সদর দপ্তর অবস্থিত- ঢাকার আগারগাঁও।",
+        "normalized_claim": "বর্তমান বাংলাদেশ বেতারের সদর দপ্তর অবস্থিত- ঢাকার আগারগাঁও।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e283357272910260648b1ac4982e5cfbf8a2e7d5660fca342400119bae4ed70b",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশের প্রথম বেসরকারি রেডিও চ্যানেল- রেডিও মেট্রোওয়েভ।",
+        "normalized_claim": "বাংলাদেশের প্রথম বেসরকারি রেডিও চ্যানেল- রেডিও মেট্রোওয়েভ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b5a07a7ff0d7201d6a3c38237f12951f2d82e86fead7be4ba1fb56cd9f58c1a3",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশে প্রথম বেসরকারি টেলিভিশন চ্যানেল- এটিএন বাংলা (১৯৯৭ সালে)।",
+        "normalized_claim": "বাংলাদেশে প্রথম বেসরকারি টেলিভিশন চ্যানেল- এটিএন বাংলা (১৯৯৭ সালে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6e802669ccecfd5721c6e478ed991f09a519901ca766d969c34c23a7eb843e8e",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশে 'ডিস এন্টিনা' ব্যবহার চালু হয়- ১৯৯২ সালে।",
+        "normalized_claim": "বাংলাদেশে 'ডিস এন্টিনা' ব্যবহার চালু হয়- ১৯৯২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "3b343703f7df1dc5cb9c9868117977328baf7e1150156468d8047e4d8202288a",
+        "source_page": 462,
+        "claim_text": "নিচের কোন চলচ্চিত্রটির নির্মাতা ঋত্বিক ঘটক? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "7f2517a703fd6236ccc169449430a0f57c6dbacb0e5785a52709cf5b47d36af8",
+        "source_page": 462,
+        "claim_text": "আন্তর্জাতিক খ্যাতিসম্পন্ন 'মাটির ময়না' চলচ্চিত্রের নির্মাতা কে? — printed answer: খ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "7732b5e4687ed14c20bee5778a1bec7068f7a11c1db4419eeee08a666bbe36d8",
+        "source_page": 462,
+        "claim_text": "জীবন থেকে নেয়া চলচ্চিত্রটির পরিচালক কে? — printed answer: ক",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "a15e9e9c007a953213bbe5e573b3c46ad8b891b012e9805e9d125cf48f793941",
+        "source_page": 462,
+        "claim_text": "কোন চলচ্চিত্র ১৯৪৭-এর দেশভাগ নিয়ে নির্মিত? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "4ad4f6277097a5f852993b4366f2e1d3aa052b00f4641c12c65134fe1f2fd98f",
+        "source_page": 462,
+        "claim_text": "'জীবন থেকে নেয়া' চলচ্চিত্রটির পরিচালক কে? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "122752779af076fdca5b151d84257d6db76ae93c0402fa84ae12ebedf27bc706",
+        "source_page": 462,
+        "claim_text": "পৃথিবীর বিখ্যাত চলচ্চিত্রকার সত্যজিৎ রায়ের পৈতৃক নিবাস কোথায়? — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "a4ae015fa2f81c64c28282d70a41d738d6c478f6a4d67bdd41ac3f53bf0a92a6",
+        "source_page": 462,
+        "claim_text": "'হীরক রাজার দেশে' ছবিটির পরিচালক কে? — printed answer: গ",
+        "normalized_claim": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      }
+    ],
+    "verified": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "a5f6ffe17a30335a97aba57cefc30a709a07820f733bf77046c4aa75940d4454",
+        "source_page": 459,
+        "claim_text": "বাংলাদেশের প্রথম চলচ্চিত্র- মুখ ও মুখোশ (১৯৫৬)।",
+        "normalized_claim": "বাংলাদেশের প্রথম চলচ্চিত্র- মুখ ও মুখোশ (১৯৫৬)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thedailystar.net/culture/entertainment/news/how-mukh-o-mukhosh-bangladeshs-first-film-was-made-4239111",
+          "https://observerbd.com/news/586226"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "e2a26ca62328c2359885ca7f563df1a0c760fb25bfb9262cef2c6081463e8f04",
+        "source_page": 459,
+        "claim_text": "প্রথম পূর্ণদৈর্ঘ্য বাংলা সবাক চলচ্চিত্র- মুখ ও মুখোশ।",
+        "normalized_claim": "প্রথম পূর্ণদৈর্ঘ্য বাংলা সবাক চলচ্চিত্র- মুখ ও মুখোশ।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thedailystar.net/culture/entertainment/news/how-mukh-o-mukhosh-bangladeshs-first-film-was-made-4239111",
+          "https://observerbd.com/news/586226"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "32a595eefa05d1877c08819583a1c1891f582ef86c3dfce73dfd6a25a517d312",
+        "source_page": 459,
+        "claim_text": "'মুখ ও মুখোশ' চলচ্চিত্রের পরিচালক- আব্দুল জব্বার খান।",
+        "normalized_claim": "'মুখ ও মুখোশ' চলচ্চিত্রের পরিচালক- আব্দুল জব্বার খান।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.thedailystar.net/culture/entertainment/news/how-mukh-o-mukhosh-bangladeshs-first-film-was-made-4239111",
+          "https://observerbd.com/news/586226"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "1590ada378ca89382843b1597274dc4bed0e1cf4a3b6cff0fa96da2900a9dcec",
+        "source_page": 460,
+        "claim_text": "পাকিস্তানের প্রথম রঙিন চলচ্চিত্র 'সঙ্গম' (১৯৬৪) এর পরিচালক।",
+        "normalized_claim": "পাকিস্তানের প্রথম রঙিন চলচ্চিত্র 'সঙ্গম' (১৯৬৪) এর পরিচালক।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Raihan%2C_Zahir",
+          "https://pubmed.ncbi.nlm.nih.gov/41691478/"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "d90a792e7472612fbe6ea26cd8f4b4b115f55444543a2657d6e4d8ea7b3c1f8f",
+        "source_page": 460,
+        "claim_text": "তাঁর নির্মিত মুক্তিযুদ্ধভিত্তিক প্রথম প্রামাণ্য চলচ্চিত্র- Stop Genocide.",
+        "normalized_claim": "তাঁর নির্মিত মুক্তিযুদ্ধভিত্তিক প্রথম প্রামাণ্য চলচ্চিত্র- Stop Genocide.",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Raihan%2C_Zahir",
+          "https://pubmed.ncbi.nlm.nih.gov/41691478/"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "3668b70b7cc482fda9fcc288070d0c203dcec28002938e7ac2f078a782deb79b",
+        "source_page": 461,
+        "claim_text": "উপমহাদেশের প্রথম অস্কার বিজয়ী পরিচালক (১৯৯২)।",
+        "normalized_claim": "উপমহাদেশের প্রথম অস্কার বিজয়ী পরিচালক (১৯৯২)।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://aaspeechesdb.oscars.org/link/064-24/"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "80bc91b660cbf5aa25b8751af5c0b6f5dc1f8032140463fcc325d826b9f27eff",
+        "source_page": 463,
+        "claim_text": "স্থাপিত হয়- ১৯৬৪ সালে।",
+        "normalized_claim": "স্থাপিত হয়- ১৯৬৪ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://btv.gov.bd/pages/static-pages/6922db5a933eb65569e099bf"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "6bb39026b2c00682c1bbd6836d2ca1786fc2c3b7500e3e1b10fad97b4b74f856",
+        "source_page": 463,
+        "claim_text": "ডিআইটি ভবনের বর্তমান নাম- রাজউক ভবন।",
+        "normalized_claim": "ডিআইটি ভবনের বর্তমান নাম- রাজউক ভবন।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://btv.gov.bd/pages/static-pages/6922db5a933eb65569e099bf"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b524f8f38150bdea542439e06da0e9cb37dd5c37da6254325d03c494cad2d258",
+        "source_page": 463,
+        "claim_text": "রামপুরা টিভি কেন্দ্র চালু হয়- ১৯৭৫ সালে।",
+        "normalized_claim": "রামপুরা টিভি কেন্দ্র চালু হয়- ১৯৭৫ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://btv.gov.bd/pages/static-pages/6922db5a933eb65569e099bf"
+        ]
+      },
+      {
+        "entity_type": "note",
+        "canonical_hash": "86058fc2fecb73bef8f8673621a108d20ac5df659fee5a3c7e24868983c3327f",
+        "source_page": 463,
+        "claim_text": "বি টি ভি বাংলাদেশে রঙিন টেলিভিশন চালু হয় ১৯৮০ সালে।",
+        "normalized_claim": "বি টি ভি বাংলাদেশে রঙিন টেলিভিশন চালু হয় ১৯৮০ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "http://btv.gov.bd/pages/static-pages/6922db5a933eb65569e099bf"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "6b2dcadfa3cecd835cc2f70931188e102f83119ac1a7912d3217480f0d588dee",
+        "source_page": 462,
+        "claim_text": "মুক্তিযুদ্ধভিত্তিক প্রামাণ্য চলচ্চিত্র 'Stop Genocide' এর পরিচালক কে? — printed answer: ঘ",
+        "normalized_claim": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://en.banglapedia.org/index.php/Raihan%2C_Zahir",
+          "https://pubmed.ncbi.nlm.nih.gov/41691478/"
+        ]
+      }
+    ],
+    "conflicting": [
+      {
+        "entity_type": "fact",
+        "canonical_hash": "60a424172a22e88a88df16f2f6abe2f314e5c76e420f0d0f920b292355b52372",
+        "source_page": 459,
+        "claim_text": "'সূর্য দীঘল বাড়ি' সিনেমার পরিচালক- শেখ নিয়ামত আলী।",
+        "normalized_claim": "'সূর্য দীঘল বাড়ি' সিনেমার পরিচালক- শেখ নিয়ামত আলী।",
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": [
+          "https://www.jugantor.com/entertainment/976080",
+          "https://www.prothomalo.com/entertainment/dhallywood/wb0drsam8v"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "05cafae640f738e7bab31c6e92dee56aca6af6e10dcbf0cfd1b5f2536eda0e37",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশে সর্বপ্রথম কার্ডফোন ব্যবস্থা চালু হয়- ১৯৯২ সালে।",
+        "normalized_claim": "বাংলাদেশে সর্বপ্রথম কার্ডফোন ব্যবস্থা চালু হয়- ১৯৯২ সালে।",
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": [
+          "http://btrc.gov.bd/pages/static-pages/6922e040933eb65569e26312"
+        ]
+      },
+      {
+        "entity_type": "fact",
+        "canonical_hash": "b77f1110fda3def342b4bf664cf13604a6056dfbc7328becebf957dbf8e92302",
+        "source_page": 463,
+        "claim_text": "বাংলাদেশে সর্বপ্রথম ডিজিটাল টেলিফোন ব্যবস্থা চালু হয়- ১৯৯০ সালে।",
+        "normalized_claim": "বাংলাদেশে সর্বপ্রথম ডিজিটাল টেলিফোন ব্যবস্থা চালু হয়- ১৯৯০ সালে।",
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": [
+          "http://btrc.gov.bd/pages/static-pages/6922e040933eb65569e26312"
+        ]
+      },
+      {
+        "entity_type": "mcq",
+        "canonical_hash": "2d0ba38133de2f9a3a39dce926d929ad085a39bc8db104e4441e766edf64b74b",
+        "source_page": 462,
+        "claim_text": "'সূর্যদীঘল বাড়ী' চলচ্চিত্রের পরিচালক কে? — printed answer: ক",
+        "normalized_claim": null,
+        "status": "conflicting",
+        "confidence": "low",
+        "sources": [
+          "https://www.jugantor.com/entertainment/976080",
+          "https://www.prothomalo.com/entertainment/dhallywood/wb0drsam8v"
+        ]
+      }
+    ]
+  },
+  "quality_gates": [
+    "OCR text and raw model responses remain in the page-level audit artifacts.",
+    "Relational source_page uses the physical source-PDF page even where printed book pagination differs.",
+    "The page-461 nested page-number mismatch is retained in review metadata rather than silently rewritten.",
+    "Content is tagged by domain, semantic type, exam source, and verification status.",
+    "Conflicting claims are preserved with low confidence and external evidence rather than normalized as facts.",
+    "All inserts are idempotent through source-page existence checks, canonical hashes, and source keys."
+  ]
+}
