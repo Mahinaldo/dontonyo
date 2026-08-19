@@ -84,4 +84,6 @@
 - [x] Process pages 519–523 immediately after the completed pages 514–518 audit, using the same quality-gated Supabase import workflow
 - [x] Recover the failed pages 519–523 vision-OCR batch after the live service returned empty completions, then complete its normal validation and Supabase import workflow
 - [x] Complete pages 519–523: recovered OCR with an available documented GPT vision fallback, all 25 visual-review tiles, source-preserved national-symbol and geographical-alias tables, 6 MCQs with 24 options, verification ledger, idempotent Supabase import, integrity audit, and full validation
-- [ ] Process pages 524–528 immediately after the completed pages 519–523 audit, using the same quality-gated Supabase import workflow
+- [x] Process pages 524–528 immediately after the completed pages 519–523 audit, using the same quality-gated Supabase import workflow
+- [x] Complete pages 524–528: audited recovered vision OCR, all 25 visual-review tiles, source-preserved geographical-alias and Asia reference material, 45 facts, 3 structured notes, 14 MCQs with 56 options, verification ledger, idempotent Supabase import, integrity audit, and full validation
+- [ ] Process pages 529–533 immediately after the completed pages 524–528 audit, using the same quality-gated Supabase import workflow

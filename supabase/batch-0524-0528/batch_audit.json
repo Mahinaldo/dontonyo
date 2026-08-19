@@ -1,0 +1,61 @@
+{
+  "batch_pages": [
+    524,
+    525,
+    526,
+    527,
+    528
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0524-0528-v1",
+  "source_pages": [
+    {
+      "page": 524,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "b82ef2ddf27f3929143856cbf4ea517d0834821e1fdd30c1f52b8920394b810e"
+    },
+    {
+      "page": 525,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "9606072ee7c515856c46aed7fc9a0623e3ec3a1c48283d158c433f3c91daa8ff"
+    },
+    {
+      "page": 526,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "9e35dd915314f2da074d7722bee7dd5c943de2069ad96f4c468485f5dd7fd77e"
+    },
+    {
+      "page": 527,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "145d49feaed5383c9862bfa6fd61400d4ac28e274764517abaea07d9d4d74410"
+    },
+    {
+      "page": 528,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "c445ed5429ff69f956a1a9b853f22428aeb8df572a620ef6c5c148039af590df"
+    }
+  ],
+  "generated_facts": 45,
+  "generated_notes": 3,
+  "generated_mcqs": 14,
+  "generated_options": 56,
+  "generated_flashcards": 62,
+  "verification_counts": {
+    "verified": 2,
+    "conflicting": 0,
+    "source_attributed": 60
+  },
+  "source_anomalies": [
+    "Physical PDF pages 524–528 retain book footers 467–471.",
+    "Page 524 retains five unresolved source spellings rather than substituting inferred place names.",
+    "Page 525 retains four visually unclear MCQ options with low confidence and printed answer keys.",
+    "Page 526 retains a source-era 44-country count and political regional taxonomy.",
+    "Page 527 excludes two garbled lower OCR lines after Macau; only reviewed text is imported.",
+    "Page 528 retains time-sensitive political and constitutional source statements with corrections and confidence flags."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 524–528 are imported.",
+    "All 25 ordered tiles were visually reviewed.",
+    "Facts, notes, MCQs, options, answers, and examination metadata remain relationally distinct.",
+    "Upserts are idempotent by canonical hash, page, and stable source key."
+  ]
+}
