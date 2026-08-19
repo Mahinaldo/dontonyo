@@ -1,0 +1,61 @@
+{
+  "batch_pages": [
+    509,
+    510,
+    511,
+    512,
+    513
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0509-0513-v1",
+  "source_pages": [
+    {
+      "page": 509,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "4ef5214aa2b80d20792e68017a6a01085309184df04bca147c356be647e3003c"
+    },
+    {
+      "page": 510,
+      "review_status": "accepted",
+      "image_sha256": "4deb819047ad60aace87b567effe78dc537d83595e1a2bd8f20b5064ba197ab6"
+    },
+    {
+      "page": 511,
+      "review_status": "accepted",
+      "image_sha256": "6e2c27640788ff34b01a091c2154c3f69e4377a29e3cb0a98a30a2e4b11ead34"
+    },
+    {
+      "page": 512,
+      "review_status": "accepted",
+      "image_sha256": "1af6e111520de11c12101d1a0e9eea5ed706cee603067a0dfa7c9faaac80d883"
+    },
+    {
+      "page": 513,
+      "review_status": "accepted",
+      "image_sha256": "d8ba9f5e385037645c40705e3f713d13d845c2656f552e40cc9b51c36b4e2264"
+    }
+  ],
+  "generated_facts": 16,
+  "generated_notes": 3,
+  "generated_mcqs": 31,
+  "generated_options": 124,
+  "generated_flashcards": 50,
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 1,
+    "source_attributed": 46
+  },
+  "source_anomalies": [
+    "Physical PDF pages 509–513 have printed book footers 452–456.",
+    "Page 509 preserves the source spelling পেলাউর in the Palau option and Tashkant in the Tajikistan option.",
+    "Page 510’s Sierra Leone Bengali-language claim is retained with conflicting external evidence.",
+    "Page 511’s printed answer keys and exam labels are preserved; lower-confidence language questions are not silently normalized.",
+    "Page 512 retains the combined Lithuania/Latvia table entry and time-sensitive Myanmar constitutional wording.",
+    "Page 513 preserves the table as source-era institutional reference material, including Myanmar’s chamber names."
+  ],
+  "quality_gates": [
+    "Exactly five physical source pages 509–513 are imported.",
+    "All 25 dense-image tiles were reviewed in manifest order with overlap reconciliation.",
+    "Facts, structured notes, MCQs, four options, printed answer keys, and exam metadata remain relationally distinct.",
+    "All record upserts are deterministic by canonical hash, source page, or stable source key."
+  ]
+}

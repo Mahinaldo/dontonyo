@@ -1,0 +1,4 @@
+{
+  "project_id": "rennotctgrxvbpghbimx",
+  "query": "SELECT (SELECT COUNT(*) FROM public.source_pages WHERE source_page BETWEEN 509 AND 513) AS source_pages, (SELECT COUNT(*) FROM public.gk_facts WHERE source_page BETWEEN 509 AND 513) AS facts, (SELECT COUNT(*) FROM public.gk_notes WHERE source_page BETWEEN 509 AND 513) AS notes, (SELECT COUNT(*) FROM public.gk_mcqs WHERE source_page IN (509, 511)) AS mcqs, (SELECT COUNT(*) FROM public.gk_mcq_options o JOIN public.gk_mcqs m ON m.id = o.mcq_id WHERE m.source_page IN (509, 511)) AS mcq_options, (SELECT COUNT(*) FROM public.flashcards WHERE source_key LIKE 'batch0509-0513:%') AS flashcards, (SELECT COUNT(*) FROM public.fact_verifications WHERE source_page BETWEEN 509 AND 513) AS verifications, (SELECT COUNT(*) FROM public.content_tag_assignments WHERE assigned_by = 'batch-0509-0513-quality-pipeline') AS tag_assignments LIMIT 1;"
+}

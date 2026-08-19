@@ -71,9 +71,12 @@
 - [x] Process pages 489–493 as the first of four consecutive quality-gated batches, including source-linked OCR, visual review, tagging, verification, Supabase import, integrity checks, and checkpoint
 - [x] Process pages 494–498 immediately after the pages 489–493 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
 - [x] Process pages 499–503 immediately after the pages 494–498 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
-- [ ] Process pages 504–508 immediately after the pages 499–503 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
+- [x] Process pages 504–508 immediately after the pages 499–503 checkpoint using the same quality-gated workflow, then import, audit, and checkpoint the batch
 - [x] Stop after the verified pages 504–508 import and wait for explicit user instruction before starting page 509
 - [x] Save a dedicated checkpoint for the completed pages 489–493 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
 - [x] Save a dedicated checkpoint for the completed pages 494–498 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
 - [x] Save a dedicated checkpoint for the completed pages 499–503 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, transaction-repair record, and validation
-- [ ] Save a dedicated checkpoint for the completed pages 504–508 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
+- [x] Save a dedicated checkpoint for the completed pages 504–508 batch, including source artifacts, verification ledger, idempotent import, integrity results, report, and validation
+- [ ] Continue quality-gated five-page OCR, visual review, verification, idempotent Supabase import, integrity audit, and checkpoint batches from page 509 through the remaining source pages without waiting for batch-by-batch approval
+- [x] Complete pages 509–513: audited vision OCR, all 25 visual-review tiles, source-preserved tables and 31 MCQs with all 124 options, verification ledger, idempotent Supabase import, integrity audit, and full validation
+- [ ] Process pages 514–518 immediately after the completed pages 509–513 audit, using the same quality-gated Supabase import workflow
