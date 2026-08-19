@@ -1,0 +1,58 @@
+{
+  "batch_pages": [
+    504,
+    505,
+    506,
+    507,
+    508
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0504-0508-v1",
+  "source_pages": [
+    {
+      "page": 504,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "e22c1f9ffe202819cb725ee63eb71e34d57441527160f395368165263441918d"
+    },
+    {
+      "page": 505,
+      "review_status": "accepted",
+      "image_sha256": "665c88b7bb92ddb07e04d0939f2c6a4f324b7fc2ba91ceb301f0da9711f4993b"
+    },
+    {
+      "page": 506,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "08089f265c002532a7f9e5b197e0e5917dc9ef2825993cc7006f6f700382a8c0"
+    },
+    {
+      "page": 507,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "47bb0d75e189bd635dd03d0ee83d3841a03c1de474fa360e4954023d9b5be99f"
+    },
+    {
+      "page": 508,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "e093cd12838f7bd0ff056130eeadcdf19debf1936eb42c94f758e5e557ef4143"
+    }
+  ],
+  "generated_facts": 6,
+  "generated_notes": 8,
+  "generated_mcqs": 30,
+  "generated_options": 120,
+  "generated_flashcards": 44,
+  "verification_counts": {
+    "verified": 4,
+    "source_attributed": 40
+  },
+  "source_anomalies": [
+    "Physical PDF pages 504–508 have printed source footers 447–451.",
+    "Page 508 OCR correction: Dakar (ডাকার), not Dhaka (ঢাকার).",
+    "MCQ answers are sourced from visually validated printed answer keys; not inferred.",
+    "Source-specific capital-role and terminology wording is preserved without silent normalization."
+  ],
+  "quality_gates": [
+    "Five physical PDF pages only; stop before page 509.",
+    "All 25 dense-image tiles were reviewed in manifest order.",
+    "Facts, tables, MCQs, four options, answer keys, and exam metadata remain relationally distinct.",
+    "All generated records are idempotent by source page, canonical hash, or source key."
+  ]
+}
