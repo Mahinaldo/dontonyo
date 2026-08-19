@@ -1,0 +1,738 @@
+{
+  "batch_pages": [
+    484,
+    485,
+    486,
+    487,
+    488
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0484-0488-v1",
+  "source_pages": [
+    {
+      "page": 484,
+      "sha256": "3d1b10edb31049ca5ca4b4d1df1dbb378c6036eeeba0afc4ab91b1b99c1e0fe8",
+      "review": "accepted"
+    },
+    {
+      "page": 485,
+      "sha256": "80505ac68a757bdb3ad65dd1cf7266d95288f2983f835a2dfb85b4460e8c93fa",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 486,
+      "sha256": "21c5e13af13a1a775856d40cc3d3468d7cfac4748791ed0fb9195d4127f74557",
+      "review": "accepted_with_flags"
+    },
+    {
+      "page": 487,
+      "sha256": "753114e26318fc732a1754df67cbcc5ee3508df2baaa33527bde08dcf73b8122",
+      "review": "accepted"
+    },
+    {
+      "page": 488,
+      "sha256": "62bb9650d88b211b6d6207224f80f2b7e9047e89e7dbf70e76ecbceb09d3ee0b",
+      "review": "accepted_with_flags"
+    }
+  ],
+  "generated_fact_candidates": 37,
+  "generated_notes": 6,
+  "generated_mcqs": 23,
+  "generated_options": 92,
+  "verification_statuses": {
+    "source_attributed": [
+      {
+        "type": "fact",
+        "hash": "be492bcf8629a16601cc619f05f069fc1920e6deecaf79c8fb377959ccd35e21",
+        "source_page": 485,
+        "claim": "বাংলাদেশ ষষ্ঠ আইসিসি ট্রফিতে চ্যাম্পিয়ন হয়- ১৯৯৭ সালে (মালয়েশিয়ায়)।",
+        "normalized": "বাংলাদেশ ষষ্ঠ আইসিসি ট্রফিতে চ্যাম্পিয়ন হয়- ১৯৯৭ সালে (মালয়েশিয়ায়)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "df8b36a66a7464982857628bcf29794d6c9e1797dfc7a2d3021a19483e4724fc",
+        "source_page": 485,
+        "claim": "ওয়ানডে ক্রিকেটে বাংলাদেশ প্রথম পরাজিত করে- কেনিয়াকে, ১৯৯৮ সালে।",
+        "normalized": "ওয়ানডে ক্রিকেটে বাংলাদেশ প্রথম পরাজিত করে- কেনিয়াকে, ১৯৯৮ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "133c1cc16a6f3c78fac141dce1f4d21d82ce5dfa07cbd55f1dff319e6e7d65fa",
+        "source_page": 485,
+        "claim": "ওয়ানডে ক্রিকেটে বাংলাদেশের পক্ষে এক ম্যাচে সর্বোচ্চ রান সংগ্রাহক- লিটন দাস (১৭৬ রান)।",
+        "normalized": "ওয়ানডে ক্রিকেটে বাংলাদেশের পক্ষে এক ম্যাচে সর্বোচ্চ রান সংগ্রাহক- লিটন দাস (১৭৬ রান)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "9a1cd6258cbf7274ac4e6e2c8e248acb1f8f929d693421ab898301c07473e411",
+        "source_page": 485,
+        "claim": "বাংলাদেশ প্রথম যে দেশকে পরাজিত করে ওয়ানডে ও টেস্ট সিরিজ জয়লাভ করে- জিম্বাবুয়ে।",
+        "normalized": "বাংলাদেশ প্রথম যে দেশকে পরাজিত করে ওয়ানডে ও টেস্ট সিরিজ জয়লাভ করে- জিম্বাবুয়ে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "0048a54702fe0ac8260c01c0ab4277824b4368452639a0c2454c716fdac21082",
+        "source_page": 485,
+        "claim": "ওয়ানডেতে বাংলাদেশের দলীয় সর্বোচ্চ রান- ৩৪৯ রান (আয়ারল্যান্ডের বিপক্ষে)।",
+        "normalized": "ওয়ানডেতে বাংলাদেশের দলীয় সর্বোচ্চ রান- ৩৪৯ রান (আয়ারল্যান্ডের বিপক্ষে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "8c0b1e7d10fe9c856d997444f01f83004247b030677f68dbcc631878c4eb6616",
+        "source_page": 485,
+        "claim": "বাংলাদেশের পক্ষে ওয়ানডে ক্রিকেটে প্রথম হ্যাটট্রিক অর্জনকারী বোলার- শাহাদাত হোসেন রাজীব (২০০৬ সালে); জিম্বাবুয়ের বিপক্ষে।",
+        "normalized": "বাংলাদেশের পক্ষে ওয়ানডে ক্রিকেটে প্রথম হ্যাটট্রিক অর্জনকারী বোলার- শাহাদাত হোসেন রাজীব (২০০৬ সালে); জিম্বাবুয়ের বিপক্ষে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "1d3fbfa1c8abd6d92c276739b69a1d2d85bdb317a0f48438578b485548769d4d",
+        "source_page": 485,
+        "claim": "বাংলাদেশের মহিলা ক্রিকেট দল ওয়ানডে স্ট্যাটাস লাভ করে- ২৪ নভেম্বর, ২০১১।",
+        "normalized": "বাংলাদেশের মহিলা ক্রিকেট দল ওয়ানডে স্ট্যাটাস লাভ করে- ২৪ নভেম্বর, ২০১১।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "ce9a317cd0250f5d3571eeec0e02efe6c7882d1124b431f663b57f321cdeb8e5",
+        "source_page": 485,
+        "claim": "বাংলাদেশের প্রথম ক্রিকেটার হিসাবে ওয়ানডে ক্রিকেটে ৯০০০ রান পূর্ণ করেছে- তামিম ইকবাল।",
+        "normalized": "বাংলাদেশের প্রথম ক্রিকেটার হিসাবে ওয়ানডে ক্রিকেটে ৯০০০ রান পূর্ণ করেছে- তামিম ইকবাল।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "72008589e3a632174ec25c38b9fc5e1aac9b29ee9cd8e35cd7cacf111ed3c4b6",
+        "source_page": 485,
+        "claim": "বাংলাদেশ ওয়ানডে স্ট্যাটাস লাভ করে- ১৯৯৭ সালে।",
+        "normalized": "বাংলাদেশ ওয়ানডে স্ট্যাটাস লাভ করে- ১৯৯৭ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "8b260ac90a4b47299716d00c149c73870de546600ab62d2035e8e198b8457317",
+        "source_page": 485,
+        "claim": "বিশ্বকাপ ক্রিকেটে বাংলাদেশের অভিষেক হয়- ১৯৯৯ (নিউজিল্যান্ডের বিরুদ্ধে)।",
+        "normalized": "বিশ্বকাপ ক্রিকেটে বাংলাদেশের অভিষেক হয়- ১৯৯৯ (নিউজিল্যান্ডের বিরুদ্ধে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "b89d567c85f00ecf2b482b61c6cfb00be659b8c3e19a9b7894bdcc9e1113171e",
+        "source_page": 485,
+        "claim": "বিশ্বকাপ ক্রিকেটে যে দলের বিরুদ্ধে বাংলাদেশ প্রথম জয়লাভ করে- স্কটল্যান্ড।",
+        "normalized": "বিশ্বকাপ ক্রিকেটে যে দলের বিরুদ্ধে বাংলাদেশ প্রথম জয়লাভ করে- স্কটল্যান্ড।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "5cf5c1657d9a82959bb67088b97fbd7504f11fb22e3123e422c95f0b05f62f9f",
+        "source_page": 485,
+        "claim": "২০১১ সালের বিশ্বকাপ ক্রিকেটের উদ্বোধনী ম্যাচ অনুষ্ঠিত হয়- ঢাকায়।",
+        "normalized": "২০১১ সালের বিশ্বকাপ ক্রিকেটের উদ্বোধনী ম্যাচ অনুষ্ঠিত হয়- ঢাকায়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "330edfac4fce8f3478db96f10fcbbfc935422b21ca097ce1dcbde16b01fa10f5",
+        "source_page": 486,
+        "claim": "বাংলাদেশের পক্ষে টেস্ট ক্রিকেটে প্রথম হ্যাটট্রিক অর্জনকারী বোলার- অলক কাপালি (২০০৩ সালে); পাকিস্তানের বিপক্ষে।",
+        "normalized": "বাংলাদেশের পক্ষে টেস্ট ক্রিকেটে প্রথম হ্যাটট্রিক অর্জনকারী বোলার- অলক কাপালি (২০০৩ সালে); পাকিস্তানের বিপক্ষে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "20d9eb7d3b29505204cee1def76379cd7b382e784cc4e4a86b65e193c2abdab6",
+        "source_page": 486,
+        "claim": "টেস্ট ক্রিকেটে বাংলাদেশের পক্ষে প্রথম ডাবল সেঞ্চুরি করেন- মুশফিকুর রহিম।",
+        "normalized": "টেস্ট ক্রিকেটে বাংলাদেশের পক্ষে প্রথম ডাবল সেঞ্চুরি করেন- মুশফিকুর রহিম।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "8ac43edc57c9af7e83bfb00d7f7036c872fcf304e9bf9f6a726635166f1cff12",
+        "source_page": 486,
+        "claim": "টেস্ট ক্রিকেটে বাংলাদেশের এক ইনিংসে সর্বোচ্চ রান- ৬৩৮ রান (শ্রীলঙ্কার বিপক্ষে)।",
+        "normalized": "টেস্ট ক্রিকেটে বাংলাদেশের এক ইনিংসে সর্বোচ্চ রান- ৬৩৮ রান (শ্রীলঙ্কার বিপক্ষে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "f096289c359cd1c1f4fac1290e469292c430da3ea4e84141520b0d5f7ade76f5",
+        "source_page": 486,
+        "claim": "বাংলাদেশ বিশ্ব অলিম্পিকে প্রথম অংশগ্রহণ করে- লস এঞ্জেলসে, ১৯৮৪ সালে; প্রথম অংশগ্রহণ ছিল- ২৩তম অলিম্পিকে।",
+        "normalized": "বাংলাদেশ বিশ্ব অলিম্পিকে প্রথম অংশগ্রহণ করে- লস এঞ্জেলসে, ১৯৮৪ সালে; প্রথম অংশগ্রহণ ছিল- ২৩তম অলিম্পিকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "937e83423df5bd262910f53f5ad7b9b92e845bc07e44cd72961f7dbb6b9b78f0",
+        "source_page": 486,
+        "claim": "বাংলাদেশ ফিফার সদস্যপদ লাভ করে- ১ জানুয়ারি, ১৯৭৬ সালে।",
+        "normalized": "বাংলাদেশ ফিফার সদস্যপদ লাভ করে- ১ জানুয়ারি, ১৯৭৬ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "840130c1aad3bc10258ff4facccd17c750d6b14324352f788456dc11c2ba41b8",
+        "source_page": 486,
+        "claim": "বাংলাদেশ প্রথম বিশ্বকাপ ফুটবলের বাছাইপর্বে অংশগ্রহণ করে- ১৯৮৬ সালে।",
+        "normalized": "বাংলাদেশ প্রথম বিশ্বকাপ ফুটবলের বাছাইপর্বে অংশগ্রহণ করে- ১৯৮৬ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "174994c184f4a0f766426fcf921307321921f198631dbc89306a0181caac01db",
+        "source_page": 486,
+        "claim": "ঢাকা প্রথম বিভাগ ফুটবল লীগ শুরু হয়- ১৯১৫ সাল থেকে।",
+        "normalized": "ঢাকা প্রথম বিভাগ ফুটবল লীগ শুরু হয়- ১৯১৫ সাল থেকে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "5ed6156bcf2b531c2256a92c277183b7f7fc5a9b48147f7d0500af7e4a56d82c",
+        "source_page": 486,
+        "claim": "বাংলাদেশের ফুটবল ইতিহাসের শ্রেষ্ঠ খেলোয়াড়- যাদুকর সামাদ।",
+        "normalized": "বাংলাদেশের ফুটবল ইতিহাসের শ্রেষ্ঠ খেলোয়াড়- যাদুকর সামাদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "14a0c98d159350cdb9ace800debebb159864b4f21ed2f46fe59a48ef51b35282",
+        "source_page": 486,
+        "claim": "স্বাধীন বাংলা ফুটবল দলের অধিনায়ক ছিলেন- জাকারিয়া পিন্টু।",
+        "normalized": "স্বাধীন বাংলা ফুটবল দলের অধিনায়ক ছিলেন- জাকারিয়া পিন্টু।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "e207b4845cb74585958f311d7945cb668cb90aa3cad22a5de4b65b479a867ba0",
+        "source_page": 486,
+        "claim": "দাবা খেলার সর্বোচ্চ খেতাব- গ্র্যান্ডমাস্টার।",
+        "normalized": "দাবা খেলার সর্বোচ্চ খেতাব- গ্র্যান্ডমাস্টার।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "0f72a1d1af5b7bd28a27256afc8a2e70f817ff31dc4edb008308ea0106fdbd69",
+        "source_page": 486,
+        "claim": "বাংলাদেশের সর্বশ্রেষ্ঠ দাবাড়ু- নিয়াজ মোর্শেদ।",
+        "normalized": "বাংলাদেশের সর্বশ্রেষ্ঠ দাবাড়ু- নিয়াজ মোর্শেদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "e77aba2c73268c4493d452532728f2d4e113f14ecd1bb7527f94a9e32b8917a5",
+        "source_page": 486,
+        "claim": "বাংলাদেশে একমাত্র আন্তর্জাতিক মহিলা দাবাড়ু- রানী হামিদ।",
+        "normalized": "বাংলাদেশে একমাত্র আন্তর্জাতিক মহিলা দাবাড়ু- রানী হামিদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "1b6cd694abf2c4a47f9f64e43e9ba9ec5e2e9d8cf948e35757d05123207a944f",
+        "source_page": 487,
+        "claim": "বাংলাদেশের জাতীয় খেলা কাবাডি; কাবাডি খেলার পূর্ণনাম- হাডুডু; কাবাডিকে জাতীয় খেলার মর্যাদা দেওয়া হয়- ১৯৭২ সালে।",
+        "normalized": "বাংলাদেশের জাতীয় খেলা কাবাডি; কাবাডি খেলার পূর্ণনাম- হাডুডু; কাবাডিকে জাতীয় খেলার মর্যাদা দেওয়া হয়- ১৯৭২ সালে।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "9a1b429f330a3a875e3fdd1f8d1438ec671914a908e4c36a5827d501e98058a4",
+        "source_page": 487,
+        "claim": "বাংলাদেশ ক্রিকেটের সর্বোচ্চ নিয়ন্ত্রক সংস্থা- বাংলাদেশ ক্রিকেট বোর্ড (বিসিবি)।",
+        "normalized": "বাংলাদেশ ক্রিকেটের সর্বোচ্চ নিয়ন্ত্রক সংস্থা- বাংলাদেশ ক্রিকেট বোর্ড (বিসিবি)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "33ee7b606fcba9a6a376abb23273e7ad70fca1f9f6c46605a9440e19a53cea69",
+        "source_page": 487,
+        "claim": "বাংলাদেশ কমনওয়েলথ গেমসে অংশগ্রহণ করে- ১৯৭৮ সালে (১১তম আসরে)।",
+        "normalized": "বাংলাদেশ কমনওয়েলথ গেমসে অংশগ্রহণ করে- ১৯৭৮ সালে (১১তম আসরে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "e6dcf8496287d9069e49095b134c634e9a2943bee36b49d8c39ddedfaa5a57f5",
+        "source_page": 487,
+        "claim": "বাংলাদেশের ওয়ানডে নারী ক্রিকেটে প্রথম সেঞ্চুরি করে- ফারজানা হক পিংকি (ভারতের বিপক্ষে)।",
+        "normalized": "বাংলাদেশের ওয়ানডে নারী ক্রিকেটে প্রথম সেঞ্চুরি করে- ফারজানা হক পিংকি (ভারতের বিপক্ষে)।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "46e7681dfafcb8b26f24d16262ffca2dc5550d29d56e0008ac81c18ffd50a23a",
+        "source_page": 487,
+        "claim": "ওয়ানডে ফরম্যাটে অভিষেক ম্যাচে প্রথম পাঁচ উইকেট শিকারী- তাসকিন আহমেদ।",
+        "normalized": "ওয়ানডে ফরম্যাটে অভিষেক ম্যাচে প্রথম পাঁচ উইকেট শিকারী- তাসকিন আহমেদ।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "fact",
+        "hash": "7fb89d4027b67b70d1268de620e665fa37937f02eb3b804cdcc44a6338abe5be",
+        "source_page": 487,
+        "claim": "বিশ্বের প্রথম ব্যাটার হিসাবে টেস্ট ক্রিকেটে অবস্ট্রাকটিং দ্য ফিল্ড আউট হন- মুশফিকুর রহমান।",
+        "normalized": "বিশ্বের প্রথম ব্যাটার হিসাবে টেস্ট ক্রিকেটে অবস্ট্রাকটিং দ্য ফিল্ড আউট হন- মুশফিকুর রহমান।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "ef7f415876b0ba6ee21dc62d1115ac7d0cae50a23f91353815fc3de0c451b075",
+        "source_page": 485,
+        "claim": "টি-২০ ক্রিকেট: শাহরিয়ার নাফীস\nওয়ানডে ক্রিকেট: গাজী আশরাফ লিপু\nটেস্ট ক্রিকেট: নাঈমুর রহমান দুর্জয়\nবিশ্বকাপ ক্রিকেট: আমিনুল ইসলাম বুলবুল",
+        "normalized": "টি-২০ ক্রিকেট: শাহরিয়ার নাফীস\nওয়ানডে ক্রিকেট: গাজী আশরাফ লিপু\nটেস্ট ক্রিকেট: নাঈমুর রহমান দুর্জয়\nবিশ্বকাপ ক্রিকেট: আমিনুল ইসলাম বুলবুল",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "41ffc174a9cceb22d2a9e45ad17238e9f76f1df9ead072e1154afe5a4fc488c8",
+        "source_page": 486,
+        "claim": "নিয়াজ মোর্শেদ\nআব্দুল্লাহ আল রাকিব\nরিফাত বিন সাত্তার\nজিয়াউর রহমান\nএনামুল হোসেন রাজীব",
+        "normalized": "নিয়াজ মোর্শেদ\nআব্দুল্লাহ আল রাকিব\nরিফাত বিন সাত্তার\nজিয়াউর রহমান\nএনামুল হোসেন রাজীব",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "a026b0cb94d8d845482fec8824ada5ea125fe5d59864013217fca425ad05ecfe",
+        "source_page": 486,
+        "claim": "স্থাপিত হয়- ১৯৮৬ সালে।\nঅবস্থান- জিরানী, সাভার।\nবিকেএসপির মূল শিক্ষা কার্যক্রম- উচ্চমাধ্যমিক পর্যন্ত।\nউদ্দেশ্য- জাতীয় পর্যায়ে খেলাধুলার মান উন্নয়ন এবং আন্তর্জাতিক ক্রীড়াঙ্গনে বাংলাদেশের অবস্থানকে সম্মানজনক অবস্থায় উন্নীত করা।",
+        "normalized": "স্থাপিত হয়- ১৯৮৬ সালে।\nঅবস্থান- জিরানী, সাভার।\nবিকেএসপির মূল শিক্ষা কার্যক্রম- উচ্চমাধ্যমিক পর্যন্ত।\nউদ্দেশ্য- জাতীয় পর্যায়ে খেলাধুলার মান উন্নয়ন এবং আন্তর্জাতিক ক্রীড়াঙ্গনে বাংলাদেশের অবস্থানকে সম্মানজনক অবস্থায় উন্নীত করা।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "c43de387673a16618acd80be1ebd7e1c5d357daa156a6f8179a5d4fd2525bba1",
+        "source_page": 487,
+        "claim": "২০১০ সালে ব্রুনাই ওপেনে চ্যাম্পিয়ন হয়ে বাংলাদেশের প্রথম নাগরিক হিসাবে সিদ্দিকুর রহমান এশিয়ান ট্যুর প্রফেশনাল গলফ টুর্নামেন্ট জয় করেন।",
+        "normalized": "২০১০ সালে ব্রুনাই ওপেনে চ্যাম্পিয়ন হয়ে বাংলাদেশের প্রথম নাগরিক হিসাবে সিদ্দিকুর রহমান এশিয়ান ট্যুর প্রফেশনাল গলফ টুর্নামেন্ট জয় করেন।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "20d5c29d3e885fc4616806a347948a20dce26828cbbe4bb0a32e020a8d42bb8d",
+        "source_page": 487,
+        "claim": "বাংলাদেশের সর্বকালের সর্বশ্রেষ্ঠ সাঁতারু ব্রজেন দাস। ইংলিশ চ্যানেল অতিক্রমকারী প্রথম এশীয় সাঁতারু বাংলাদেশের ব্রজেন দাস। ব্রজেন দাসের পৈতৃক নিবাস মুন্সিগঞ্জ জেলায়।",
+        "normalized": "বাংলাদেশের সর্বকালের সর্বশ্রেষ্ঠ সাঁতারু ব্রজেন দাস। ইংলিশ চ্যানেল অতিক্রমকারী প্রথম এশীয় সাঁতারু বাংলাদেশের ব্রজেন দাস। ব্রজেন দাসের পৈতৃক নিবাস মুন্সিগঞ্জ জেলায়।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "note",
+        "hash": "20d8ba57f3cd3ee0bcd845ee8fbc3b09f4f3293230406305de0d62e6cec18154",
+        "source_page": 487,
+        "claim": "বিশ্বের প্রথম ব্যাটার হিসাবে টেস্ট ক্রিকেটে অবস্ট্রাকটিং দ্য ফিল্ড আউট হন মুশফিকুর রহমান। বাংলাদেশের পক্ষে টেস্ট ক্রিকেটে সর্বোচ্চ রানের রেকর্ড তাঁর। টেস্ট ক্রিকেটের ইতিহাসে বিশ্বের প্রথম এবং একমাত্র উইকেটরক্ষক ব্যাটসম্যান হিসেবে দুটি ডাবল সেঞ্চুরি করার রেকর্ড রয়েছে তাঁর।",
+        "normalized": "বিশ্বের প্রথম ব্যাটার হিসাবে টেস্ট ক্রিকেটে অবস্ট্রাকটিং দ্য ফিল্ড আউট হন মুশফিকুর রহমান। বাংলাদেশের পক্ষে টেস্ট ক্রিকেটে সর্বোচ্চ রানের রেকর্ড তাঁর। টেস্ট ক্রিকেটের ইতিহাসে বিশ্বের প্রথম এবং একমাত্র উইকেটরক্ষক ব্যাটসম্যান হিসেবে দুটি ডাবল সেঞ্চুরি করার রেকর্ড রয়েছে তাঁর।",
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "b662d39f312b347f23628c392c515f3a0d9b376d4fae2f78bcba4110bca319b6",
+        "source_page": 484,
+        "claim": "ভারত-বাংলাদেশ সীমানা চিহ্নিত করণে মুজিব-ইন্দিরা চুক্তি যে তারিখে সম্পাদিত হয়- — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "231f358d41908211e8f85458f5c82ed4266824d53188bc57f9b476dcc947bb64",
+        "source_page": 484,
+        "claim": "১৯৭৪ সালে মুজিব-ইন্দিরা চুক্তি স্বাক্ষরিত হয়- — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "6a5b13f1f32a7cb0f8f4fb692cf84f2429ef9f072ecbd37082a7a637284b0fb3",
+        "source_page": 484,
+        "claim": "ফারাক্কা বাঁধ চালু হয় কবে? — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "d5da8727b518e676f75b5b1b4f425f945c9e01478cee0274c5c84e940bb9240b",
+        "source_page": 484,
+        "claim": "উপজাতিদের প্রতিনিধি হিসেবে কে পার্বত্য চট্টগ্রাম শান্তি চুক্তিতে স্বাক্ষর করেন? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "3d0c5968b77bedc6ad38af4d3295272dcffe52f2e4c6b147f58c13aaa248becb",
+        "source_page": 484,
+        "claim": "দক্ষিণ এশিয়ার প্রথম দেশ হিসেবে CTBT অনুমোদন করে কোন দেশ? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "16326c2aa0c819ca30ca25f81c2d2d73fde4450d11aa48578da6fc5bcb690fdc",
+        "source_page": 488,
+        "claim": "স্বাধীন বাংলা ফুটবল দলের অধিনায়ক কে ছিলেন? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "9afb8b410d9517c4c1fcdc5faea5d340398ad3bcfb2311b3958a85eec9d20bb3",
+        "source_page": 488,
+        "claim": "২০২০ সালের অনূর্ধ্ব-১৯ বিশ্বকাপ বিজয়ী বাংলাদেশ ক্রিকেট দলের অধিনায়ক কে ছিলেন? — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "82c544116121589ba116954442178538cadbfcdc6e2f9d7dd5708b27f451eb27",
+        "source_page": 488,
+        "claim": "টোকিও অলিম্পিক গেমস ২০২০ এর কোন ইভেন্টে বাংলাদেশ প্রথমবারের মত দ্বিতীয় পর্বে পৌঁছেছিল? — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "dae203466bb0b631d7aba694aaf8ee9d35a7c225e1f93ea8102dfccdaa441f54",
+        "source_page": 488,
+        "claim": "টেস্ট ক্রিকেটে বাংলাদেশের পক্ষে প্রথম ডাবল সেঞ্চুরি কে করেন? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "d95ad245bd280a38957990f0f4e807785949cbeb0fc9845e2a40fbb820cbd023",
+        "source_page": 488,
+        "claim": "বাংলাদেশের প্রথম টেস্ট ক্রিকেট দলের অধিনায়ক কে ছিলেন? — printed answer: গ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "ede148d91ef0f41f2f4a3e083f4f90bad34258c5be7d6de91617f20cf477cc16",
+        "source_page": 488,
+        "claim": "বিশ্বকাপ ক্রিকেট কোন দলের বিরুদ্ধে বাংলাদেশ প্রথম জয়লাভ করে? — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "4fc98f93d9cd733b5cb47455141559afb4e9b7fd00f24cdaa20547cf2d486da1",
+        "source_page": 488,
+        "claim": "বাংলাদেশ বিশ্বকাপ ক্রিকেট প্রতিযোগিতায় প্রথম যে দেশের বিরুদ্ধে ম্যাচ খেলেছিল- — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "f1724858febb9e85fd352525915389b1ddfbfe1f6c7916aac224714aa11841f5",
+        "source_page": 488,
+        "claim": "বাংলাদেশ.........সাল থেকে গ্রীষ্মকালীন অলিম্পিকে অংশগ্রহণ করে আসছে- — printed answer: খ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "4f4aaff46ad95fb5f05eabdb5873cd8686b2bf6492fdd2f95241f13ad397a888",
+        "source_page": 488,
+        "claim": "প্রথম আইসিসি ট্রফিতে বাংলাদেশ দলের অধিনায়ক কে ছিলেন? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "82076f3d1fc54bd532f9a2631ecacae00aa891cb92669ebee23fc902b46d3aa3",
+        "source_page": 488,
+        "claim": "বাংলাদেশের পক্ষে ওয়ানডে অভিষেকে কোন ক্রিকেটার পাঁচ উইকেট পেয়েছেন? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "ff97cc77e9f8f72c23dd244fa116de6503c92cb8283070701cc18e4e51a2cd21",
+        "source_page": 488,
+        "claim": "১৯৭১ সালে স্বাধীন বাংলা ফুটবল দলের অধিনায়ক কে ছিলেন? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "3034a796c3be9b31cb1eead73ed3a4ce4a3edd670593c85f2b5dc034c5c4247e",
+        "source_page": 488,
+        "claim": "কোন সালে বাংলাদেশ ক্রিকেট ওয়ানডে স্ট্যাটাস লাভ করে? — printed answer: ঘ",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "type": "mcq",
+        "hash": "900c6bab76d598a0e4830556164aeeb44200d579d4b417493f4cda35b5078743",
+        "source_page": 488,
+        "claim": "বাংলাদেশ প্রথম কোন সালে অলিম্পিকে অংশগ্রহণ করে? — printed answer: ক",
+        "normalized": null,
+        "status": "source_attributed",
+        "confidence": "medium",
+        "sources": []
+      }
+    ],
+    "verified": [
+      {
+        "type": "fact",
+        "hash": "f13911adc70a358e649650fbb78df268b1f0a6caefde53b78f6f0487760a77c6",
+        "source_page": 485,
+        "claim": "বাংলাদেশ টেস্ট স্ট্যাটাস লাভ করে- ২৬ জুন, ২০০০ সালে।",
+        "normalized": "বাংলাদেশ টেস্ট স্ট্যাটাস লাভ করে- ২৬ জুন, ২০০০ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/day-bangladesh-gained-test-status-2000-266497"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "04d92c8068813ab4ee39650529f8567c12e956f506dab9ce5dfa4aee9ae2653b",
+        "source_page": 486,
+        "claim": "বাংলাদেশ বিশ্বের- দশম টেস্ট খেলুড়ে দেশ।",
+        "normalized": "বাংলাদেশ বিশ্বের- দশম টেস্ট খেলুড়ে দেশ।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/day-bangladesh-gained-test-status-2000-266497"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "4bfa5b3171cf3f72b64a21af48aa77b25b6611925ff9c0331c363b48d06631bc",
+        "source_page": 486,
+        "claim": "বাংলাদেশ ক্রিকেট দলের অভিষেক টেস্ট অনুষ্ঠিত হয়- ২০০০ সালে, ঢাকায়; বাংলাদেশ অভিষেক টেস্ট খেলে- ভারতের বিপক্ষে।",
+        "normalized": "বাংলাদেশ ক্রিকেট দলের অভিষেক টেস্ট অনুষ্ঠিত হয়- ২০০০ সালে, ঢাকায়; বাংলাদেশ অভিষেক টেস্ট খেলে- ভারতের বিপক্ষে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/day-bangladesh-gained-test-status-2000-266497"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "018ddda26a459d3cfee3a060d5f3736689e011098234fb9a3cfd098c1900774c",
+        "source_page": 487,
+        "claim": "বিসিবি প্রতিষ্ঠিত হয়- ১৯৭২ সালে।",
+        "normalized": "বিসিবি প্রতিষ্ঠিত হয়- ১৯৭২ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tigercricket.com.bd/history"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "46a59b9cefd13a72371b651104588451b9cf0d979bc553cf2ce8d2ce1208a342",
+        "source_page": 487,
+        "claim": "বাংলাদেশ জাতীয় নারী ক্রিকেট দল টেস্ট মর্যাদা লাভ করে- ১ এপ্রিল, ২০২১।",
+        "normalized": "বাংলাদেশ জাতীয় নারী ক্রিকেট দল টেস্ট মর্যাদা লাভ করে- ১ এপ্রিল, ২০২১।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/bangladesh-womens-cricket-team-gets-test-status-225793"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "fbae7aa509ab3ff31a3018eae1b00c2e2e06cdcf7b77bdfd6e866a58ed8ad4af",
+        "source_page": 487,
+        "claim": "বাংলাদেশ ICC এর সহযোগী দেশ নির্বাচিত হয়- ১৯৭৭ সালে।",
+        "normalized": "বাংলাদেশ ICC এর সহযোগী দেশ নির্বাচিত হয়- ১৯৭৭ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tigercricket.com.bd/history"
+        ]
+      },
+      {
+        "type": "fact",
+        "hash": "afc1b79a13fdbaca0163ebbcf137a935dbe7f55cb7ce325310414908da407ccb",
+        "source_page": 487,
+        "claim": "বাংলাদেশ ICC ট্রফিতে প্রথম অংশগ্রহণ করে- ১৯৭৯ সালে।",
+        "normalized": "বাংলাদেশ ICC ট্রফিতে প্রথম অংশগ্রহণ করে- ১৯৭৯ সালে।",
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tigercricket.com.bd/history"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "63ec3e4c70b6eb424aad999b9cdb8a396b82bfbd1f837bf4301221ad3c0e3c89",
+        "source_page": 484,
+        "claim": "বাংলাদেশ-ভারত পানি চুক্তির মেয়াদ- — printed answer: ঘ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://lpr.adb.org/sites/default/files/resource/1610/ganges-water-sharing-treaty-1996.pdf"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "01a3a5f99bf0e1273230633aab5850664be53bc6309e833bf4843abe9146dc69",
+        "source_page": 484,
+        "claim": "সর্বশেষ ফারাক্কা পানি বণ্টন চুক্তি কখন স্বাক্ষরিত হয়? — printed answer: ক",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://lpr.adb.org/sites/default/files/resource/1610/ganges-water-sharing-treaty-1996.pdf"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "4191f32c93ba49e79431e57292c8d6d332bf3b5b87999c5a69d83675b1fe0773",
+        "source_page": 488,
+        "claim": "বাংলাদেশ জাতীয় নারী ক্রিকেট দল কবে টেস্ট মর্যাদা লাভ করে? — printed answer: ক",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/bangladesh-womens-cricket-team-gets-test-status-225793"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "c95a2315339f70e000fd1e42730886ca7171716007ffcdfa0d52fb55c5b650ab",
+        "source_page": 488,
+        "claim": "বাংলাদেশ কত সালে ক্রিকেট টেস্ট স্ট্যাটাস লাভ করে? — printed answer: গ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/day-bangladesh-gained-test-status-2000-266497"
+        ]
+      },
+      {
+        "type": "mcq",
+        "hash": "131f0946eb4275be35ea76f8d054d237d0c60dbf0a32a1c6d06209128c77f72e",
+        "source_page": 488,
+        "claim": "বাংলাদেশ কততম টেস্ট প্লেয়িং দেশ হিসাবে স্বীকৃতি পেয়েছে? — printed answer: খ",
+        "normalized": null,
+        "status": "verified",
+        "confidence": "high",
+        "sources": [
+          "https://www.tbsnews.net/sports/day-bangladesh-gained-test-status-2000-266497"
+        ]
+      }
+    ]
+  },
+  "quality_gates": [
+    "Five physical PDF pages only.",
+    "Reviewed OCR artifacts and ordered dense-page visual review are retained.",
+    "Facts, biographies, notes/lists, MCQs, options, answer keys, and exam metadata remain distinct.",
+    "Image-grounded corrections to page 485, 486, and 488 metadata are represented in source-page review metadata.",
+    "All generated inserts are idempotent by source page, canonical hash, or source key."
+  ]
+}
