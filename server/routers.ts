@@ -27,10 +27,12 @@ import {
   getSupabasePracticeQuestions,
   getSupabaseStudyFlashcards,
   getSupabaseTopic,
+  completeSupabaseStudySession,
   saveSupabaseFlashcardReview,
   saveSupabaseLearnerProfile,
   saveSupabasePracticeAttempt,
   saveSupabaseTopicProgress,
+  startSupabaseStudySession,
   searchSupabaseGk,
 } from "./supabaseCatalog";
 import { systemRouter } from "./_core/systemRouter";
@@ -265,6 +267,16 @@ export const appRouter = router({
     markTopic: protectedProcedure
       .input(z.object({ topicId: z.string().uuid(), status: z.enum(["in_progress", "completed", "needs_review"]) }))
       .mutation(({ ctx, input }) => saveSupabaseTopicProgress({ userId: ctx.user.openId, ...input })),
+    startTopicSession: protectedProcedure
+      .input(z.object({ topicId: z.string().uuid() }))
+      .mutation(({ ctx, input }) => startSupabaseStudySession({ userId: ctx.user.openId, topicId: input.topicId })),
+    completeTopicSession: protectedProcedure
+      .input(z.object({ sessionId: z.string().uuid(), sourceBlocksSeen: z.number().int().min(0).max(500), recallCuesRevealed: z.boolean() }))
+      .mutation(async ({ ctx, input }) => {
+        const session = await completeSupabaseStudySession({ userId: ctx.user.openId, ...input });
+        await saveSupabaseTopicProgress({ userId: ctx.user.openId, topicId: session.topicId, status: "completed" });
+        return session;
+      }),
   }),
   student: router({
     dashboard: protectedProcedure.query(async ({ ctx }) => {

@@ -99,9 +99,10 @@
 - [x] Decide and document the sign-in requirement for Practice so public rehearsal and protected persistence are not conflated
 - [x] Verify mobile layouts for home, practice, progress, profile, chapter, and topic routes in addition to the completed library review
 - [x] Add focused contract coverage for aggregate Supabase-practice persistence and confirm saved attempts visibly update Progress
-- [ ] Audit every existing learning screen for raw-data dumps, duplicate navigation, broken controls, and dead-end student flows; remove or replace them with useful learning interactions
-- [ ] Replace the Manus-only login dependency with a proper Supabase sign-up, sign-in, sign-out, password-reset, and first-run onboarding flow
-- [ ] Define Supabase-backed learner profile, study-session, flashcard-review, and practice-attempt models that preserve real student activity without fabricating progress
+- [x] Audit every existing learning screen for raw-data dumps, duplicate navigation, broken controls, and dead-end student flows; remove or replace them with useful learning interactions
+- [x] Replace the Manus-only login dependency with a proper Supabase sign-up, sign-in, sign-out, password-reset, and first-run onboarding flow
+- [x] Define Supabase-backed learner profile, study-session, flashcard-review, and practice-attempt models that preserve real student activity without fabricating progress
+- [x] Add a real Supabase study-session record for structured topic study, then surface completed-session history in Dashboard and Progress with focused contract coverage
 - [x] Rebuild topic study into structured, chunked, memorization-oriented lessons with key takeaways, source provenance, progressive disclosure, and self-check prompts
 - [x] Rebuild flashcards as a focused active-recall experience with reveal, confidence grading, spaced-review queue, keyboard controls, progress feedback, and truthful empty states
 - [ ] Rebuild practice into effective study modes with question-set progress, answer explanations where source material supports them, review of missed questions, and saved result feedback

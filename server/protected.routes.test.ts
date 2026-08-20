@@ -45,4 +45,10 @@ describe("protected learning routes", () => {
     await expect(caller.study.reviewFlashcard({ flashcardId: "11111111-1111-4111-8111-111111111111", rating: "good" })).rejects.toMatchObject({ code: "UNAUTHORIZED" });
     await expect(caller.study.markTopic({ topicId: "22222222-2222-4222-8222-222222222222", status: "completed" })).rejects.toMatchObject({ code: "UNAUTHORIZED" });
   });
+
+  it("protects topic study-session creation and completion", async () => {
+    const caller = appRouter.createCaller(publicContext());
+    await expect(caller.study.startTopicSession({ topicId: "33333333-3333-4333-8333-333333333333" })).rejects.toMatchObject({ code: "UNAUTHORIZED" });
+    await expect(caller.study.completeTopicSession({ sessionId: "44444444-4444-4444-8444-444444444444", sourceBlocksSeen: 5, recallCuesRevealed: true })).rejects.toMatchObject({ code: "UNAUTHORIZED" });
+  });
 });

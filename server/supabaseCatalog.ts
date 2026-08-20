@@ -474,16 +474,36 @@ export async function saveSupabasePracticeAttempt(input: { userId: string; quest
 }
 
 export async function getSupabaseLearnerProgress(userId: string) {
-  const [topicRows, attemptRows, reviewRows] = await Promise.all([
+  const [topicRows, attemptRows, reviewRows, sessionRows] = await Promise.all([
     getRows<JsonRecord>(`learner_topic_progress?select=topic_id,status,completed_at,updated_at&user_id=eq.${userId}&order=updated_at.desc&limit=100`),
     getRows<JsonRecord>(`learner_practice_attempts?select=id,total_questions,correct_answers,completed_at&user_id=eq.${userId}&order=completed_at.desc&limit=30`),
     getRows<JsonRecord>(`learner_flashcard_reviews?select=flashcard_id,due_at,last_reviewed_at,review_count&user_id=eq.${userId}&order=due_at.asc&limit=100`),
+    getRows<JsonRecord>(`learner_study_sessions?select=id,topic_id,started_at,completed_at,source_blocks_seen,recall_cues_revealed&user_id=eq.${userId}&order=started_at.desc&limit=50`),
   ]);
   return {
     topics: topicRows.map(row => ({ topicId: value<string>(row, "topic_id"), status: value<string>(row, "status"), completedAt: value<string | null>(row, "completed_at") })),
     attempts: attemptRows.map(row => ({ id: value<string>(row, "id"), totalQuestions: value<number>(row, "total_questions"), correctAnswers: value<number>(row, "correct_answers"), completedAt: value<string>(row, "completed_at") })),
     reviews: reviewRows.map(row => ({ flashcardId: value<string>(row, "flashcard_id"), dueAt: value<string>(row, "due_at"), lastReviewedAt: value<string | null>(row, "last_reviewed_at"), reviewCount: value<number>(row, "review_count") })),
+    sessions: sessionRows.map(row => ({ id: value<string>(row, "id"), topicId: value<string>(row, "topic_id"), startedAt: value<string>(row, "started_at"), completedAt: value<string | null>(row, "completed_at"), sourceBlocksSeen: value<number>(row, "source_blocks_seen"), recallCuesRevealed: value<boolean>(row, "recall_cues_revealed") })),
   };
+}
+
+export async function startSupabaseStudySession(input: { userId: string; topicId: string }) {
+  const rows = await writeRows<JsonRecord>("learner_study_sessions", { user_id: input.userId, topic_id: input.topicId });
+  const row = rows[0];
+  if (!row) throw new Error("Supabase did not return the started study session");
+  return { id: value<string>(row, "id"), startedAt: value<string>(row, "started_at") };
+}
+
+export async function completeSupabaseStudySession(input: { userId: string; sessionId: string; sourceBlocksSeen: number; recallCuesRevealed: boolean }) {
+  const rows = await writeRows<JsonRecord>(`learner_study_sessions?id=eq.${input.sessionId}&user_id=eq.${input.userId}`, {
+    completed_at: new Date().toISOString(),
+    source_blocks_seen: input.sourceBlocksSeen,
+    recall_cues_revealed: input.recallCuesRevealed,
+  }, "PATCH");
+  const row = rows[0];
+  if (!row) throw new Error("Study session was not found for this learner");
+  return { id: value<string>(row, "id"), topicId: value<string>(row, "topic_id"), completedAt: value<string>(row, "completed_at") };
 }
 
 export async function getSupabaseLearnerProfile(userId: string) {
