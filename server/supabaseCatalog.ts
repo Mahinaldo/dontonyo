@@ -480,11 +480,16 @@ export async function getSupabaseLearnerProgress(userId: string) {
     getRows<JsonRecord>(`learner_flashcard_reviews?select=flashcard_id,due_at,last_reviewed_at,review_count&user_id=eq.${userId}&order=due_at.asc&limit=100`),
     getRows<JsonRecord>(`learner_study_sessions?select=id,topic_id,started_at,completed_at,source_blocks_seen,recall_cues_revealed&user_id=eq.${userId}&order=started_at.desc&limit=50`),
   ]);
+  const attemptIds = attemptRows.map(row => value<string>(row, "id"));
+  const responseRows = attemptIds.length
+    ? await getRows<JsonRecord>(`learner_practice_responses?select=attempt_id,mcq_id,is_correct&attempt_id=in.(${attemptIds.join(",")})&limit=500`)
+    : [];
   return {
     topics: topicRows.map(row => ({ topicId: value<string>(row, "topic_id"), status: value<string>(row, "status"), completedAt: value<string | null>(row, "completed_at") })),
     attempts: attemptRows.map(row => ({ id: value<string>(row, "id"), totalQuestions: value<number>(row, "total_questions"), correctAnswers: value<number>(row, "correct_answers"), completedAt: value<string>(row, "completed_at") })),
     reviews: reviewRows.map(row => ({ flashcardId: value<string>(row, "flashcard_id"), dueAt: value<string>(row, "due_at"), lastReviewedAt: value<string | null>(row, "last_reviewed_at"), reviewCount: value<number>(row, "review_count") })),
     sessions: sessionRows.map(row => ({ id: value<string>(row, "id"), topicId: value<string>(row, "topic_id"), startedAt: value<string>(row, "started_at"), completedAt: value<string | null>(row, "completed_at"), sourceBlocksSeen: value<number>(row, "source_blocks_seen"), recallCuesRevealed: value<boolean>(row, "recall_cues_revealed") })),
+    mistakes: responseRows.filter(row => !value<boolean>(row, "is_correct")).map(row => ({ attemptId: value<string>(row, "attempt_id"), mcqId: value<string>(row, "mcq_id") })),
   };
 }
 

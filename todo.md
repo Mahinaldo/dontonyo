@@ -106,7 +106,7 @@
 - [x] Rebuild topic study into structured, chunked, memorization-oriented lessons with key takeaways, source provenance, progressive disclosure, and self-check prompts
 - [x] Rebuild flashcards as a focused active-recall experience with reveal, confidence grading, spaced-review queue, keyboard controls, progress feedback, and truthful empty states
 - [ ] Rebuild practice into effective study modes with question-set progress, answer explanations where source material supports them, review of missed questions, and saved result feedback
-- [ ] Build a student dashboard and progress system that surfaces next review, study streaks, readiness signals, weak areas, completed sessions, and recommended next actions from real activity only
+- [x] Build a student dashboard and progress system that surfaces next review, study streaks, readiness signals, weak areas, completed sessions, and recommended next actions from real activity only
 - [x] Remove the redundant non-functional mobile menu control and consolidate navigation into one accessible, consistent responsive system
 - [ ] Add integration and interface tests for Supabase authentication, onboarding, flashcard review, structured study, quiz review, and real progress updates
 - [ ] Validate the rebuilt product on desktop and mobile with manual student journeys, then commit and checkpoint the result incrementally
