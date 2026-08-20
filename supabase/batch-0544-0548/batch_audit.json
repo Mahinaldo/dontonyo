@@ -1,0 +1,67 @@
+{
+  "batch_pages": [
+    544,
+    545,
+    546,
+    547,
+    548
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0544-0548-v1",
+  "source_pages": [
+    {
+      "page": 544,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "911ac16d98159b7a981f8b236fda58e3dd9db5a1942045934f5f93a340b05ceb",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 545,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "8a52b83f3bdb0decf23e44c0e11950c93d7a462eda1b5a3d9779d83e090ec11e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 546,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "4eb1675f9a4206c74f24433f98cc19dae026fa7bd90c5b533874f69d3c058774",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 547,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "89f0d20c99640836f0be1098f0b03fe34cb1fc4cc8c0f7950c4ec4f172e69c0c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 548,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "57b654de76e604af89d0606c2308a0fe52af8f9dd183e417412313bbd46107fc",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 55,
+  "generated_notes": 7,
+  "generated_mcqs": 10,
+  "generated_options": 40,
+  "generated_flashcards": 72,
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 0,
+    "source_attributed": 69
+  },
+  "source_anomalies": [
+    "Physical PDF pages 544–548 have printed footers 847–491; the apparent non-sequential change reflects the book structure.",
+    "Page 548 was recovered by a targeted gpt-5-mini retry at 200 DPI after three earlier empty-completion failures.",
+    "Maldives page 544 MCQ Q4 is withheld because its printed answer key is * rather than a single answer.",
+    "The unclear ‘মাউ মাউ’ general-name reading is withheld from independent factual import.",
+    "The unusual ‘The Tiger of Bicycle’ phrase is preserved only in the Vietnam source note, not as an independent fact.",
+    "All political, security, institutional, constitutional, and legal claims remain source-attributed unless directly corroborated."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 544–548 are imported.",
+    "All 33 ordered visual-review tiles were reviewed.",
+    "Every imported MCQ has four reviewed source options and one printed correct key.",
+    "The only ambiguous printed key, Maldives Q4 on page 544, is withheld.",
+    "Upserts are idempotent by canonical hash and stable derived-record keys."
+  ]
+}
