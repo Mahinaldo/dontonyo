@@ -1,0 +1,66 @@
+{
+  "batch_pages": [
+    529,
+    530,
+    531,
+    532,
+    533
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0529-0533-v1",
+  "source_pages": [
+    {
+      "page": 529,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "be107fa0f1ae332cf64db1fa8bb8f0c375e752a32177f305f866989c1bf2a790",
+      "overall_confidence": "high"
+    },
+    {
+      "page": 530,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "f58f696520a41dfb8c7e691ee953204d423f099a29b8533dbc76678b3ae14843",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 531,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "16a8a91b6532d5e74855a836e3e112f544af650c43e0a9ec70ec5bcb76b2abe5",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 532,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "4eb3cfe5f5269908866c2b969e192fc6ab5a8a27439dd75c27e53d7e7cef7644",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 533,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "b32b5b18d427e811f46e997471880bcd2f4439ce5c6982c4d943ee60915ffb47",
+      "overall_confidence": "low"
+    }
+  ],
+  "generated_facts": 66,
+  "generated_notes": 6,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 72,
+  "verification_counts": {
+    "verified": 8,
+    "conflicting": 1,
+    "source_attributed": 63
+  },
+  "source_anomalies": [
+    "Physical PDF pages 529–533 retain printed book footers 472–476.",
+    "Page 529 retains the source-printed Nehru/Rajiv relationship word দৌহিত্র as a low-confidence anomaly.",
+    "Page 530 retains uncertain bodyguard, Bofors, bomb-assailant transliteration, and quotation punctuation rather than silently normalizing them.",
+    "Page 531 source text printing Manmohan Singh’s term as 2008–2014 is explicitly preserved as conflicting; PM India records 2004–2014.",
+    "Page 532 political, party, constitutional, and administrative content is time-sensitive and source-attributed.",
+    "Page 533 is accepted with flags and low confidence; unreadable map labels and broken table alignments are not reconstructed into facts."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 529–533 are imported.",
+    "All 25 ordered visual-review tiles were reviewed.",
+    "Facts, structured notes, external verification, flashcards, search documents, and tags remain relationally distinct.",
+    "Upserts are idempotent by canonical hash, page, and stable derived-record keys."
+  ]
+}
