@@ -46,6 +46,7 @@ type ContentMcq = {
   id: string;
   question: string;
   correctOption: string;
+  explanation: string | null;
   sourcePage: number | null;
   sourceQuestionNumber: string | null;
   confidence: "high" | "medium" | "low";
@@ -170,6 +171,7 @@ function mapMcq(row: JsonRecord): ContentMcq {
     id: value<string>(row, "id"),
     question: value<string>(row, "question"),
     correctOption: value<string>(row, "correct_option"),
+    explanation: value<string | null>(row, "explanation"),
     sourcePage: value<number | null>(row, "source_page"),
     sourceQuestionNumber: value<string | null>(row, "source_question_number"),
     confidence: value<ContentMcq["confidence"]>(row, "confidence"),
@@ -344,7 +346,7 @@ export async function getSupabasePracticeQuestions(limit: number, chapterId?: st
   if (!total) return [];
   const dailyOffset = Math.floor(Date.now() / 86_400_000) % Math.max(1, total - limit + 1);
   const params = new URLSearchParams({
-    select: "id,question,correct_option,source_page,source_question_number,confidence",
+    select: "id,question,correct_option,explanation,source_page,source_question_number,confidence",
     book_id: `eq.${book.id}`,
     order: "id.asc",
     offset: String(dailyOffset),
