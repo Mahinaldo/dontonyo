@@ -110,3 +110,4 @@
 - [x] Remove the redundant non-functional mobile menu control and consolidate navigation into one accessible, consistent responsive system
 - [ ] Add integration and interface tests for Supabase authentication, onboarding, flashcard review, structured study, quiz review, and real progress updates
 - [ ] Validate the rebuilt product on desktop and mobile with manual student journeys, then commit and checkpoint the result incrementally
+- [x] Remediate Supabase security advisory findings for public audit tables and document the remaining dashboard-only authentication security setting
