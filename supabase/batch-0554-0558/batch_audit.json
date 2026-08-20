@@ -1,0 +1,67 @@
+{
+  "batch_pages": [
+    554,
+    555,
+    556,
+    557,
+    558
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0554-0558-v1",
+  "source_pages": [
+    {
+      "page": 554,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "7838d0b8d03d4177cb3a46425f5121300c08a19fa47d0b3b17e847780833199d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 555,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "2640f55c7e96b3efba06534b975d5f0f543db76595ba47ebd49dadffec4217e1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 556,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "0945ad6454633d4be996cc62c7d93768184805e0c42a43b143ea3078ca1c8f42",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 557,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "8ed0a174178395a4a7c380809dd218c7df50e75a427d6f1f64bb7de4eeb1b945",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 558,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "7daf6714ba94ac6725c9d0de8c3b2d86bb4bf5627a5922197dd4499c5f90df1b",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 10,
+  "generated_notes": 10,
+  "generated_mcqs": 8,
+  "generated_options": 32,
+  "generated_flashcards": 28,
+  "verification_counts": {
+    "verified": 9,
+    "conflicting": 1,
+    "source_attributed": 18
+  },
+  "source_anomalies": [
+    "All five pages rendered at 300 DPI and completed gpt-5-mini transcription plus independent image-grounded review.",
+    "All 35 ordered overlapping dense-image tiles were reviewed.",
+    "Page 555 questions 05 and 08 are withheld because their stems are corrupted; question 09 is withheld because its printed key conflicts with historical context.",
+    "Page 555 Hebron casualty and perpetrator lines are withheld because the scan preserves uncertain/incorrect numeric and attribution content.",
+    "Page 557 is map-heavy and incomplete labels are retained only in the visual review, not reconstructed as database facts.",
+    "The page 558 UN/Golan 2018 wording is retained as an explicit conflicting source claim, not silently corrected."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 554–558 are imported.",
+    "Every imported MCQ has four visually reviewed source options and one printed key.",
+    "No blurry, corrupted, reconstructed, or historically inconsistent MCQ is imported.",
+    "Tags use only approved categories and region/person/institution labels use category domain.",
+    "Upserts are idempotent by canonical hash and stable derived-record keys."
+  ]
+}
