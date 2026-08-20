@@ -1,0 +1,67 @@
+{
+  "batch_pages": [
+    559,
+    560,
+    561,
+    562,
+    563
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0559-0563-v1",
+  "source_pages": [
+    {
+      "page": 559,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "e73bc86cecba3e5ce7f1b6eff1ed20c3c1efd4424989258d0cf1f6fa38c0d7a6",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 560,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "4c8f641dd0fdb81ecb05e5f363de86a8ea7cf012fb2552d975172d18a5fe6208",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 561,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "240a5155f106436a3578b5d0065579076c782fb414a039bd274155fd1f10b20f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 562,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "1bd334d4c515f565752e719944a492774e6beaeec774d352e02e1405b8ee7e77",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 563,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "cc797653e71dbe4767a20ebf8390be20334e7b1f6f6241021d3a4e73afe83580",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 10,
+  "generated_notes": 11,
+  "generated_mcqs": 10,
+  "generated_options": 40,
+  "generated_flashcards": 31,
+  "verification_counts": {
+    "verified": 10,
+    "conflicting": 0,
+    "source_attributed": 21
+  },
+  "source_anomalies": [
+    "All five pages rendered at 300 DPI and completed gpt-5-mini transcription plus independent image-grounded review.",
+    "All 35 ordered overlapping dense-image tiles were reviewed.",
+    "Page 560 questions 03, 04, 05, 09, 10, and 11 are withheld for time-bound, premise, corruption, option-mismatch, or dual-key failures.",
+    "Page 563 question 03 is withheld because one source option remains low-confidence in the reviewed scan.",
+    "Page 559 hostile wording, page 561 territorial captions, page 562 garbled items, and page 563 slogan/superlative material are not normalized into independent learning facts.",
+    "Page 561 physical footer is ৫০৪; a stale low-level OCR footer value is superseded by the reviewed source image."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 559–563 are imported.",
+    "Every imported MCQ has four visually reviewed source options and one printed key.",
+    "No corrupted, dual-key, time-bound, option-mismatched, or historically flawed MCQ is imported.",
+    "Tags use only approved categories and region/person/institution labels use category domain.",
+    "Upserts are idempotent by canonical hash and stable derived-record keys."
+  ]
+}
