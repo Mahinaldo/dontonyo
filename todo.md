@@ -39,7 +39,7 @@
 - [ ] Rewire the application’s data layer and authentication from the temporary managed database to the actual Supabase project specified in the master prompt
 - [x] Add a resumable Windows Surya OCR runner that writes source-page-compatible artifacts for pages 454–925 and preserves chunk-level audit logs
 - [x] Verify a real local Surya OCR pilot page before committing the remaining high-quality extraction batches
-- [ ] Add Supabase environment configuration, server-side catalog queries, and tests while retaining Manus OAuth and managed-database user learning state
+- [x] Add Supabase environment configuration, server-side catalog queries, and tests while retaining Manus OAuth and managed-database user learning state
 - [ ] Restore the OCR artifacts for pages 202–453 and complete their structured, validated, idempotent Supabase import before running further OCR batches
 - [ ] Treat source-page extraction as complete only after the corresponding Supabase page, content, audit, and integrity checks are recorded
 - [ ] Restore pages 202–453 from their prior OCR artifacts before any further source-page OCR is run
@@ -90,7 +90,12 @@
 - [x] Process pages 534–538 immediately after the completed pages 529–533 audit: audited gpt-5-mini vision OCR; all 25 visual-review tiles; 28 facts, 4 structured notes, and 36 complete past-exam MCQs with all 144 source options; 5 verified, 1 conflicting, and 62 source-attributed verification rows; idempotent Supabase import; integrity audit; and full validation
 - [x] Process pages 539–543 immediately after the completed pages 534–538 audit: recovered one transient 502 OCR failure with a targeted page-540 retry; all 25 visual-review tiles; 31 facts, 5 structured notes, and 16 complete past-exam MCQs with all 64 source options; 4 verified and 48 source-attributed verification rows; one ambiguous dual-key Bhutan MCQ withheld; idempotent Supabase import; integrity audit; and full validation
 - [ ] Process pages 544–548 immediately after the completed pages 539–543 audit, using the same quality-gated Supabase import workflow
-- [ ] Replace the current Dontonyo website with a handcrafted mobile-first neo-brutalist application shell informed by the supplied reference images and master product prompt
-- [ ] Connect the rebuilt public GK library to the actual Supabase educational-content database through server-side paginated queries without exposing secrets or downloading the full dataset to the client
-- [ ] Rebuild the Learn, Practice, Progress, and Profile experiences with real data, protected learning routes, clear empty states, and no fake learner activity
+- [x] Replace the current Dontonyo website with a handcrafted mobile-first neo-brutalist application shell informed by the supplied reference images and master product prompt
+- [x] Connect the rebuilt public GK library to the actual Supabase educational-content database through server-side paginated queries without exposing secrets or downloading the full dataset to the client
+- [ ] Finish rebuilding the Learn, Practice, Progress, and Profile experiences with real data, protected learning routes, clear empty states, and no fake learner activity
 - [ ] Add focused tests for the rebuilt content contracts and validate desktop and mobile visual layouts, then commit the work incrementally to Mahinaldo/dontonyo
+- [ ] Reconnect the rebuilt Practice page to authenticated result persistence so complete sets update protected quiz and progress records that are reflected in Progress
+- [ ] Re-verify the rebuilt learning routes preserve protected user-state behavior end to end, including sign-in, persistence, empty states, and progress updates
+- [x] Decide and document the sign-in requirement for Practice so public rehearsal and protected persistence are not conflated
+- [ ] Verify mobile layouts for home, practice, progress, profile, chapter, and topic routes in addition to the completed library review
+- [ ] Add focused contract coverage for aggregate Supabase-practice persistence and confirm saved attempts visibly update Progress

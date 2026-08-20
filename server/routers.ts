@@ -91,6 +91,29 @@ export const appRouter = router({
         })
       )
       .query(({ input }) => getSupabasePracticeQuestions(input.limit, input.chapterId)),
+    submitPractice: protectedProcedure
+      .input(
+        z.object({
+          totalQuestions: z.number().int().min(1).max(20),
+          correctAnswers: z.number().int().min(0).max(20),
+        })
+      )
+      .mutation(async ({ input, ctx }) => {
+        if (input.correctAnswers > input.totalQuestions) {
+          throw new TRPCError({ code: "BAD_REQUEST", message: "Invalid score" });
+        }
+        const { getDb } = await import("./db");
+        const { quizAttempts } = await import("../drizzle/schema");
+        const db = await getDb();
+        if (!db) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Database unavailable" });
+        const result = await db.insert(quizAttempts).values({
+          userId: ctx.user.id,
+          quizType: "supabase-gk-practice",
+          totalQuestions: input.totalQuestions,
+          correctAnswers: input.correctAnswers,
+        }).$returningId();
+        return { attemptId: result[0]?.id ?? null, ...input };
+      }),
   }),
   practice: router({
     questions: publicProcedure
