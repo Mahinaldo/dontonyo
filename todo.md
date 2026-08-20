@@ -92,10 +92,10 @@
 - [ ] Process pages 544–548 immediately after the completed pages 539–543 audit, using the same quality-gated Supabase import workflow
 - [x] Replace the current Dontonyo website with a handcrafted mobile-first neo-brutalist application shell informed by the supplied reference images and master product prompt
 - [x] Connect the rebuilt public GK library to the actual Supabase educational-content database through server-side paginated queries without exposing secrets or downloading the full dataset to the client
-- [ ] Finish rebuilding the Learn, Practice, Progress, and Profile experiences with real data, protected learning routes, clear empty states, and no fake learner activity
-- [ ] Add focused tests for the rebuilt content contracts and validate desktop and mobile visual layouts, then commit the work incrementally to Mahinaldo/dontonyo
-- [ ] Reconnect the rebuilt Practice page to authenticated result persistence so complete sets update protected quiz and progress records that are reflected in Progress
+- [x] Finish rebuilding the Learn, Practice, Progress, and Profile experiences with real data, protected learning routes, clear empty states, and no fake learner activity
+- [x] Add focused tests for the rebuilt content contracts and validate desktop and mobile visual layouts, then commit the work incrementally to Mahinaldo/dontonyo
+- [x] Reconnect the rebuilt Practice page to authenticated result persistence so complete sets update protected quiz and progress records that are reflected in Progress
 - [ ] Re-verify the rebuilt learning routes preserve protected user-state behavior end to end, including sign-in, persistence, empty states, and progress updates
 - [x] Decide and document the sign-in requirement for Practice so public rehearsal and protected persistence are not conflated
-- [ ] Verify mobile layouts for home, practice, progress, profile, chapter, and topic routes in addition to the completed library review
-- [ ] Add focused contract coverage for aggregate Supabase-practice persistence and confirm saved attempts visibly update Progress
+- [x] Verify mobile layouts for home, practice, progress, profile, chapter, and topic routes in addition to the completed library review
+- [x] Add focused contract coverage for aggregate Supabase-practice persistence and confirm saved attempts visibly update Progress

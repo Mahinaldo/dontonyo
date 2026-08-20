@@ -15,6 +15,13 @@
       "when": 1786952311426,
       "tag": "0001_tiny_galactus",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1787228967953,
+      "tag": "0002_normal_gideon",
+      "breakpoints": true
     }
   ]
 }

@@ -354,3 +354,17 @@ export async function getSupabasePracticeQuestions(limit: number, chapterId?: st
     options: options.filter(option => option.mcqId === question.id),
   }));
 }
+
+export async function getSupabasePracticeAnswerKey(questionIds: string[]) {
+  const uniqueIds = Array.from(new Set(questionIds));
+  if (!uniqueIds.length) return [];
+  const params = new URLSearchParams({
+    select: "id,correct_option",
+    id: `in.(${uniqueIds.join(",")})`,
+  });
+  const rows = await getRows<JsonRecord>(`gk_mcqs?${params.toString()}`);
+  return rows.map(row => ({
+    id: value<string>(row, "id"),
+    correctOption: value<string>(row, "correct_option"),
+  }));
+}

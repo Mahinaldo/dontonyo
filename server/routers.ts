@@ -20,6 +20,7 @@ import {
   getGkDashboard,
   getSupabaseChapter,
   getSupabaseLibrary,
+  getSupabasePracticeAnswerKey,
   getSupabasePracticeQuestions,
   getSupabaseTopic,
   searchSupabaseGk,
@@ -94,25 +95,75 @@ export const appRouter = router({
     submitPractice: protectedProcedure
       .input(
         z.object({
-          totalQuestions: z.number().int().min(1).max(20),
-          correctAnswers: z.number().int().min(0).max(20),
+          questions: z
+            .array(
+              z.object({
+                mcqId: z.string().uuid(),
+                selectedOption: z.string().trim().min(1).max(8),
+              })
+            )
+            .min(1)
+            .max(20)
+            .refine(
+              questions => new Set(questions.map(question => question.mcqId)).size === questions.length,
+              "Questions must be unique"
+            ),
         })
       )
       .mutation(async ({ input, ctx }) => {
-        if (input.correctAnswers > input.totalQuestions) {
-          throw new TRPCError({ code: "BAD_REQUEST", message: "Invalid score" });
+        const answerKey = await getSupabasePracticeAnswerKey(
+          input.questions.map(question => question.mcqId)
+        );
+        if (answerKey.length !== input.questions.length) {
+          throw new TRPCError({ code: "BAD_REQUEST", message: "Question set is unavailable" });
         }
+        const answers = new Map(answerKey.map(item => [item.id, item.correctOption]));
+        const details = input.questions.map(question => {
+          const correctOption = answers.get(question.mcqId);
+          if (!correctOption) throw new TRPCError({ code: "BAD_REQUEST", message: "Question set is unavailable" });
+          return { ...question, correctOption, isCorrect: question.selectedOption === correctOption };
+        });
+        const totalQuestions = details.length;
+        const correctAnswers = details.filter(question => question.isCorrect).length;
         const { getDb } = await import("./db");
-        const { quizAttempts } = await import("../drizzle/schema");
+        const { dailyProgress, quizAttempts, supabasePracticeAttemptQuestions } = await import("../drizzle/schema");
+        const { sql } = await import("drizzle-orm");
         const db = await getDb();
         if (!db) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Database unavailable" });
         const result = await db.insert(quizAttempts).values({
           userId: ctx.user.id,
           quizType: "supabase-gk-practice",
-          totalQuestions: input.totalQuestions,
-          correctAnswers: input.correctAnswers,
+          totalQuestions,
+          correctAnswers,
         }).$returningId();
-        return { attemptId: result[0]?.id ?? null, ...input };
+        const attemptId = result[0]?.id;
+        if (!attemptId) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Could not save quiz attempt" });
+        await db.insert(supabasePracticeAttemptQuestions).values(
+          details.map(question => ({
+            attemptId,
+            externalMcqId: question.mcqId,
+            selectedOption: question.selectedOption,
+            correctOption: question.correctOption,
+            isCorrect: question.isCorrect,
+          }))
+        );
+        const progressDate = new Date().toISOString().slice(0, 10);
+        await db.insert(dailyProgress).values({
+          userId: ctx.user.id,
+          progressDate,
+          completedActivities: totalQuestions,
+          quizCount: 1,
+          xp: correctAnswers,
+          isComplete: totalQuestions >= 10,
+        }).onDuplicateKeyUpdate({
+          set: {
+            completedActivities: sql`${dailyProgress.completedActivities} + ${totalQuestions}`,
+            quizCount: sql`${dailyProgress.quizCount} + 1`,
+            xp: sql`${dailyProgress.xp} + ${correctAnswers}`,
+            isComplete: sql`CASE WHEN ${dailyProgress.completedActivities} + ${totalQuestions} >= ${dailyProgress.goal} THEN TRUE ELSE ${dailyProgress.isComplete} END`,
+          },
+        });
+        return { attemptId, totalQuestions, correctAnswers };
       }),
   }),
   practice: router({

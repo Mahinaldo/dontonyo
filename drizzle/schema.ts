@@ -421,6 +421,28 @@ export const quizAttemptQuestions = mysqlTable(
   table => ({ pk: primaryKey({ columns: [table.attemptId, table.mcqId] }) })
 );
 
+export const supabasePracticeAttemptQuestions = mysqlTable(
+  "supabasePracticeAttemptQuestions",
+  {
+    id: int("id").autoincrement().primaryKey(),
+    attemptId: int("attemptId")
+      .notNull()
+      .references(() => quizAttempts.id),
+    externalMcqId: varchar("externalMcqId", { length: 36 }).notNull(),
+    selectedOption: varchar("selectedOption", { length: 8 }).notNull(),
+    correctOption: varchar("correctOption", { length: 8 }).notNull(),
+    isCorrect: boolean("isCorrect").notNull().default(false),
+    createdAt: timestamp("createdAt").defaultNow().notNull(),
+  },
+  table => ({
+    attemptQuestionUnique: uniqueIndex("supabase_practice_attempt_question_unique").on(
+      table.attemptId,
+      table.externalMcqId
+    ),
+    attemptIdx: index("supabase_practice_attempt_idx").on(table.attemptId),
+  })
+);
+
 export const searchDocuments = mysqlTable(
   "searchDocuments",
   {
