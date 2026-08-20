@@ -1,7 +1,6 @@
-import { ArrowRight, ArrowUpRight, BookOpen, Brain, Search, Sparkles, Layers3, LibraryBig } from "lucide-react";
+import { ArrowRight, BookOpen, Brain, Search, Sparkles, Layers3, LibraryBig } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { startLogin } from "@/const";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
 
@@ -26,7 +25,8 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/learn" className="brutal-button px-5 py-3 text-sm">Explore the GK library <ArrowRight className="size-4" /></Link>
-              {!loading && !isAuthenticated && <button className="brutal-button brutal-button-light px-5 py-3 text-sm" onClick={() => startLogin()}>Track my progress <ArrowUpRight className="size-4" /></button>}
+              {!loading && !isAuthenticated && <Link href="/auth" className="brutal-button brutal-button-light px-5 py-3 text-sm">Build my study plan <ArrowRight className="size-4" /></Link>}
+              {!loading && isAuthenticated && <Link href="/dashboard" className="brutal-button brutal-button-light px-5 py-3 text-sm">Open my study dashboard <ArrowRight className="size-4" /></Link>}
             </div>
             <p className="mono text-[10px] font-medium uppercase tracking-[.12em] text-muted-foreground">No PDFs. No filler. Just useful study material.</p>
           </div>

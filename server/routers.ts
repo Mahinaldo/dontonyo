@@ -15,14 +15,22 @@ import {
   listSubjects,
   saveContentProgress,
   searchGk,
+  saveLearnerProfile,
 } from "./db";
 import {
   getGkDashboard,
   getSupabaseChapter,
+  getSupabaseLearnerProgress,
+  getSupabaseLearnerProfile,
   getSupabaseLibrary,
   getSupabasePracticeAnswerKey,
   getSupabasePracticeQuestions,
+  getSupabaseStudyFlashcards,
   getSupabaseTopic,
+  saveSupabaseFlashcardReview,
+  saveSupabaseLearnerProfile,
+  saveSupabasePracticeAttempt,
+  saveSupabaseTopicProgress,
   searchSupabaseGk,
 } from "./supabaseCatalog";
 import { systemRouter } from "./_core/systemRouter";
@@ -125,45 +133,7 @@ export const appRouter = router({
         });
         const totalQuestions = details.length;
         const correctAnswers = details.filter(question => question.isCorrect).length;
-        const { getDb } = await import("./db");
-        const { dailyProgress, quizAttempts, supabasePracticeAttemptQuestions } = await import("../drizzle/schema");
-        const { sql } = await import("drizzle-orm");
-        const db = await getDb();
-        if (!db) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Database unavailable" });
-        const result = await db.insert(quizAttempts).values({
-          userId: ctx.user.id,
-          quizType: "supabase-gk-practice",
-          totalQuestions,
-          correctAnswers,
-        }).$returningId();
-        const attemptId = result[0]?.id;
-        if (!attemptId) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Could not save quiz attempt" });
-        await db.insert(supabasePracticeAttemptQuestions).values(
-          details.map(question => ({
-            attemptId,
-            externalMcqId: question.mcqId,
-            selectedOption: question.selectedOption,
-            correctOption: question.correctOption,
-            isCorrect: question.isCorrect,
-          }))
-        );
-        const progressDate = new Date().toISOString().slice(0, 10);
-        await db.insert(dailyProgress).values({
-          userId: ctx.user.id,
-          progressDate,
-          completedActivities: totalQuestions,
-          quizCount: 1,
-          xp: correctAnswers,
-          isComplete: totalQuestions >= 10,
-        }).onDuplicateKeyUpdate({
-          set: {
-            completedActivities: sql`${dailyProgress.completedActivities} + ${totalQuestions}`,
-            quizCount: sql`${dailyProgress.quizCount} + 1`,
-            xp: sql`${dailyProgress.xp} + ${correctAnswers}`,
-            isComplete: sql`CASE WHEN ${dailyProgress.completedActivities} + ${totalQuestions} >= ${dailyProgress.goal} THEN TRUE ELSE ${dailyProgress.isComplete} END`,
-          },
-        });
-        return { attemptId, totalQuestions, correctAnswers };
+        return saveSupabasePracticeAttempt({ userId: ctx.user.openId, questions: details });
       }),
   }),
   practice: router({
@@ -282,6 +252,39 @@ export const appRouter = router({
       getUserProgress(ctx.user.id)
     ),
     profile: protectedProcedure.query(({ ctx }) => getProfile(ctx.user.id)),
+  }),
+  study: router({
+    progress: protectedProcedure.query(({ ctx }) => getSupabaseLearnerProgress(ctx.user.openId)),
+    profile: protectedProcedure.query(({ ctx }) => getSupabaseLearnerProfile(ctx.user.openId)),
+    flashcards: protectedProcedure
+      .input(z.object({ limit: z.number().int().min(1).max(24).default(12) }))
+      .query(({ ctx, input }) => getSupabaseStudyFlashcards(ctx.user.openId, input.limit)),
+    reviewFlashcard: protectedProcedure
+      .input(z.object({ flashcardId: z.string().uuid(), rating: z.enum(["again", "hard", "good", "easy"]) }))
+      .mutation(({ ctx, input }) => saveSupabaseFlashcardReview({ userId: ctx.user.openId, ...input })),
+    markTopic: protectedProcedure
+      .input(z.object({ topicId: z.string().uuid(), status: z.enum(["in_progress", "completed", "needs_review"]) }))
+      .mutation(({ ctx, input }) => saveSupabaseTopicProgress({ userId: ctx.user.openId, ...input })),
+  }),
+  student: router({
+    dashboard: protectedProcedure.query(async ({ ctx }) => {
+      const [profile, progress, catalog] = await Promise.all([
+        getSupabaseLearnerProfile(ctx.user.openId),
+        getSupabaseLearnerProgress(ctx.user.openId),
+        getGkDashboard(),
+      ]);
+      return { profile, progress, catalog };
+    }),
+    onboard: protectedProcedure
+      .input(
+        z.object({
+          displayName: z.string().trim().min(2).max(80),
+          dailyGoal: z.number().int().min(5).max(60),
+        })
+      )
+      .mutation(({ ctx, input }) =>
+        saveSupabaseLearnerProfile({ userId: ctx.user.openId, displayName: input.displayName, dailyGoalMinutes: input.dailyGoal })
+      ),
   }),
 });
 

@@ -1,13 +1,11 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import {
-  ArrowUpRight,
   BookOpen,
   Brain,
   GraduationCap,
   Home as HomeIcon,
   LineChart,
-  Menu,
   UserRound,
 } from "lucide-react";
 import { Link, Route, Switch, useLocation } from "wouter";
@@ -22,7 +20,9 @@ import Topic from "./pages/Topic";
 import Chapter from "./pages/Chapter";
 import Flashcards from "./pages/Flashcards";
 import NotFound from "./pages/NotFound";
-import { startLogin } from "@/const";
+import Auth from "./pages/Auth";
+import Dashboard from "./pages/Dashboard";
+import Onboarding from "./pages/Onboarding";
 import { useAuth } from "@/_core/hooks/useAuth";
 
 const navItems = [
@@ -77,12 +77,7 @@ function AppShell({ children }: { children: React.ReactNode }) {
               <span className="grid size-5 place-items-center rounded-full bg-lilac text-[10px]">{user?.name?.slice(0, 1).toUpperCase() ?? "U"}</span>
               <span className="max-w-24 truncate">{user?.name ?? "Profile"}</span>
             </Link>
-          ) : (
-            <button className="brutal-button hidden px-4 py-2 text-sm sm:inline-flex" onClick={() => startLogin()}>
-              Sign in <ArrowUpRight className="size-4" />
-            </button>
-          ))}
-          <Menu className="size-6 lg:hidden" aria-hidden="true" />
+          ) : <Link href="/auth" className="brutal-button hidden px-4 py-2 text-sm sm:inline-flex">Sign in</Link>)}
         </div>
       </header>
       <main className="mx-auto max-w-7xl px-4 pb-28 pt-6 sm:px-6 sm:pb-12 lg:px-8 lg:pt-10">
@@ -128,6 +123,9 @@ function Router() {
         <Route path="/practice" component={Practice} />
         <Route path="/progress" component={Progress} />
         <Route path="/profile" component={Profile} />
+        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/welcome" component={Onboarding} />
+        <Route path="/auth" component={Auth} />
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>

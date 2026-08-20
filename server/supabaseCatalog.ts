@@ -87,6 +87,16 @@ async function getRows<T>(path: string): Promise<T[]> {
   return (await response.json()) as T[];
 }
 
+async function writeRows<T>(path: string, body: unknown, method: "POST" | "PATCH" = "POST"): Promise<T[]> {
+  const response = await fetch(`${supabaseUrl()}/rest/v1/${path}`, {
+    method,
+    headers: headers({ "Content-Type": "application/json", Prefer: "return=representation,resolution=merge-duplicates" }),
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) throw new Error(`Supabase learner-state request failed (${response.status})`);
+  return (await response.json()) as T[];
+}
+
 async function getExactCount(path: string): Promise<number> {
   const response = await fetch(`${supabaseUrl()}/rest/v1/${path}`, {
     method: "HEAD",
@@ -367,4 +377,134 @@ export async function getSupabasePracticeAnswerKey(questionIds: string[]) {
     id: value<string>(row, "id"),
     correctOption: value<string>(row, "correct_option"),
   }));
+}
+
+type StudyFlashcard = {
+  id: string;
+  frontText: string;
+  backText: string;
+  topicId: string | null;
+  sourceType: string;
+  review: { dueAt: string; ease: number; intervalDays: number; reviewCount: number } | null;
+};
+
+export async function getSupabaseStudyFlashcards(userId: string, limit: number): Promise<StudyFlashcard[]> {
+  const reviewParams = new URLSearchParams({
+    select: "flashcard_id,due_at,ease,interval_days,review_count",
+    user_id: `eq.${userId}`,
+    order: "due_at.asc",
+    limit: String(limit),
+  });
+  const reviewRows = await getRows<JsonRecord>(`learner_flashcard_reviews?${reviewParams.toString()}`);
+  const reviewByCard = new Map(reviewRows.map(row => [value<string>(row, "flashcard_id"), {
+    dueAt: value<string>(row, "due_at"),
+    ease: value<number>(row, "ease"),
+    intervalDays: value<number>(row, "interval_days"),
+    reviewCount: value<number>(row, "review_count"),
+  }]));
+  const reviewedIds = Array.from(reviewByCard.keys());
+  const dueIds = reviewRows.filter(row => new Date(value<string>(row, "due_at")).getTime() <= Date.now()).map(row => value<string>(row, "flashcard_id"));
+  const requestedIds = dueIds.length ? dueIds : reviewedIds;
+  const cardRows = requestedIds.length ? await getRows<JsonRecord>(`flashcards?select=id,front_text,back_text,topic_id,source_type&id=in.(${requestedIds.join(",")})&limit=${limit}`) : [];
+  const needed = Math.max(0, limit - cardRows.length);
+  const freshRows = needed ? await getRows<JsonRecord>(`flashcards?select=id,front_text,back_text,topic_id,source_type&order=created_at.desc&limit=${Math.max(limit * 2, needed)}`) : [];
+  const combined = [...cardRows, ...freshRows.filter(row => !reviewByCard.has(value<string>(row, "id")))].slice(0, limit);
+  return combined.map(row => {
+    const id = value<string>(row, "id");
+    return {
+      id,
+      frontText: value<string>(row, "front_text"),
+      backText: value<string>(row, "back_text"),
+      topicId: value<string | null>(row, "topic_id"),
+      sourceType: value<string>(row, "source_type"),
+      review: reviewByCard.get(id) ?? null,
+    };
+  });
+}
+
+export async function saveSupabaseFlashcardReview(input: { userId: string; flashcardId: string; rating: "again" | "hard" | "good" | "easy" }) {
+  const existing = await getRows<JsonRecord>(`learner_flashcard_reviews?select=ease,interval_days,review_count&user_id=eq.${input.userId}&flashcard_id=eq.${input.flashcardId}&limit=1`);
+  const previous = existing[0];
+  const currentInterval = previous ? value<number>(previous, "interval_days") : 0;
+  const intervals = { again: 0, hard: Math.max(1, currentInterval || 1), good: Math.max(1, currentInterval ? currentInterval * 2 : 1), easy: Math.max(3, currentInterval ? currentInterval * 3 : 3) } as const;
+  const eases = { again: 0, hard: 1, good: 2, easy: 3 } as const;
+  const intervalDays = intervals[input.rating];
+  const now = new Date();
+  const rows = await writeRows<JsonRecord>("learner_flashcard_reviews?on_conflict=user_id,flashcard_id", {
+    user_id: input.userId,
+    flashcard_id: input.flashcardId,
+    ease: eases[input.rating],
+    interval_days: intervalDays,
+    due_at: new Date(now.getTime() + intervalDays * 86_400_000).toISOString(),
+    last_reviewed_at: now.toISOString(),
+    review_count: (previous ? value<number>(previous, "review_count") : 0) + 1,
+  });
+  return rows[0] ?? null;
+}
+
+export async function saveSupabaseTopicProgress(input: { userId: string; topicId: string; status: "in_progress" | "completed" | "needs_review" }) {
+  const rows = await writeRows<JsonRecord>("learner_topic_progress?on_conflict=user_id,topic_id", {
+    user_id: input.userId,
+    topic_id: input.topicId,
+    status: input.status,
+    completed_at: input.status === "completed" ? new Date().toISOString() : null,
+    updated_at: new Date().toISOString(),
+  });
+  return rows[0] ?? null;
+}
+
+export async function saveSupabasePracticeAttempt(input: { userId: string; questions: Array<{ mcqId: string; selectedOption: string; correctOption: string; isCorrect: boolean }> }) {
+  const correctAnswers = input.questions.filter(question => question.isCorrect).length;
+  const attempts = await writeRows<JsonRecord>("learner_practice_attempts", {
+    user_id: input.userId,
+    total_questions: input.questions.length,
+    correct_answers: correctAnswers,
+  });
+  const attempt = attempts[0];
+  if (!attempt) throw new Error("Supabase did not return the saved practice attempt");
+  const attemptId = value<string>(attempt, "id");
+  await writeRows<JsonRecord>("learner_practice_responses", input.questions.map(question => ({
+    attempt_id: attemptId,
+    mcq_id: question.mcqId,
+    selected_option: question.selectedOption,
+    correct_option: question.correctOption,
+    is_correct: question.isCorrect,
+  })));
+  return { attemptId, totalQuestions: input.questions.length, correctAnswers };
+}
+
+export async function getSupabaseLearnerProgress(userId: string) {
+  const [topicRows, attemptRows, reviewRows] = await Promise.all([
+    getRows<JsonRecord>(`learner_topic_progress?select=topic_id,status,completed_at,updated_at&user_id=eq.${userId}&order=updated_at.desc&limit=100`),
+    getRows<JsonRecord>(`learner_practice_attempts?select=id,total_questions,correct_answers,completed_at&user_id=eq.${userId}&order=completed_at.desc&limit=30`),
+    getRows<JsonRecord>(`learner_flashcard_reviews?select=flashcard_id,due_at,last_reviewed_at,review_count&user_id=eq.${userId}&order=due_at.asc&limit=100`),
+  ]);
+  return {
+    topics: topicRows.map(row => ({ topicId: value<string>(row, "topic_id"), status: value<string>(row, "status"), completedAt: value<string | null>(row, "completed_at") })),
+    attempts: attemptRows.map(row => ({ id: value<string>(row, "id"), totalQuestions: value<number>(row, "total_questions"), correctAnswers: value<number>(row, "correct_answers"), completedAt: value<string>(row, "completed_at") })),
+    reviews: reviewRows.map(row => ({ flashcardId: value<string>(row, "flashcard_id"), dueAt: value<string>(row, "due_at"), lastReviewedAt: value<string | null>(row, "last_reviewed_at"), reviewCount: value<number>(row, "review_count") })),
+  };
+}
+
+export async function getSupabaseLearnerProfile(userId: string) {
+  const rows = await getRows<JsonRecord>(`learner_profiles?select=user_id,display_name,daily_goal_minutes,onboarding_complete&user_id=eq.${userId}&limit=1`);
+  const row = rows[0];
+  if (!row) return null;
+  return {
+    userId: value<string>(row, "user_id"),
+    displayName: value<string>(row, "display_name"),
+    dailyGoalMinutes: value<number>(row, "daily_goal_minutes"),
+    onboardingComplete: value<boolean>(row, "onboarding_complete"),
+  };
+}
+
+export async function saveSupabaseLearnerProfile(input: { userId: string; displayName: string; dailyGoalMinutes: number }) {
+  await writeRows<JsonRecord>("learner_profiles?on_conflict=user_id", {
+    user_id: input.userId,
+    display_name: input.displayName,
+    daily_goal_minutes: input.dailyGoalMinutes,
+    onboarding_complete: true,
+    updated_at: new Date().toISOString(),
+  });
+  return getSupabaseLearnerProfile(input.userId);
 }

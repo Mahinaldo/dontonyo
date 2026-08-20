@@ -2,10 +2,12 @@ import { TRPCError } from "@trpc/server";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { TrpcContext } from "./_core/context";
 
-const { answerKeyMock, getDbMock, getUserProgressMock } = vi.hoisted(() => ({
+const { answerKeyMock, getDbMock, getLearnerProgressMock, getUserProgressMock, savePracticeAttemptMock } = vi.hoisted(() => ({
   answerKeyMock: vi.fn(),
   getDbMock: vi.fn(),
+  getLearnerProgressMock: vi.fn(),
   getUserProgressMock: vi.fn(),
+  savePracticeAttemptMock: vi.fn(),
 }));
 
 vi.mock("./db", async importOriginal => {
@@ -15,7 +17,12 @@ vi.mock("./db", async importOriginal => {
 
 vi.mock("./supabaseCatalog", async importOriginal => {
   const actual = await importOriginal<typeof import("./supabaseCatalog")>();
-  return { ...actual, getSupabasePracticeAnswerKey: answerKeyMock };
+  return {
+    ...actual,
+    getSupabaseLearnerProgress: getLearnerProgressMock,
+    getSupabasePracticeAnswerKey: answerKeyMock,
+    saveSupabasePracticeAttempt: savePracticeAttemptMock,
+  };
 });
 
 import { appRouter } from "./routers";
@@ -49,6 +56,8 @@ describe("gk.submitPractice", () => {
     getDbMock.mockReset();
     answerKeyMock.mockReset();
     getUserProgressMock.mockReset();
+    getLearnerProgressMock.mockReset();
+    savePracticeAttemptMock.mockReset();
   });
 
   it("requires an authenticated learner before an attempt can be written", async () => {
@@ -74,60 +83,28 @@ describe("gk.submitPractice", () => {
     expect(getDbMock).not.toHaveBeenCalled();
   });
 
-  it("writes an aggregate score, UUID answer detail, and daily progress for the signed-in learner", async () => {
-    const attemptValues = vi.fn().mockReturnValue({
-      $returningId: vi.fn().mockResolvedValue([{ id: 913 }]),
-    });
-    const detailValues = vi.fn().mockResolvedValue(undefined);
-    const dailyUpdate = vi.fn().mockResolvedValue(undefined);
-    const dailyValues = vi.fn().mockReturnValue({ onDuplicateKeyUpdate: dailyUpdate });
-    const insert = vi
-      .fn()
-      .mockReturnValueOnce({ values: attemptValues })
-      .mockReturnValueOnce({ values: detailValues })
-      .mockReturnValueOnce({ values: dailyValues });
-    getDbMock.mockResolvedValue({ insert });
+  it("writes verified UUID answer detail to the signed-in learner’s Supabase study record", async () => {
     answerKeyMock.mockResolvedValue([{ id: questionId, correctOption: "B" }]);
+    savePracticeAttemptMock.mockResolvedValue({ attemptId: "a0a01010-1010-4010-8010-101010101010", totalQuestions: 1, correctAnswers: 1 });
 
     const result = await appRouter
       .createCaller(createContext(learner))
       .gk.submitPractice({ questions: [{ mcqId: questionId, selectedOption: "B" }] });
 
-    expect(insert).toHaveBeenCalledTimes(3);
-    expect(attemptValues).toHaveBeenCalledWith({
-      userId: 42,
-      quizType: "supabase-gk-practice",
-      totalQuestions: 1,
-      correctAnswers: 1,
+    expect(savePracticeAttemptMock).toHaveBeenCalledWith({
+      userId: "learner-42",
+      questions: [{ mcqId: questionId, selectedOption: "B", correctOption: "B", isCorrect: true }],
     });
-    expect(detailValues).toHaveBeenCalledWith([
-      {
-        attemptId: 913,
-        externalMcqId: questionId,
-        selectedOption: "B",
-        correctOption: "B",
-        isCorrect: true,
-      },
-    ]);
-    expect(dailyValues).toHaveBeenCalledWith(expect.objectContaining({
-      userId: 42,
-      completedActivities: 1,
-      quizCount: 1,
-      xp: 1,
-      isComplete: false,
-    }));
-    expect(dailyUpdate).toHaveBeenCalledTimes(1);
-    expect(result).toEqual({ attemptId: 913, totalQuestions: 1, correctAnswers: 1 });
+    expect(result).toEqual({ attemptId: "a0a01010-1010-4010-8010-101010101010", totalQuestions: 1, correctAnswers: 1 });
 
-    getUserProgressMock.mockResolvedValue({
-      content: [],
-      daily: [{ isComplete: false }],
-      attempts: [{ id: 913, userId: 42, totalQuestions: 1, correctAnswers: 1 }],
+    getLearnerProgressMock.mockResolvedValue({
+      topics: [], reviews: [],
+      attempts: [{ id: "a0a01010-1010-4010-8010-101010101010", totalQuestions: 1, correctAnswers: 1, completedAt: "2026-08-20T00:00:00.000Z" }],
     });
     await expect(
-      appRouter.createCaller(createContext(learner)).progress.overview()
+      appRouter.createCaller(createContext(learner)).study.progress()
     ).resolves.toMatchObject({
-      attempts: [{ id: 913, userId: 42, totalQuestions: 1, correctAnswers: 1 }],
+      attempts: [{ id: "a0a01010-1010-4010-8010-101010101010", totalQuestions: 1, correctAnswers: 1 }],
     });
   });
 });

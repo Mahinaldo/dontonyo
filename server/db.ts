@@ -353,3 +353,28 @@ export async function getProfile(userId: number) {
     .limit(1);
   return rows[0];
 }
+
+export async function saveLearnerProfile(input: {
+  userId: number;
+  displayName: string;
+  dailyGoal: number;
+}) {
+  const db = await getDb();
+  if (!db) throw new Error("Database unavailable");
+  await db
+    .insert(profiles)
+    .values({
+      userId: input.userId,
+      displayName: input.displayName,
+      dailyGoal: input.dailyGoal,
+      onboardingComplete: true,
+    })
+    .onDuplicateKeyUpdate({
+      set: {
+        displayName: input.displayName,
+        dailyGoal: input.dailyGoal,
+        onboardingComplete: true,
+      },
+    });
+  return getProfile(input.userId);
+}
