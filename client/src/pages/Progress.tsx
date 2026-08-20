@@ -1,11 +1,4 @@
-import { Button } from "@/components/ui/button";
-import {
-  ArrowRight,
-  BookOpenCheck,
-  Flame,
-  LockKeyhole,
-  Target,
-} from "lucide-react";
+import { ArrowRight, BookOpenCheck, Flame, LockKeyhole, Target } from "lucide-react";
 import { Link } from "wouter";
 import { startLogin } from "@/const";
 import { useAuth } from "@/_core/hooks/useAuth";
@@ -13,127 +6,10 @@ import { trpc } from "@/lib/trpc";
 
 export default function Progress() {
   const { isAuthenticated, loading } = useAuth();
-  const { data, isLoading } = trpc.progress.overview.useQuery(undefined, {
-    enabled: isAuthenticated,
-  });
-  if (loading) return <div className="quiet-panel">Checking your session…</div>;
-  if (!isAuthenticated)
-    return (
-      <div className="mx-auto max-w-lg py-16 text-center">
-        <div className="mx-auto grid size-14 place-items-center rounded-2xl bg-secondary">
-          <LockKeyhole className="size-6 text-secondary-foreground" />
-        </div>
-        <h1 className="mt-6 page-title">Your progress, kept private.</h1>
-        <p className="mt-3 leading-7 text-muted-foreground">
-          Sign in to save chapter study, flashcard reviews, quiz history, and
-          streaks to your account.
-        </p>
-        <Button className="mt-6" onClick={() => startLogin()}>
-          Sign in with Manus
-        </Button>
-      </div>
-    );
-  const completed =
-    data?.content.filter(item => item.status === "completed").length ?? 0;
-  const correct =
-    data?.content.reduce((sum, item) => sum + item.correctCount, 0) ?? 0;
-  const answered =
-    data?.content.reduce(
-      (sum, item) => sum + item.correctCount + item.incorrectCount,
-      0
-    ) ?? 0;
-  const accuracy = answered ? Math.round((correct / answered) * 100) : 0;
-  return (
-    <div className="space-y-8">
-      <header>
-        <p className="eyebrow">Progress</p>
-        <h1 className="page-title">Know what to do next.</h1>
-        <p className="mt-3 max-w-2xl text-muted-foreground">
-          A quiet view of the learning signals that matter: completed study,
-          questions answered, accuracy, and review.
-        </p>
-      </header>
-      {isLoading ? (
-        <div className="quiet-panel">Loading your progress…</div>
-      ) : (
-        <>
-          <div className="grid gap-3 sm:grid-cols-3">
-            <div className="metric-card">
-              <BookOpenCheck className="size-5 text-primary" />
-              <p className="metric">{completed}</p>
-              <p className="text-sm text-muted-foreground">Completed items</p>
-            </div>
-            <div className="metric-card">
-              <Target className="size-5 text-primary" />
-              <p className="metric">{accuracy}%</p>
-              <p className="text-sm text-muted-foreground">Question accuracy</p>
-            </div>
-            <div className="metric-card">
-              <Flame className="size-5 text-primary" />
-              <p className="metric">
-                {data?.daily.filter(item => item.isComplete).length ?? 0}
-              </p>
-              <p className="text-sm text-muted-foreground">Completed days</p>
-            </div>
-          </div>
-          <section className="grid gap-6 lg:grid-cols-[1.2fr_.8fr]">
-            <div className="rounded-2xl border border-border bg-card p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="eyebrow">Review queue</p>
-                  <h2 className="section-title">Keep the loop short</h2>
-                </div>
-                <Link
-                  href="/practice"
-                  className="text-sm font-medium text-primary"
-                >
-                  Practice <ArrowRight className="ml-1 inline size-4" />
-                </Link>
-              </div>
-              {data?.content.filter(item => item.status === "needs_review")
-                .length ? (
-                <p className="mt-6 text-sm text-muted-foreground">
-                  You have{" "}
-                  {
-                    data.content.filter(item => item.status === "needs_review")
-                      .length
-                  }{" "}
-                  items marked for another look.
-                </p>
-              ) : (
-                <p className="mt-6 text-sm leading-7 text-muted-foreground">
-                  Your review queue is clear. Study a chapter or answer a few
-                  questions to build it naturally.
-                </p>
-              )}
-            </div>
-            <div className="rounded-2xl border border-border bg-card p-6">
-              <p className="eyebrow">Quiz history</p>
-              <h2 className="section-title">Recent attempts</h2>
-              {data?.attempts.length ? (
-                <div className="mt-5 space-y-3">
-                  {data.attempts.slice(0, 5).map(attempt => (
-                    <div
-                      key={attempt.id}
-                      className="flex items-center justify-between border-b border-border pb-3 text-sm"
-                    >
-                      <span>{attempt.quizType}</span>
-                      <span className="font-medium">
-                        {attempt.correctAnswers}/{attempt.totalQuestions}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <p className="mt-5 text-sm leading-7 text-muted-foreground">
-                  Saved quiz attempts will appear here after your first practice
-                  session.
-                </p>
-              )}
-            </div>
-          </section>
-        </>
-      )}
-    </div>
-  );
+  const overview = trpc.progress.overview.useQuery(undefined,{enabled:isAuthenticated});
+  if (loading) return <div className="brutal-card p-8 font-bold">Checking your study space…</div>;
+  if (!isAuthenticated) return <div className="mx-auto max-w-2xl py-12 text-center"><div className="brutal-card bg-pink p-8"><LockKeyhole className="mx-auto size-10"/><p className="eyebrow mt-5">Your private study layer</p><h1 className="page-title mt-4 text-5xl">KEEP YOUR<br/>MOMENTUM.</h1><p className="mx-auto mt-5 max-w-lg font-medium leading-7">Sign in to save real chapter study, flashcard reviews, and quiz attempts. Dontonyo never fills this page with made-up progress.</p><button onClick={()=>startLogin()} className="brutal-button mt-7 px-5 py-3">Sign in to begin <ArrowRight className="size-4"/></button></div></div>;
+  const content=overview.data?.content??[]; const completed=content.filter(x=>x.status==="completed").length; const answered=content.reduce((n,x)=>n+x.correctCount+x.incorrectCount,0); const correct=content.reduce((n,x)=>n+x.correctCount,0); const accuracy=answered?Math.round(correct/answered*100):0; const days=overview.data?.daily.filter(x=>x.isComplete).length??0;
+  return <div className="space-y-8"><header><p className="eyebrow">03 / Your study trail</p><h1 className="page-title mt-3">KEEP THE<br/><span className="text-[#ed4f77]">GOOD STUFF.</span></h1><p className="mt-4 max-w-xl font-medium leading-7 text-muted-foreground">A clean record of the work you actually complete — nothing invented, nothing noisy.</p></header><div className="grid gap-4 sm:grid-cols-3"><Metric icon={BookOpenCheck} label="completed" value={completed} color="bg-mint"/><Metric icon={Target} label="accuracy" value={`${accuracy}%`} color="bg-lemon"/><Metric icon={Flame} label="completed days" value={days} color="bg-pink"/></div><div className="brutal-card p-6"><p className="eyebrow">Next move</p><h2 className="section-title mt-2">{answered?"Keep your review loop moving.":"Your first answer starts the record."}</h2><p className="mt-4 max-w-2xl font-medium leading-7 text-muted-foreground">{answered?"Your saved results are private to your account. Return to practice for another source-linked question set.":"There is no activity to show yet. Browse a chapter or start a small practice set when you are ready."}</p><Link href="/practice" className="brutal-button mt-6 px-4 py-3">Open practice <ArrowRight className="size-4"/></Link></div></div>;
 }
+function Metric({icon:Icon,label,value,color}:{icon:typeof Target;label:string;value:string|number;color:string}){return <div className={`brutal-card-sm ${color} p-5`}><Icon className="size-5"/><p className="mt-8 text-4xl font-bold tracking-[-.08em]">{value}</p><p className="mono mt-2 text-[10px] uppercase">{label}</p></div>}
