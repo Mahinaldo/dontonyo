@@ -1,136 +1,27 @@
-import { Input } from "@/components/ui/input";
-import { ArrowRight, BookOpen, Search } from "lucide-react";
+import { ArrowRight, BookOpen, Search, X } from "lucide-react";
 import { Link, useLocation } from "wouter";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { trpc } from "@/lib/trpc";
 
+const colors = ["bg-lemon", "bg-mint", "bg-pink", "bg-lilac", "bg-sky", "bg-orange"];
+
 export default function Learn() {
-  const [location] = useLocation();
-  const searchParam = useMemo(
-    () => new URLSearchParams(location.split("?")[1] ?? "").get("search") ?? "",
-    [location]
-  );
+  const [location, setLocation] = useLocation();
+  const searchParam = useMemo(() => new URLSearchParams(location.split("?")[1] ?? "").get("search") ?? "", [location]);
   const [query, setQuery] = useState(searchParam);
-  const { data: book, isLoading: bookLoading } = trpc.catalog.gkBook.useQuery();
-  const { data: chapters, isLoading: chaptersLoading } =
-    trpc.catalog.chapters.useQuery(
-      { bookId: book?.id ?? 0 },
-      { enabled: Boolean(book?.id) }
-    );
-  const { data: results, isLoading: searchLoading } = trpc.search.gk.useQuery(
-    { query, page: 1, pageSize: 20 },
-    { enabled: query.trim().length > 0 }
-  );
-  return (
-    <div className="space-y-8">
-      <div className="max-w-2xl">
-        <p className="eyebrow">Learn</p>
-        <h1 className="page-title">The GK library</h1>
-        <p className="mt-3 text-muted-foreground">
-          Move through the source book as a connected set of chapters, topics,
-          notes, facts, and questions.
-        </p>
-      </div>
-      <form
-        className="relative max-w-xl"
-        onSubmit={event => event.preventDefault()}
-      >
-        <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-        <Input
-          value={query}
-          onChange={event => setQuery(event.target.value)}
-          placeholder="Search the library in Bangla or English metadata"
-          className="h-12 pl-10"
-          aria-label="Search GK library"
-        />
-      </form>
-      {query.trim() ? (
-        <section className="space-y-4">
-          <div className="flex items-center justify-between">
-            <h2 className="section-title">Search results</h2>
-            <span className="text-sm text-muted-foreground">
-              Server-side search
-            </span>
-          </div>
-          {searchLoading ? (
-            <div className="quiet-panel">Searching the library…</div>
-          ) : results?.items.length ? (
-            <div className="space-y-2">
-              {results.items.map(item => (
-                <div
-                  key={`${item.entityType}-${item.entityId}`}
-                  className="rounded-2xl border border-border bg-card p-4"
-                >
-                  <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
-                    {item.entityType}
-                  </p>
-                  <h3 className="mt-2 font-medium">
-                    {item.title ?? "Untitled record"}
-                  </h3>
-                  <p className="mt-2 line-clamp-3 text-sm leading-6 text-muted-foreground">
-                    {item.body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="quiet-panel">
-              No matching records yet. Try a different phrase.
-            </div>
-          )}
-        </section>
-      ) : (
-        <section className="space-y-4">
-          <div>
-            <p className="eyebrow">Source book</p>
-            <h2 className="section-title">
-              {bookLoading
-                ? "Loading library…"
-                : (book?.title ?? "Jubayer’s GK")}
-            </h2>
-          </div>
-          {chaptersLoading ? (
-            <div className="quiet-panel">Preparing chapters…</div>
-          ) : chapters?.length ? (
-            <div className="grid gap-3 sm:grid-cols-2">
-              {chapters.map(chapter => (
-                <Link
-                  key={chapter.id}
-                  href={`/learn/chapter/${chapter.id}`}
-                  className="group flex items-center justify-between rounded-2xl border border-border bg-card p-5 transition-colors hover:border-primary/40 hover:bg-accent/40"
-                >
-                  <div className="flex items-center gap-4">
-                    <span className="grid size-10 place-items-center rounded-xl bg-secondary text-sm font-semibold text-secondary-foreground">
-                      {String(chapter.chapterNumber).padStart(2, "0")}
-                    </span>
-                    <div>
-                      <h3 className="font-medium group-hover:text-primary">
-                        {chapter.title}
-                      </h3>
-                      <p className="mt-1 text-sm text-muted-foreground">
-                        Chapter {chapter.chapterNumber}
-                      </p>
-                    </div>
-                  </div>
-                  <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-1" />
-                </Link>
-              ))}
-            </div>
-          ) : (
-            <div className="quiet-panel flex items-start gap-3">
-              <BookOpen className="mt-0.5 size-5 text-muted-foreground" />
-              <div>
-                <p className="font-medium">The library is being prepared</p>
-                <p className="mt-1 text-sm leading-6 text-muted-foreground">
-                  No chapters have been imported yet. The source-aware
-                  extraction pipeline is ready to populate this space without
-                  fake content.
-                </p>
-              </div>
-            </div>
-          )}
-        </section>
-      )}
-    </div>
-  );
+  useEffect(() => setQuery(searchParam), [searchParam]);
+  const library = trpc.gk.library.useQuery({ page: 1, pageSize: 24 });
+  const results = trpc.gk.search.useQuery({ query: searchParam, page: 1, pageSize: 20 }, { enabled: Boolean(searchParam) });
+  const submit = (event: React.FormEvent) => { event.preventDefault(); setLocation(query.trim() ? `/learn?search=${encodeURIComponent(query.trim())}` : "/learn"); };
+  return <div className="space-y-9">
+    <header className="grid gap-5 border-b-[3px] border-black pb-8 lg:grid-cols-[1fr_auto] lg:items-end">
+      <div><p className="eyebrow">01 / The Source Library</p><h1 className="page-title mt-3">LEARN THE<br /><span className="text-[#ed4f77]">BIG PICTURE.</span></h1><p className="mt-4 max-w-2xl font-medium leading-7 text-muted-foreground">Browse real chapters from the imported GK source. Every record stays tied to its original source page.</p></div>
+      <div className="border-2 border-black bg-mint px-4 py-3 font-bold shadow-[4px_4px_0_#111]"><span className="mono text-[10px]">LIVE INDEX</span><p className="mt-1 text-2xl tracking-[-.06em]">{library.data?.total ?? "—"} chapters</p></div>
+    </header>
+    <form className="brutal-card p-4 sm:p-5" onSubmit={submit}><label className="mono mb-3 block text-[10px] uppercase tracking-[.12em]">Search facts, notes, questions or source labels</label><div className="flex gap-3"><div className="relative min-w-0 flex-1"><Search className="absolute left-3 top-1/2 size-5 -translate-y-1/2"/><input className="brutal-input pl-11" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search in Bangla or English..." /></div><button className="brutal-button px-5" type="submit">Search</button>{searchParam && <button type="button" onClick={()=>setLocation("/learn")} className="brutal-button brutal-button-light px-3"><X className="size-4"/></button>}</div></form>
+    {searchParam ? <section><div className="mb-5 flex items-end justify-between"><div><p className="eyebrow">Search result</p><h2 className="section-title mt-2">“{searchParam}”</h2></div><span className="mono text-[10px]">SERVER-SIDE</span></div>{results.isLoading ? <LoadingRows/> : results.data?.items.length ? <div className="grid gap-3">{results.data.items.map(item=><article key={`${item.entityType}-${item.entityId}`} className="brutal-card-sm p-5"><div className="flex items-start justify-between gap-3"><div><span className="mono bg-lemon px-2 py-1 text-[9px] font-bold uppercase">{item.entityType}</span><h3 className="bangla mt-4 text-lg font-bold">{item.title ?? "Source record"}</h3></div><ArrowRight className="size-5 shrink-0"/></div><p className="bangla mt-3 line-clamp-3 text-sm leading-7 text-muted-foreground">{item.body}</p>{item.englishMetadata && <p className="mono mt-4 text-[10px] text-muted-foreground">{item.englishMetadata}</p>}</article>)}</div> : <Empty text="No matching source records. Try a different word or phrase."/>}</section> : <section><div className="mb-5"><p className="eyebrow">Open a chapter</p><h2 className="section-title mt-2">THE GK SHELF.</h2></div>{library.isLoading ? <LoadingRows/> : <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{library.data?.items.map((chapter,index)=><Link key={chapter.id} href={`/learn/chapter/${chapter.id}`} className="brutal-card-sm hover-lift block p-5"><div className={`mb-8 grid size-12 place-items-center border-2 border-black text-sm font-bold ${colors[index%colors.length]}`}>{String(chapter.chapterNumber).padStart(2,"0")}</div><h3 className="bangla text-xl font-bold leading-tight">{chapter.title}</h3><p className="mt-3 min-h-10 text-sm font-medium text-muted-foreground">{chapter.description ?? "Source-organized learning material."}</p><span className="mt-6 flex items-center gap-2 text-xs font-bold uppercase tracking-[.08em]">Open chapter <ArrowRight className="size-4"/></span></Link>)}</div>}</section>}
+  </div>;
 }
+
+export function Empty({ text }: { text: string }) { return <div className="brutal-card bg-lemon p-6"><BookOpen className="mb-4 size-7"/><p className="font-bold">Nothing to show here yet.</p><p className="mt-2 max-w-xl text-sm font-medium leading-6">{text}</p></div>; }
+export function LoadingRows() { return <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{Array.from({length:6}).map((_,i)=><div key={i} className="h-52 animate-pulse border-2 border-black bg-muted"/>)}</div>; }
