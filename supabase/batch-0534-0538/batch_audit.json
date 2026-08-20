@@ -1,0 +1,67 @@
+{
+  "batch_pages": [
+    534,
+    535,
+    536,
+    537,
+    538
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0534-0538-v1",
+  "source_pages": [
+    {
+      "page": 534,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "9391ce9dfb57ff0a31f5983111aef5141ca9aa7a8f9a0c01c974e5319dc5eebf",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 535,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "43f1005770898df4a5063420f0eab062d58168d28a9f3b371bb6f67c6d798e62",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 536,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "6c67dc0d6f5e80854f4becdafe3b76e9bfab7c405d6895ed2334ecb09743e259",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 537,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "b45decfddf8355aaa4f780c4818a9327f73dd6abd5b64848b5b789fabda72805",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 538,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "1dafd6e3d7879c0899bfdafddcb4a66ef824aa58c181228cb24e2e8c10dd849d",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 28,
+  "generated_notes": 4,
+  "generated_mcqs": 36,
+  "generated_options": 144,
+  "generated_flashcards": 68,
+  "verification_counts": {
+    "verified": 5,
+    "conflicting": 1,
+    "source_attributed": 62
+  },
+  "source_anomalies": [
+    "Physical PDF pages 534–538 retain book footers 477–481.",
+    "Page 534 retains Dehradun-in-Uttar-Pradesh as an explicitly conflicting source statement and does not transform blurred lines into facts.",
+    "Pages 535, 536, and 538 retain only MCQs whose question and all four visually reviewed options are available; page 536 questions 26 and 27 are withheld because an option is unreadable.",
+    "Page 535 answer key Q12 is corrected to গ from the reviewed visual key, rather than the OCR artifact's conflicting খ.",
+    "Page 536 answer key Q31 is corrected to খ from the reviewed visual key, rather than the artifact's conflicting ঘ.",
+    "Page 537 preserves reviewed 1931 Iqbal and 1979 Sharia readings; its two unresolved lines are not converted to facts.",
+    "Page 538 preserves uncertain source spellings and the low-confidence 'বি-জাতি তত্ত্ব' line without normalizing it."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 534–538 are imported.",
+    "All 25 ordered visual-review tiles were reviewed.",
+    "Facts, notes, MCQs, options, answer keys, and exam metadata remain relationally distinct.",
+    "Upserts are idempotent by canonical hash, source page, and stable derived-record keys."
+  ]
+}
