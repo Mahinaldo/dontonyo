@@ -16,6 +16,14 @@ import {
   saveContentProgress,
   searchGk,
 } from "./db";
+import {
+  getGkDashboard,
+  getSupabaseChapter,
+  getSupabaseLibrary,
+  getSupabasePracticeQuestions,
+  getSupabaseTopic,
+  searchSupabaseGk,
+} from "./supabaseCatalog";
 import { systemRouter } from "./_core/systemRouter";
 
 const pageInput = z.object({
@@ -55,6 +63,34 @@ export const appRouter = router({
         })
       )
       .query(({ input }) => searchGk(input.query, input.page, input.pageSize)),
+  }),
+  gk: router({
+    dashboard: publicProcedure.query(() => getGkDashboard()),
+    library: publicProcedure
+      .input(pageInput)
+      .query(({ input }) => getSupabaseLibrary(input.page, input.pageSize)),
+    chapter: publicProcedure
+      .input(z.object({ chapterId: z.string().uuid() }))
+      .query(({ input }) => getSupabaseChapter(input.chapterId)),
+    topic: publicProcedure
+      .input(z.object({ topicId: z.string().uuid() }))
+      .query(({ input }) => getSupabaseTopic(input.topicId)),
+    search: publicProcedure
+      .input(
+        z.object({
+          query: z.string().trim().min(1).max(120),
+          ...pageInput.shape,
+        })
+      )
+      .query(({ input }) => searchSupabaseGk(input.query, input.page, input.pageSize)),
+    practice: publicProcedure
+      .input(
+        z.object({
+          limit: z.number().int().min(1).max(20).default(8),
+          chapterId: z.string().uuid().optional(),
+        })
+      )
+      .query(({ input }) => getSupabasePracticeQuestions(input.limit, input.chapterId)),
   }),
   practice: router({
     questions: publicProcedure

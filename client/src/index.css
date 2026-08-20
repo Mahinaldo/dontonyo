@@ -2,8 +2,7 @@
 @import "tw-animate-css";
 
 @theme inline {
-  --font-sans:
-    "Inter", "Noto Sans Bengali", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Space Grotesk", "Noto Sans Bengali", ui-sans-serif, system-ui, sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -21,33 +20,34 @@
 }
 
 :root {
-  --background: oklch(0.985 0.008 95);
-  --foreground: oklch(0.19 0.025 255);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.19 0.025 255);
-  --primary: oklch(0.32 0.09 255);
-  --primary-foreground: oklch(0.98 0.01 95);
-  --secondary: oklch(0.94 0.025 95);
-  --secondary-foreground: oklch(0.3 0.04 255);
-  --muted: oklch(0.95 0.01 255);
-  --muted-foreground: oklch(0.48 0.035 255);
-  --accent: oklch(0.94 0.035 225);
-  --accent-foreground: oklch(0.27 0.07 255);
-  --border: oklch(0.89 0.018 255);
-  --ring: oklch(0.48 0.11 255);
+  --background: oklch(0.97 0.02 90);
+  --foreground: oklch(0.14 0 0);
+  --card: oklch(0.995 0 0);
+  --card-foreground: oklch(0.14 0 0);
+  --primary: oklch(0.14 0 0);
+  --primary-foreground: oklch(0.98 0.02 90);
+  --secondary: oklch(0.95 0.07 100);
+  --secondary-foreground: oklch(0.14 0 0);
+  --muted: oklch(0.92 0.014 90);
+  --muted-foreground: oklch(0.43 0.02 70);
+  --accent: oklch(0.81 0.16 163);
+  --accent-foreground: oklch(0.14 0 0);
+  --border: oklch(0.14 0 0);
+  --ring: oklch(0.62 0.2 325);
 }
 
 * {
   border-color: var(--border);
 }
 html {
-  font-family:
-    "Inter", "Noto Sans Bengali", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Space Grotesk", "Noto Sans Bengali", ui-sans-serif, system-ui, sans-serif;
+  background: var(--background);
 }
 body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
+  min-width: 320px;
 }
 button,
 a,
@@ -62,52 +62,35 @@ button {
     color 160ms ease;
 }
 button:active {
-  transform: scale(0.98);
+  transform: translate(2px, 2px);
 }
 :focus-visible {
   outline: 2px solid var(--ring);
   outline-offset: 2px;
 }
 
-.eyebrow {
-  color: var(--muted-foreground);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-.section-title {
-  margin-top: 0.5rem;
-  font-size: 1.45rem;
-  font-weight: 650;
-  letter-spacing: -0.025em;
-}
-.page-title {
-  margin-top: 0.55rem;
-  font-size: clamp(2.1rem, 7vw, 3.5rem);
-  font-weight: 650;
-  letter-spacing: -0.045em;
-  line-height: 1.05;
-}
-.metric {
-  margin-top: 0.85rem;
-  font-size: 1.8rem;
-  font-weight: 650;
-  letter-spacing: -0.04em;
-}
-.quiet-panel {
-  border: 1px dashed var(--border);
-  border-radius: 1rem;
-  background: color-mix(in oklch, var(--card) 65%, transparent);
-  padding: 1.25rem;
-  color: var(--muted-foreground);
-}
-.metric-card {
-  border: 1px solid var(--border);
-  border-radius: 1rem;
-  background: var(--card);
-  padding: 1.25rem;
+.display-font { font-family: "Space Grotesk", "Noto Sans Bengali", sans-serif; }
+.mono { font-family: "DM Mono", monospace; }
+.eyebrow { font-family: "DM Mono", monospace; font-size: .7rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
+.page-title { font-size: clamp(2.7rem, 8vw, 6.2rem); font-weight: 700; letter-spacing: -.075em; line-height: .9; }
+.section-title { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; letter-spacing: -.055em; line-height: 1; }
+.brutal-card { border: 3px solid var(--border); background: var(--card); box-shadow: 6px 6px 0 var(--foreground); }
+.brutal-card-sm { border: 2px solid var(--border); background: var(--card); box-shadow: 4px 4px 0 var(--foreground); }
+.brutal-button { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; border: 2px solid var(--border); background: var(--primary); color: var(--primary-foreground); box-shadow: 4px 4px 0 var(--foreground); font-weight: 700; transition: transform .16s cubic-bezier(.23,1,.32,1), box-shadow .16s cubic-bezier(.23,1,.32,1); }
+.brutal-button:hover { transform: translate(-1px,-1px); box-shadow: 6px 6px 0 var(--foreground); }
+.brutal-button:active { transform: translate(3px,3px); box-shadow: 1px 1px 0 var(--foreground); }
+.brutal-button-light { background: var(--card); color: var(--foreground); }
+.brutal-input { width: 100%; border: 2px solid var(--border); background: var(--card); padding: .8rem 1rem; color: var(--foreground); outline: none; box-shadow: 3px 3px 0 var(--foreground); }
+.brutal-input:focus { box-shadow: 5px 5px 0 oklch(.62 .2 325); }
+.dot-grid { background-image: radial-gradient(oklch(.14 0 0 / .2) 1px, transparent 1px); background-size: 16px 16px; }
+.tape { transform: rotate(-2deg); }
+.tape-right { transform: rotate(2deg); }
+.bg-lemon { background: #ffd45a; }.bg-mint { background: #78e6c3; }.bg-pink { background: #ff9eb7; }.bg-lilac { background: #a89af7; }.bg-sky { background: #8ed0ff; }.bg-orange { background: #ffae61; }
+.bangla { font-family: "Noto Sans Bengali", "Space Grotesk", sans-serif; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hover-lift { transition: transform 180ms cubic-bezier(.23,1,.32,1); }
+  .hover-lift:hover { transform: translate(-3px,-3px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
