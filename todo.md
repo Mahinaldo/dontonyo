@@ -112,3 +112,5 @@
 - [ ] Validate the rebuilt product on desktop and mobile with manual student journeys, then commit and checkpoint the result incrementally
 - [x] Remediate Supabase security advisory findings for public audit tables and document the remaining dashboard-only authentication security setting
 - [x] Author, validate, and apply the deterministic quality-gated Supabase import for pages 544–548, including the page-548 recovery provenance and the withheld ambiguous Maldives MCQ.
+- [x] Process pages 549–553 with bounded gpt-5-mini vision OCR, all 35 ordered review tiles, explicit withholding of eight unsafe MCQs, 20 facts, 5 structured notes, 12 complete MCQs with 48 options, four direct corroborations, two historical chronology qualifications, 31 source-attributed verification records, deterministic Supabase import, integrity audit, full validation, checkpoint, and GitHub synchronization.
+- [ ] Process pages 554–558 with bounded vision OCR, ordered image review, spelling/quality checks, source-status verification, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.

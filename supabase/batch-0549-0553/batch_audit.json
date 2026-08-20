@@ -1,0 +1,66 @@
+{
+  "batch_pages": [
+    549,
+    550,
+    551,
+    552,
+    553
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0549-0553-v1",
+  "source_pages": [
+    {
+      "page": 549,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "c1f3e990999bb098350d7ecb3b87a06db1e1e8b854bdf8f103fbc51c4e187116",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 550,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "b5361c57bd12caff43300b310663574bac4613317d13a525f693fcb22d9d11dc",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 551,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "9c0248df8ac3c0829fe7c9adf53c15fa7c59cc324b607e59bc323a370e18f3bd",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 552,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "d5d414e8f974a3fe7e4c454ab998701a801aeb5b027d0fb4ef812a450027626f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 553,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "38253cb7b69b0094d90cf837a2769bae789ea9f382e92714e069b616953c5de5",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 20,
+  "generated_notes": 5,
+  "generated_mcqs": 12,
+  "generated_options": 48,
+  "generated_flashcards": 37,
+  "verification_counts": {
+    "verified": 4,
+    "conflicting": 2,
+    "source_attributed": 31
+  },
+  "source_anomalies": [
+    "All five pages rendered at 300 DPI and completed gpt-5-mini transcription plus independent image-grounded review.",
+    "All 35 ordered overlapping dense-image tiles were reviewed.",
+    "Page 549 Q1/Q5/Q6/Q7 and page 551 Q1/Q2/Q4/Q5 are withheld because source options, premise, or time-sensitive wording were not import-safe.",
+    "The book’s Indonesia 1945 and Malaysia 1957 wording is retained with explicit verified chronology caveats rather than silently corrected.",
+    "Page 553 contains politically sensitive Palestine material; it is source-attributed except for discrete UN/UNRWA claims with direct official sources."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 549–553 are imported.",
+    "Every imported MCQ has four visually reviewed source options and one printed key.",
+    "No blurry or reconstructed MCQ options are imported.",
+    "Tags use only approved categories and country/domain labels use category domain.",
+    "Upserts are idempotent by canonical hash and stable derived-record keys."
+  ]
+}
