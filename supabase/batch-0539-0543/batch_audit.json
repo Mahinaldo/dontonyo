@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    539,
+    540,
+    541,
+    542,
+    543
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0539-0543-v1",
+  "source_pages": [
+    {
+      "page": 539,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "69183947e6408b523bc2ef743b1c632620ad5685b70c025d3d480e955b489b82",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 540,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "e24bb10a0fc4bb07784f9a9a6e3c9e3653f883e14a1f1f3244a2b9e062a155fa",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 541,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "bdcc03d101133e8720cbeeca0d2e6515abc0df5135e7b69e9bc52ffc4c7cb9b1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 542,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "4aba9b321656ee2f01977f7de08b42690126e1219064cbe796f0e0a0fb72a31e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 543,
+      "review_status": "accepted_with_flags",
+      "image_sha256": "0002f6f25e08596d77a8384faada7f12e68ec9eb62ef17999f90b514557a745b",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 31,
+  "generated_notes": 5,
+  "generated_mcqs": 16,
+  "generated_options": 64,
+  "generated_flashcards": 52,
+  "verification_counts": {
+    "verified": 4,
+    "conflicting": 0,
+    "source_attributed": 48
+  },
+  "source_anomalies": [
+    "Physical PDF pages 539–543 retain printed footers 482–486.",
+    "Page 540 was recovered by a targeted retry after a transient 502 gateway failure; its recovered artifact was merged then visually reviewed.",
+    "Bhutan page 540 MCQ Q1 is withheld because its printed answer key gives two alternatives (গ, ঘ).",
+    "Blurred Afghanistan, Sri Lanka, and Maldives spans are retained in source transcripts and not reconstructed as independent facts.",
+    "All political, constitutional, diplomatic, security, and office-holder claims remain status-marked source material unless directly corroborated."
+  ],
+  "quality_gates": [
+    "Exactly physical pages 539–543 are imported.",
+    "All 25 ordered visual-review tiles were reviewed.",
+    "Every imported MCQ has four reviewed source options and one printed correct key.",
+    "Upserts are idempotent by canonical hash and stable derived-record keys."
+  ]
+}
