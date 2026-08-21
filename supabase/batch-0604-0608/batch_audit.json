@@ -1,0 +1,64 @@
+{
+  "batch_pages": [
+    604,
+    605,
+    606,
+    607,
+    608
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0604-0608-v1",
+  "source_pages": [
+    {
+      "page": 604,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "52e8fe5c9384bc00d2346b63c1c4801a0837cf16903244c32f74ea626c54896d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 605,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d8a955c4b8a99aae0656ba50f56590eed2047a55fdb871b1af55e9b3679a5b21",
+      "overall_confidence": "low"
+    },
+    {
+      "page": 606,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8d1821a0699f23447d6cb88499e29ef44972ca9a06d1957d8f72ad50b61c24a5",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 607,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "08ea098d217b1bfecd3cc1a3fba3b9c105bc1620ac3279b99b50b254f9522a8c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 608,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0f6523259e3f5366e8aa52d242b99431d957b4e5f06556491370bf019873d571",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 18,
+  "generated_notes": 6,
+  "generated_mcqs": 12,
+  "generated_options": 48,
+  "generated_flashcards": 36,
+  "verification_counts": {
+    "verified": 24,
+    "conflicting": 0,
+    "source_attributed": 12
+  },
+  "source_anomalies": [
+    "Pages 604–608 were rendered at 300 DPI and reviewed in order. Page 604 was recovered through a rotated high-fidelity retry; page 605 through a rotated retry; pages 607–608 through local Bangla OCR cross-checked against rotated scans after the vision-credit balance became unavailable.",
+    "The page-606 quotation panel is preserved in source-page audit metadata but produces no neutral facts or MCQs.",
+    "Page-604 Q01 is incomplete; Q05 is ambiguous; Q07 is ideologically loaded. Page-607 Q01/Q04/Q05 are quotation questions and Q03 has a historically inconsistent key. Page-608 Turkey text is not reconstructed."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 604–608 are imported.",
+    "Every imported MCQ has four visually reviewed options and exactly one printed source key.",
+    "No corrupted, ambiguous, unsafe, ideologically unbounded, historically inconsistent, or unreadable MCQ is imported.",
+    "Content tag categories are limited to the database-approved taxonomy.",
+    "All upserts use stable canonical hashes and batch-scoped derived-record keys."
+  ]
+}
