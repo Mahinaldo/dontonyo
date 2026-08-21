@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    584,
+    585,
+    586,
+    587,
+    588
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0584-0588-v1",
+  "source_pages": [
+    {
+      "page": 584,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a7b8e5eb3b9cf6c840f77ef40cfbf16bb2167ccee2b755b5597271ff542bb829",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 585,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b551d4956eb4618f5148e05599198c35aa720e093ab8ec194a2299de93ed374f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 586,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "727e686eace1cfd327998eb52b3ad0750be1eecaed49ee1cf8cf84b42700e68b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 587,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "36abab05d8477f160e432aa6eb8e6ff576adb641d88c013d306257c30a0606c2",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 588,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "26ab93e4e4e5fe1b85c8c335e2deffac17e8e4922f32708db22bf10badf82cec",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 12,
+  "generated_notes": 8,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 20,
+  "verification_counts": {
+    "verified": 10,
+    "conflicting": 1,
+    "source_attributed": 9
+  },
+  "source_anomalies": [
+    "All five pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "No source-complete MCQ block appears in pages 584–588; no MCQ or option record is generated.",
+    "Unreadable, corrupt, time-sensitive, institutional, superlative, and historically conflicting claims are withheld or explicitly source-attributed.",
+    "The scan’s Magna Carta absolute labels, Gladstone continuous-date claim, Churchill single-book Nobel rationale, Downing Street 1680 claim, and corrupted page-586 officeholder/death text are not imported as unqualified facts."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 584–588 are imported.",
+    "Every imported fact/note is visually reviewed and records an explicit verification status.",
+    "No unsupported MCQ is manufactured from non-MCQ reference pages.",
+    "Content tags use only approved categories; country and regional tags use category domain.",
+    "Upserts use canonical hashes and stable derived-record keys."
+  ]
+}
