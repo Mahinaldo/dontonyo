@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    594,
+    595,
+    596,
+    597,
+    598
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0594-0598-v1",
+  "source_pages": [
+    {
+      "page": 594,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "27526f3eb2d1f239d6b3f968e6e6181696c5e5c5486b8006779bedb197b109dd",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 595,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "ee9df55d750b0cde07284a59d58b57a3b20a34079d26d8274e4b7bc8f671c3ef",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 596,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "630a994114986911bcd2703cb894c9e2263084da70e570b7fd5675920a5f409c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 597,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e1b6899795b32157d07e54d36fd8478109b55acc3c0e24701d2e93378a0a0b4c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 598,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "bdc268adcf2edc98fe637a768af890a206a11a74522b66e54e6b9b0dd4c59d86",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 41,
+  "generated_notes": 9,
+  "generated_mcqs": 8,
+  "generated_options": 32,
+  "generated_flashcards": 58,
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 0,
+    "source_attributed": 55
+  },
+  "source_anomalies": [
+    "All five source pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Pages 594–598 retain 41 facts, nine bounded notes, and eight complete past-exam MCQs; four unsafe MCQs were withheld.",
+    "Ambiguous historical names, distorted French-philosophy claims, time-sensitive German institutional claims, false Merkel/CeBIT superlatives, and Nazi propaganda language were withheld rather than corrected into invented records.",
+    "Political, military, institutional, constitutional, and Nazi-era content remains historically scoped and explicitly source-attributed unless directly corroborated."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 594–598 are imported.",
+    "Every imported MCQ has four visually reviewed options and one printed source key.",
+    "No corrupted, ambiguous, unsafe, or historically inconsistent MCQ is imported.",
+    "Content tags use only approved categories; country and region tags use category domain.",
+    "Upserts use canonical hashes and stable derived-record keys."
+  ]
+}
