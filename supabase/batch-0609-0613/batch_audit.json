@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    609,
+    610,
+    611,
+    612,
+    613
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0609-0613-v1",
+  "source_pages": [
+    {
+      "page": 609,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "660abc5993ac4e8e4002ce90115ed9292ab9e195723fabeff75fa0d5c6c972bc",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 610,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0f368220a70b498c1c2556bd3ae334888090442f5503076ad694f2ca8b904766",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 611,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "4e4559d58af982674bfd4a1c42e41dcc7ed7d21840ec3e00733aafbde16d97b2",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 612,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "fb28f95f71d0eed54a464361effa7cd92b542a6254323efee78b73ec18a83529",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 613,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "156b76c83bf39cf5368e971f462511b32c95fd209f00a522f4b4518b3eb45399",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 27,
+  "generated_notes": 6,
+  "generated_mcqs": 8,
+  "generated_options": 32,
+  "generated_flashcards": 41,
+  "verification_counts": {
+    "verified": 31,
+    "conflicting": 0,
+    "source_attributed": 10
+  },
+  "source_anomalies": [
+    "All 35 original tiles were reviewed. Source pages were sideways and recovered with clockwise copies plus local Bangla OCR.",
+    "The first counterclockwise recovery was upside down and is not used for classification.",
+    "Political, territorial, current-office, ranking, superlative, and ideological source lines were explicitly bounded or withheld."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 609–613 are imported.",
+    "Every imported MCQ has four visually reviewed options and exactly one printed source key.",
+    "No current-status, corrupted, ambiguous, ideological, or historically unsafe MCQ is imported.",
+    "Only approved content-tag categories are used."
+  ]
+}
