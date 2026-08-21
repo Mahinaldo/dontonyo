@@ -1,0 +1,66 @@
+{
+  "batch_pages": [
+    574,
+    575,
+    576,
+    577,
+    578
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0574-0578-v1",
+  "source_pages": [
+    {
+      "page": 574,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "4308f9186b5935c3120eb3424a912a14618e36b2cb8be4c020d4ee960c0fbc65",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 575,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "75c1a2e7d84a8e89b5a424300d9741a2712ab333f06ffc40aec278dabf73ad0b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 576,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "39064c14abe55e8ac47ccff1ba8f45008f4ed11d5f6576c498cb9bf40ebcb32e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 577,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d47ceb588c1e36c296c03a29b439c88a3205db727b17f0eb7bfb9bab281a6da6",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 578,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "33203724d8e837a12c8c3b5571d5e31656dd7bb198ba27d9b0bf12a0b408f53f",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 12,
+  "generated_notes": 6,
+  "generated_mcqs": 7,
+  "generated_options": 28,
+  "generated_flashcards": 25,
+  "verification_counts": {
+    "verified": 10,
+    "conflicting": 4,
+    "source_attributed": 15
+  },
+  "source_anomalies": [
+    "All five pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Page 574 Q19, Q20, Q23, Q24, Q26, Q27, Q28, and Q31 are withheld for historically imprecise, ambiguous, territorial/citizenship, superlative/measurement, time-bound, or unreadable material.",
+    "Pages 575–576 distinguish the 38th-parallel division, 1953 Armistice, Military Demarcation Line, and DMZ rather than preserving the scan's compressed terminology as a neutral fact.",
+    "Page 577's 'Republic of Japan' wording is unsupported; territorial-dispute, military-base, aid, ranking, and current-office claims remain source-attributed or withheld.",
+    "Page 578's 31 August 1963 independence wording, majority-Buddhist claim, and 1,122-foot Marina Bay Sands height conflict with external evidence and are withheld or caveated."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 574–578 are imported.",
+    "Every imported MCQ has four visually reviewed options and one printed key.",
+    "No corrupted, ambiguous, territorial/citizenship, unbounded time-sensitive, or historically unsafe MCQ is imported.",
+    "Content tags use only approved categories; countries and regions use category domain.",
+    "Upserts use canonical hashes and stable derived-record keys."
+  ]
+}
