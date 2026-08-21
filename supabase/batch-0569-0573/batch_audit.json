@@ -1,0 +1,66 @@
+{
+  "batch_pages": [
+    569,
+    570,
+    571,
+    572,
+    573
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0569-0573-v1",
+  "source_pages": [
+    {
+      "page": 569,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "6773e8d3fd527c19d71c3a203bde324894e3022426dc28d42b3bb2c490058e6e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 570,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "9ec6103040a7634145a26bd0033f576d8727a220164a9db10868370d696acbb4",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 571,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "0cbf566b71b058dc9e69b7301ad5eaa52b86692eac220fd930fdde637beb4a14",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 572,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "4bd858bb6ea550a2a2803e67ca8ffdbeeb5faf2a5d5bb28abaf7845d656827ad",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 573,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "c982f15e72f269617ff7d86dccec75bb5255378fd4dc3bf64241caf619dedf15",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 12,
+  "generated_notes": 5,
+  "generated_mcqs": 10,
+  "generated_options": 40,
+  "generated_flashcards": 27,
+  "verification_counts": {
+    "verified": 12,
+    "conflicting": 0,
+    "source_attributed": 15
+  },
+  "source_anomalies": [
+    "All five pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Page 569 says socialism was established in 1971 and compresses UN representation; neither is imported as a neutral fact.",
+    "Page 570 contains political/security Tibet and Tiananmen material that remains caveated; page 571 preserves cross-strait wording without status normalization.",
+    "Page 572 has a footer-number mismatch in OCR; physical source page 572 and visual footer 515 control the import.",
+    "Page 573 Q04, Q05, Q08, Q10, Q11, and Q13 are withheld for ambiguity, low confidence, unsafe political premise, or unreliable key."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 569–573 are imported.",
+    "Every imported MCQ has four visually reviewed options and one printed key.",
+    "No corrupted, ambiguous, time-bound governance, or historically unsafe MCQ is imported.",
+    "Content tags use only approved categories; countries and regions are category domain.",
+    "Upserts use canonical hashes and stable derived-record keys."
+  ]
+}
