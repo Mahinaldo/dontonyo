@@ -125,3 +125,4 @@
 - [x] Generate and focused-test the pages 569–573 idempotent transaction with only reviewed MCQs, caveated source notes, verification records, flashcards, and paginated-search documents.
 - [x] Apply and integrity-check the pages 569–573 Supabase transaction, run the complete test/type suite, checkpoint the work, and synchronize it to GitHub.
 - [x] Process pages 574–578 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.
+- [x] Process pages 579–583 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.

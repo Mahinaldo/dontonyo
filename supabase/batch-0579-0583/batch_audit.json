@@ -1,0 +1,68 @@
+{
+  "batch_pages": [
+    579,
+    580,
+    581,
+    582,
+    583
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0579-0583-v1",
+  "source_pages": [
+    {
+      "page": 579,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7b121d47da9cf93c946811d0b33433e2ee9ff5d8884231c0b31798b94e7188ad",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 580,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "86864e4f4d5ea23c24c100c4d19059503fa8361ff67e0344c4d9f15d9d197d1f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 581,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "33391a19b42b56e2873cfeb4118a4f4d1751d2b95a25d0f5e38bac3e51c6d2ac",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 582,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "96aee54acfdbe742db213d06350820df003d7409174fcd5f81bd3dba7b8ab536",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 583,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6548824b2981a26870c9f6330361d37f04840b25778e70f1fdc2981d826f67d8",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 5,
+  "generated_notes": 6,
+  "generated_mcqs": 6,
+  "generated_options": 24,
+  "generated_flashcards": 17,
+  "verification_counts": {
+    "verified": 8,
+    "conflicting": 7,
+    "source_attributed": 9
+  },
+  "source_anomalies": [
+    "All five pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Page 579 MCQ 03 is withheld because the keyed author-name text is corrupted; MCQ 04 is withheld because honorary-title framing and distractors are unsuitable.",
+    "Page 579 Philippine British-rule/Bangsamoro wording and page 580 Brunei/Mongolia source text are withheld instead of reconstructed.",
+    "Page 580 territorial, religious, institutional, and military language remains source-attributed; the Lebanon river name is unreadable.",
+    "Page 581 regional table counts and Kosovo/Transcaucasian classifications remain source-attributed.",
+    "Page 582 Elbrus/Alps error, unbounded largest-tunnel MCQ, corrupted fire-epithet MCQ, and Kosovo location MCQ are withheld.",
+    "Page 583 fully-prohibited-in-1833 slavery wording conflicts with the Act/apprenticeship/full-emancipation chronology and is withheld."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 579–583 are imported.",
+    "Every imported MCQ has four visually reviewed options and one printed key.",
+    "No corrupted, ambiguous, territorial, religious, institutional, unbounded ranking, or historically unsafe MCQ is imported.",
+    "Content tags use only approved categories; countries and regions use category domain.",
+    "Upserts use canonical hashes and stable derived-record keys."
+  ]
+}
