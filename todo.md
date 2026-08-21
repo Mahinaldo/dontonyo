@@ -118,3 +118,7 @@
 - [x] Reconcile reviewed pages 559–563 into classification and external-verification ledgers with exact accepted and withheld MCQ decisions.
 - [x] Generate and contract-test the idempotent pages 559–563 Supabase transaction with source records, topic records, content tags, learner records, and audit artifacts.
 - [x] Apply and integrity-check the pages 559–563 Supabase transaction, then run the full test/type suite and synchronize a checkpoint to GitHub.
+- [x] Process pages 564–568 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.
+- [x] Generate and contract-test the pages 564–568 idempotent transaction with only reviewed MCQs, caveated source notes, derived flashcards/search documents, and verification records.
+- [x] Apply and integrity-check the pages 564–568 Supabase transaction, run the complete test/type suite, checkpoint the work, and synchronize it to GitHub.
+- [ ] Process pages 569–573 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.

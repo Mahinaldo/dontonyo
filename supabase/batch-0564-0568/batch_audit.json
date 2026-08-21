@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    564,
+    565,
+    566,
+    567,
+    568
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0564-0568-v1",
+  "source_pages": [
+    {
+      "page": 564,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "a2233815103e04710075800f09d718247c0e2417bbb29eae94d8663ba2001b1b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 565,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "f83688f931d48fe0c03cfa4dabcdffded3ead7c7dc019b5831d171478975843e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 566,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "ba5693e7e0ff6769f8c1c35c681461d67535394a58adea698be9965cf534eb0d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 567,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "0f143ce1c6d28d6e18d3cc3157fac43089e9de44b773972a3a14b989f85d1182",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 568,
+      "review_status": "pending_image_grounded_review",
+      "image_sha256": "843c6fe4a1bfad17d0dcfb56f751a2362484adc39ba9c01e4a53b7dc3f084d30",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 12,
+  "generated_notes": 5,
+  "generated_mcqs": 10,
+  "generated_options": 40,
+  "generated_flashcards": 27,
+  "verification_counts": {
+    "verified": 12,
+    "conflicting": 0,
+    "source_attributed": 15
+  },
+  "source_anomalies": [
+    "All five pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Page 564 source prints 29 October 1923 on visual review; a stale OCR reading of 23 October is excluded. Its caliphate-abolition line says 1922 and is retained only as a conflict-caveated note because authoritative chronology gives 1924.",
+    "Page 565 Q05 is withheld because option ক remains low-confidence. Page 566 Q04 and page 567 Q03 are withheld because their premises are time-sensitive political/institutional material.",
+    "Page 566 Golan, security, community, and political language; page 567 religious/institutional wording; and page 568 political, demographic, ranking, and low-confidence text remain source-attributed rather than being normalized."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 564–568 are imported.",
+    "Every imported MCQ has four visually reviewed options and one printed key.",
+    "No corrupted, low-confidence-option, time-bound, or institutional-premise MCQ is imported.",
+    "Content tags use only approved categories; countries/regions are category domain.",
+    "Upserts are idempotent by canonical hash and stable derived-record keys."
+  ]
+}
