@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    599,
+    600,
+    601,
+    602,
+    603
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0599-0603-v1",
+  "source_pages": [
+    {
+      "page": 599,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "15a6107e45774a4aeb9350f65c49c88487e1fd2beab2bbedff4b85f0373001ba",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 600,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "f8c264a031141ed7fd3155dcd390edd115f62e41efbe196518e280cdc3217960",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 601,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "13d740247755815d91cade5794ae8d4e289cb4ffa30ee2e3367cc6c2f61f47eb",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 602,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "045ed0814ce8b0fa6811ba9d2d6f466aedd6bf380cc07c1bbd845bd5408bf6cb",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 603,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a4c1d3d66928b7b65fd443b9e7273ab61e57ab92e0041bd1ac34af0b97b0b837",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 38,
+  "generated_notes": 8,
+  "generated_mcqs": 7,
+  "generated_options": 28,
+  "generated_flashcards": 53,
+  "verification_counts": {
+    "verified": 13,
+    "conflicting": 0,
+    "source_attributed": 40
+  },
+  "source_anomalies": [
+    "All five source pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Pages 599–603 retain 38 facts, eight scope notes, and seven complete past-exam MCQs; five unsafe MCQs were withheld.",
+    "Ideological quotations, distorted Soviet claims, an incorrect Stalin office label, political simplifications, corrupted questions, and an incomplete Thatcher quotation were withheld.",
+    "Political, institutional, military, territorial, and repression content is stored only with historic scope and explicit verification status."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 599–603 are imported.",
+    "Every imported MCQ has four visually reviewed options and exactly one printed source key.",
+    "No corrupted, ambiguous, unsafe, historically inconsistent, duplicated, or ideologically unbounded MCQ is imported.",
+    "Content tag categories are limited to the database-approved taxonomy.",
+    "All upserts use stable canonical hashes and batch-scoped derived-record keys."
+  ]
+}
