@@ -127,3 +127,4 @@
 - [x] Process pages 574–578 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.
 - [x] Process pages 579–583 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.
 - [x] Process pages 584–588 with bounded vision OCR, ordered image review, classification and verification ledgers, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.
+- [x] Process pages 589–593 with bounded vision OCR, ordered image review, classification and verification ledgers, 18 complete source-keyed MCQs with 72 options, deterministic Supabase import, integrity audit, validation, checkpoint, and GitHub synchronization.

@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    589,
+    590,
+    591,
+    592,
+    593
+  ],
+  "pipeline_version": "vision-quality-gated-batch-0589-0593-v1",
+  "source_pages": [
+    {
+      "page": 589,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "69659ca8bd41e1d3913c40b87fa03f02849f978be00f7663e5e01b2a2f67872e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 590,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1af4639eba15d34fdf052ec10969852c5fdf37d4c54b945caf5fe4f700895d98",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 591,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b8be2dcb03ba214512fbb6394ba9de4f0c3bcc65c4e711c3d722043c4cbbc4b7",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 592,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "49ce4ee8da8fda6a014e138bce2dead9118b4c2180e29ff2aa3ce792dede215a",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 593,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "abed066082562f692821c7c00de0d53b525fe84328afb68682b1ba82c49a0a27",
+      "overall_confidence": "medium"
+    }
+  ],
+  "generated_facts": 14,
+  "generated_notes": 5,
+  "generated_mcqs": 18,
+  "generated_options": 72,
+  "generated_flashcards": 37,
+  "verification_counts": {
+    "verified": 12,
+    "conflicting": 1,
+    "source_attributed": 24
+  },
+  "source_anomalies": [
+    "All five pages were rendered at 300 DPI, transcribed with gpt-5-mini, and reviewed through all 35 ordered overlap-safe tiles.",
+    "Pages 590–591 contain 18 source-complete MCQs; ten unsafe MCQs are withheld for corrupted options, unsound premises, time-sensitive office assignments, or visual/key conflicts.",
+    "The scan’s global Open University superlative, France reference distortions, Eiffel Tower financing claim, false Robespierre date, and Jacobin-founder claim are withheld rather than corrected into invented records.",
+    "Political, institutional, constitutional, geographic-label, cultural-label, and historical periodization language remains explicitly source-attributed or caveated."
+  ],
+  "quality_gates": [
+    "Exactly physical source pages 589–593 are imported.",
+    "Every imported MCQ has four visually reviewed options and one printed source key.",
+    "No corrupted, ambiguous, time-sensitive, institutionally unsafe, or historically conflicting MCQ is imported.",
+    "Content tags use only approved categories; country and region tags use category domain.",
+    "Upserts use canonical hashes and stable derived-record keys."
+  ]
+}
