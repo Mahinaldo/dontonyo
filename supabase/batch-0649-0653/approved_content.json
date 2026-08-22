@@ -1,0 +1,38 @@
+{
+  "batch_pages":[649,650,651,652,653],
+  "topics":[
+    {"slug":"oceania-reference-649","title":"Oceania: Australia and New Zealand","page":649,"order":61,"domain":"oceania"},
+    {"slug":"oceania-mcq-650","title":"Oceania practice references","page":650,"order":62,"domain":"oceania"},
+    {"slug":"africa-regions-651","title":"Africa: regional reference","page":651,"order":63,"domain":"africa"},
+    {"slug":"regional-country-groups-652","title":"Regional country groups","page":652,"order":64,"domain":"world-regions"},
+    {"slug":"historic-state-dissolutions-653","title":"Historic state dissolutions","page":653,"order":65,"domain":"world-history"}
+  ],
+  "facts":[
+    {"page":649,"topic":"oceania-reference-649","title":"Oceania — sovereign-country count","text":"The source groups 14 sovereign states in Oceania; the count is retained as a geography reference with source attribution.","status":"source_attributed","sources":[]},
+    {"page":649,"topic":"oceania-reference-649","title":"Great Barrier Reef — Queensland scope","text":"The Great Barrier Reef is off the coast of Queensland, Australia.","status":"verified","sources":["https://www.detsi.qld.gov.au/great-barrier-reef/about"]},
+    {"page":649,"topic":"oceania-reference-649","title":"Uluru/Ayers Rock — Australia","text":"Uluru, also known as Ayers Rock, is in Australia.","status":"source_attributed","sources":[]},
+    {"page":649,"topic":"oceania-reference-649","title":"Canberra — Australian capital","text":"Canberra is Australia’s capital; the scan’s Sydney-capital misconception is explicitly corrected.","status":"source_attributed","sources":[]},
+    {"page":649,"topic":"oceania-reference-649","title":"Sydney — Australian city context","text":"Sydney is Australia’s largest city by population in common geographic reference usage; this is not a capital claim.","status":"source_attributed","sources":[]},
+    {"page":650,"topic":"oceania-mcq-650","title":"New Zealand women’s suffrage — 1893","text":"New Zealand’s Electoral Act 1893 established women’s right to vote in parliamentary elections.","status":"verified","sources":["https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand"]},
+    {"page":650,"topic":"oceania-mcq-650","title":"Great Barrier Reef — ocean","text":"The Great Barrier Reef lies in the Coral Sea, part of the Pacific Ocean.","status":"verified","sources":["https://www.detsi.qld.gov.au/great-barrier-reef/about"]},
+    {"page":651,"topic":"africa-regions-651","title":"Horn of Africa — definition scope","text":"A common definition of the Horn of Africa includes Djibouti, Eritrea, Ethiopia, and Somalia; definitions can vary.","status":"verified","sources":["https://www.britannica.com/place/Horn-of-Africa"]},
+    {"page":651,"topic":"africa-regions-651","title":"Horn of Africa — location","text":"The Horn of Africa is the easternmost extension of the African continent.","status":"verified","sources":["https://www.britannica.com/place/Horn-of-Africa"]},
+    {"page":652,"topic":"regional-country-groups-652","title":"Seven Sisters — Indian state group","text":"India’s Seven Sisters are Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, and Tripura.","status":"source_attributed","sources":[]},
+    {"page":652,"topic":"regional-country-groups-652","title":"Nordic countries — conventional list","text":"The conventional Nordic-country list comprises Denmark, Finland, Iceland, Norway, and Sweden.","status":"source_attributed","sources":[]},
+    {"page":652,"topic":"regional-country-groups-652","title":"Indochina — conventional core","text":"Laos, Cambodia, and Vietnam are commonly grouped as the core countries of Indochina.","status":"source_attributed","sources":[]},
+    {"page":653,"topic":"historic-state-dissolutions-653","title":"Czechoslovakia — 1993 split","text":"Czechoslovakia split peacefully into the Czech Republic and Slovakia on 1 January 1993.","status":"verified","sources":["https://2009-2017.state.gov/outofdate/bgn/czechrepublic/52586.htm"]},
+    {"page":653,"topic":"historic-state-dissolutions-653","title":"Yugoslavia — 1992 dissolution context","text":"By January 1992, the Socialist Federal Republic of Yugoslavia had ceased to exist; successor-state material is historically scoped.","status":"verified","sources":["https://history.state.gov/milestones/1989-1992/breakup-yugoslavia"]},
+    {"page":653,"topic":"historic-state-dissolutions-653","title":"Soviet Union — 1991 dissolution","text":"The Soviet Union dissolved in late 1991, producing 15 independent states.","status":"source_attributed","sources":[]}
+  ],
+  "notes":[
+    {"page":649,"topic":"oceania-reference-649","title":"Australia terminology and current-office boundary","text":"The scan’s outdated Indigenous label and its current-monarchy wording are not stored as unqualified teaching facts. Place names and institutional material are retained only with respectful, date-aware wording.","status":"source_attributed","sources":[]},
+    {"page":650,"topic":"oceania-mcq-650","title":"Printed-MCQ quality gate","text":"Only the two questions with readable four-option sets, visible printed keys, safe historic/geographic premises, and corroboration are retained. Carbon-tax, monarchy, WikiLeaks, and culturally compressed candidates are withheld.","status":"source_attributed","sources":[]},
+    {"page":651,"topic":"africa-regions-651","title":"Horn and island-state scope boundary","text":"Horn-of-Africa membership varies by definition. The source’s island-state count and broad ocean claims are not imported unless exact geographic scope is independently established.","status":"source_attributed","sources":[]},
+    {"page":652,"topic":"regional-country-groups-652","title":"Regional-label boundary","text":"Seven Sisters, Nordic, and Indochina are useful regional labels but may vary by geographic, historical, or political convention; retained lists are explicitly scoped.","status":"source_attributed","sources":[]},
+    {"page":653,"topic":"historic-state-dissolutions-653","title":"Former-state source-error boundary","text":"The scan’s claim that 12 successor states of the Soviet Union were British colonies is rejected as an unsupported source error. Dissolution records are retained only as dated historical material.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs":[
+    {"page":650,"number":"1","source":"DU খ ৯৯-০০, 30 BCS, জবি খ ১৫-১৬","question":"সর্বপ্রথম কোন দেশে মহিলাদের ভোটাধিকার প্রদান করা হয়?","options":[["ক","নিউজিল্যান্ড"],["খ","ব্রিটেন"],["গ","যুক্তরাষ্ট্র"],["ঘ","নেদারল্যান্ডস"]],"correct":"ক","status":"verified","sources":["https://www.women.govt.nz/about-us/history-womens-suffrage-aotearoa-new-zealand"]},
+    {"page":650,"number":"6","source":"প্রাথমিক বিদ্যালয় শিক্ষক-১১","question":"গ্রেট বেরিয়ার রীফ কোথায় অবস্থিত?","options":[["ক","প্রশান্ত মহাসাগরে"],["খ","আটলান্টিক মহাসাগরে"],["গ","ভারত মহাসাগরে"],["ঘ","পারস্য উপসাগরে"]],"correct":"ক","status":"verified","sources":["https://www.detsi.qld.gov.au/great-barrier-reef/about"]}
+  ]
+}
