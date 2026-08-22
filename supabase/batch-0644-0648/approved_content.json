@@ -1,0 +1,42 @@
+{
+  "batch_pages": [644,645,646,647,648],
+  "topics": [
+    {"slug":"canada-reference-644","title":"Canada: geography and institutions","page":644,"order":56,"domain":"north-america"},
+    {"slug":"central-america-reference-645","title":"Cuba, Mexico and Central America","page":645,"order":57,"domain":"north-america"},
+    {"slug":"south-america-reference-646","title":"South America: overview and Brazil","page":646,"order":58,"domain":"south-america"},
+    {"slug":"south-america-reference-647","title":"South America: country references","page":647,"order":59,"domain":"south-america"},
+    {"slug":"south-america-mcq-648","title":"South America practice references","page":648,"order":60,"domain":"south-america"}
+  ],
+  "facts": [
+    {"page":644,"topic":"canada-reference-644","title":"Canada — provinces and territories","text":"Canada has 10 provinces and 3 territories.","status":"verified","sources":["https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"]},
+    {"page":644,"topic":"canada-reference-644","title":"Ottawa — capital of Canada","text":"Ottawa is Canada’s national capital.","status":"verified","sources":["https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"]},
+    {"page":644,"topic":"canada-reference-644","title":"Toronto — largest Canadian city","text":"Toronto is Canada’s largest city.","status":"verified","sources":["https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html"]},
+    {"page":644,"topic":"canada-reference-644","title":"Canada — official languages","text":"English and French are Canada’s two official languages.","status":"verified","sources":["https://www.canada.ca/en/canadian-heritage/services/official-languages-bilingualism/publications/facts-canadian-francophonie.html"]},
+    {"page":644,"topic":"canada-reference-644","title":"Sir John A. Macdonald — first prime minister","text":"Sir John A. Macdonald became Canada’s first prime minister in 1867.","status":"verified","sources":["https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"]},
+    {"page":644,"topic":"canada-reference-644","title":"Canadian Constitution — 1982 patriation","text":"Canada’s Constitution was patriated from the United Kingdom in 1982.","status":"verified","sources":["https://www.justice.gc.ca/eng/csj-sjc/just/05.html"]},
+    {"page":645,"topic":"central-america-reference-645","title":"Costa Rica — abolition of permanent army","text":"Costa Rica’s 1949 Constitution outlawed the army as a permanent institution.","status":"verified","sources":["https://www.unesco.org/en/memory-world/abolition-army-costa-rica"]},
+    {"page":646,"topic":"south-america-reference-646","title":"South America — twelve sovereign states","text":"South America contains 12 sovereign states; this source-page reference excludes French Guiana, which is not a sovereign state.","status":"source_attributed","sources":[]},
+    {"page":646,"topic":"south-america-reference-646","title":"Isthmus of Panama — continental link","text":"The Isthmus of Panama connects North and South America; the Panama Canal traverses part of the isthmus.","status":"verified","sources":["https://www.britannica.com/place/Isthmus-of-Panama"]},
+    {"page":646,"topic":"south-america-reference-646","title":"Brazil — South American area comparison","text":"Brazil is the largest country in South America by area.","status":"source_attributed","sources":[]},
+    {"page":646,"topic":"south-america-reference-646","title":"Brazil — 1822 independence","text":"The source records Brazil’s independence from Portugal in 1822; this is preserved as a historical reference.","status":"source_attributed","sources":[]},
+    {"page":646,"topic":"south-america-reference-646","title":"Brazil — Portuguese language","text":"Portuguese is Brazil’s official language.","status":"source_attributed","sources":[]},
+    {"page":646,"topic":"south-america-reference-646","title":"Brasília — capital of Brazil","text":"Brasília is the capital of Brazil.","status":"source_attributed","sources":[]},
+    {"page":647,"topic":"south-america-reference-647","title":"Buenos Aires — Río de la Plata","text":"Buenos Aires is located on the Río de la Plata estuary.","status":"source_attributed","sources":[]},
+    {"page":647,"topic":"south-america-reference-647","title":"Angel Falls — Venezuela","text":"Angel Falls is in Venezuela.","status":"source_attributed","sources":[]},
+    {"page":647,"topic":"south-america-reference-647","title":"Ecuador — name and equator","text":"The name Ecuador derives from the Spanish word for the equator.","status":"source_attributed","sources":[]},
+    {"page":647,"topic":"south-america-reference-647","title":"Galápagos — Darwin historical context","text":"Charles Darwin’s work on evolution is historically associated with observations in the Galápagos Islands.","status":"source_attributed","sources":[]},
+    {"page":648,"topic":"south-america-mcq-648","title":"Dilma Rousseff — historic first","text":"Dilma Rousseff became Brazil’s first female elected president in 2010.","status":"verified","sources":["https://library.brown.edu/create/fivecenturiesofchange/chapters/chapter-8/dilma-rousseff/"]}
+  ],
+  "notes": [
+    {"page":644,"topic":"canada-reference-644","title":"Canada current-office boundary","text":"The scan’s `British Queen` head-of-state wording is not imported as a present fact. Canada’s current official source identifies the King of Canada; historical constitutional records are retained with date and source.","status":"source_attributed","sources":[]},
+    {"page":645,"topic":"central-america-reference-645","title":"Cuba and regional political boundary","text":"Ideological labels, security-facility claims, intelligence-operation counts, insurgency claims, and current pollution rankings from this scan are withheld unless precisely and independently documented.","status":"source_attributed","sources":[]},
+    {"page":646,"topic":"south-america-reference-646","title":"South America superlative boundary","text":"The source’s unqualified river, capital, falls, colonial-first, and Security Council aspiration claims are withheld or corrected because their exact geographic or political scope is not adequately established here.","status":"source_attributed","sources":[]},
+    {"page":647,"topic":"south-america-reference-647","title":"Territorial and political boundary","text":"Falklands control/sovereignty wording, religious-majority summaries, guerrilla descriptions, and political labels are withheld rather than presented as unqualified current facts.","status":"source_attributed","sources":[]},
+    {"page":648,"topic":"south-america-mcq-648","title":"Printed-MCQ quality gate","text":"Only three source-keyed questions with fully readable stems, four options, printed keys, exam labels, and corroborated historic premises are retained. Time-sensitive, ambiguous, ranking, and security-sensitive questions are withheld.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs": [
+    {"page":644,"number":"1","source":"20 BCS","question":"কানাডার ফরাসি ভাষার জনগোষ্ঠী কোন প্রদেশে সর্বাধিক বাস করে?","options":[["ক","আলবার্টা"],["খ","কুইবেক"],["গ","ম্যানিটোবা"],["ঘ","নোভা স্কশিয়া"]],"correct":"খ","status":"verified","sources":["https://www.canada.ca/en/canadian-heritage/services/official-languages-bilingualism/publications/facts-canadian-francophonie.html"]},
+    {"page":644,"number":"3","source":"গাজীপুর উন্নয়ন কর্তৃপক্ষের সহকারী প্রকৌশলী (সিভিল): ২৫","question":"Sir John A. Macdonald-কে কোন দেশের প্রতিষ্ঠাতা বিবেচনা করা হয়?","options":[["ক","ব্রাজিল"],["খ","কানাডা"],["গ","পর্তুগাল"],["ঘ","স্পেন"]],"correct":"খ","status":"verified","sources":["https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html"]},
+    {"page":648,"number":"3","source":"প্রতিরক্ষা মন্ত্রণালয়ের অধীন ১০টি পদের পরীক্ষা’১১","question":"ব্রাজিলের প্রথম মহিলা প্রেসিডেন্ট কে?","options":[["ক","কোরাজেন একুইনো"],["খ","দিলমা রউসেফ"],["গ","ম্যারি জিলান"],["ঘ","জুলিয়া গিলার্ড"]],"correct":"খ","status":"verified","sources":["https://library.brown.edu/create/fivecenturiesofchange/chapters/chapter-8/dilma-rousseff/"]}
+  ]
+}
