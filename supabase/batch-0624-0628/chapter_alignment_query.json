@@ -1,0 +1,4 @@
+{
+  "project_id": "rennotctgrxvbpghbimx",
+  "query": "SELECT c.slug AS chapter_slug, t.slug AS topic_slug, t.source_page FROM public.topics t JOIN public.chapters c ON c.id=t.chapter_id WHERE t.source_page BETWEEN 619 AND 623 ORDER BY t.source_page ASC LIMIT 10;"
+}

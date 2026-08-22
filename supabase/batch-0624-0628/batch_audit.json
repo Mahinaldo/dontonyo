@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    624,
+    625,
+    626,
+    627,
+    628
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0624-0628-v1",
+  "generated_facts": 22,
+  "generated_notes": 5,
+  "generated_mcqs": 12,
+  "generated_options": 48,
+  "generated_flashcards": 39,
+  "source_pages": [
+    {
+      "page": 624,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b5d95be35930af776a054dd5b742ce4ba8c960812a1c7b7feb48a4bcd50eb392",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 625,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "acdf87edc55a7046322d995bd0777ea98609c394817127f4a354033f075cb52e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 626,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1408df0bce826fea9617f221358b79e4419c26724d6363a771f3c968d2f44837",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 627,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "654952325bfe8551694d39970d2c7b4b9e94a07ccdce2a41b262917bdf960a5c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 628,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "f66d615d7e8d89e3dbaf9455fb2b34b3daea6501451d06e1c5aded00ba2a7b05",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 14,
+    "conflicting": 0,
+    "source_attributed": 25
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "The Sierra Leone Bangla-language claim, rankings, unsupported epithets, current claims, and unsafe MCQ premises were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 624–628 are included.",
+    "Every imported MCQ has four source-visible options and exactly one visually confirmed printed key.",
+    "Only allowed tag categories are inserted.",
+    "Political and institutional records use neutral historic scope; no source-error MCQ is imported."
+  ]
+}
