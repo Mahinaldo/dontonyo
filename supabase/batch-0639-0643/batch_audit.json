@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    639,
+    640,
+    641,
+    642,
+    643
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0639-0643-v1",
+  "generated_facts": 12,
+  "generated_notes": 5,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 17,
+  "source_pages": [
+    {
+      "page": 639,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "fdb20fa5a4c020fd13133e3f7122f7a342526bf3453b7e73ae92eb9280d90c73",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 640,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a8b77d32d4144536eda99919b4ea4021187423bfd8a03d99c16c0675b26bb2a2",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 641,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "97351d9a1d97f002ca20cc3676d3aaacbd7db4449c7c91f34e58937624cfcd21",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 642,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "2b116ee9934f28b13514a369edd7e2fa94e094a81ccca1f08ed4758163b8b96f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 643,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "912c7f4b33dd76e011afef360c12707371d6e77dd288b70531b05c49188b7bc3",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 11,
+    "conflicting": 0,
+    "source_attributed": 6
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Current, ranking, colonial-discovery, security, territorial, and politically compressed source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 639–643 are included.",
+    "No MCQ is included because final item-by-item answer-key reconciliation is intentionally incomplete.",
+    "Only allowed tag categories are inserted.",
+    "Political and institutional records use neutral historic scope; no source-error claim is imported."
+  ]
+}
