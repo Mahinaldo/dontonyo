@@ -1,0 +1,46 @@
+{
+  "batch_pages": [
+    614,
+    615,
+    616,
+    617,
+    618
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0614-0618-v1",
+  "source_pages": [
+    {
+      "page": 614,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b5533c717121197c8c949f50554081f35b87d2d3ae2ffe7852db2e942bd47a82"
+    },
+    {
+      "page": 615,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b6e00cb59b2783c30b96b7c516257eea6d9e839ba9f4e730f8a732dbf7eab99d"
+    },
+    {
+      "page": 616,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "84514f43cce2c6c42e000f7173bcbff1c9c4e04f6e2157c2a57e31e3c387b7c4"
+    },
+    {
+      "page": 617,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b8f476978a1805227b557adc277c0d4cd66ce972007e50f77ed74b8528607fe8"
+    },
+    {
+      "page": 618,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "37906244097967b873cbf0a9a8e6fe1e8cd972c51fcd9b2d7cd7a69dc88730b9"
+    }
+  ],
+  "generated_facts": 16,
+  "generated_notes": 5,
+  "generated_mcqs": 2,
+  "generated_options": 8,
+  "verification_counts": {
+    "verified": 15,
+    "conflicting": 0,
+    "source_attributed": 8
+  }
+}

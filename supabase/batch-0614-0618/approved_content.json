@@ -1,0 +1,39 @@
+{
+  "batch_pages": [614, 615, 616, 617, 618],
+  "topics": [
+    {"slug":"europe-country-reference-614","title":"Europe country reference","page":614,"order":26,"domain":"europe"},
+    {"slug":"ukraine-ireland-switzerland-reference","title":"Ukraine, Ireland and Switzerland reference","page":615,"order":27,"domain":"europe"},
+    {"slug":"africa-map-reference","title":"Africa map reference","page":616,"order":28,"domain":"africa"},
+    {"slug":"south-africa-apartheid-reference","title":"South Africa and apartheid reference","page":617,"order":29,"domain":"south-africa"},
+    {"slug":"nelson-mandela-reference","title":"Nelson Mandela reference","page":618,"order":30,"domain":"south-africa"}
+  ],
+  "facts": [
+    {"page":614,"topic":"europe-country-reference-614","title":"Adolf Hitler — Austria birth","text":"Adolf Hitler was born in Austria.","status":"verified","sources":["https://www.britannica.com/biography/Adolf-Hitler"]},
+    {"page":614,"topic":"europe-country-reference-614","title":"Waterloo — Belgium location","text":"The Battle of Waterloo took place in present-day Belgium.","status":"verified","sources":["https://www.britannica.com/event/Battle-of-Waterloo"]},
+    {"page":614,"topic":"europe-country-reference-614","title":"Vasco da Gama — Portuguese nationality","text":"Vasco da Gama was Portuguese.","status":"verified","sources":["https://www.britannica.com/biography/Vasco-da-Gama"]},
+    {"page":614,"topic":"europe-country-reference-614","title":"Kosovo — 2008 declaration boundary","text":"Kosovo declared independence in 2008; this is retained as a historic diplomatic reference rather than an unqualified recognition claim.","status":"source_attributed","sources":["https://www.un.org/en/about-us/member-states/yugoslavia"]},
+    {"page":615,"topic":"ukraine-ireland-switzerland-reference","title":"Ukraine — 1991 independence","text":"Ukraine gained independence in 1991 after a December referendum in the dissolution context of the Soviet Union.","status":"verified","sources":["https://www.britannica.com/place/Ukraine"]},
+    {"page":615,"topic":"ukraine-ireland-switzerland-reference","title":"Orange Revolution — 2004","text":"Ukraine’s Orange Revolution took place in 2004.","status":"verified","sources":["https://www.britannica.com/event/Orange-Revolution"]},
+    {"page":615,"topic":"ukraine-ireland-switzerland-reference","title":"Ireland — Emerald Isle","text":"The source uses Emerald Isle as a traditional name for Ireland.","status":"source_attributed","sources":[]},
+    {"page":615,"topic":"ukraine-ireland-switzerland-reference","title":"Switzerland — cantons","text":"Switzerland is organized into cantons.","status":"verified","sources":["https://www.britannica.com/place/Switzerland"]},
+    {"page":617,"topic":"south-africa-apartheid-reference","title":"Apartheid — 1948 policy","text":"Apartheid was the name applied to the National Party’s racial-segregation policy in South Africa from 1948.","status":"verified","sources":["https://history.state.gov/milestones/1989-1992/apartheid"]},
+    {"page":617,"topic":"south-africa-apartheid-reference","title":"ANC — ban and unbanning","text":"The African National Congress was outlawed in 1960 and the ban was lifted in 1990.","status":"verified","sources":["https://history.state.gov/milestones/1989-1992/apartheid"]},
+    {"page":617,"topic":"south-africa-apartheid-reference","title":"Mandela — first Black president","text":"Nelson Mandela became South Africa’s first Black president in 1994.","status":"verified","sources":["https://history.state.gov/milestones/1989-1992/apartheid"]},
+    {"page":617,"topic":"south-africa-apartheid-reference","title":"Lesotho — enclave","text":"Lesotho is an enclave surrounded by South Africa.","status":"verified","sources":["https://www.britannica.com/place/Lesotho"]},
+    {"page":618,"topic":"nelson-mandela-reference","title":"Mandela — birth and death","text":"Nelson Mandela was born on 18 July 1918 and died on 5 December 2013.","status":"verified","sources":["https://www.nelsonmandela.org/biography"]},
+    {"page":618,"topic":"nelson-mandela-reference","title":"Mandela — ANC affiliation","text":"Nelson Mandela joined the African National Congress in 1944.","status":"verified","sources":["https://www.nelsonmandela.org/biography"]},
+    {"page":618,"topic":"nelson-mandela-reference","title":"Mandela — 1990 release","text":"Nelson Mandela was released from prison on 11 February 1990.","status":"verified","sources":["https://www.nelsonmandela.org/biography"]},
+    {"page":618,"topic":"nelson-mandela-reference","title":"Mandela and de Klerk — 1993 Nobel","text":"Nelson Mandela and F.W. de Klerk jointly received the Nobel Peace Prize in 1993.","status":"verified","sources":["https://www.nelsonmandela.org/biography"]}
+  ],
+  "notes": [
+    {"page":614,"topic":"europe-country-reference-614","title":"Europe country-reference exclusion boundary","text":"Unsupported superlatives, tax claims, current-policy claims, and unqualified Kosovo status statements are excluded."},
+    {"page":615,"topic":"ukraine-ireland-switzerland-reference","title":"Ukraine source-error boundary","text":"The scan’s Chernobyl date (1988) conflicts with IAEA documentation of the 1986 accident and is excluded. Crimea content is historic/diplomatic only."},
+    {"page":616,"topic":"africa-map-reference","title":"Africa map/table caveat","text":"The source’s Africa regional country table is retained as a source-attributed memorization note; numerical counts and map-level country groupings are not converted into current facts."},
+    {"page":617,"topic":"south-africa-apartheid-reference","title":"Apartheid source boundary","text":"Only externally corroborated historic apartheid, ANC, Mandela, and geographic lines are retained. Colonial priority claims, rhetorical framing, and unsupported superlatives are withheld."},
+    {"page":618,"topic":"nelson-mandela-reference","title":"Mandela biography source boundary","text":"Biographical facts are retained only where externally corroborated. Attributed quotations, aliases, and uncorroborated prison-code or visit lines are not neutral facts."}
+  ],
+  "mcqs": [
+    {"page":615,"number":"02","question":"কোন সালে রাশিয়া ক্রিমিয়া দখল করে?","options":[["ক","২০১০"],["খ","২০১২"],["গ","২০১৪"],["ঘ","২০১৬"]],"correct":"গ","source":"44 BCS","status":"source_attributed","sources":["https://news.un.org/en/story/2014/03/464812"]},
+    {"page":615,"number":"03","question":"কোন দেশে এডলফ হিটলার জন্মগ্রহণ করেন?","options":[["ক","জার্মানি"],["খ","সুইজারল্যান্ড"],["গ","অস্ট্রিয়া"],["ঘ","চেকোস্লোভাকিয়া"]],"correct":"গ","source":"DU ঘ 11–12; রাবি রাষ্ট্রবিজ্ঞান 05–06","status":"verified","sources":["https://www.britannica.com/biography/Adolf-Hitler"]}
+  ]
+}
