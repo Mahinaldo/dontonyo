@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    619,
+    620,
+    621,
+    622,
+    623
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0619-0623-v1",
+  "generated_facts": 24,
+  "generated_notes": 5,
+  "generated_mcqs": 17,
+  "generated_options": 68,
+  "generated_flashcards": 46,
+  "source_pages": [
+    {
+      "page": 619,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8cee941e632712dfac2e49e80f6cd14a9448d20877d16dc7b26396f9de70225d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 620,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "3d632c89d88fb0c3bc9f09b533780c0333f4047fad6d15fa980f645faf65d329",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 621,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "98a0e82439c7ad156fcd2b2cee2980f1cc2a6a700c2f8274f3c0c8b172f88e75",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 622,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e7128ae3ecc61ae19dc5023aba6cde0280499f6c08992362476352988f21bed1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 623,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "44021f429e40600d178b0573508f1db34f10a26b2e3bfb565fb5b0e0dc1a0f4e",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 39,
+    "conflicting": 0,
+    "source_attributed": 7
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright; clockwise copies were visually sideways and excluded from OCR provenance.",
+    "Source errors, current claims, unsupported epithets, rankings, and unsafe MCQ premises were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 619–623 are included.",
+    "Every imported MCQ has four source-visible options and exactly one visually confirmed printed key.",
+    "Only allowed tag categories are inserted.",
+    "Political and institutional records use neutral historic scope; no source-error MCQ is imported."
+  ]
+}
