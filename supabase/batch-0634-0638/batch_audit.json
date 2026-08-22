@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    634,
+    635,
+    636,
+    637,
+    638
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0634-0638-v1",
+  "generated_facts": 12,
+  "generated_notes": 5,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 17,
+  "source_pages": [
+    {
+      "page": 634,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "9a76e37aa5f4804c98dd45bf2426a1a09346ee08f90058e50c7a25014a60bf6f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 635,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "14eacfe9ef9936dc45f8a99f749be2e71213fc907d2067fa2eda151bcf623b6d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 636,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "5beed2bde6fb5a9c57f35a1006120ee55896311e63545da103a81fe8447f8fa8",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 637,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "4ff1e5444a53330c559d269424ea02d1a2683861f415c02aa726c496577f9f18",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 638,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "84acf92e3f200af9ed6e8375732df5129a57e92d443d66031c3847baabb09768",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 6,
+    "conflicting": 0,
+    "source_attributed": 11
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Current, ranking, colonial-discovery, security, territorial, and politically compressed source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 634–638 are included.",
+    "No MCQ is included because the reviewed source pages contain no printed answer-keyed question block.",
+    "Only allowed tag categories are inserted.",
+    "Political and institutional records use neutral historic scope; no source-error claim is imported."
+  ]
+}
