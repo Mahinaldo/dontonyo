@@ -1,0 +1,37 @@
+{
+  "batch_pages":[654,655,656,657,658],
+  "topics":[
+    {"slug":"security-boundaries-654","title":"Security-sensitive regional references","page":654,"order":66,"domain":"world-regions"},
+    {"slug":"political-geography-655","title":"Political geography reference","page":655,"order":67,"domain":"world-regions"},
+    {"slug":"economic-regional-history-656","title":"Economic regional history","page":656,"order":68,"domain":"world-history"},
+    {"slug":"balkan-caucasus-reference-657","title":"Balkan and Caucasus references","page":657,"order":69,"domain":"world-regions"},
+    {"slug":"regional-history-practice-658","title":"Regional history practice","page":658,"order":70,"domain":"world-history"}
+  ],
+  "facts":[
+    {"page":655,"topic":"political-geography-655","title":"Japan and Indonesia — archipelagic states","text":"Japan and Indonesia are archipelagic states composed of many islands.","status":"source_attributed","sources":[]},
+    {"page":655,"topic":"political-geography-655","title":"Lesotho — enclave geography","text":"Lesotho is an independent state entirely surrounded by South Africa.","status":"source_attributed","sources":[]},
+    {"page":655,"topic":"political-geography-655","title":"San Marino and Vatican City — Italy enclaves","text":"San Marino and Vatican City are independent states surrounded by Italy.","status":"source_attributed","sources":[]},
+    {"page":655,"topic":"political-geography-655","title":"Baltic states — membership","text":"The Baltic states are Estonia, Latvia, and Lithuania.","status":"verified","sources":["https://www.britannica.com/place/Baltic-states"]},
+    {"page":656,"topic":"economic-regional-history-656","title":"Asian Tigers — historic economic label","text":"South Korea, Taiwan, Hong Kong, and Singapore are commonly termed the Asian Tigers in historical development literature.","status":"verified","sources":["https://blogs.worldbank.org/en/endpovertyinsouthasia/should-south-asia-emulate-east-asian-tigers"]},
+    {"page":656,"topic":"economic-regional-history-656","title":"East Asian Miracle — historic scope","text":"The source’s East Asian Miracle grouping is retained only as a dated economic-development label, not a current ranking.","status":"source_attributed","sources":[]},
+    {"page":656,"topic":"economic-regional-history-656","title":"Persian Gulf coastal states — source scope","text":"The scan lists eight Persian Gulf coastal states; this is retained as a bounded regional-reference list rather than a political-status claim.","status":"source_attributed","sources":[]},
+    {"page":657,"topic":"balkan-caucasus-reference-657","title":"Balkan regional label — scope","text":"Balkan membership varies by geographic and historical definition; the scan’s country list is kept only as source-attributed regional reference.","status":"source_attributed","sources":[]},
+    {"page":657,"topic":"balkan-caucasus-reference-657","title":"Caucasus — conventional country list","text":"Armenia, Azerbaijan, and Georgia are commonly grouped as the three South Caucasus countries.","status":"source_attributed","sources":[]},
+    {"page":658,"topic":"regional-history-practice-658","title":"CIS — 1991 formation","text":"The Commonwealth of Independent States formally came into being on 21 December 1991.","status":"verified","sources":["https://www.britannica.com/topic/Commonwealth-of-Independent-States"]},
+    {"page":658,"topic":"regional-history-practice-658","title":"Seven Sisters — Indian state group","text":"India’s Seven Sisters are Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, and Tripura.","status":"source_attributed","sources":[]},
+    {"page":658,"topic":"regional-history-practice-658","title":"Baltic states — European region","text":"The Baltic states form a northeastern European region on the eastern shores of the Baltic Sea.","status":"verified","sources":["https://www.britannica.com/place/Baltic-states"]}
+  ],
+  "notes":[
+    {"page":654,"topic":"security-boundaries-654","title":"Narcotics and trafficking exclusion","text":"All Golden Triangle, Golden Crescent, Golden Wedge, production, cultivation, and trafficking assertions on this source page are withheld as security-sensitive material and are not turned into study facts or questions.","status":"source_attributed","sources":[]},
+    {"page":655,"topic":"political-geography-655","title":"Political-geography terminology boundary","text":"The source’s `perforated state` label is not treated as a universal classification. Enclave facts are retained in direct geographic wording instead.","status":"source_attributed","sources":[]},
+    {"page":656,"topic":"economic-regional-history-656","title":"Economic-label boundary","text":"Three Tigers, Four Tigers, Super Seven, and East Asian Miracle are historically contingent economic labels. They are not used as current performance claims.","status":"source_attributed","sources":[]},
+    {"page":657,"topic":"balkan-caucasus-reference-657","title":"Territorial-conflict boundary","text":"Nagorno-Karabakh control, recognition, and conflict wording is withheld. No territorial or conflict narrative from the scan is imported as a current fact.","status":"source_attributed","sources":[]},
+    {"page":658,"topic":"regional-history-practice-658","title":"Printed-MCQ quality gate","text":"Only four complete source-keyed questions with readable options, visually confirmed keys, and independently supported neutral historic/geographic premises are retained. All security, narcotics, ranking, and ambiguous regional-definition questions are withheld.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs":[
+    {"page":657,"number":"1","source":"DU ঘ ১০-২১","question":"কোনটি পারস্য উপসাগরীয় রাষ্ট্র?","options":[["ক","সৌদি আরব"],["খ","তুরস্ক"],["গ","জর্দান"],["ঘ","ইসরায়েল"]],"correct":"ক","status":"source_attributed","sources":[]},
+    {"page":657,"number":"3","source":"DU ঘ ০৭-০৮","question":"এশিয়ান অর্থনীতিসমূহে নিচের কোন দেশগুলো অন্তর্ভুক্ত?","options":[["ক","দক্ষিণ কোরিয়া, তাইওয়ান, হংকং ও সিঙ্গাপুর"],["খ","দক্ষিণ কোরিয়া, তাইওয়ান, জাপান ও থাইল্যান্ড"],["গ","দক্ষিণ কোরিয়া, তাইওয়ান, হংকং ও মালয়েশিয়া"],["ঘ","দক্ষিণ কোরিয়া, তাইওয়ান, হংকং ও জাপান"]],"correct":"ক","status":"verified","sources":["https://blogs.worldbank.org/en/endpovertyinsouthasia/should-south-asia-emulate-east-asian-tigers"]},
+    {"page":658,"number":"5","source":"26 BCS","question":"কোনটি ভারতের সেভেন সিস্টার্স রাজ্য সমূহের অন্তর্ভুক্ত নয়?","options":[["ক","কেরালা"],["খ","ত্রিপুরা"],["গ","মণিপুর"],["ঘ","মিজোরাম"]],"correct":"ক","status":"source_attributed","sources":[]},
+    {"page":658,"number":"10","source":"প্রাথমিক বিদ্যালয় সহকারী শিক্ষক-০৪","question":"কমনওয়েলথ অব ইন্ডিপেন্ডেন্ট স্টেটস (CIS) কোন সালে গঠিত হয়?","options":[["ক","১৯৮৯"],["খ","১৯৯০"],["গ","১৯৯১"],["ঘ","১৯৯২"]],"correct":"গ","status":"verified","sources":["https://www.britannica.com/topic/Commonwealth-of-Independent-States"]}
+  ]
+}
