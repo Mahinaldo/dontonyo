@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    704,
+    705,
+    706,
+    707,
+    708
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0704-0708-v1",
+  "generated_facts": 5,
+  "generated_notes": 0,
+  "generated_mcqs": 5,
+  "generated_options": 20,
+  "generated_flashcards": 10,
+  "source_pages": [
+    {
+      "page": 704,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0ee47e212c19c60bf6dcba10531ca048cbbc1d52d023d1ea4009c65de5faaf20",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 705,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "17b2df3f6730c766a437ed8c02a2c540379a70be68323d17f0c990054e5f1ad7",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 706,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8c14c9fecbca4fe01c847a6d60bf6a58ea9bb6e9899097de30784539f01514a8",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 707,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "98f7d62ef06707b4947c82fd91a9f6648d623be7fe225e2c6e3ac7f707543d22",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 708,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a4ed2b43da72b8dbf38eaf504d2a95930d4b9ba9bd3956f1f40a621631ca4f57",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 10,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and local OCR was reconciled with visual evidence.",
+    "Pages 705–708 are intentionally excluded from approved records because they concern armed groups, conflict, political control, territory, religious affiliation, extremism, or security-sensitive claims."
+  ],
+  "quality_gates": [
+    "Only source pages 704–708 are included.",
+    "MCQs require four visually reconciled options, a printed key, readable source label, and corroborated safe premise.",
+    "Only allowed tag categories are inserted.",
+    "Current, technical, national-status, political, territorial, extremist, security-sensitive, or source-imprecise claims are withheld rather than imported."
+  ]
+}

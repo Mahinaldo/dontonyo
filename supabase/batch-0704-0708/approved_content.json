@@ -1,0 +1,25 @@
+{
+  "batch_pages": [704, 705, 706, 707, 708],
+  "topics": [
+    {"slug":"climate-institutional-questions-704","title":"Climate and environment questions","page":704,"order":116,"domain":"world-history"},
+    {"slug":"armed-groups-boundary-705","title":"Armed-group source boundary I","page":705,"order":117,"domain":"world-history"},
+    {"slug":"armed-groups-boundary-706","title":"Armed-group source boundary II","page":706,"order":118,"domain":"world-history"},
+    {"slug":"armed-groups-boundary-707","title":"Armed-group source boundary III","page":707,"order":119,"domain":"world-history"},
+    {"slug":"armed-groups-past-questions-708","title":"Armed-group past-question boundary","page":708,"order":120,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":704,"topic":"climate-institutional-questions-704","title":"COP 1 — Berlin","text":"The first COP meeting was held in Berlin, Germany, in March 1995.","status":"verified","sources":["https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop"]},
+    {"page":704,"topic":"climate-institutional-questions-704","title":"Kyoto Protocol — greenhouse-gas targets","text":"The Kyoto Protocol commits industrialized countries and economies in transition to limit and reduce greenhouse-gas emissions in accordance with agreed individual targets.","status":"verified","sources":["https://unfccc.int/process-and-meetings/the-kyoto-protocol"]},
+    {"page":704,"topic":"climate-institutional-questions-704","title":"Convention on Wetlands — conservation framework","text":"The Convention on Wetlands provides the framework for the conservation and wise use of wetlands and their resources.","status":"verified","sources":["https://www.ramsar.org/"]},
+    {"page":704,"topic":"climate-institutional-questions-704","title":"Agenda 21 — environmental action plan","text":"Agenda 21 is a comprehensive plan of action addressing areas in which human activities affect the environment.","status":"verified","sources":["https://sdgs.un.org/publications/agenda21"]},
+    {"page":704,"topic":"climate-institutional-questions-704","title":"United Nations Conference on the Human Environment — Stockholm","text":"The United Nations Conference on the Human Environment took place in Stockholm from 5 to 16 June 1972.","status":"verified","sources":["https://www.un.org/en/conferences/environment/stockholm1972"]}
+  ],
+  "notes": [],
+  "mcqs": [
+    {"page":704,"number":28,"question":"১৯৯৫ সালে প্রথম COP সম্মেলন অনুষ্ঠিত হয় কোন শহরে?","options":[["ক","ফ্রান্সের প্যারিস"],["খ","জার্মানির বার্লিন"],["গ","যুক্তরাজ্যের গ্লাসগো"],["ঘ","নেদারল্যান্ডের হেগ"]],"correct":"খ","source":"পল্লী উন্নয়ন একাডেমি, বগুড়া সহকারী পরিচালক-২১","status":"verified","sources":["https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop"]},
+    {"page":704,"number":29,"question":"গ্রিন হাউজ গ্যাস নির্গমন-হ্রাস সংক্রান্ত চুক্তি কোনটি?","options":[["ক","ব্যাসেল কনভেনশন"],["খ","কার্টাগেনা প্রটোকল"],["গ","মন্ট্রিল প্রটোকল"],["ঘ","কিয়োটো প্রটোকল"]],"correct":"ঘ","source":"বিমান বাংলাদেশ এয়ারলাইন্স লি. এর সহকারী ব্যবস্থাপক-২১","status":"verified","sources":["https://unfccc.int/process-and-meetings/the-kyoto-protocol"]},
+    {"page":704,"number":30,"question":"রামসার সম্মেলনে কী সংরক্ষণের জন্য বলা হয়েছে?","options":[["ক","মরুভূমি"],["খ","জলাভূমি"],["গ","কৃষিভূমি"],["ঘ","বনভূমি"]],"correct":"খ","source":"রাবি সি ১৯-২০","status":"verified","sources":["https://www.ramsar.org/"]},
+    {"page":704,"number":32,"question":"‘এজেন্ডা ২১’ বিষয়বস্তু কী?","options":[["ক","পরমাণু"],["খ","পরিবেশ"],["গ","নারী"],["ঘ","সন্ত্রাসবাদ"]],"correct":"খ","source":"রাবি এফ ১৭-১৮","status":"verified","sources":["https://sdgs.un.org/publications/agenda21"]},
+    {"page":704,"number":37,"question":"জাতিসংঘের উদ্যোগে প্রথম পরিবেশ বিষয়ক সম্মেলন কোথায় অনুষ্ঠিত হয়?","options":[["ক","নিউইয়র্ক"],["খ","স্টকহোম"],["গ","বেইজিং"],["ঘ","রিও ডি জেনিরো"]],"correct":"খ","source":"নির্বাচন কমিশন সচিবালয়ে প্রশাসনিক কর্মকর্তা-০৪","status":"verified","sources":["https://www.un.org/en/conferences/environment/stockholm1972"]}
+  ]
+}
