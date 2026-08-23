@@ -1,0 +1,27 @@
+{
+  "batch_pages": [694, 695, 696, 697, 698],
+  "topics": [
+    {"slug":"past-exam-history-694","title":"Past-exam international history","page":694,"order":106,"domain":"world-history"},
+    {"slug":"environmental-conventions-695","title":"Environmental conventions","page":695,"order":107,"domain":"world-history"},
+    {"slug":"environmental-source-continuation-696","title":"Environmental source continuation","page":696,"order":108,"domain":"world-history"},
+    {"slug":"environmental-conferences-697","title":"Environmental conferences","page":697,"order":109,"domain":"world-history"},
+    {"slug":"climate-process-boundary-698","title":"Climate-process source boundary","page":698,"order":110,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":694,"topic":"past-exam-history-694","title":"Universal Declaration of Human Rights — 1948","text":"The United Nations General Assembly proclaimed the Universal Declaration of Human Rights in Paris on 10 December 1948.","status":"verified","sources":["https://www.un.org/en/about-us/universal-declaration-of-human-rights"]},
+    {"page":694,"topic":"past-exam-history-694","title":"Peace of Westphalia — Thirty Years’ War","text":"The Peace of Westphalia formally ended the Thirty Years’ War in 1648.","status":"verified","sources":["https://opil.ouplaw.com/display/10.1093/law:epil/9780199231690/law-9780199231690-e739"]},
+    {"page":694,"topic":"past-exam-history-694","title":"CEDAW — 1979 adoption","text":"The Convention on the Elimination of All Forms of Discrimination against Women was adopted by the United Nations General Assembly on 18 December 1979.","status":"verified","sources":["https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women"]}
+  ],
+  "notes": [
+    {"page":694,"topic":"past-exam-history-694","title":"Past-question safety boundary","text":"Sixteen questions and a complete printed key are visible. Only questions 4, 7, and 10 are admitted after premise verification. Arms-control, AUKUS, NATO, bilateral, territorial, political, and ambiguous questions remain withheld.","status":"source_attributed","sources":[]},
+    {"page":695,"topic":"environmental-conventions-695","title":"Environmental-convention boundary","text":"The Ramsar, Vienna, Basel, CBD, and UNFCCC table is retained as source context. Bangladesh-site, participation, protocol, purpose, and current-process claims are withheld pending focused institutional verification.","status":"source_attributed","sources":[]},
+    {"page":696,"topic":"environmental-source-continuation-696","title":"Repeated source boundary","text":"This page repeats the environmental-conventions table from page 695. It is retained for physical source-page provenance and OCR, but no duplicate learning record is imported.","status":"source_attributed","sources":[]},
+    {"page":697,"topic":"environmental-conferences-697","title":"Environmental-conference boundary","text":"The Earth Summit, Earth Summit+5, WSSD, and Rio+20 table is retained as source context. Purpose, outcome, ordinal, Bangladesh-specific, and green-economy claims are withheld pending exact United Nations verification.","status":"source_attributed","sources":[]},
+    {"page":698,"topic":"climate-process-boundary-698","title":"COP and Paris Agreement boundary","text":"The COP and Paris Agreement table is retained as source context. Country count, participation, signature, withdrawal/re-entry, effectiveness, temperature, carbon, and current policy-status claims are withheld pending current official evidence.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs": [
+    {"page":694,"number":4,"question":"'সার্বজনীন মানবাধিকার ঘোষণা' কোন সালে গৃহীত হয়?","options":[["ক","১৯৪৭"],["খ","১৯৪৮"],["গ","১৯৫৮"],["ঘ","১৯৪৯"]],"correct":"খ","source":"DU ঙ ০৩-০৪","status":"verified","sources":["https://www.un.org/en/about-us/universal-declaration-of-human-rights"]},
+    {"page":694,"number":7,"question":"কোন চুক্তির মাধ্যমে ইউরোপের “Thirty year’s war” এর সমাপ্তি ঘটে?","options":[["ক","ভার্সাই চুক্তি, ১৯১৯"],["খ","ওয়েস্টফেলিয়া শান্তি চুক্তি, ১৬৪৮"],["গ","প্যারিস চুক্তি, ১৭৮৩"],["ঘ","লুজান চুক্তি, ১৯২৩"]],"correct":"খ","source":"42 BCS","status":"verified","sources":["https://opil.ouplaw.com/display/10.1093/law:epil/9780199231690/law-9780199231690-e739"]},
+    {"page":694,"number":10,"question":"নারীর প্রতি সকল রকম বৈষম্য নির্মূল কনভেনশন স্বাক্ষরিত হয়-","options":[["ক","১৯৭৫"],["খ","১৯৭৬"],["গ","১৯৭৯"],["ঘ","১৯৮৯"]],"correct":"গ","source":"26 BCS","status":"verified","sources":["https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women"]}
+  ]
+}
