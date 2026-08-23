@@ -1,0 +1,30 @@
+{
+  "batch_pages":[679,680,681,682,683],
+  "topics":[
+    {"slug":"modern-revolutions-679","title":"Modern revolutions","page":679,"order":91,"domain":"world-history"},
+    {"slug":"chinese-revolutions-680","title":"Chinese political movements","page":680,"order":92,"domain":"world-history"},
+    {"slug":"history-mcq-review-681","title":"History question review","page":681,"order":93,"domain":"world-history"},
+    {"slug":"historic-wars-682","title":"Historic wars","page":682,"order":94,"domain":"world-history"},
+    {"slug":"historic-wars-683","title":"Nineteenth-century wars","page":683,"order":95,"domain":"world-history"}
+  ],
+  "facts":[
+    {"page":679,"topic":"modern-revolutions-679","title":"Arab Spring — Tunisia origin","text":"The Arab Spring began in Tunisia in December 2010, when a young vendor named Mohammed Bouazizi set himself on fire.","status":"verified","sources":["https://2009-2017.state.gov/j/drl/rls/hrrpt/2011/frontmatter/186157.htm"]},
+    {"page":679,"topic":"modern-revolutions-679","title":"Cuba — post-revolutionary 1959 context","text":"Fidel Castro had assumed power in Cuba by 1959, during the post-revolutionary period.","status":"verified","sources":["https://history.state.gov/historicaldocuments/frus1958-60v06/d305"]},
+    {"page":680,"topic":"chinese-revolutions-680","title":"Chinese Cultural Revolution","text":"The Cultural Revolution took place in China from 1966 to 1976 and was a political movement initiated by Mao Zedong.","status":"verified","sources":["https://www.nationalarchives.gov.uk/education/resources/the-cultural-revolution/"]},
+    {"page":682,"topic":"historic-wars-682","title":"Hundred Years’ War","text":"The Hundred Years’ War (1337–1453) was a prolonged struggle between the rival kingdoms of England and France.","status":"verified","sources":["https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453"]},
+    {"page":682,"topic":"historic-wars-682","title":"Crimean War","text":"The Crimean War ran from 1853 to 1856.","status":"verified","sources":["https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/victorians/the-crimean-war/"]},
+    {"page":683,"topic":"historic-wars-683","title":"Treaty of Shimonoseki","text":"The 1895 Treaty of Shimonoseki was a treaty of peace between China and Japan that recognized Korea’s independence and autonomy and provided for specified territorial cessions by China to Japan.","status":"verified","sources":["https://history.state.gov/historicaldocuments/frus1895p1/d203"]},
+    {"page":683,"topic":"historic-wars-683","title":"First Anglo-Burmese War","text":"The First Anglo-Burmese War lasted from 1824 to 1826 and ended in February 1826 with the Treaty of Yandabo.","status":"verified","sources":["https://www.nam.ac.uk/explore/first-burma-war"]},
+    {"page":683,"topic":"historic-wars-683","title":"United States Civil War","text":"The United States Civil War ran from 1861 to 1865.","status":"verified","sources":["https://www.nps.gov/subjects/civilwar/index.htm"]}
+  ],
+  "notes":[
+    {"page":679,"topic":"modern-revolutions-679","title":"Modern-revolutions boundary","text":"The scan’s revolutionary labels, leader-tenure list, single-cause claims, ideology, and current-status language are withheld. Approved records retain only narrowly dated, source-supported historical context.","status":"source_attributed","sources":[]},
+    {"page":680,"topic":"chinese-revolutions-680","title":"Chinese-political-history boundary","text":"The scan’s ideology, regime, “father,” and political-outcome formulations are withheld. The approved entry preserves only the externally corroborated Cultural Revolution date range and initiator.","status":"source_attributed","sources":[]},
+    {"page":681,"topic":"history-mcq-review-681","title":"Past-exam question quality boundary","text":"Fourteen questions and their printed answer grid are visually readable. Only question 9 is admitted because its complete stem, options, printed key, source label, and independently corroborated 1861–1865 premise all meet the quality gate; thirteen questions remain withheld.","status":"source_attributed","sources":[]},
+    {"page":682,"topic":"historic-wars-682","title":"Historic-wars scope boundary","text":"Religious, territorial, colonial, causal, and outcome formulations are withheld. Approved records preserve only neutral, externally corroborated date-and-party context.","status":"source_attributed","sources":[]},
+    {"page":683,"topic":"historic-wars-683","title":"Colonial and political-history boundary","text":"The scan’s colonial, territorial, political, social, and causation claims are withheld unless a neutral, independently sourced version is available. The approved records use bounded treaty, date, and event contexts.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs":[
+    {"page":681,"number":9,"question":"আমেরিকার গৃহযুদ্ধের মেয়াদ-","options":[["ক","১৬১৮-১৬৪৮ সালে"],["খ","১৯৮০-১৯৮৮ সালে"],["গ","১৭৭৫-১৭৮০ সালে"],["ঘ","১৮৬১-১৮৬৫ সালে"]],"correct":"ঘ","source":"ববি ঘ' ১৫-১৬","status":"verified","sources":["https://www.nps.gov/subjects/civilwar/index.htm"]}
+  ]
+}
