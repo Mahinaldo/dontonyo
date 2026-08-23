@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    674,
+    675,
+    676,
+    677,
+    678
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0674-0678-v1",
+  "generated_facts": 10,
+  "generated_notes": 5,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 15,
+  "source_pages": [
+    {
+      "page": 674,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c98186cf3d0c028a29c80d617c7b5d82ff07bfa75969375c3d60a92c9ae54459",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 675,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "55f03541095e13c46a0e138fde6274393375e6533081c42975464a7f0c039a5f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 676,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a14fb73d568beb99f76e3b2102cd759b6bced71708ef6b8a1ea4da67027c4420",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 677,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e1bb01e6ebf9c445ab7d7cb5d2355560fb92304564a536e3dc7aab825d48b979",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 678,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b986876a477604b18b5523f90f94ff163c02be06cc21cad3bb98ff71a3c41f45",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 10,
+    "conflicting": 0,
+    "source_attributed": 5
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Current, ranking, colonial-discovery, security, territorial, and politically compressed source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 674–678 are included.",
+    "No MCQ is included because all 15 answer-keyed questions require further per-question premise and key reconciliation.",
+    "Only allowed tag categories are inserted.",
+    "Political labels and historical superlatives use neutral historic scope; no source-error claim is imported."
+  ]
+}
