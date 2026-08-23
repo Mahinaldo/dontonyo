@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    724,
+    725,
+    726,
+    727,
+    728
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0724-0728-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 724,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6279203830f465ad22147fce7dd40f7d3b0b16098919d478d7a788c4ed2d9852",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 725,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "880f4aa2d3ed2ce60d8de97141b405115970aebccb4259099bcdae5d584c42d2",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 726,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1772f16123dc4ddc65d214c85e48a39c55544d2011bbe70bd4b3808cc10b0db0",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 727,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "caf6a8f1c529b3ba2a55386709ce9488dfc29fa6f656061b02fad2c3d68ed5af",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 728,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "468b0b22d790bb7edfb06bd0439c97dcee5345a1ea794a703c9a52ced72dd01d",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and local OCR was reconciled with visual evidence.",
+    "Institutional, political, diplomatic, membership, current-status, funding, leadership, human-rights, policy, conflict, security, military, casualty, territorial, country-status, ranking, and source-imprecise claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 724–728 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted; all content records remain intentionally empty."
+  ]
+}
