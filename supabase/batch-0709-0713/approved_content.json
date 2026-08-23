@@ -1,0 +1,15 @@
+{
+  "batch_pages": [709, 710, 711, 712, 713],
+  "topics": [
+    {"slug":"intelligence-agency-boundary-709","title":"Intelligence-agency source boundary I","page":709,"order":121,"domain":"world-history"},
+    {"slug":"intelligence-and-oil-boundary-710","title":"Intelligence and oil-crisis source boundary","page":710,"order":122,"domain":"world-history"},
+    {"slug":"first-world-war-boundary-711","title":"First World War source boundary","page":711,"order":123,"domain":"world-history"},
+    {"slug":"war-consequences-boundary-712","title":"War consequences source boundary","page":712,"order":124,"domain":"world-history"},
+    {"slug":"economic-history-boundary-713","title":"Economic history source boundary","page":713,"order":125,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":713,"topic":"economic-history-boundary-713","title":"Black Tuesday — 29 October 1929","text":"Black Tuesday, a key day in the 1929 stock-market crash, occurred on 29 October 1929.","status":"verified","sources":["https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"]}
+  ],
+  "notes": [],
+  "mcqs": []
+}

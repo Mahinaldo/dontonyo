@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    709,
+    710,
+    711,
+    712,
+    713
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0709-0713-v1",
+  "generated_facts": 1,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 1,
+  "source_pages": [
+    {
+      "page": 709,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c5242ad87811f478a6fba0c9f50f512384ba52196a6f28c3e2a4db157ee83586",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 710,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "5759f691f54d7e9a1253fa1d8eaea9e04d3ce578cd8b507d078071574dbfa8dd",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 711,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d940d7191e8a9356819149cb6bcc489746864df2e1b8f49d19c984ece069b8e9",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 712,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "662ff773b868ea94a050d1fbc2c23d06be2341b10c39a55cca6e9eb9e548d97a",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 713,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "5e804291d565c161435fff985a6395a832cf52ce77764d09117d2c3e3ff538c2",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 1,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and local OCR was reconciled with visual evidence.",
+    "Intelligence, security, war, treaty, territorial, political, religious, current-status, causal, and source-imprecise claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 709–713 are included.",
+    "No MCQ is included because every visible question concerns intelligence or security organizations and is excluded under the safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only the neutral, Federal Reserve History-verified Black Tuesday date/event is admitted; all other reviewed source material remains withheld."
+  ]
+}
