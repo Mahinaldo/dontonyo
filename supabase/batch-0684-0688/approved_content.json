@@ -1,0 +1,32 @@
+{
+  "batch_pages": [684, 685, 686, 687, 688],
+  "topics": [
+    {"slug":"modern-conflicts-684","title":"Modern conflicts","page":684,"order":96,"domain":"world-history"},
+    {"slug":"past-exam-history-685","title":"Past-exam history review","page":685,"order":97,"domain":"world-history"},
+    {"slug":"historic-charters-686","title":"Historic charters and agreements","page":686,"order":98,"domain":"world-history"},
+    {"slug":"treaty-history-687","title":"Treaty history","page":687,"order":99,"domain":"world-history"},
+    {"slug":"arms-control-history-688","title":"Arms-control history","page":688,"order":100,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":684,"topic":"modern-conflicts-684","title":"Vietnam peace agreement — 1973","text":"A peace agreement for Vietnam was signed on 27 January 1973; the war continued after the settlement and ended effectively in 1975.","status":"verified","sources":["https://history.state.gov/milestones/1969-1976/ending-vietnam"]},
+    {"page":685,"topic":"past-exam-history-685","title":"Montreal Protocol and CFCs","text":"The Montreal Protocol provided a framework to phase out ozone-depleting substances, including chlorofluorocarbons (CFCs).","status":"verified","sources":["https://www.unep.org/news-and-stories/story/rebuilding-ozone-layer-how-world-came-together-ultimate-repair-job"]},
+    {"page":685,"topic":"past-exam-history-685","title":"First Opium War","text":"The First Opium War was between Great Britain and China from 1839 to 1842.","status":"verified","sources":["https://history.state.gov/milestones/1830-1860/china-1"]},
+    {"page":685,"topic":"past-exam-history-685","title":"Battle of Waterloo","text":"The Battle of Waterloo was fought on 18 June 1815.","status":"verified","sources":["https://www.nam.ac.uk/explore/battle-waterloo"]},
+    {"page":685,"topic":"past-exam-history-685","title":"Korean War — outbreak","text":"War broke out on the Korean peninsula on 25 June 1950.","status":"verified","sources":["https://www.archives.gov/education/lessons/korean-conflict"]},
+    {"page":686,"topic":"historic-charters-686","title":"Universal Declaration of Human Rights","text":"The Universal Declaration of Human Rights was proclaimed by the United Nations General Assembly in Paris on 10 December 1948.","status":"verified","sources":["https://www.un.org/en/about-us/universal-declaration-of-human-rights"]},
+    {"page":686,"topic":"historic-charters-686","title":"Atlantic Charter","text":"The Atlantic Charter was a joint declaration released by U.S. President Franklin D. Roosevelt and British Prime Minister Winston Churchill on 14 August 1941.","status":"verified","sources":["https://history.state.gov/milestones/1937-1945/atlantic-conf"]}
+  ],
+  "notes": [
+    {"page":684,"topic":"modern-conflicts-684","title":"Conflict-history boundary","text":"The scan’s ideological, sectarian, territorial, causal, military-operation, political, and current-status claims are withheld. The approved Vietnam record preserves only the independently corroborated 1973 agreement and its qualified historical context.","status":"source_attributed","sources":[]},
+    {"page":685,"topic":"past-exam-history-685","title":"Past-exam question quality boundary","text":"Fourteen questions and a printed answer grid are visually readable. Only questions 1, 6, 10, and 11 are admitted because each has a complete stem, four options, an exact source label, a visually reviewed key, and an independently corroborated safe premise. Ten questions remain withheld.","status":"source_attributed","sources":[]},
+    {"page":686,"topic":"historic-charters-686","title":"Charter-history boundary","text":"The scan’s unqualified first/primacy, religious, causal, political, and outcome claims are withheld. The approved records retain only independently corroborated document dates, institutions, parties, and document type.","status":"source_attributed","sources":[]},
+    {"page":687,"topic":"treaty-history-687","title":"Treaty-table boundary","text":"The scan’s territorial, responsibility, reparations, political-outcome, and treaty-name simplifications are withheld pending individual authority checks. The visually reviewed table is retained in source-page metadata only.","status":"source_attributed","sources":[]},
+    {"page":688,"topic":"arms-control-history-688","title":"Arms-control boundary","text":"The page contains security-sensitive arms-control material. Operational, strategic, party-status, force-deployment, withdrawal, and treaty-scope claims are deliberately withheld pending precise, current authoritative sources.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs": [
+    {"page":685,"number":1,"question":"‘মনট্রিয়েল প্রোটোকল’ যার সঙ্গে সম্পর্কিত-","options":[["ক","সাদা বাঘ"],["খ","ক্লোরোফ্লুরোকার্বন"],["গ","পানি দূষণ"],["ঘ","ভূমিক্ষয়"]],"correct":"খ","source":"DU খ’ ১৮-১৯","status":"verified","sources":["https://www.unep.org/news-and-stories/story/rebuilding-ozone-layer-how-world-came-together-ultimate-repair-job"]},
+    {"page":685,"number":6,"question":"আফিম-যুদ্ধ কোন রাষ্ট্রসমূহের মধ্যে সংঘটিত হয়েছিল?","options":[["ক","চীন ও যুক্তরাজ্য"],["খ","চীন ও যুক্তরাষ্ট্র"],["গ","চীন ও রাশিয়া"],["ঘ","চীন ও ফ্রান্স"]],"correct":"ক","source":"DU খ’ ১২-১৩","status":"verified","sources":["https://history.state.gov/milestones/1830-1860/china-1"]},
+    {"page":685,"number":10,"question":"ওয়াটার-লু যুদ্ধ কোন সালে হয়েছিল?","options":[["ক","১৮১৫"],["খ","১৮২৭"],["গ","১৮২৬"],["ঘ","১৮৪০"]],"correct":"ক","source":"রাবি-লোকপ্রশাসন বিভাগ, ০২-০৩","status":"verified","sources":["https://www.nam.ac.uk/explore/battle-waterloo"]},
+    {"page":685,"number":11,"question":"কোরীয় যুদ্ধ কোন সনে আরম্ভ হয়?","options":[["ক","১৯৪৮"],["খ","১৯৫০"],["গ","১৯৫১"],["ঘ","১৯৫২"]],"correct":"খ","source":"সংস্থাপন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা-০৭","status":"verified","sources":["https://www.archives.gov/education/lessons/korean-conflict"]}
+  ]
+}

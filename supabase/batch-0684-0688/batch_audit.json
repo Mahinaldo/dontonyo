@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    684,
+    685,
+    686,
+    687,
+    688
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0684-0688-v1",
+  "generated_facts": 7,
+  "generated_notes": 5,
+  "generated_mcqs": 4,
+  "generated_options": 16,
+  "generated_flashcards": 16,
+  "source_pages": [
+    {
+      "page": 684,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "aa48bc143ffcb9984dc0219cf45ad5d1381fb37c8efc6417ae9b25eb10d08af8",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 685,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "bef369adea1efc779b4c1cdae3948a57f0bc56f117acedb52c83988d5a2db001",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 686,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "eac830215ccd0aee7eafe54e8926c22e62eabbc36009522fa02f57e64b399f1d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 687,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "62cb3f6c62abfcc9ad4ce087d4d840914042d325019915aa9dec066760a5346e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 688,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "5b3117ba8e702de39d083016fcf441416a84286a09b4d5066ea26782adcf61bf",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 11,
+    "conflicting": 0,
+    "source_attributed": 5
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Current, ranking, colonial-discovery, security, territorial, and politically compressed source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 684–688 are included.",
+    "MCQs require four visually reconciled options, a printed key, readable source label, and corroborated safe premise.",
+    "Only allowed tag categories are inserted.",
+    "Political, colonial, territorial, religious, security-sensitive, ideological, and source-error claims are withheld rather than imported."
+  ]
+}
