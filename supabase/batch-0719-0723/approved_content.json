@@ -1,0 +1,20 @@
+{
+  "batch_pages": [719, 720, 721, 722, 723],
+  "topics": [
+    {"slug":"second-world-war-sensitive-boundary-719","title":"Second World War sensitive source boundary","page":719,"order":131,"domain":"world-history"},
+    {"slug":"second-world-war-start-date-boundary-720","title":"Second World War start-date source boundary","page":720,"order":132,"domain":"world-history"},
+    {"slug":"second-world-war-end-date-boundary-721","title":"Second World War end-date source boundary","page":721,"order":133,"domain":"world-history"},
+    {"slug":"united-nations-origin-boundary-722","title":"United Nations origin source boundary","page":722,"order":134,"domain":"world-history"},
+    {"slug":"united-nations-diplomacy-boundary-723","title":"United Nations diplomacy source boundary","page":723,"order":135,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":720,"topic":"second-world-war-start-date-boundary-720","title":"Second World War — start date","text":"The Second World War began on 1 September 1939.","status":"verified","sources":["https://www.fdrlibrary.org/wwii-facts","https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"]},
+    {"page":721,"topic":"second-world-war-end-date-boundary-721","title":"Second World War — formal end date","text":"The Second World War ended on 2 September 1945 with Japan’s formal surrender.","status":"verified","sources":["https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"]},
+    {"page":722,"topic":"united-nations-origin-boundary-722","title":"United Nations — official beginning","text":"The United Nations officially began on 24 October 1945, when its Charter came into force after the specified ratifications.","status":"verified","sources":["https://www.un.org/en/about-us/history-of-the-un"]}
+  ],
+  "notes": [],
+  "mcqs": [
+    {"page":720,"number":"3","source":"DU খ ০৩-০৪; ঘ ৯৮-৯৯","question":"দ্বিতীয় বিশ্বযুদ্ধ কখন শুরু হয়?","options":[["ক","৪ জুলাই ১৯১৪"],["খ","১ সেপ্টেম্বর ১৯৩৯"],["গ","৪ জুলাই ১৯৪০"],["ঘ","১ সেপ্টেম্বর ১৯৪০"]],"correct":"খ","status":"verified","sources":["https://www.fdrlibrary.org/wwii-facts","https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"]},
+    {"page":721,"number":"14","source":"পররাষ্ট্র মন্ত্রণালয়ের কর্মকর্তা-০৪","question":"দ্বিতীয় বিশ্বযুদ্ধ শেষ হয়-","options":[["ক","১৯৪৫ সালের ১ সেপ্টেম্বর"],["খ","১৯৪৫ সালের ২ সেপ্টেম্বর"],["গ","১৯৪৫ সালের ৯ আগস্ট"],["ঘ","১৯৪৫ সালের ৬ আগস্ট"]],"correct":"খ","status":"verified","sources":["https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"]}
+  ]
+}

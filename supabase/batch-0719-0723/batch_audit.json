@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    719,
+    720,
+    721,
+    722,
+    723
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0719-0723-v1",
+  "generated_facts": 3,
+  "generated_notes": 0,
+  "generated_mcqs": 2,
+  "generated_options": 8,
+  "generated_flashcards": 5,
+  "source_pages": [
+    {
+      "page": 719,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "08ee9b0a55ea35338d742311873272698beeb6426a031c5756f56569d91b6545",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 720,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "af110d5904cc2d35c2edc9480e07dc9f168f5e282dd131eeda66a01bb7175ce6",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 721,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c55f364d798936c9cc212092284e3a57f0f48edaefed4308cdf34c6ba76db28d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 722,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d32656250618d8a116832437bd850cf580b9ca8a68759ece95b6fc1f2a35fec6",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 723,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c616315346ce98980f894777af82db288efd3487a921e7df13251bc0cc1b37c5",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 5,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and local OCR was reconciled with visual evidence.",
+    "Conflict, atrocity, nuclear, military, operational, security-sensitive, territorial, political, diplomatic, judicial, membership, current-status, treaty, and source-imprecise claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 719–723 are included.",
+    "MCQs require four visually reconciled options, a printed key, readable source label, and corroborated safe premise.",
+    "Only allowed tag categories are inserted.",
+    "Only the verified 1939 Second World War start, 1945 formal end, and 1945 United Nations official-beginning records are admitted; all other reviewed source material remains withheld."
+  ]
+}
