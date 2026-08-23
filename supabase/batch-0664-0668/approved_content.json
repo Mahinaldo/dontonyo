@@ -1,0 +1,34 @@
+{
+  "batch_pages":[664,665,666,667,668],
+  "topics":[
+    {"slug":"political-concepts-664","title":"Political and diplomatic concepts","page":664,"order":76,"domain":"international-relations"},
+    {"slug":"political-concepts-665","title":"Political concept reference","page":665,"order":77,"domain":"international-relations"},
+    {"slug":"mesopotamia-666","title":"Mesopotamia and Sumer","page":666,"order":78,"domain":"ancient-history"},
+    {"slug":"mesopotamia-667","title":"Babylon, Assyria, and Chaldea","page":667,"order":79,"domain":"ancient-history"},
+    {"slug":"egypt-668","title":"Ancient Egypt","page":668,"order":80,"domain":"ancient-history"}
+  ],
+  "facts":[
+    {"page":664,"topic":"political-concepts-664","title":"Protocol — diplomatic usage","text":"Protocol refers to formal rules and procedures governing official or diplomatic conduct and events.","status":"source_attributed","sources":[]},
+    {"page":664,"topic":"political-concepts-664","title":"State of emergency — bounded definition","text":"A state of emergency is an exceptional legal condition in which a government invokes special powers under applicable law; its content and safeguards vary by jurisdiction.","status":"source_attributed","sources":[]},
+    {"page":664,"topic":"political-concepts-664","title":"Impeachment — constitutional process","text":"Impeachment is a constitutional process by which a legislature may bring formal charges against a public official; procedure and consequences vary by jurisdiction.","status":"source_attributed","sources":[]},
+    {"page":664,"topic":"political-concepts-664","title":"Straw vote — definition","text":"A straw vote is a nonbinding, informal vote used to gauge opinion rather than make a final decision.","status":"source_attributed","sources":[]},
+    {"page":666,"topic":"mesopotamia-666","title":"Mesopotamia — between the rivers","text":"The name Mesopotamia means ‘between the rivers’; ancient Mesopotamia lay largely in what is now Iraq, with Babylon on the Euphrates River.","status":"verified","sources":["https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf"]},
+    {"page":666,"topic":"mesopotamia-666","title":"Cuneiform — Mesopotamian writing","text":"Writing began in southern Mesopotamia before 3100 BCE; cuneiform developed from pictograms and was used by several ancient Mesopotamian cultures.","status":"verified","sources":["https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf"]},
+    {"page":666,"topic":"mesopotamia-666","title":"Ziggurat — religious structure","text":"A ziggurat was a tall, stepped religious structure built in major ancient Mesopotamian cities.","status":"verified","sources":["https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf"]},
+    {"page":667,"topic":"mesopotamia-667","title":"Hammurapi — Babylonian king","text":"Hammurapi became king of Babylon around 1792 BCE and ruled until about 1750 BCE.","status":"verified","sources":["https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf"]},
+    {"page":667,"topic":"mesopotamia-667","title":"Hammurapi’s law-code","text":"Hammurapi’s law-code included laws based on older Sumerian laws and expressed standardized justice across the Babylonian empire.","status":"verified","sources":["https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf"]},
+    {"page":667,"topic":"mesopotamia-667","title":"Neo-Babylonian empire — chronology","text":"The Neo-Babylonian empire lasted from 625 to 539 BCE; Nebuchadnezzar II reigned from 605 to 562 BCE and rebuilt/enlarged Babylon.","status":"verified","sources":["https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf"]},
+    {"page":667,"topic":"mesopotamia-667","title":"Ashurbanipal — Neo-Assyrian king","text":"Ashurbanipal was king of the Neo-Assyrian empire from 669 to about 631 BCE and developed a large library of cuneiform tablets at Nineveh.","status":"verified","sources":["https://www.britishmuseum.org/blog/who-was-ashurbanipal"]},
+    {"page":668,"topic":"egypt-668","title":"Egyptian civil calendar","text":"Ancient Egypt’s civil calendar had 12 months of 30 days, with five additional epagomenal days at the end of the year.","status":"verified","sources":["https://www.metmuseum.org/essays/telling-time-in-ancient-egypt"]},
+    {"page":668,"topic":"egypt-668","title":"Ancient Egyptian day","text":"The Egyptian daily cycle was divided into 24 hours: 12 hours of day and 12 hours of night.","status":"verified","sources":["https://www.metmuseum.org/essays/telling-time-in-ancient-egypt"]},
+    {"page":668,"topic":"egypt-668","title":"Nile flood and calendar context","text":"Ancient Egyptian New Year was associated with the heliacal rising of Sopdet/Sirius and the first signs of the annual Nile flood.","status":"verified","sources":["https://www.metmuseum.org/essays/telling-time-in-ancient-egypt"]}
+  ],
+  "notes":[
+    {"page":664,"topic":"political-concepts-664","title":"Political-label boundary","text":"Third World, communism, imperialism, Marxism, fifth column, xenophobia, satellite state, and Cold War labels are historically and politically context-dependent. They are not imported as unqualified current descriptions.","status":"source_attributed","sources":[]},
+    {"page":665,"topic":"political-concepts-665","title":"Institutional-definition boundary","text":"Task force, junta, bureaucracy, dominion, and welfare-state descriptions depend on legal, historical, and institutional context. Only bounded definitions are retained; country classifications are withheld.","status":"source_attributed","sources":[]},
+    {"page":666,"topic":"mesopotamia-666","title":"Mesopotamian superlative boundary","text":"The scan’s ‘oldest civilization’, ‘first wheel’, and ‘first law’ claims are not imported as absolute facts. Ancient evidence and terminology require specific archaeological scope.","status":"source_attributed","sources":[]},
+    {"page":667,"topic":"mesopotamia-667","title":"Babylonian and Assyrian scope boundary","text":"The scan’s claims about first maps, first calendars, first iron weapons, and universal military labels are withheld. The Hanging Gardens attribution is treated as legend rather than fact.","status":"source_attributed","sources":[]},
+    {"page":668,"topic":"egypt-668","title":"Egyptian origin and superlative boundary","text":"First-pharaoh, first-monotheism, exact unification, ‘largest’, and causal claims are withheld unless exact source support is available. Approved records remain archaeology-based and historically scoped.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs":[]
+}
