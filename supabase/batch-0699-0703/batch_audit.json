@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    699,
+    700,
+    701,
+    702,
+    703
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0699-0703-v1",
+  "generated_facts": 6,
+  "generated_notes": 5,
+  "generated_mcqs": 10,
+  "generated_options": 40,
+  "generated_flashcards": 21,
+  "source_pages": [
+    {
+      "page": 699,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8bed396025df4a864a8c9a3b227bd54ea7d390ca25f2bbca6a20d24078c6787c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 700,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e9415b658a192cadb670a0f50ef5db80d647e214eafb77329e939cb59b46d5dc",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 701,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "02738e880b8d40b431b26e381e4ca0ba93019cfa45e09f7f1500c4627fcb1045",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 702,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e9f8c2d86c4a6d19ac19b72871924d3a594758b2d03208b252a041fe94f734bb",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 703,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6fc6282f22f54d3922c05a0ba088fcc7f38b6689d4529ab6ce2e6e982be6eae1",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 16,
+    "conflicting": 0,
+    "source_attributed": 5
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Security-sensitive, current, territorial, political, and dynamically changing source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 699–703 are included.",
+    "MCQs require four visually reconciled options, a printed key, readable source label, and corroborated safe premise.",
+    "Only allowed tag categories are inserted.",
+    "Current, technical, national-status, political, multi-keyed, starred, and source-error claims are withheld rather than imported."
+  ]
+}
