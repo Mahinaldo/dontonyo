@@ -1,0 +1,20 @@
+{
+  "batch_pages": [714, 715, 716, 717, 718],
+  "topics": [
+    {"slug":"economic-history-boundary-714","title":"Economic history source boundary","page":714,"order":126,"domain":"world-history"},
+    {"slug":"second-world-war-boundary-715","title":"Second World War source boundary I","page":715,"order":127,"domain":"world-history"},
+    {"slug":"second-world-war-facts-boundary-716","title":"Second World War source boundary II","page":716,"order":128,"domain":"world-history"},
+    {"slug":"war-cemetery-nuclear-boundary-717","title":"War cemetery and nuclear-history source boundary","page":717,"order":129,"domain":"world-history"},
+    {"slug":"war-operations-boundary-718","title":"War operations source boundary","page":718,"order":130,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":714,"topic":"economic-history-boundary-714","title":"Bretton Woods Conference — 1944","text":"The United Nations Monetary and Financial Conference convened at Bretton Woods in 1944; its final act included charters for the IMF and IBRD.","status":"verified","sources":["https://www.worldbank.org/en/archive/history/exhibits/Bretton-Woods-and-the-Birth-of-the-World-Bank"]},
+    {"page":714,"topic":"economic-history-boundary-714","title":"Treaty of Versailles and World War I","text":"The Treaty of Versailles ended World War I.","status":"verified","sources":["https://history.state.gov/milestones/1914-1920/paris-peace"]},
+    {"page":714,"topic":"economic-history-boundary-714","title":"First World War — start year","text":"The First World War began in 1914.","status":"verified","sources":["https://history.delaware.gov/world-war-i/"]}
+  ],
+  "notes": [],
+  "mcqs": [
+    {"page":714,"number":"2","source":"DU খ' ০৪-০৫","question":"প্রথম বিশ্বযুদ্ধের সমাপ্তিতে কোন চুক্তি স্বাক্ষরিত হয়?","options":[["ক","সেভ্রেস"],["খ","লুজেন"],["গ","ভার্সাই"],["ঘ","প্যারিস"]],"correct":"গ","status":"verified","sources":["https://history.state.gov/milestones/1914-1920/paris-peace"]},
+    {"page":714,"number":"3","source":"প্রাথমিক বিদ্যালয় সহকারী শিক্ষক, ০৮/চবি-খ, ০৬-০৭","question":"প্রথম মহাযুদ্ধ কোন সনে শুরু হয়?","options":[["ক","১৯১৪"],["খ","১৯১৮"],["গ","১৯৪০"],["ঘ","১৯৪৪"]],"correct":"ক","status":"verified","sources":["https://history.delaware.gov/world-war-i/"]}
+  ]
+}

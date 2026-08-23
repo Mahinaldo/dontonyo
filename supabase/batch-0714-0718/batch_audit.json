@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    714,
+    715,
+    716,
+    717,
+    718
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0714-0718-v1",
+  "generated_facts": 3,
+  "generated_notes": 0,
+  "generated_mcqs": 2,
+  "generated_options": 8,
+  "generated_flashcards": 5,
+  "source_pages": [
+    {
+      "page": 714,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a271248fda0e48ad42348b317260827243f1f9cd45699e5e3644776fa1e7dc65",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 715,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "f418cc7e1fd0da3bae4e7080694b9be9496a64a59f26693751f8824606e39361",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 716,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a6e433844adbf4d04819e6f433774f47ed49bda94d3ab817800296d3227521ba",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 717,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "656f6e375722b396ef8e5f336ae27074987e535afaf154c55169ceda6dcf2d7c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 718,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7f4bc7519e3e8f1190aadeccf9b5d3896fb31a5076fb027cb2e67f977cd88296",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 5,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and local OCR was reconciled with visual evidence.",
+    "Conflict, nuclear, military, operational, security-sensitive, territorial, political, leadership, causal, and source-imprecise claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 714–718 are included.",
+    "MCQs require four visually reconciled options, a printed key, readable source label, and corroborated safe premise.",
+    "Only allowed tag categories are inserted.",
+    "Only the verified Bretton Woods, Treaty of Versailles, and 1914 First World War records are admitted; all other reviewed source material remains withheld."
+  ]
+}
