@@ -1,0 +1,25 @@
+{
+  "batch_pages":[659,660,661,662,663],
+  "topics":[
+    {"slug":"conflict-scope-659","title":"Conflict material: scope boundary","page":659,"order":71,"domain":"world-history"},
+    {"slug":"humanitarian-scope-660","title":"Humanitarian material: scope boundary","page":660,"order":72,"domain":"world-history"},
+    {"slug":"historic-scandals-661","title":"Historic public-record references","page":661,"order":73,"domain":"world-history"},
+    {"slug":"conflict-mcq-boundary-662","title":"Conflict-practice exclusion","page":662,"order":74,"domain":"world-history"},
+    {"slug":"diplomatic-concepts-663","title":"Diplomatic and political concepts","page":663,"order":75,"domain":"international-relations"}
+  ],
+  "facts":[
+    {"page":661,"topic":"historic-scandals-661","title":"Watergate break-in — 1972","text":"The Watergate break-in occurred on 17 June 1972 at the Democratic National Committee headquarters in Washington, D.C.","status":"verified","sources":["https://rediscovering-black-history.blogs.archives.gov/2022/06/17/frank-wills/"]},
+    {"page":661,"topic":"historic-scandals-661","title":"Nixon resignation — 1974","text":"President Richard Nixon resigned on 9 August 1974 following the Watergate scandal.","status":"verified","sources":["https://rediscovering-black-history.blogs.archives.gov/2022/06/17/frank-wills/"]},
+    {"page":663,"topic":"diplomatic-concepts-663","title":"Zero-sum game — definition","text":"A zero-sum game is a situation in which one party’s gain is matched by another party’s loss, leaving a net result of zero.","status":"source_attributed","sources":[]},
+    {"page":663,"topic":"diplomatic-concepts-663","title":"Persona non grata — diplomatic meaning","text":"Persona non grata means an unwelcome person; in diplomatic practice, a state may bar a diplomat’s entry or censure a diplomat already resident for conduct unbecoming of diplomatic status.","status":"verified","sources":["https://diplomacy.state.gov/encyclopedia/persona-non-grata/"]},
+    {"page":663,"topic":"diplomatic-concepts-663","title":"Ambassador — diplomatic role","text":"An ambassador is a senior diplomatic representative of one state to another state or international organization.","status":"source_attributed","sources":[]}
+  ],
+  "notes":[
+    {"page":659,"topic":"conflict-scope-659","title":"Kashmir territorial-conflict exclusion","text":"The scan’s Kashmir war chronology, control-line descriptions, and territorial claims are withheld. These are sensitive, disputed, and time-dependent matters that are not turned into unqualified learning records.","status":"source_attributed","sources":[]},
+    {"page":660,"topic":"humanitarian-scope-660","title":"Rohingya humanitarian-content exclusion","text":"The scan’s Rohingya citizenship, displacement, repatriation, alleged-atrocity, and bilateral-process claims are withheld from general-learning facts because they require current, precise humanitarian and legal context.","status":"source_attributed","sources":[]},
+    {"page":661,"topic":"historic-scandals-661","title":"Allegation and legal-outcome boundary","text":"Iran–Contra, Bofors, Paradise Papers, and Panama Papers references are not reduced to unqualified claims about individuals or legal outcomes. Only narrowly documented Watergate chronology is retained.","status":"source_attributed","sources":[]},
+    {"page":662,"topic":"conflict-mcq-boundary-662","title":"Conflict-MCQ exclusion","text":"All twelve printed questions on this page are withheld despite visible keys because their premises concern territorial claims, conflicts, humanitarian status, or politically sensitive current context.","status":"source_attributed","sources":[]},
+    {"page":663,"topic":"diplomatic-concepts-663","title":"Concept-example boundary","text":"Buffer-state examples, welfare-state country lists, and theory-to-politics mappings are context-dependent. Only formal definitions are retained without asserting current country classifications.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs":[]
+}
