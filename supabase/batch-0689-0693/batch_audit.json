@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    689,
+    690,
+    691,
+    692,
+    693
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0689-0693-v1",
+  "generated_facts": 1,
+  "generated_notes": 5,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 6,
+  "source_pages": [
+    {
+      "page": 689,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "43062d251c003b19bd49b86c93f2053d4bdedb17da4786d40d39dbf705e07dd0",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 690,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0f9b515205b62e1b2fafd5676252fbf856d718ca62873816e85e25502c0468a3",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 691,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "15e6d3f1ca11fa8e49f0198e73983d1f3df9110ada7f8b41b18a61ca6d963145",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 692,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "04f6da4c9cc62cb01aef3d0afe3e3741bc0bef327850de19a18ba8e66b5f545b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 693,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "4ef78b6940eb558812b770568eb7f1a2aaf055babaf7e351ac548c93216cfa18",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 1,
+    "conflicting": 0,
+    "source_attributed": 5
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Security-sensitive arms-control, nuclear-policy, territorial, diplomatic, and politically compressed source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 689–693 are included.",
+    "No MCQ is included because no complete past-exam MCQ with four options and a visually verified printed key appears in the source pages.",
+    "Only allowed tag categories are inserted.",
+    "Only a neutral ICRC-verified Geneva Conventions record is admitted; security-sensitive and politically sensitive source claims are preserved only as boundary notes."
+  ]
+}

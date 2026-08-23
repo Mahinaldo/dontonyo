@@ -1,0 +1,21 @@
+{
+  "batch_pages": [689, 690, 691, 692, 693],
+  "topics": [
+    {"slug":"arms-and-diplomacy-689","title":"Arms and diplomatic agreements","page":689,"order":101,"domain":"world-history"},
+    {"slug":"sensitive-peace-agreements-690","title":"Sensitive peace-agreement tables","page":690,"order":102,"domain":"world-history"},
+    {"slug":"arms-control-treaties-691","title":"Arms-control treaty tables","page":691,"order":103,"domain":"world-history"},
+    {"slug":"nuclear-policy-treaties-692","title":"Nuclear-policy treaty tables","page":692,"order":104,"domain":"world-history"},
+    {"slug":"geneva-conventions-693","title":"Geneva Conventions","page":693,"order":105,"domain":"world-history"}
+  ],
+  "facts": [
+    {"page":693,"topic":"geneva-conventions-693","title":"Geneva Conventions — 1949 structure","text":"The Geneva Conventions are four treaties adopted in 1949; the International Committee of the Red Cross lists three Additional Protocols adopted in 1977, 1977, and 2005.","status":"verified","sources":["https://www.icrc.org/en/law-and-policy/geneva-conventions-and-their-commentaries"]}
+  ],
+  "notes": [
+    {"page":689,"topic":"arms-and-diplomacy-689","title":"Arms and diplomacy boundary","text":"The scan’s START, New START, Tashkent, India–Soviet, and Simla material is retained only as source context. Operational, treaty-status, military, territorial, causal, party, location, and political-outcome claims are withheld pending precise primary authority checks.","status":"source_attributed","sources":[]},
+    {"page":690,"topic":"sensitive-peace-agreements-690","title":"Sensitive agreement boundary","text":"The Camp David, Oslo, and Wye River table is retained only as source context. Recognition, governance, territorial, capital, participant, mediator, causal, outcome, and political claims are deliberately withheld.","status":"source_attributed","sources":[]},
+    {"page":691,"topic":"arms-control-treaties-691","title":"Arms-control boundary","text":"The Antarctic Treaty, NPT, CTBT, and Ottawa Treaty table is retained only as source context. Military-use, nuclear, landmine, party-status, country-list, signatory-count, regional-rank, and Bangladeshi participation claims are withheld.","status":"source_attributed","sources":[]},
+    {"page":692,"topic":"nuclear-policy-treaties-692","title":"Nuclear-policy boundary","text":"The ATT, TPNW, and JCPOA/P5+1 table is retained only as source context. Weapons-trade, nuclear-policy, sanctions, participation, P5+1 membership, withdrawal, expiry, location, and current-status claims are withheld.","status":"source_attributed","sources":[]},
+    {"page":693,"topic":"geneva-conventions-693","title":"Weapons-law boundary","text":"The page’s biological- and chemical-weapons convention summaries are retained only as source context. Operational, production, stockpile, prohibition, destruction, and legal-scope claims are security-sensitive and withheld pending exact primary authority review.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs": []
+}
