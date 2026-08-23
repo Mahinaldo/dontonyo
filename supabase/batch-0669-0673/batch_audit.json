@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    669,
+    670,
+    671,
+    672,
+    673
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0669-0673-v1",
+  "generated_facts": 15,
+  "generated_notes": 5,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 20,
+  "source_pages": [
+    {
+      "page": 669,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d789aeda24ef1c633f43bf7275881dfc3ed7e3473ec6615898d3581864f52026",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 670,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "343e0c53bdd949f3ce06baff0d4a7eb5d534a8e4ae6c2a405aa673b69370a8f1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 671,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c35420c289b239b7164c171e459b5f17acb0f633dd0f936269abafad430dfbce",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 672,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "cdbb76e17173553a3e2f0ffd230a377c545b091e3dd3ce053f02d34a09cfb721",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 673,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "ef7e48e8142e92be9d9a997e4d7f7546bc0e9a315aa6c1a24e1252811a66e38e",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 6,
+    "conflicting": 0,
+    "source_attributed": 14
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and upright local OCR was reconciled with visual evidence.",
+    "Current, ranking, colonial-discovery, security, territorial, and politically compressed source claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 669–673 are included.",
+    "No MCQ is included because individual authority-by-authority corroboration remains incomplete and legendary/superlative source questions are withheld.",
+    "Only allowed tag categories are inserted.",
+    "Ancient-history records use neutral historic scope; no source-error claim is imported."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "batch_pages":[669,670,671,672,673],
+  "topics":[
+    {"slug":"greece-669","title":"Ancient Greece","page":669,"order":81,"domain":"ancient-history"},
+    {"slug":"indus-670","title":"Indus Civilization","page":670,"order":82,"domain":"ancient-history"},
+    {"slug":"rome-china-hebrew-671","title":"Roman, Chinese, and Hebrew traditions","page":671,"order":83,"domain":"ancient-history"},
+    {"slug":"ancient-world-672","title":"Persian, Phoenician, Inca, Maya, and Aksum","page":672,"order":84,"domain":"ancient-history"},
+    {"slug":"ancient-history-mcq-boundary-673","title":"Ancient-history question boundary","page":673,"order":85,"domain":"ancient-history"}
+  ],
+  "facts":[
+    {"page":669,"topic":"greece-669","title":"Ancient Greek city-states","text":"Communities across the ancient Greek world developed into city-states, including Athens and Sparta.","status":"verified","sources":["https://www.metmuseum.org/toah/ht/04/eusb.html"]},
+    {"page":669,"topic":"greece-669","title":"Athenian democracy — historic scope","text":"Athens introduced democratic institutions around 510–507 BCE; this is a historic development, not a claim that ancient Athens met modern democratic standards.","status":"verified","sources":["https://www.metmuseum.org/toah/ht/04/eusb.html"]},
+    {"page":669,"topic":"greece-669","title":"Hellenistic period","text":"The Hellenistic period is conventionally dated from about 323 to 31 BCE.","status":"verified","sources":["https://www.metmuseum.org/toah/ht/04/eusb.html"]},
+    {"page":669,"topic":"greece-669","title":"Iliad and Odyssey — traditional attribution","text":"According to tradition, Homer composed the Iliad and the Odyssey around 750 BCE.","status":"source_attributed","sources":["https://www.metmuseum.org/toah/ht/04/eusb.html"]},
+    {"page":670,"topic":"indus-670","title":"Indus civilization — regional scope","text":"The Indus civilization flourished around five thousand years ago in parts of modern Afghanistan, Pakistan, and India.","status":"verified","sources":["https://www.britishmuseum.org/learn/schools/ages-7-11/middle-east-and-asia/virtual-visit-indus-valley-investigation"]},
+    {"page":670,"topic":"indus-670","title":"Harappa and Mohenjo-daro","text":"Harappa and Mohenjo-daro are key archaeological sites associated with the Indus civilization.","status":"verified","sources":["https://www.britishmuseum.org/learn/schools/ages-7-11/middle-east-and-asia/virtual-visit-indus-valley-investigation"]},
+    {"page":670,"topic":"indus-670","title":"Indus material evidence","text":"Archaeological evidence for the Indus civilization includes seals, jewellery, weights and measures, and evidence related to drainage and water management.","status":"verified","sources":["https://www.britishmuseum.org/learn/schools/ages-7-11/middle-east-and-asia/virtual-visit-indus-valley-investigation"]},
+    {"page":671,"topic":"rome-china-hebrew-671","title":"Roman civilization — Tiber context","text":"Ancient Rome developed on the Tiber River in the Italian peninsula.","status":"source_attributed","sources":[]},
+    {"page":671,"topic":"rome-china-hebrew-671","title":"Roman Twelve Tables — historic legal record","text":"The Twelve Tables are an early Roman legal text traditionally dated to the mid-fifth century BCE.","status":"source_attributed","sources":[]},
+    {"page":671,"topic":"rome-china-hebrew-671","title":"Ancient Chinese river context","text":"Early Chinese civilizations developed in river valleys including the Yellow River and Yangtze River regions.","status":"source_attributed","sources":[]},
+    {"page":672,"topic":"ancient-world-672","title":"Inca civilization — Andean context","text":"The Inca civilization developed in the Andes of South America; Machu Picchu is an important Inca archaeological site in Peru.","status":"source_attributed","sources":[]},
+    {"page":672,"topic":"ancient-world-672","title":"Maya civilization — Mesoamerican context","text":"The Maya civilization developed in Mesoamerica; Chichén Itzá is a major Maya archaeological site in present-day Mexico.","status":"source_attributed","sources":[]},
+    {"page":672,"topic":"ancient-world-672","title":"Phoenician writing — historic scope","text":"Phoenician writing was an influential consonantal alphabetic script in the ancient Mediterranean; ‘first alphabet’ claims require more precise historical scope.","status":"source_attributed","sources":[]},
+    {"page":672,"topic":"ancient-world-672","title":"Achaemenid Persia — historic scope","text":"The Achaemenid Empire was an ancient Persian empire; its history includes rulers such as Cyrus II and Darius I.","status":"source_attributed","sources":[]},
+    {"page":672,"topic":"ancient-world-672","title":"Aksum — regional historic context","text":"The Kingdom of Aksum was an ancient polity in the Horn of Africa and the southern Arabian region, with a history of urban and commercial activity.","status":"source_attributed","sources":[]}
+  ],
+  "notes":[
+    {"page":669,"topic":"greece-669","title":"Greek source-superlative boundary","text":"The scan’s claims about first maps, the greatest playwright, a cultural golden age, deities, and the Trojan War are not imported as unqualified historical facts.","status":"source_attributed","sources":[]},
+    {"page":670,"topic":"indus-670","title":"Indus attribution boundary","text":"Claims assigning the Indus civilization to one ethnicity, calling it first urbanization, or attributing an invention/discovery to one figure are withheld. Archaeological interpretation remains evidence-led and incomplete.","status":"source_attributed","sources":[]},
+    {"page":671,"topic":"rome-china-hebrew-671","title":"Religious and ethnicity boundary","text":"Theological claims, ethnic naming, contemporary-population statements, and oldest/first language claims in the scan are withheld from unqualified learning records.","status":"source_attributed","sources":[]},
+    {"page":672,"topic":"ancient-world-672","title":"Ancient-world source boundary","text":"Simplified religious doctrine, founder claims, first alphabet claims, and OCR-uncertain country/civilization claims are withheld unless precisely corroborated.","status":"source_attributed","sources":[]},
+    {"page":673,"topic":"ancient-history-mcq-boundary-673","title":"Question-bank exclusion boundary","text":"All 13 printed MCQs are withheld in this pass: superlatives and legendary premises are excluded, while otherwise safe questions await individual authority-by-authority corroboration beyond the shared historical-source ledger.","status":"source_attributed","sources":[]}
+  ],
+  "mcqs":[]
+}
