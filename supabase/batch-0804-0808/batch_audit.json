@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    804,
+    805,
+    806,
+    807,
+    808
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0804-0808-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 804,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "bfd8287d85d87a837f532ab26b4c010fb147cf969d9b644fc3aaa0077604fb6e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 805,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b3ba9152c810349e8e8a6de680d2e93178a49558abebc0eada1a5190a83e8861",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 806,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "18f53ff3d75b11a2ffb52c55fab5c80a7fb28fd1df452b03fe2ca47eefdc11ca",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 807,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "23fc2abea4319c72302f5b0f960645bbc8607bf69caef4ea5ee58719e7dd4b4e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 808,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7e4db5ca0b55de176a17a110f3ac946942d0e2715daa1e61f21ee340fe2aa735",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence; image evidence controlled.",
+    "Quotation-attribution, political, legal, ideological, religious, military, geographic, territorial, national, and location-linked claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 804–808 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted."
+  ]
+}
