@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    784,
+    785,
+    786,
+    787,
+    788
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0784-0788-v1",
+  "generated_facts": 3,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 3,
+  "source_pages": [
+    {
+      "page": 784,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "fe848268726a3d4ec280192b6a543fe90cda31597c08c7dc7b24de6565db9bb2",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 785,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c54ddca0fb86ba38b102d5fef2efc1151454e615f46b196ccee5e9b3a23889b4",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 786,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "3bfcf482a128066fd1278804456c9e908c0bd54a3fb503cf8df36e50e6b36c3b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 787,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "5a8f9f33b2a908854bc7952392fdf248efa0e867a1c9bf2c3983eadb9f53f399",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 788,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a0a7ce30e2f064280fbcc04380f9d44ca9498943ac3b79020febad457b95f17a",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence; image evidence controlled.",
+    "Only three exact neutral literary author-work attributions passed visual readability, OCR reconciliation, and authority-verification gates.",
+    "Environmental policy-adjacent, institutional, political, diplomatic, military, economic, legal, membership, leadership, religious, national, award, superlative, translator, location, date, and current-status claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 784–788 are included.",
+    "Only exact neutral author-work attributions with visual readability, OCR reconciliation, and direct authority corroboration are admitted.",
+    "No notes or MCQs are included because no reviewed source item clears the conservative content boundary for those forms.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance, topic boundaries, three verified facts, and their derived flashcard/search artifacts are admitted."
+  ]
+}
