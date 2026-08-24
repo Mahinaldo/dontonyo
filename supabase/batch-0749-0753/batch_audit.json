@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    749,
+    750,
+    751,
+    752,
+    753
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0749-0753-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 749,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1cf333e63324bf6dc4737b5f9136fef840ff2f39c22de48b16e04f390ffce502",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 750,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0061ea42682c774f0c0bdf1489b303d2d09c5bcc24fa6feaff68fbdeca055390",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 751,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1ad88f87a6ed3cca4d49b832ac9e5e8a4be2e20d9f9b4af09055f9567185e3a3",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 752,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "bef3e5e6584fd2c1299d042b585586feee558a11b415be288edf632ddb43bff0",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 753,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "43e476fb39eb672a26979dd7115ea5971eed3cecd04f8c2764a637bbee15aa1f",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence.",
+    "Pages 750 and 753 contain visually confirmed printed corrections; all political, diplomatic, religious, ideological, security-sensitive, military, constitutional, colonial, institutional, membership, leadership, policy, legal, ranking, location, date, and current-status claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 749–753 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted."
+  ]
+}

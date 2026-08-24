@@ -1,0 +1,13 @@
+{
+  "batch_pages": [749, 750, 751, 752, 753],
+  "topics": [
+    {"slug": "un-examination-boundary-749", "title": "UN examination material: conservative content boundary", "page": 749, "order": 749, "domain": "world-history"},
+    {"slug": "oic-boundary-750", "title": "OIC material: conservative content boundary", "page": 750, "order": 750, "domain": "world-history"},
+    {"slug": "arab-league-asem-boundary-751", "title": "Arab League and ASEM material: conservative content boundary", "page": 751, "order": 751, "domain": "world-history"},
+    {"slug": "nam-imctc-boundary-752", "title": "NAM and IMCTC material: conservative content boundary", "page": 752, "order": 752, "domain": "world-history"},
+    {"slug": "commonwealth-boundary-753", "title": "Commonwealth material: conservative content boundary", "page": 753, "order": 753, "domain": "world-history"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": []
+}
