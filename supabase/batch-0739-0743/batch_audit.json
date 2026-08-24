@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    739,
+    740,
+    741,
+    742,
+    743
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0739-0743-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 739,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "06bab3df2da10664dc01b069dea6dd879bf34c03760c1537487f339d77c522a3",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 740,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "33450198c1c1b4c1cceb729caf0878ef26e777182e9f012e66b0a50303f1ebd1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 741,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "10aa12f351ddbac12fd467aab3d47293433c83a70b7b292f36a859c1ee041a4d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 742,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "9bec848483362e8fbb50784cbcc63e90aba31d3c9cf75b6001157f5609e6e0c0",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 743,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "347232911e83fda186413b99f69559af52a5267e060e97061f218dce80e4349c",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were already upright and local OCR was reconciled with visual evidence.",
+    "Institutional, gender, environmental, humanitarian, migration, nuclear, chemical-security, treaty, climate, trade, refugee, economic, development, health, policy, leadership, membership, country-status, and current-status claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 739–743 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted; all content records remain intentionally empty."
+  ]
+}
