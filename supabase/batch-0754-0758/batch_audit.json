@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    754,
+    755,
+    756,
+    757,
+    758
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0754-0758-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 754,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "841a9f91d48ed11929977540c82415db9450b47c3e959ec63ae64129cb88fe09",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 755,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "242aea8813e1d37ddceed031b15b208f6c5f649923503bd417fb19065bcc9f2f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 756,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "292efd3c555c52f1fcc464b0f0187dc8422d7919fa7ce55e7a01b590c8ae3bf3",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 757,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6ca6df63e316fd6a08570989a62cd240785471a17898e6414a665dd4320e18a3",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 758,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0e51ce5870d048008ec36bb04ad927468e88765c04d73a47b3dd6bf22bff20ae",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence.",
+    "Institutional, political, diplomatic, economic, treaty, trade-policy, membership, monetary-policy, labor/human-rights-policy, security, mobility-policy, ranking, location, leadership, date, and current-status claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 754–758 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted."
+  ]
+}
