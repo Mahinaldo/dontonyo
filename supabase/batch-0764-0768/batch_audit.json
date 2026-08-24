@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    764,
+    765,
+    766,
+    767,
+    768
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0764-0768-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 764,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "df078175a94178608cd4aac32c968200c1174af52c7ba54136ad00b841da067d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 765,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "866046b57c6e75d23bbeb60b5d7248b14b1037b6f21483f5ac978536935b2cc4",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 766,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1ec4b923132c1e72995c668738cf71c5e52c7f0b2a3c35985e58fb586c380bad",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 767,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "350f9ccbda40dea959e24b33c6a8695642a8241e936d2b7b881423220c1b7c3c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 768,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d4e1b88f69ee5e12ddc5ea89c49a6f4d2eb0882e9785a59ddbbcbfc074728b83",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence.",
+    "Institutional, political, diplomatic, economic, treaty, trade-policy, commodity-policy, membership, monetary-policy, financial, ranking, leadership, location, date, and current-status claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 764–768 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted."
+  ]
+}
