@@ -1,0 +1,38 @@
+{
+  "batch_pages": [799, 800, 801, 802, 803],
+  "topics": [
+    { "slug": "literary-reference-boundary-799", "title": "Literary reference source boundary", "page": 799, "order": 799, "domain": "world-history" },
+    { "slug": "literary-question-boundary-800", "title": "Literary question-bank source boundary", "page": 800, "order": 800, "domain": "world-history" },
+    { "slug": "mixed-question-boundary-801", "title": "Mixed question-bank source boundary", "page": 801, "order": 801, "domain": "world-history" },
+    { "slug": "literary-question-boundary-802", "title": "Literary question-bank source boundary", "page": 802, "order": 802, "domain": "world-history" },
+    { "slug": "quotation-attribution-boundary-803", "title": "Quotation-attribution source boundary", "page": 803, "order": 803, "domain": "world-history" }
+  ],
+  "facts": [
+    {
+      "title": "Johann Wolfgang von Goethe — Faust",
+      "text": "ইয়োহান ভল্‌ফগাং ফন গ্যেটের রচিত নাট্যকর্ম ‘ফাউস্ট’।",
+      "page": 799,
+      "topic": "literary-reference-boundary-799",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/topic/Faust-play", "title": "Encyclopaedia Britannica: Faust", "status": "verified" }]
+    },
+    {
+      "title": "Ernest Hemingway — The Old Man and the Sea",
+      "text": "আর্নেস্ট হেমিংওয়ের রচিত উপন্যাস ‘দ্য ওল্ড ম্যান অ্যান্ড দ্য সি’।",
+      "page": 800,
+      "topic": "literary-question-boundary-800",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/topic/The-Old-Man-and-the-Sea-novel-by-Hemingway", "title": "Encyclopaedia Britannica: The Old Man and the Sea", "status": "verified" }]
+    },
+    {
+      "title": "J. K. Rowling — Harry Potter",
+      "text": "জে. কে. রাউলিং সৃষ্ট ‘হ্যারি পটার’ বই-ধারা।",
+      "page": 802,
+      "topic": "literary-question-boundary-802",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/biography/J-K-Rowling", "title": "Encyclopaedia Britannica: J.K. Rowling", "status": "verified" }]
+    }
+  ],
+  "notes": [],
+  "mcqs": []
+}

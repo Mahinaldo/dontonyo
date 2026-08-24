@@ -1,0 +1,65 @@
+{
+  "batch_pages": [
+    799,
+    800,
+    801,
+    802,
+    803
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0799-0803-v1",
+  "generated_facts": 3,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 3,
+  "source_pages": [
+    {
+      "page": 799,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "833e95fa2ffb2292a7085af6392ffe62654c730d420f2d5f927a93d7a7627b4e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 800,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b71fc9c8a6f1370424e323ddab6151065d4e78a0b74d8909c24d78246b0bb282",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 801,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "fa2fc0f3ab7d2e1ed4782a22a13246d8f8a45d04e245739a82ec305f6643fad9",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 802,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c1c094f338a6f1a2e08016f8da8272450d846b217ed1c93b7bbde9985a1c801f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 803,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "05ee85a3ccb67564462d61e44e422a62cb3efa4ab85cabc0a8681b8844c0ab35",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence; image evidence controlled.",
+    "Only three exact neutral literary author-work attributions passed visual readability, OCR reconciliation, duplicate screening, and authority-verification gates.",
+    "Political, military, leadership, economic, ideological, legal, religiously adjacent, translation, ISBN, quotation-attribution, duplicate, and source-imprecise claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 799–803 are included.",
+    "Only exact neutral literary author-work attributions with visual readability, OCR reconciliation, duplicate screening, and direct authority corroboration are admitted.",
+    "No notes or MCQs are included because no reviewed source item clears the conservative content boundary for those forms.",
+    "Only established domain and quality tag categories are inserted.",
+    "Only reviewed source-page provenance, topic boundaries, three verified facts, and their derived flashcard/search artifacts are admitted."
+  ]
+}
