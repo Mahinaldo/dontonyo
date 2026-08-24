@@ -1,0 +1,38 @@
+{
+  "batch_pages": [794, 795, 796, 797, 798],
+  "topics": [
+    { "slug": "mixed-association-boundary-794", "title": "Mixed association source boundary", "page": 794, "order": 794, "domain": "world-history" },
+    { "slug": "literary-attribution-boundary-795", "title": "Literary attribution source boundary", "page": 795, "order": 795, "domain": "world-history" },
+    { "slug": "literary-attribution-boundary-796", "title": "Literary attribution source boundary", "page": 796, "order": 796, "domain": "world-history" },
+    { "slug": "sensitive-author-source-boundary-797", "title": "Sensitive author-card source boundary", "page": 797, "order": 797, "domain": "world-history" },
+    { "slug": "literary-attribution-boundary-798", "title": "Literary attribution source boundary", "page": 798, "order": 798, "domain": "world-history" }
+  ],
+  "facts": [
+    {
+      "title": "John Keats — Isabella",
+      "text": "জন কিটসের রচিত কবিতা ‘ইসাবেলা’।",
+      "page": 795,
+      "topic": "literary-attribution-boundary-795",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/topic/Isabella-poem-by-Keats", "title": "Encyclopaedia Britannica: Isabella", "status": "verified" }]
+    },
+    {
+      "title": "Charles Dickens — A Tale of Two Cities",
+      "text": "চার্লস ডিকেন্সের রচিত উপন্যাস ‘এ টেল অব টু সিটিজ’।",
+      "page": 796,
+      "topic": "literary-attribution-boundary-796",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/topic/A-Tale-of-Two-Cities-novel", "title": "Encyclopaedia Britannica: A Tale of Two Cities", "status": "verified" }]
+    },
+    {
+      "title": "Daniel Defoe — Robinson Crusoe",
+      "text": "ড্যানিয়েল ডিফোর রচিত উপন্যাস ‘রবিনসন ক্রুসো’।",
+      "page": 798,
+      "topic": "literary-attribution-boundary-798",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/topic/Robinson-Crusoe-novel", "title": "Encyclopaedia Britannica: Robinson Crusoe", "status": "verified" }]
+    }
+  ],
+  "notes": [],
+  "mcqs": []
+}
