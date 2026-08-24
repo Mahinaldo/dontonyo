@@ -1,0 +1,13 @@
+{
+  "batch_pages": [779, 780, 781, 782, 783],
+  "topics": [
+    { "slug": "interpol-anzus-boundary-779", "title": "INTERPOL and ANZUS source boundary", "page": 779, "order": 779, "domain": "world-history" },
+    { "slug": "humanitarian-organizations-boundary-780", "title": "Humanitarian organizations source boundary", "page": 780, "order": 780, "domain": "world-history" },
+    { "slug": "organizations-rights-boundary-781", "title": "Organizations and rights source boundary", "page": 781, "order": 781, "domain": "world-history" },
+    { "slug": "organizations-exam-boundary-782", "title": "Organizations past-question source boundary", "page": 782, "order": 782, "domain": "world-history" },
+    { "slug": "environmental-organizations-boundary-783", "title": "Environmental organizations source boundary", "page": 783, "order": 783, "domain": "world-history" }
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": []
+}
