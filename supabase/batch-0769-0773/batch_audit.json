@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    769,
+    770,
+    771,
+    772,
+    773
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0769-0773-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 769,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8a4605867a9d4e8efa25cef8ea5f9b3bbff773b455c913b7f8a199824e66f443",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 770,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7f5ba3d2ec4e47160b6c2cff8d00af6ae826145c575d1e16fb5d032328fd3fce",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 771,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "537aa4e5ffe7572bf03b62c8033a099207138ea9dc34574e128bdbcac3adde71",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 772,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b89643e9a0a6ddbc2a4842617616e54284287955835e08c947841a15edd02672",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 773,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8f4c0bfd2013fd6e5d67eb8553ff2b146542991e8e8579159361aecbee922d18",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence.",
+    "Institutional, political, diplomatic, economic, treaty, trade-policy, membership, financial, leadership, ranking, location, date, policy, and current-status claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 769–773 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted."
+  ]
+}
