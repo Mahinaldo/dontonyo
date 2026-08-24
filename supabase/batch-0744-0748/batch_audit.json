@@ -1,0 +1,64 @@
+{
+  "batch_pages": [
+    744,
+    745,
+    746,
+    747,
+    748
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0744-0748-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 744,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "3c0e6b08a470d402511694c4671053f06ef1520996c5ca9dcfc83934fe2b40f2",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 745,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "818a995126027b1efb32ed9dcb287fe9b13a83c43394e8d62f53c17f613531a3",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 746,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "3c38362e5de46ee3f426e903b4d24c1a0bbb7e03d30db04755cbd2ebf12c6c59",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 747,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e5f59bd1d55d230fc01e3b6321184fd3e1e58f11d76941ec67ec6eb28ba945fa",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 748,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d33c7e64b81eca74505e87f8769fe1572b6f4598ba9842ceceb2f17b217d4b4e",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "The rendered source images were upright and local OCR was reconciled with visual evidence.",
+    "Pages 745–748 include visually completed printed answer-key tables; page 747 visibly marks one session-date question as having no correct option.",
+    "Institutional, financial, economic, legal, treaty, security, development, environmental, humanitarian, gender, trade, policy, membership, leadership, location, term, measurement, date, and current-status claims were withheld rather than reconstructed."
+  ],
+  "quality_gates": [
+    "Only source pages 744–748 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted; all content records remain intentionally empty."
+  ]
+}
