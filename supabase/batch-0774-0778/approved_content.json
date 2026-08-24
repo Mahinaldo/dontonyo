@@ -1,0 +1,43 @@
+{
+  "batch_pages": [774, 775, 776, 777, 778],
+  "topics": [
+    {
+      "slug": "asean-cirdap-boundary-774",
+      "title": "ASEAN and CIRDAP source boundary",
+      "page": 774,
+      "order": 774,
+      "domain": "world-history"
+    },
+    {
+      "slug": "organizations-exam-boundary-775",
+      "title": "Organizations past-question source boundary",
+      "page": 775,
+      "order": 775,
+      "domain": "world-history"
+    },
+    {
+      "slug": "organizations-exam-boundary-776",
+      "title": "Organizations past-question source boundary",
+      "page": 776,
+      "order": 776,
+      "domain": "world-history"
+    },
+    {
+      "slug": "nato-isaf-boundary-777",
+      "title": "NATO and ISAF source boundary",
+      "page": 777,
+      "order": 777,
+      "domain": "world-history"
+    },
+    {
+      "slug": "security-alliance-boundary-778",
+      "title": "Security alliance source boundary",
+      "page": 778,
+      "order": 778,
+      "domain": "world-history"
+    }
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": []
+}

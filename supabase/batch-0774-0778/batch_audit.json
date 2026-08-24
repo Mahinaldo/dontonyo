@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    774,
+    775,
+    776,
+    777,
+    778
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0774-0778-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 774,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "bbc2a94293375c108f5fdde28d4d0057d8a597fe93b977df94e1b19d033ce76a",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 775,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "534e7565963d076d0069e1ac72ad8df5808917b02c62ad5f6b6b9a47e5396bbe",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 776,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "49b7d109073ba404d7fd1d8ac07a5e00eec270863328596fbefaed54ae90d89b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 777,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c7dcc762c23aae477a367014035210e42dbdb4de70656d7756b788db5d1d3f6f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 778,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b39e228fb69ae7a938df176cf40b671767ba9df0fb531d8abe4bad9469540c52",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local OCR was reconciled with visual evidence; image evidence controlled.",
+    "Institutional, political, diplomatic, military, economic, treaty, membership, financial, leadership, ranking, location, date, policy, intelligence, conflict, and current-status claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 774–778 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and source-page topic boundaries are admitted."
+  ]
+}
