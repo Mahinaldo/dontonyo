@@ -1,0 +1,38 @@
+{
+  "batch_pages": [789, 790, 791, 792, 793],
+  "topics": [
+    { "slug": "philosophy-boundary-789", "title": "Philosophy source boundary", "page": 789, "order": 789, "domain": "world-history" },
+    { "slug": "science-attribution-boundary-790", "title": "Science attribution source boundary", "page": 790, "order": 790, "domain": "world-history" },
+    { "slug": "science-attribution-boundary-791", "title": "Science attribution source boundary", "page": 791, "order": 791, "domain": "world-history" },
+    { "slug": "science-attribution-boundary-792", "title": "Science attribution source boundary", "page": 792, "order": 792, "domain": "world-history" },
+    { "slug": "politics-economics-boundary-793", "title": "Politics and economics source boundary", "page": 793, "order": 793, "domain": "world-history" }
+  ],
+  "facts": [
+    {
+      "title": "Isaac Newton — three laws of motion",
+      "text": "আইজ্যাক নিউটনের বস্তুর গতি সম্পর্কিত তিনটি সূত্র ‘নিউটনের গতি সূত্র’ নামে পরিচিত।",
+      "page": 790,
+      "topic": "science-attribution-boundary-790",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/biography/Isaac-Newton", "title": "Encyclopaedia Britannica: Isaac Newton", "status": "verified" }]
+    },
+    {
+      "title": "Charles Darwin — On the Origin of Species",
+      "text": "চার্লস ডারউইনের বিখ্যাত গ্রন্থ ‘On the Origin of Species’।",
+      "page": 791,
+      "topic": "science-attribution-boundary-791",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/biography/Charles-Darwin", "title": "Encyclopaedia Britannica: Charles Darwin", "status": "verified" }]
+    },
+    {
+      "title": "Stephen Hawking — A Brief History of Time",
+      "text": "স্টিফেন হকিংয়ের বিখ্যাত গ্রন্থ ‘A Brief History of Time’।",
+      "page": 792,
+      "topic": "science-attribution-boundary-792",
+      "status": "verified",
+      "sources": [{ "url": "https://www.britannica.com/biography/Stephen-Hawking", "title": "Encyclopaedia Britannica: Stephen Hawking", "status": "verified" }]
+    }
+  ],
+  "notes": [],
+  "mcqs": []
+}
