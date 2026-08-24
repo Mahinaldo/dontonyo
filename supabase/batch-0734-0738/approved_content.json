@@ -1,0 +1,13 @@
+{
+  "batch_pages": [734, 735, 736, 737, 738],
+  "topics": [
+    {"slug":"international-finance-boundary-734","title":"International finance source boundary","page":734,"order":146,"domain":"world-history"},
+    {"slug":"international-monetary-system-boundary-735","title":"International monetary system source boundary","page":735,"order":147,"domain":"world-history"},
+    {"slug":"un-specialized-agencies-boundary-736","title":"UN specialized agencies source boundary","page":736,"order":148,"domain":"world-history"},
+    {"slug":"technical-agencies-boundary-737","title":"Technical agencies source boundary","page":737,"order":149,"domain":"world-history"},
+    {"slug":"development-programmes-boundary-738","title":"Development programmes source boundary","page":738,"order":150,"domain":"world-history"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": []
+}
