@@ -1,0 +1,62 @@
+{
+  "batch_pages": [
+    834,
+    835,
+    836,
+    837,
+    838
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0834-0838-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 834,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "75aba75cb3ef824f1fa0965373c81a67fe119aedd32ce178b85450c2a57f38f0",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 835,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "269ccc99497785cd17395f449612259605c2c2bd3d82084fd6118c6528f2a4b5",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 836,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "b324d5918d91430a247a036fba88d5030173862832250892905a4f2f26fef03a",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 837,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "89e7647895234d237641027a0d539d3b69d2a12dda59d51c844824a0137127de",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 838,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "254a2e8e6fb0e527e7fa2aae42bf45cf4693dc7e76ab90183befaaf40e80a1ff",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "Geographic, territorial, political, border, ranking/superlative, seasonal-date and source-imprecise claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 834–838 are included.",
+    "No reviewed claim clears the conservative quality and safety boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
