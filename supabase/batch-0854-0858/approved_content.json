@@ -1,0 +1,17 @@
+{
+  "batch_pages": [854, 855, 856, 857, 858],
+  "topics": [
+    {"slug": "war-theory-exam-reference-boundary-854", "title": "War and theory exam reference source boundary", "page": 854, "order": 854, "domain": "world-history"},
+    {"slug": "leonardo-art-reference-boundary-855", "title": "Leonardo art reference source boundary", "page": 855, "order": 855, "domain": "world-history"},
+    {"slug": "michelangelo-art-reference-boundary-856", "title": "Michelangelo art reference source boundary", "page": 856, "order": 856, "domain": "world-history"},
+    {"slug": "vangogh-dali-art-reference-boundary-857", "title": "Van Gogh and Dalí art reference source boundary", "page": 857, "order": 857, "domain": "world-history"},
+    {"slug": "picasso-monet-art-reference-boundary-858", "title": "Picasso and Monet art reference source boundary", "page": 858, "order": 858, "domain": "world-history"}
+  ],
+  "facts": [
+    {"title": "Leonardo da Vinci — Mona Lisa", "text": "লিওনার্দো দা ভিঞ্চির উল্লেখযোগ্য চিত্রকর্ম ‘মোনালিসা’।", "page": 855, "topic": "leonardo-art-reference-boundary-855", "status": "verified", "sources": [{"url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/a-superstar-and-a-wedding-crowd", "title": "Musée du Louvre: Mona Lisa (Portrait of Lisa Gherardini) — Leonardo da Vinci", "status": "verified"}]},
+    {"title": "Michelangelo Buonarroti — David", "text": "মাইকেলেঞ্জেলো বুয়োনারোতির উল্লেখযোগ্য ভাস্কর্য ‘ডেভিড’।", "page": 856, "topic": "michelangelo-art-reference-boundary-856", "status": "verified", "sources": [{"url": "https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/", "title": "Galleria dell’Accademia di Firenze: David — Michelangelo Buonarroti", "status": "verified"}]},
+    {"title": "Vincent van Gogh — Sunflowers", "text": "ভিনসেন্ট ভ্যান গঘের উল্লেখযোগ্য চিত্রকর্ম ‘সানফ্লাওয়ার্স’।", "page": 857, "topic": "vangogh-dali-art-reference-boundary-857", "status": "verified", "sources": [{"url": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers", "title": "The National Gallery: Sunflowers — Vincent van Gogh", "status": "verified"}]}
+  ],
+  "notes": [],
+  "mcqs": []
+}

@@ -1,0 +1,64 @@
+{
+  "batch_pages": [
+    854,
+    855,
+    856,
+    857,
+    858
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0854-0858-v1",
+  "generated_facts": 3,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 3,
+  "source_pages": [
+    {
+      "page": 854,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1b2bebe854cebe2ed4f1cb7c29711339946dbf3ca744bef1da7ec4de9b348ab4",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 855,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "9fd6de54d338854815785bc3a3f1bb4f0456bf8b44e7419c53eacdd863c7219f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 856,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "cabc31a3fa33c28f593deb17ea4af5f4fa8a749e6729d59d0bbe9c146fa7837b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 857,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "42bde2ca4689c4beece5ad6ad6dab49b54211076231bf7e8ac83105fbff15d2d",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 858,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "80e079034c51d1bdd05759567760421085ed02c26c53e0b9ddecbf85576afa3e",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 3,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "Only three exact neutral artwork attributions passed visual readability, OCR reconciliation, and direct authority-verification gates.",
+    "Political, military/security, diplomatic, religious, biographical, historic, movement, financial, ranking, superlative and source-imprecise claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 854–858 are included.",
+    "Only exact neutral artwork attributions with visual readability, OCR reconciliation, and direct authority corroboration are admitted.",
+    "No notes or MCQs are included because no reviewed source item clears the conservative content boundary for those forms.",
+    "Only reviewed source-page provenance, topic boundaries, three verified facts, and their derived flashcard/search artifacts are admitted."
+  ]
+}
