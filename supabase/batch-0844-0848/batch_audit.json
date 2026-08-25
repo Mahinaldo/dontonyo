@@ -1,0 +1,62 @@
+{
+  "batch_pages": [
+    844,
+    845,
+    846,
+    847,
+    848
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0844-0848-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 844,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "07e863e27ffdbc34f77eed2baa894b961b9ab149a4ec1b64ac3ddc8a22e27b15",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 845,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1d1709eb4ed87357ed6e2cfaa688176815711e2cb4a1029e5449f963df78e100",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 846,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "948810f4d7990deb2bb247371e2901847ff8fc4545f7ee327691d33b5aea9507",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 847,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7a70689070227c3ce2425ff13331647ef813777fdfc7693a170b33f235b24a44",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 848,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "19226583b727019f09b08607b25189ce73beb42c8bbcae86182764fbbb341664",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "Geographic, border, identity, political, religious, biographical and source-imprecise claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 844–848 are included.",
+    "No reviewed claim clears the conservative quality and safety boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
