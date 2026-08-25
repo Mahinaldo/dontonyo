@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    819,
+    820,
+    821,
+    822,
+    823
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0819-0823-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 819,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8923080c30950bf0244eeceed17cfa2944d831f744057c0f4a2ef3a2ce133abe",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 820,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "461562498411a360340fe3814a2da2fbcc26fdccc1bbd06c90ce2bb24d38b98e",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 821,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1196f787375cd86b970607d7d71984ee79e52ac53f7a3eff1022f7c1edb61b0f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 822,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "27c45cb65f7ba7a7bdc39ab115754e0f6455549db2123b334969bc15f22f604f",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 823,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e4d243b6e04a45ddc8550d39e6cd67ccff26f6dd5b2ad969592214075f6c109c",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "Geographic, territorial, country-status, location-linked, seaport-list, river/canal, ranking/superlative, and source-imprecise claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 819–823 are included.",
+    "No facts, notes, or MCQs are included because no reviewed source claim clears the conservative quality and safety boundary.",
+    "Only allowed tag categories are inserted.",
+    "Only reviewed source-page provenance and page-local topic boundaries are admitted."
+  ]
+}
