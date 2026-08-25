@@ -1,0 +1,62 @@
+{
+  "batch_pages": [
+    859,
+    860,
+    861,
+    862,
+    863
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0859-0863-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 859,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c835fbff99ad343d3fdd82970465d48705c963fe650b6627f2c3855ee7bd6885",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 860,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6404ba437ab7afb3cf4f91b264926a79eca8337be0d645b7dc58d1656fb52d4a",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 861,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "e71c860ce14347a8902b5256c36dc829e4fb618b195b87e909de28258bf5e736",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 862,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8a5e5e81b0340097abd563e58df583cd6f65f23a48e212dc521659f7281c29c9",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 863,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "ad43c133cc631aa812f28ff0a30afef655daeaeb287bb251804a79a6332ca3a4",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "Biographical, artistic, award, institutional, financial, military/security, national, identity-sensitive, political, ranking and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 859–863 are included.",
+    "No reviewed claim clears the conservative quality and safety boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
