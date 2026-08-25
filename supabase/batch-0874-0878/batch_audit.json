@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    874,
+    875,
+    876,
+    877,
+    878
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0874-0878-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 874,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a0ee3651771a95395b653e09dc372d481521abf3e0b0436e98b529001d859c8a",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 875,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "cf1cbc4571312f50de6a1d77359cf8ea792cb4567621e4296a336b45c9cf8bb5",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 876,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "110ebb8e740e276a1b7b0509a36fd07ccc9cb77c387bd17d979a18b7e81a74d5",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 877,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "46aaaa7365107d3a5c279160759c299d8b19829558e12d37a5a98b3ce88e2262",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 878,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d6b9acf17187984fd84a2dc4d945a2fc9ec93aa75d0d56502b8f50bc64ce8b82",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "OCR degradation, table omissions, and source-imprecise vocabulary mappings were preserved rather than normalized.",
+    "Financial, media, institutional, political/security, religious, military, national, identity-sensitive, territorial, geographic, historical, ranking, current-status, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 874–878 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
