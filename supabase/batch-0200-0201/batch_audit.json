@@ -1,0 +1,42 @@
+{
+  "batch_pages": [
+    200,
+    201
+  ],
+  "pipeline_version": "local-ocr-quality-gated-recovery-batch-0200-0201-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 200,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6119cc329fdd4c2dd3ce0369cd4933b4a0f0d25fa5b55724b930cfd01ef2335c",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 201,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "3b1dac1dcc4b92946ea0fce751800f5412942262a2a85067804a5938332402aa",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 14 ordered overlap-safe recovery tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "Uncertain literary orthography, OCR degradation, historical/institutional dates, and the page-201 four-versus-five coalition discrepancy were preserved rather than normalized.",
+    "Political, electoral, national, party-identity, autonomy, historical, language-movement, literary-attribution, institutional, geographic, numerical, award, monument, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only recovery source pages 200–201 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, internal-consistency, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}

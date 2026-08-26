@@ -1,0 +1,4 @@
+{
+  "project_id": "rennotctgrxvbpghbimx",
+  "query": "WITH source_pages AS (SELECT s.source_page FROM public.source_pages s JOIN public.books b ON b.id=s.book_id WHERE b.title='Jubayer''s GK') SELECT json_build_object('missing_1_201',(SELECT array_agg(e.source_page) FROM (SELECT generate_series(1,201) AS source_page) e LEFT JOIN source_pages s ON s.source_page=e.source_page WHERE s.source_page IS NULL),'covered_202_453',(SELECT array_agg(source_page) FROM (SELECT source_page FROM source_pages WHERE source_page BETWEEN 202 AND 453 ORDER BY source_page LIMIT 10) x),'missing_202_453_sample',(SELECT array_agg(source_page) FROM (SELECT e.source_page FROM (SELECT generate_series(202,453) AS source_page) e LEFT JOIN source_pages s ON s.source_page=e.source_page WHERE s.source_page IS NULL ORDER BY e.source_page LIMIT 20) x)) AS gap_detail LIMIT 1;"
+}
