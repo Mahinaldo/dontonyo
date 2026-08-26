@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    879,
+    880,
+    881,
+    882,
+    883
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0879-0883-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 879,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "f9d798ff2784ee9a70b0a7457dd1b1b9da2569077179abb8ce735aea17351a4b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 880,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "30cbeb76152ac128aa849da5cf278ade2c8387f772af94a998b46a2f6eb6d134",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 881,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "c04439a2c20c3546cc0e40047590271989e6c8a3f493adc5bb32c36ba96fa1b6",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 882,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d000973f76552cef70562c1c9cf7e43fa688f58d0da7f1d33e417d1855ec2ffb",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 883,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "9b6a40893f9513362645174f3fce216dec5b6effb4310934588c00e687d8cb38",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "OCR degradation, damaged proper nouns, table omissions, and source-imprecise wording were preserved rather than normalized.",
+    "Media, sports, institutional, national, biographical, historical, ranking, geographic, measurement, current-status, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 879–883 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
