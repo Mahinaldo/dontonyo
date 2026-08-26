@@ -1,0 +1,43 @@
+{
+  "batch_pages": [909, 910, 911, 912, 913],
+  "topics": [
+    {
+      "slug": "civic-rights-duties-boundary-909",
+      "title": "Source boundary — civic rights and duties reference",
+      "page": 909,
+      "order": 909,
+      "domain": "source-provenance"
+    },
+    {
+      "slug": "governance-questions-boundary-910",
+      "title": "Source boundary — governance questions (first section)",
+      "page": 910,
+      "order": 910,
+      "domain": "source-provenance"
+    },
+    {
+      "slug": "governance-questions-boundary-911",
+      "title": "Source boundary — governance questions (second section)",
+      "page": 911,
+      "order": 911,
+      "domain": "source-provenance"
+    },
+    {
+      "slug": "governance-questions-boundary-912",
+      "title": "Source boundary — governance questions (third section)",
+      "page": 912,
+      "order": 912,
+      "domain": "source-provenance"
+    },
+    {
+      "slug": "economics-ldc-reference-boundary-913",
+      "title": "Source boundary — economics and LDC reference",
+      "page": 913,
+      "order": 913,
+      "domain": "source-provenance"
+    }
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": []
+}
