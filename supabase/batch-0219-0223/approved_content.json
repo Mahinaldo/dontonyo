@@ -1,0 +1,13 @@
+{
+  "batch_pages": [219, 220, 221, 222, 223],
+  "topics": [
+    {"slug": "liberation-forces-services-source-boundary-219", "title": "Source boundary — Liberation Forces leadership and services reference", "page": 219, "order": 219, "domain": "source-provenance"},
+    {"slug": "liberation-forces-organisation-source-boundary-220", "title": "Source boundary — Liberation Forces organisation reference", "page": 220, "order": 220, "domain": "source-provenance"},
+    {"slug": "irregular-forces-crack-platoon-source-boundary-221", "title": "Source boundary — irregular forces and Crack Platoon reference", "page": 221, "order": 221, "domain": "source-provenance"},
+    {"slug": "liberation-war-sector-commanders-source-boundary-222", "title": "Source boundary — Liberation War sector commanders reference", "page": 222, "order": 222, "domain": "source-provenance"},
+    {"slug": "liberation-war-sector-map-source-boundary-223", "title": "Source boundary — Liberation War sector map reference", "page": 223, "order": 223, "domain": "source-provenance"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": []
+}
