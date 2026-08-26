@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    224,
+    225,
+    226,
+    227,
+    228
+  ],
+  "pipeline_version": "local-ocr-quality-gated-recovery-batch-0224-0228-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 224,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "3d6fda212c97f92b58de71df3a72d0ce9d34e246abf7699b5d7193bb5cbb978b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 225,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "d8c81356bd0792ead76a442781bc26461a1de30fcd31e06109a19fa9f3fcc7cf",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 226,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "1a450f85f7b3a85e0947cbe415ad537689a993af3a5dcaf5ba6cafc2f535cc25",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 227,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a23753ab76e16247b104d202812ed7dec18a91099d61aba62dfd4d9c74778d07",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 228,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "838ced32f0e2353046a19d44e28b98507563658d751d62b0891287c04560dc21",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe recovery tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "OCR degradation, historical/institutional dates, political/military-security material, reported statements, historic photographs, death/memorial records, recognition tables, source correction notes, contested recognition claims, and government-administration tables were preserved rather than normalised.",
+    "Political, military/security, legal, national, historical, death, biographical, institutional, territorial/location, numerical, literary-attribution, cultural, diplomatic, international-relations, source-corrected/disputed, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only recovery source pages 224–228 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, internal-consistency, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
