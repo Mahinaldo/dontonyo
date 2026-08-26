@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    899,
+    900,
+    901,
+    902,
+    903
+  ],
+  "pipeline_version": "local-ocr-quality-gated-batch-0899-0903-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 899,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7921f47d0e0fc9dd31d7b8ac300def75659a1cd58af463a4a39f1a1f47bb8025",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 900,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "115787cff817a1bfa376875c34cea96e9bad459a320bf60120cf42a9aefd74d1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 901,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "a1113fd491ae077f869a8a885d073b94eac805bcdd7544ee2ebc87aa34f8be05",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 902,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6df9af56c7195a55d568a05c22cfad26d46372f559b8fb11763e3086e08ca51b",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 903,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "65b8c1611a21bd87f04cf237ab4e53767c64a5415b6b2d7c750031de79aaf62a",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe source tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "OCR degradation, scan-sensitive MCQ text, damaged names, and source-imprecise wording were preserved rather than normalized.",
+    "Technology, commercial, biographical, medical, electoral, geographic, historical, current-status, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only source pages 899–903 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
