@@ -1,0 +1,15 @@
+{
+  "batch_pages": [309, 310, 311, 312, 313],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 309, "order": 309, "title": "বাংলাদেশের শিক্ষা ও প্রাসঙ্গিক পূর্ববর্তী প্রশ্ন", "slug": "recovery-0309-bangladesh-education-prior-questions"},
+    {"page": 310, "order": 310, "title": "ঢাকা বিশ্ববিদ্যালয়: প্রতিষ্ঠার ধারাবাহিক প্রেক্ষাপট", "slug": "recovery-0310-dhaka-university-establishment-context"},
+    {"page": 311, "order": 311, "title": "নাথান কমিশন ও ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠাকালীন ব্যক্তি", "slug": "recovery-0311-nathan-commission-establishment-figures"},
+    {"page": 312, "order": 312, "title": "ঢাকা বিশ্ববিদ্যালয়: প্রতিষ্ঠাকালীন তথ্য ও প্রথম ছাত্রী-অধ্যাপিকা", "slug": "recovery-0312-dhaka-university-early-women"},
+    {"page": 313, "order": 313, "title": "ডাকসু, সমাবর্তন ও ঢাকা বিশ্ববিদ্যালয়ের মনোগ্রাম", "slug": "recovery-0313-ducsu-convocation-monogram"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
