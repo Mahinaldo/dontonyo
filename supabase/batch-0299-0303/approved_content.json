@@ -1,0 +1,11 @@
+{
+  "batch_pages": [299, 300, 301, 302, 303],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page":299,"order":299,"title":"Election Commission and Judiciary Source Reference","slug":"election-commission-judiciary-source-reference-page-299"},
+    {"page":300,"order":300,"title":"Government Branches Source Reference","slug":"government-branches-source-reference-page-300"},
+    {"page":301,"order":301,"title":"Government and Judiciary Reference Questions and Source Answer Key","slug":"government-judiciary-reference-questions-source-page-301"},
+    {"page":302,"order":302,"title":"Government Administration and Local Government Source Reference","slug":"government-administration-local-government-source-page-302"},
+    {"page":303,"order":303,"title":"Local Government Structure Source Reference","slug":"local-government-structure-source-page-303"}
+  ],"facts":[],"notes":[],"mcqs":[],"verifications":[]
+}
