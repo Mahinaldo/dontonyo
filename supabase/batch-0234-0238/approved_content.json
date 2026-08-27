@@ -1,0 +1,40 @@
+{
+  "batch_pages": [234, 235, 236, 237, 238],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {
+      "page": 234,
+      "order": 234,
+      "title": "Concert for Bangladesh source boundary — physical page 234",
+      "slug": "concert-for-bangladesh-source-boundary-234"
+    },
+    {
+      "page": 235,
+      "order": 235,
+      "title": "Liberation War foreign-media source boundary — physical page 235",
+      "slug": "liberation-war-foreign-media-source-boundary-235"
+    },
+    {
+      "page": 236,
+      "order": 236,
+      "title": "Liberation War world-opinion source boundary — physical page 236",
+      "slug": "liberation-war-world-opinion-source-boundary-236"
+    },
+    {
+      "page": 237,
+      "order": 237,
+      "title": "Liberation War foreign-contributions source boundary — physical page 237",
+      "slug": "liberation-war-foreign-contributions-source-boundary-237"
+    },
+    {
+      "page": 238,
+      "order": 238,
+      "title": "Liberation War culture and stamps source boundary — physical page 238",
+      "slug": "liberation-war-culture-stamps-source-boundary-238"
+    }
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
