@@ -1,0 +1,12 @@
+{
+  "batch_pages": [284, 285, 286, 287, 288],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page":284,"order":284,"title":"Bangladesh constitutional amendments source boundary — physical page 284","slug":"bangladesh-constitutional-amendments-source-boundary-284"},
+    {"page":285,"order":285,"title":"Bangladesh amendment rulings source boundary — physical page 285","slug":"bangladesh-amendment-rulings-source-boundary-285"},
+    {"page":286,"order":286,"title":"Bangladesh constitutional offices source boundary — physical page 286","slug":"bangladesh-constitutional-offices-source-boundary-286"},
+    {"page":287,"order":287,"title":"Bangladesh constitutional terms source boundary — physical page 287","slug":"bangladesh-constitutional-terms-source-boundary-287"},
+    {"page":288,"order":288,"title":"Bangladesh constitution prior questions source boundary — physical page 288","slug":"bangladesh-constitution-prior-questions-source-boundary-288"}
+  ],
+  "facts": [], "notes": [], "mcqs": [], "verifications": []
+}
