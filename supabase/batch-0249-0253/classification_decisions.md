@@ -1,0 +1,13 @@
+# Classification Decisions — Jubayer’s GK Recovery Physical Pages 249–253
+
+Every page was rendered at 300 DPI, reviewed as seven ordered full-width tiles with 208-pixel overlap, and reconciled against local Bangla-and-English OCR. Visual evidence controls over OCR. The reviewed source contains past-question banks, printed answer grids, correction notes, and politically/historically sensitive reference claims; it does not clear the conservative learner-admission gate.
+
+| Physical page | Reviewed material | Classification decision |
+|---:|---|---|
+| 249 | Liberation War sector, recognition, diplomatic-recognition, literary, military, government, date, and national-slogan questions; printed answer grid; first-recognizer option/explanation discrepancy. | **Provenance only.** Political, national, military/security, diplomatic, historical, named-person, answer-key, and source-disputed content is withheld. |
+| 250 | Liberation War questions on government roles, novels, films, diplomatic recognition, radio declaration, gallantry recognition, remains, and force formation; printed answer grid. | **Provenance only.** Political, national, military/security, historical, cultural, literary, medical, named-person, date-sensitive, and answer-key content is withheld. |
+| 251 | Constitutional schedules, declaration material, films, naval commandos, Mujibnagar government, Liberation War leadership, media, atrocity date, literary category, and recognition questions; printed answer grid. | **Provenance only.** Constitutional, political, national, military/security, diplomatic, historical, cultural, literary, named-person, date-sensitive, and answer-key content is withheld. |
+| 252 | Liberation War sector, Bir Sreshtho, recognition, memorial, medical-admission, 7 March speech, massacre, flag, radio, foreign recipient, and sculpture questions; printed answer grid. | **Provenance only.** Political, national, military/security, diplomatic, historical, atrocity, memorial, medical, named-person, date-sensitive, and answer-key content is withheld. |
+| 253 | Liberation War operations, sector count, concert, recognition, award, Bangladesh Air Force, literary translation, award, song, and novel questions; printed answer grid. | **Provenance only.** Political, national, military/security, diplomatic, historical, cultural, literary, named-person, recognition, date-sensitive, and answer-key content is withheld. |
+
+No claim clears the combined quality, policy-safety, internal-consistency, and authority-verification gates. The import is restricted to five reviewed source-page records and five page-local provenance-topic boundaries. It creates no learner-facing facts, notes, MCQs, options, flashcards, search documents, or verification rows.

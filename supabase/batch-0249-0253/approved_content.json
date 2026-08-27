@@ -1,0 +1,15 @@
+{
+  "batch_pages": [249, 250, 251, 252, 253],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 249, "order": 249, "title": "Liberation War past questions source boundary — physical page 249", "slug": "liberation-war-past-questions-source-boundary-249"},
+    {"page": 250, "order": 250, "title": "Liberation War past questions source boundary — physical page 250", "slug": "liberation-war-past-questions-source-boundary-250"},
+    {"page": 251, "order": 251, "title": "Liberation War past questions source boundary — physical page 251", "slug": "liberation-war-past-questions-source-boundary-251"},
+    {"page": 252, "order": 252, "title": "Liberation War past questions source boundary — physical page 252", "slug": "liberation-war-past-questions-source-boundary-252"},
+    {"page": 253, "order": 253, "title": "Liberation War past questions source boundary — physical page 253", "slug": "liberation-war-past-questions-source-boundary-253"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
