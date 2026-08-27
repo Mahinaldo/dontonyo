@@ -1,0 +1,10 @@
+{
+  "batch_pages":[304,305,306,307,308],"approval_scope":"provenance_only",
+  "topics":[
+    {"page":304,"order":304,"title":"Local Government Reference Questions and Source Answer Key","slug":"local-government-reference-questions-source-page-304"},
+    {"page":305,"order":305,"title":"Bangladesh Education Source Reference","slug":"bangladesh-education-source-reference-page-305"},
+    {"page":306,"order":306,"title":"Education Abbreviations and Institutions Source Reference","slug":"education-abbreviations-institutions-source-page-306"},
+    {"page":307,"order":307,"title":"National Professor and Education Institutions Source Reference","slug":"national-professor-education-institutions-source-page-307"},
+    {"page":308,"order":308,"title":"Education Reference Questions and Source Answer Key","slug":"education-reference-questions-source-page-308"}
+  ],"facts":[],"notes":[],"mcqs":[],"verifications":[]
+}
