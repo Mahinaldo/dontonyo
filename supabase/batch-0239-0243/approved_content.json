@@ -1,0 +1,15 @@
+{
+  "batch_pages": [239, 240, 241, 242, 243],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 239, "order": 239, "title": "Liberation War publications source boundary — physical page 239", "slug": "liberation-war-publications-source-boundary-239"},
+    {"page": 240, "order": 240, "title": "Liberation War novels source boundary — physical page 240", "slug": "liberation-war-novels-source-boundary-240"},
+    {"page": 241, "order": 241, "title": "Liberation War poems and songs source boundary — physical page 241", "slug": "liberation-war-poems-songs-source-boundary-241"},
+    {"page": 242, "order": 242, "title": "Liberation War plays and books source boundary — physical page 242", "slug": "liberation-war-plays-books-source-boundary-242"},
+    {"page": 243, "order": 243, "title": "Liberation War other books source boundary — physical page 243", "slug": "liberation-war-other-books-source-boundary-243"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
