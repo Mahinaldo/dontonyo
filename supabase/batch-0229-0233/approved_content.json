@@ -1,0 +1,40 @@
+{
+  "batch_pages": [229, 230, 231, 232, 233],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {
+      "page": 229,
+      "order": 229,
+      "title": "Bir Sreshtho biography source boundary — physical page 229",
+      "slug": "bir-sreshtho-biographies-source-boundary-229"
+    },
+    {
+      "page": 230,
+      "order": 230,
+      "title": "Bir Sreshtho biography source boundary — physical page 230",
+      "slug": "bir-sreshtho-biographies-source-boundary-230"
+    },
+    {
+      "page": 231,
+      "order": 231,
+      "title": "Liberation War institutions source boundary — physical page 231",
+      "slug": "liberation-war-institutions-source-boundary-231"
+    },
+    {
+      "page": 232,
+      "order": 232,
+      "title": "Women Liberation War recognition source boundary — physical page 232",
+      "slug": "women-liberation-war-recognition-source-boundary-232"
+    },
+    {
+      "page": 233,
+      "order": 233,
+      "title": "Liberation War atrocity and field-hospital source boundary — physical page 233",
+      "slug": "liberation-war-atrocity-field-hospital-source-boundary-233"
+    }
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
