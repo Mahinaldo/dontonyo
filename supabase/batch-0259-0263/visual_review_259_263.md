@@ -1,0 +1,69 @@
+# Visual Review Ledger — Jubayer’s GK Physical Pages 259–263
+
+## Review method
+
+Each immutable source page was rendered at 300 DPI (`5296 × 7500` pixels) and divided into seven full-width vertical tiles (`5296 × 1250` pixels). Consecutive tiles overlap by 208 pixels (16.64% of tile height). Tiles are reviewed in manifest order; visual evidence controls over local OCR. Uncertain, source-disputed, or policy-gated material is recorded without reconstruction.
+
+## Physical Page 259
+
+| Tile | Ordered visual finding | Boundary / certainty note |
+|---:|---|---|
+| 1 | A new heading reads “Banglar abismaraniyo tin rajnaitikbid” (“three unforgettable politicians of Bengal”). The first biographical profile is titled **Abul Kashem Fazlul Huq**, with a portrait. | Political, national, historical, named-person biographical reference; details continue below. |
+| 2 | The profile visibly lists a birth date/place, a death date/place, the names “Sher-e-Bangla” and “Banglar Bagh,” and a statement that he was the first Muslim chief minister of undivided Bengal during 1937–43. | Political, national, historical, government, date/place, named-person, and source-attributed biographical claims remain provenance-only. |
+| 3 | A “notable works” list attributes to the profile the formation of Krishak Praja Party, debt-relief law, an elementary-education law, and the Lahore proposal, with printed dates. The next biographical heading, **Abdul Hamid Khan Bhashani**, begins. | Political, legal, national, historical, named-person, and date-sensitive claims remain source-boundary only. |
+| 4 | The Bhashani profile visibly lists birth and death data, the labels “Majlum Jananeta,” “Red Maulana,” and “Maulana Bhashani,” and an influence attributed to Deshbandhu Chittaranjan Das, alongside a portrait. | Political, national, historical, named-person, date/place, and biographical source claims remain provenance-only. |
+| 5 | The Bhashani profile continues with a naming origin, political parties, a role in the first temporary government’s advisory council, and listed publications. | Political, national, government, historical, named-person, publication, and date-sensitive source claims remain provenance-only. |
+| 6 | A “notable works” row lists the Kagmari conference, Gherao movement, and Farakka long march with dates. The third profile, **Huseyn Shaheed Suhrawardy**, begins with portrait, birth/death, burial, and an epithet related to democracy. | Political, national, historical, government, named-person, date/place, and biographical claims remain source-boundary only. |
+| 7 | The Suhrawardy profile closes with a statement that he was the third chief minister of undivided Bengal during 1946–47. Footer reads `Zubair’s GK - 202`. | The physical page boundary is clear. Political, national, government, historical, named-person, and date-sensitive claims remain provenance-only. |
+
+## Physical Page 260
+
+| Tile | Ordered visual finding | Boundary / certainty note |
+|---:|---|---|
+| 1 | A new heading reads **President Ziaur Rahman**. A portrait accompanies biographical bullet points that describe a gallantry title, constitutional position numbering, and birth information. | Political, national, military/security, constitutional, historical, named-person, and date/place biographical material remains source-boundary only. |
+| 2 | The profile visibly lists death and ancestral-home details, then names two authored works. A “biography” heading begins below. | Political, national, historical, military/security, named-person, date/place, publication, and biographical claims remain source-boundary only. |
+| 3 | A biography title appears in Bangla with an English parenthetical title, *President Zia of Bangladesh: A Political Biography*. A “notable works” list begins, attributing a political ideology, military-chief tenure, and presidential tenure with dates. | Political, national, military/security, constitutional, historical, named-person, publication, and date-sensitive claims remain provenance-only. |
+| 4 | The list continues with claims concerning the BNP, chief-of-staff appointment, detention and release in a 1975 uprising, martial-law administration, and recruitment of women to the Bangladesh Police. | Political, national, military/security, government, historical, gender-related, named-person, date-sensitive, and biographical claims remain source-boundary only. |
+| 5 | The list continues with a non-cooperation movement, village-defence force, a 19-point programme, direct presidential election, UN Security Council membership, constitutional language, and the introduction of a canal-excavation programme. | Political, national, constitutional, government, military/security, international-relations, historical, named-person, date-sensitive, and biographical source claims remain provenance-only. |
+| 6 | The profile closes with a popularity-ranking claim, a memorial location, awards, and a SAARC-related claim. A new section introduces **Ziaur Rahman’s mausoleum** with architect, construction year, and location data. | Political, national, military/security, international, historical, memorial, named-person, date/place, and source-attributed claims remain provenance-only. |
+| 7 | The mausoleum section completes with the architect, construction year, and location in Zia Udyan/Sher-e-Bangla Nagar, with an earlier-name parenthetical. Footer reads `Zubair’s GK - 203`. | The physical page boundary is clear. Political, national, memorial, named-person, date/place, and source-attributed claims remain provenance-only. |
+
+## Physical Page 261
+
+| Tile | Ordered visual finding | Boundary / certainty note |
+|---:|---|---|
+| 1 | A continuation panel entitled “Liberation War-era responsibilities” lists Sector 1 and Sector 11 command tenures with dates and states that the person was a Z Force commander. | Political, national, military/security, historical, named-person, organizational, and date-sensitive claims remain source-boundary only. |
+| 2 | A section titled **Z Force** describes an alternate brigade name, formation date, claim of being Bangladesh’s first military brigade, constituent East Bengal Regiment battalions, and begins a list of battle areas. | Political, national, military/security, historical, named-person, organizational, place/date-sensitive source claims remain provenance-only. |
+| 3 | The Z Force section lists battle areas and periods, then a heading introduces notable awards including foreign and national honours. | Political, national, military/security, historical, international, geographic, recognition, named-person, and date-sensitive claims remain source-boundary only. |
+| 4 | The awards list continues with gallantry, national, and SAARC-related honours. A new political biography titled **Begum Khaleda Zia** begins, giving an alternate name and birth information beside a portrait. | Political, national, military/security, historical, international, recognition, named-person, date/place, and biographical claims remain provenance-only. |
+| 5 | The profile continues with residence, childhood, death, burial, parental, and spouse information; it also labels the subject opposition leader, national leader, and “Mother of Democracy.” | Political, national, historical, military/security, government, gender-related, death/memorial, named-person, date/place, and biographical claims remain source-boundary only. |
+| 6 | An “awards” panel lists “Mother of Democracy” and “Fighter for Democracy” recognitions, with dates and foreign institutional attributions. | Political, national, international, historical, recognition, named-person, date-sensitive, and biographical claims remain provenance-only. |
+| 7 | The awards panel completes with a United States state-senate attribution. Footer reads `Zubair’s GK - 204`. | The physical page boundary is clear. Political, national, international, recognition, named-person, and biographical claims remain provenance-only. |
+
+## Physical Page 262
+
+| Tile | Ordered visual finding | Boundary / certainty note |
+|---:|---|---|
+| 1 | A continuation titled “Political life” lists BNP membership, election as chairperson, and a claim that Begum Khaleda Zia was Bangladesh’s first and eleventh prime minister, with dates. | Political, national, government, historical, gender-related, named-person, and date-sensitive biographical claims remain source-boundary only. |
+| 2 | The profile continues with claims of three prime-minister selections and five parliamentary elections, listing 1991, 1996, and 2001 roles including national and opposition leadership. | Political, national, government, constitutional, historical, gender-related, named-person, election-related, and date-sensitive claims remain provenance-only. |
+| 3 | The profile continues with claims concerning the 2001 and 2008 elections, never losing a parliamentary seat, restoration of parliamentary government through the twelfth constitutional amendment, and 1996 political developments. | Political, national, government, constitutional, historical, named-person, election-related, and date-sensitive claims remain source-boundary only. |
+| 4 | A “notable works” list attributes United Nations water-distribution advocacy, a White House Rohingya issue, first female SAARC chairmanship, creation of the Bangladesh Securities and Exchange Commission, and a school-feeding programme to the profile. | Political, national, international-relations, government, refugee/minority, gender-related, historical, named-person, and date-sensitive claims remain provenance-only. |
+| 5 | The list continues with compulsory primary education, Jamuna Bridge construction, industrial policy, Operation Clean Heart, formation of the Rapid Action Battalion, and a first metropolitan Wi-Fi launch, with printed dates. | Political, national, government, military/security, historical, infrastructure, policy, named-person, and date-sensitive claims remain source-boundary only. |
+| 6 | The profile continues with budgetary/education allocations, primary enrolment, free education and stipends, public-service age limits, a Myanmar agreement concerning Rohingya return, and a Jamuna Bridge rail-link claim. | Political, national, government, international-relations, refugee/minority, education, infrastructure, historical, named-person, date-sensitive, and source-attributed claims remain provenance-only. |
+| 7 | The profile concludes with a claim about the third Karnaphuli/Shah Amanat bridge. Footer reads `Zubair’s GK - 205`. | The physical page boundary is clear. Political, national, infrastructure, government, historical, named-person, and source-attributed claims remain provenance-only. |
+
+## Physical Page 263
+
+| Tile | Ordered visual finding | Boundary / certainty note |
+|---:|---|---|
+| 1 | A new heading reads “Jatiyo char neta” (“four national leaders”). The first portrait profile is **Syed Nazrul Islam**, listing a birth year/place and a claim that he was Bangladesh’s first acting president. | Political, national, government, historical, named-person, date/place, and biographical source claims remain provenance-only. |
+| 2 | The Syed Nazrul Islam profile continues with an acting-presidency period and a 1975 jail-killing claim. A second portrait profile, **Tajuddin Ahmad**, begins with birth information and claims of being Bangladesh’s first prime minister and first finance minister. | Political, national, government, historical, death/atrocity, named-person, date/place, and biographical claims remain source-boundary only. |
+| 3 | The Tajuddin Ahmad profile lists a first national budget and a 1975 jail-killing claim. A third profile, **Captain Mansur Ali**, begins with birth information, a Mujibnagar government ministry role, a claim of becoming prime minister after Bangabandhu’s assassination, and a jail-killing claim. | Political, national, government, historical, death/atrocity, named-person, date/place, and biographical claims remain provenance-only. |
+| 4 | The Captain Mansur Ali profile completes. A fourth portrait profile, **A. H. M. Kamaruzzaman**, begins with birth information, a claim of being Bangladesh’s first home minister, and an associated 1975 jail-killing claim. | Political, national, government, historical, death/atrocity, named-person, date/place, and biographical claims remain source-boundary only. |
+| 5 | The Kamaruzzaman profile lists Mujibnagar government portfolios and a 1975 jail-killing claim. A row of four portrait photos follows. | Political, national, government, historical, death/atrocity, named-person, and biographical claims remain source-boundary only. |
+| 6 | A paragraph states that the four Liberation War organizers were killed together inside Dhaka Central Jail on 3 November 1975 and describes the old prison cell as a national four-leader jail memorial. | Political, national, historical, death/atrocity, memorial, named-person, date/place, and source-attributed claims remain provenance-only. |
+| 7 | The memorial paragraph closes. Footer reads `Zubair’s GK - 206`, followed by scanner whitespace. | The physical page boundary is clear. Political, national, historical, death/atrocity, memorial, named-person, and source-attributed claims remain provenance-only. |
+
+## Visual-review completion statement
+
+All **35** manifest tiles were viewed in order: seven full-width vertical tiles for each of physical pages 259, 260, 261, 262, and 263. Every adjacent tile pair has 208 pixels of vertical overlap. Repeated overlap content was recorded once; boundary text was not blindly concatenated. All political, national, constitutional, diplomatic, military/security, government, historical, cultural, recognition, gender-related, refugee/minority, legal, memorial/death, named-person, and date-sensitive material remains source-boundary content pending the conservative classification gate.

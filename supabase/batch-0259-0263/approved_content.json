@@ -1,0 +1,15 @@
+{
+  "batch_pages": [259, 260, 261, 262, 263],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 259, "order": 259, "title": "Bengal political biographies source boundary — physical page 259", "slug": "bengal-political-biographies-source-boundary-259"},
+    {"page": 260, "order": 260, "title": "Bangladesh political biography source boundary — physical page 260", "slug": "bangladesh-political-biography-source-boundary-260"},
+    {"page": 261, "order": 261, "title": "Bangladesh political and military biography source boundary — physical page 261", "slug": "bangladesh-political-military-biography-source-boundary-261"},
+    {"page": 262, "order": 262, "title": "Bangladesh political biography source boundary — physical page 262", "slug": "bangladesh-political-biography-source-boundary-262"},
+    {"page": 263, "order": 263, "title": "National political leaders source boundary — physical page 263", "slug": "national-political-leaders-source-boundary-263"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
