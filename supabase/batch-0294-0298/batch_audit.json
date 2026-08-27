@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    294,
+    295,
+    296,
+    297,
+    298
+  ],
+  "pipeline_version": "local-ocr-quality-gated-recovery-batch-0294-0298-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 294,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "58796eb2a7f25f24712512718213c92c2c784c024f582ac552f6a76a79f21c63",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 295,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "7f59f93920c95839dea8f12dc5ca50ad65a2dd5548e1876f1b3ce1195d0f14f1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 296,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "9d1e8a83b56b1ea4fb8ed3e1f2e40b266a89ded7fb5e383f93379cf680756426",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 297,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "6b55bd7f051005da207bb939c32e88da3f829b766413e9d6cce09c3a7d6b22a1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 298,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "8d2848d45115bc4edb572adc517f1ef8088a308ef7d78b2bff6bd07374a72f66",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe recovery tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "OCR degradation, legal terms, names, dates, answer keys, source notes, and numeric assertions were preserved without silent correction.",
+    "Constitutional, legal, political, government, parliamentary, election, caretaker-government, commission, officeholder, historical, named-person, source-noted, numeric, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only recovery source pages 294–298 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, internal-consistency, source-note, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "batch_pages": [294, 295, 296, 297, 298],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 294, "order": 294, "title": "Constitutional Terms Source Reference", "slug": "constitutional-terms-source-reference-page-294"},
+    {"page": 295, "order": 295, "title": "Parliamentary Reference Questions and Source Answer Key", "slug": "parliamentary-reference-questions-source-page-295"},
+    {"page": 296, "order": 296, "title": "Referendum, Election, and Caretaker Government Source Reference", "slug": "election-caretaker-government-source-reference-page-296"},
+    {"page": 297, "order": 297, "title": "Election Reference Questions and Source Answer Key", "slug": "election-reference-questions-source-page-297"},
+    {"page": 298, "order": 298, "title": "Bangladesh Commissions Source Reference", "slug": "bangladesh-commissions-source-reference-page-298"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
