@@ -1,0 +1,15 @@
+{
+  "batch_pages": [274, 275, 276, 277, 278],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 274, "order": 274, "title": "Bangladesh constituent assembly source boundary — physical page 274", "slug": "bangladesh-constituent-assembly-source-boundary-274"},
+    {"page": 275, "order": 275, "title": "Bangladesh Constitution overview source boundary — physical page 275", "slug": "bangladesh-constitution-overview-source-boundary-275"},
+    {"page": 276, "order": 276, "title": "Bangladesh constitutional figures source boundary — physical page 276", "slug": "bangladesh-constitution-figures-source-boundary-276"},
+    {"page": 277, "order": 277, "title": "Bangladesh constitutional principles source boundary — physical page 277", "slug": "bangladesh-constitution-principles-source-boundary-277"},
+    {"page": 278, "order": 278, "title": "Bangladesh constitutional articles source boundary — physical page 278", "slug": "bangladesh-constitution-articles-source-boundary-278"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}

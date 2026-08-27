@@ -1,0 +1,13 @@
+# Classification Decisions — Jubayer’s GK Recovery Physical Pages 274–278
+
+Each source page was rendered at 300 DPI, reviewed in seven ordered full-width tiles with overlap, and reconciled against local Bangla-and-English OCR. The image evidence controls over OCR. All observed material falls within national, constitutional, political, legal, government, historical, religious, ideological, institutional, human-rights, environmental, gender-related, source-corrected, named-person, image-caption, numeric, design/measurement, and date-sensitive categories that do not meet the conservative learner-admission gate.
+
+| Physical page | Reviewed material | Classification decision |
+|---:|---|---|
+| 274 | Constituent Assembly narrative, membership calculations, officeholders, drafting committee, party affiliations, and portraits. | **Provenance only.** Constitutional, political, government, historical, gender-related, named-person, image-caption, source-imprecise, numeric, and date-sensitive material is withheld. |
+| 275 | Bangladesh Constitution overview, interpretive/archive/language/translation assertions, amendments, rights, article numbers, numerical table, and fundamental-rights list. | **Provenance only.** Constitutional, legal, political, institutional, linguistic, gender-related, source-imprecise, numeric, and date-sensitive material is withheld. |
+| 276 | Constitution-related person profiles, roles, committee claims, drafting/design/translation attributions, photographs, and foreign-expert reference. | **Provenance only.** Constitutional, political, legal, government, artistic, international, gender-related, named-person, image-caption, and source-imprecise material is withheld. |
+| 277 | Fundamental-principles comparison, officeholder/largest-smallest constitution claims, explicit printed correction note, citations, portraits, and captions. | **Provenance only.** Constitutional, political, legal, ideological, historical, international, source-corrected, named-person, image-caption, and date-sensitive material is withheld. |
+| 278 | Constitution articles table for The Republic and Fundamental Principles of State Policy, covering national/religious/civic/environmental/educational/economic matters. | **Provenance only.** Constitutional, legal, political, national, religious, historical, civic, environmental, educational, socioeconomic, numeric, and date-sensitive material is withheld. |
+
+No reviewed claim clears the combined quality, policy-safety, internal-consistency, source-correction, and authority-verification gates. Import is restricted to five reviewed source pages and five page-local provenance topics; it creates no learner-facing facts, notes, MCQs/options, verification rows, flashcards, or search documents.
