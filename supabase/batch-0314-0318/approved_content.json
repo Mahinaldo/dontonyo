@@ -1,0 +1,15 @@
+{
+  "batch_pages": [314, 315, 316, 317, 318],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 314, "order": 314, "title": "ঢাকা বিশ্ববিদ্যালয়: সম্মানসূচক ডিগ্রি ও রবীন্দ্রনাথ প্রসঙ্গ", "slug": "recovery-0314-dhaka-university-honorary-degrees-rabindranath"},
+    {"page": 315, "order": 315, "title": "ঢাকা বিশ্ববিদ্যালয়: দিবস, চেয়ার ও মুক্তিযুদ্ধ প্রসঙ্গ", "slug": "recovery-0315-dhaka-university-days-chairs-liberation-war"},
+    {"page": 316, "order": 316, "title": "ঢাকা বিশ্ববিদ্যালয়: সমাধি ও সমাধিসৌধ", "slug": "recovery-0316-dhaka-university-graves-memorials"},
+    {"page": 317, "order": 317, "title": "ঢাকা বিশ্ববিদ্যালয়: ভাস্কর্য, স্থাপত্য ও তোরণ", "slug": "recovery-0317-dhaka-university-sculptures-architecture-arch"},
+    {"page": 318, "order": 318, "title": "ঢাকা বিশ্ববিদ্যালয়ের প্রথমসমূহ", "slug": "recovery-0318-dhaka-university-firsts"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
