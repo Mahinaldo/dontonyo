@@ -1,0 +1,63 @@
+{
+  "batch_pages": [
+    244,
+    245,
+    246,
+    247,
+    248
+  ],
+  "pipeline_version": "local-ocr-quality-gated-recovery-batch-0244-0248-v1",
+  "generated_facts": 0,
+  "generated_notes": 0,
+  "generated_mcqs": 0,
+  "generated_options": 0,
+  "generated_flashcards": 0,
+  "source_pages": [
+    {
+      "page": 244,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "ab9fbb52545d35c1ad41d0f0d61d6e66c25fd31dde93c12a852d40197208ab42",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 245,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "0c0808b651eeb6e25d62356dc92c1f319aeef84f43b36e60fda1518d0fde7be1",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 246,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "33155036d254da27a82845fafaf16e6102881b65675248b80e5719fadca9a213",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 247,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "707ac609364ea8a5c937fd361378e57e8c2d103159058e8cf5fb4a799905e804",
+      "overall_confidence": "medium"
+    },
+    {
+      "page": 248,
+      "review_status": "completed_image_grounded_review",
+      "image_sha256": "bb5be6297eb416d8f7480e6100b1dc1af34be3e3ea16f231108f41231112b766",
+      "overall_confidence": "medium"
+    }
+  ],
+  "verification_counts": {
+    "verified": 0,
+    "conflicting": 0,
+    "source_attributed": 0
+  },
+  "source_anomalies": [
+    "All 35 ordered overlap-safe recovery tiles were reviewed.",
+    "Local Bangla-English OCR was reconciled with visual evidence; image evidence controlled.",
+    "OCR degradation, internal question-option discrepancies, and visually uncertain spellings were preserved without silent correction.",
+    "Political, military/security, diplomatic, national, historical, cultural, memorial/atrocity, media, answer-key, source-corrected, named-person, and date-sensitive claims were withheld."
+  ],
+  "quality_gates": [
+    "Only recovery source pages 244–248 are included.",
+    "No reviewed claim clears the conservative quality, policy-safety, internal-consistency, and authority-verification boundary.",
+    "Only reviewed source provenance and page-local topic boundaries are admitted."
+  ]
+}
