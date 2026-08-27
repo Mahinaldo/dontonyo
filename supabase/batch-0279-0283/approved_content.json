@@ -1,0 +1,15 @@
+{
+  "batch_pages": [279, 280, 281, 282, 283],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 279, "order": 279, "title": "Bangladesh constitutional rights source boundary — physical page 279", "slug": "bangladesh-constitutional-rights-source-boundary-279"},
+    {"page": 280, "order": 280, "title": "Bangladesh executive and legislature source boundary — physical page 280", "slug": "bangladesh-executive-legislature-source-boundary-280"},
+    {"page": 281, "order": 281, "title": "Bangladesh legislature and judiciary source boundary — physical page 281", "slug": "bangladesh-legislature-judiciary-source-boundary-281"},
+    {"page": 282, "order": 282, "title": "Bangladesh elections and services source boundary — physical page 282", "slug": "bangladesh-elections-services-source-boundary-282"},
+    {"page": 283, "order": 283, "title": "Bangladesh constitutional provisions source boundary — physical page 283", "slug": "bangladesh-constitutional-provisions-source-boundary-283"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}
