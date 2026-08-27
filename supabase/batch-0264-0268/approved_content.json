@@ -1,0 +1,15 @@
+{
+  "batch_pages": [264, 265, 266, 267, 268],
+  "approval_scope": "provenance_only",
+  "topics": [
+    {"page": 264, "order": 264, "title": "Bangladesh national-symbols source boundary — physical page 264", "slug": "bangladesh-national-symbols-source-boundary-264"},
+    {"page": 265, "order": 265, "title": "Bangladesh flag and emblem source boundary — physical page 265", "slug": "bangladesh-flag-emblem-source-boundary-265"},
+    {"page": 266, "order": 266, "title": "Bangladesh parliament and emblem source boundary — physical page 266", "slug": "bangladesh-parliament-emblem-source-boundary-266"},
+    {"page": 267, "order": 267, "title": "Bangladesh national memorial source boundary — physical page 267", "slug": "bangladesh-national-memorial-source-boundary-267"},
+    {"page": 268, "order": 268, "title": "Bangladesh national anthem source boundary — physical page 268", "slug": "bangladesh-national-anthem-source-boundary-268"}
+  ],
+  "facts": [],
+  "notes": [],
+  "mcqs": [],
+  "verifications": []
+}

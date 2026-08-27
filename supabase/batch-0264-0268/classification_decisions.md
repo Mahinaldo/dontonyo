@@ -1,0 +1,13 @@
+# Classification Decisions — Jubayer’s GK Recovery Physical Pages 264–268
+
+Every page was rendered at 300 DPI, reviewed as seven ordered full-width tiles with 208-pixel overlap, and reconciled against local Bangla-and-English OCR. Visual evidence controls over OCR. The reviewed source contains national-symbol, constitutional, religious, state-institution, political-history, memorial, source-corrected, cultural, literary, musical, design, and named-person/place material; it does not clear the conservative learner-admission gate.
+
+| Physical page | Reviewed material | Classification decision |
+|---:|---|---|
+| 264 | Bangladesh national symbols: anthem, language, flora/fauna, state religion, park/garden, mosque/temple, airport, museum, flag, poet, sport, stadium, zoo, memorial, emblem, and Independence Day. | **Provenance only.** National, constitutional/religious, cultural, government, memorial, named-person/place, and date-sensitive material is withheld. |
+| 265 | Bangladesh national flag: designers, hoisting dates/places, foreign mission, measurements, official adoption, and national-emblem description. | **Provenance only.** National, political, historical, cultural, international, design/measurement, named-person/place, and date-sensitive material is withheld. |
+| 266 | National Parliament Building and state memorial/emblem: architect, construction/opening, former assembly, awards, institutional structure, foreign leaders, and emblem design. | **Provenance only.** National, constitutional, government, international, historical, design, named-person/place, source-imprecise, and date-sensitive material is withheld. |
+| 267 | National Martyrs’ Memorial: location, designer, measurements, construction/inauguration, structural symbolism, political-history timeline, source correction, cemetery/water-body symbolism, and design selection. | **Provenance only.** National, political, constitutional, historical, memorial/death, source-corrected, named-person/place, design/measurement, and date-sensitive material is withheld. |
+| 268 | National anthem: lyricist/composer, historical context, publication/collection, English translation, folk-tune/film claims, use conventions, National Professor and burial claim. | **Provenance only.** National, cultural, literary, music, film, historical, educational, memorial/death, named-person/place, publication, and date-sensitive material is withheld. |
+
+No claim clears the combined quality, policy-safety, internal-consistency, and authority-verification gates. The import is restricted to five reviewed source-page records and five page-local provenance-topic boundaries. It creates no learner-facing facts, notes, MCQs, options, flashcards, search documents, or verification rows.
